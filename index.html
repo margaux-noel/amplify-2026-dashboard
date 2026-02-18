@@ -35,18 +35,26 @@
     }
 
     :root {
-      --navy: #131313;
+      /* Fora Primary Palette */
+      --navy: #131313;        /* Black Sand */
       --navy-mid: #1e1e1e;
-      --gold: #77742a;
-      --gold-light: #b5b347;
-      --bg: #fefaf5;
+      --bg: #fefaf5;          /* Sand */
       --white: #ffffff;
-      --green: #3fa87a;
-      --amber: #c87d1e;
-      --red: #870d13;
       --text: #131313;
-      --text-light: #827363;
-      --border: #e5dbd0;
+      --text-light: #827363;  /* Stone */
+      --border: #e5dbd0;      /* Shell */
+      /* Fora Accent Palette */
+      --olive: #77742a;
+      --sangria: #870d13;
+      --indigo: #333880;
+      --stone: #827363;
+      --shell: #e5dbd0;
+      /* Semantic aliases kept for compatibility */
+      --gold: #77742a;        /* Olive — primary accent on light bg */
+      --gold-light: #e5dbd0;  /* Shell — warm cream accent on dark bg */
+      --green: #77742a;       /* Olive — paid/positive */
+      --amber: #333880;       /* Indigo — pipeline/in-discussion */
+      --red: #870d13;         /* Sangria — outstanding/urgent */
       --shadow: 0 2px 12px rgba(0,0,0,0.07);
       --radius: 12px;
     }
@@ -144,8 +152,8 @@
     .kpi-value { font-size: 28px; font-weight: 700; color: var(--text); line-height: 1; }
     .kpi-sub { font-size: 12px; color: var(--text-light); margin-top: 6px; }
     .kpi-delta { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 10px; margin-top: 6px; }
-    .kpi-delta.up { background: #e8f5ee; color: var(--green); }
-    .kpi-delta.warn { background: #fef3e2; color: var(--amber); }
+    .kpi-delta.up { background: #ecedd8; color: #444418; }
+    .kpi-delta.warn { background: #e8e9f3; color: #2a2e6e; }
 
     /* ── CHART GRID ── */
     .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
@@ -177,13 +185,13 @@
     tbody tr:hover { background: #fafaf8; cursor: pointer; }
     tbody td { padding: 11px 14px; color: var(--text); }
     .badge { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
-    .badge-green { background: #e8f5ee; color: #27a06a; }
-    .badge-amber { background: #fef3e2; color: #c27a1a; }
-    .badge-red { background: #fcecea; color: #b93a3a; }
-    .badge-navy { background: #eaebf5; color: #3b3b7a; }
-    .badge-gold { background: #fdf4e3; color: #9a6c1a; }
-    .badge-gray { background: #f0eeea; color: #6b6b8a; }
-    .badge-teal { background: #e0f2f7; color: #1a7a8a; }
+    .badge-green { background: #ecedd8; color: #444418; }   /* olive tint */
+    .badge-amber { background: #e8e9f3; color: #2a2e6e; }   /* indigo tint */
+    .badge-red   { background: #f5e8e9; color: #870d13; }   /* sangria */
+    .badge-navy  { background: #e8e9f3; color: #333880; }   /* indigo */
+    .badge-gold  { background: #ecedd8; color: #444418; }   /* olive tint */
+    .badge-gray  { background: #ede9e5; color: #63574a; }   /* dark stone */
+    .badge-teal  { background: #e8e9f3; color: #333880; }   /* indigo */
 
     /* ── GEO + BRANDS ── */
     .leaderboard { display: flex; flex-direction: column; gap: 6px; }
@@ -248,10 +256,10 @@
     .step-content h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
     .step-content p { font-size: 13px; color: var(--text-light); line-height: 1.5; }
     .step-tag { display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600; }
-    .step-tag.urgent { background: #fcecea; color: #b93a3a; }
-    .step-tag.this-week { background: #fef3e2; color: #c27a1a; }
-    .step-tag.ongoing { background: #eaebf5; color: #3b3b7a; }
-    .step-tag.nice { background: #e8f5ee; color: #27a06a; }
+    .step-tag.urgent { background: #f5e8e9; color: #870d13; }
+    .step-tag.this-week { background: #e8e9f3; color: #2a2e6e; }
+    .step-tag.ongoing { background: #ede9e5; color: #827363; }
+    .step-tag.nice { background: #ecedd8; color: #444418; }
 
     /* ── TEAM UPDATES ── */
     .updates-area { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); margin-bottom: 24px; }
@@ -289,9 +297,9 @@
     .progress-wrap { margin-bottom: 24px; }
     .progress-label-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
     .progress-label { font-size: 13px; font-weight: 600; color: var(--text); }
-    .progress-pct { font-size: 22px; font-weight: 700; color: var(--green); }
-    .progress-bar-bg { width: 100%; height: 16px; background: #f0eeea; border-radius: 8px; overflow: hidden; }
-    .progress-bar-fg { height: 100%; border-radius: 8px; background: linear-gradient(90deg, var(--green), #5bc99a); transition: width 0.5s ease; }
+    .progress-pct { font-size: 22px; font-weight: 700; color: var(--olive); }
+    .progress-bar-bg { width: 100%; height: 16px; background: #ede9e5; border-radius: 8px; overflow: hidden; }
+    .progress-bar-fg { height: 100%; border-radius: 8px; background: linear-gradient(90deg, var(--olive), #a3a040); transition: width 0.5s ease; }
     .gap-amount { font-size: 28px; font-weight: 700; }
     .gap-label { font-size: 13px; color: var(--text-light); margin-top: 4px; }
 
@@ -704,15 +712,23 @@ function showTab(tab, el) {
 }
 
 // ── Colors (Fora brand palette) ──────────────────────────────────
-const GOLD   = '#77742a';  // Fora olive
-const NAVY   = '#131313';  // Fora black
-const GREEN  = '#3fa87a';
-const AMBER  = '#c87d1e';
-const RED    = '#870d13';  // Fora burgundy
+const OLIVE  = '#77742a';  // Fora Olive
+const INDIGO = '#333880';  // Fora Indigo
+const SANG   = '#870d13';  // Fora Sangria
+const STONE  = '#827363';  // Fora Stone
+const DSHELL = '#bdb1a4';  // Fora Dark Shell
+const DSTONE = '#63574a';  // Fora Dark Stone
+const BLACK  = '#131313';  // Fora Black Sand
+// Semantic aliases
+const GOLD   = OLIVE;
+const NAVY   = BLACK;
+const GREEN  = OLIVE;
+const AMBER  = INDIGO;
+const RED    = SANG;
 const NAVY2  = '#1e1e1e';
-const GOLD2  = '#b5b347';
-const TEAL   = '#3a8fa8';
-const PURPLE = '#7b5ea7';
+const GOLD2  = '#e5dbd0';  // Fora Shell
+const TEAL   = INDIGO;
+const PURPLE = STONE;
 
 Chart.defaults.font.family = "'Blanco', -apple-system, BlinkMacSystemFont, sans-serif";
 Chart.defaults.font.size   = 12;
@@ -792,7 +808,7 @@ function init() {
 
   // ── Revenue by Package chart ──
   const stageLabels = Object.keys(D.byStage);
-  const stageColors = [GOLD, NAVY, TEAL, AMBER, GREEN, PURPLE];
+  const stageColors = [OLIVE, INDIGO, SANG, STONE, DSHELL, BLACK];
   new Chart(document.getElementById('revenueChart'), {
     type: 'bar',
     data: {
@@ -811,7 +827,7 @@ function init() {
     type: 'doughnut',
     data: {
       labels: ['Paid', 'Outstanding', 'Needs Invoice', 'Waiting on Billing'],
-      datasets: [{ data: [D.paid, D.outstanding, D.needsInvoice, D.waitingBilling], backgroundColor: [GREEN, RED, '#c0bcb3', AMBER], borderWidth: 2, borderColor: '#fff' }]
+      datasets: [{ data: [D.paid, D.outstanding, D.needsInvoice, D.waitingBilling], backgroundColor: [OLIVE, SANG, DSHELL, INDIGO], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '65%',
@@ -827,7 +843,7 @@ function init() {
     type: 'doughnut',
     data: {
       labels: Object.keys(D.countByStage),
-      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
+      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [OLIVE, INDIGO, SANG, STONE, DSHELL], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '60%',
@@ -840,7 +856,7 @@ function init() {
   const qData   = qLabels.map(q => D.quarters[q] || 0);
   new Chart(document.getElementById('quarterChart'), {
     type: 'bar',
-    data: { labels: qLabels, datasets: [{ data: qData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, '#c0bcb3'], borderRadius: 6, borderSkipped: false }] },
+    data: { labels: qLabels, datasets: [{ data: qData, backgroundColor: [OLIVE, INDIGO, SANG, STONE, DSHELL, DSTONE], borderRadius: 6, borderSkipped: false }] },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + ' partners' } } },
@@ -853,7 +869,7 @@ function init() {
   const fData   = Object.values(D.features);
   new Chart(document.getElementById('featuresChart'), {
     type: 'bar',
-    data: { labels: fLabels, datasets: [{ data: fData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED], borderRadius: 6, borderSkipped: false }] },
+    data: { labels: fLabels, datasets: [{ data: fData, backgroundColor: [OLIVE, INDIGO, SANG, STONE, DSHELL, DSTONE, BLACK], borderRadius: 6, borderSkipped: false }] },
     options: {
       responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       plugins: { legend: { display: false } },
@@ -863,9 +879,9 @@ function init() {
 
   // Funnel
   const funnelColors = {
-    '5014': GOLD, '5015': TEAL, '5016': NAVY, '5017': AMBER, '5007': GREEN,
-    '5011': RED, '5004': AMBER, '5001': '#8a6a2f',
-    '5013': '#9b96b0', '5010': '#aaa', '5008': '#c94f4f', '5009': '#666',
+    '5014': OLIVE, '5015': DSHELL, '5016': BLACK, '5017': STONE, '5007': INDIGO,
+    '5011': SANG,  '5004': INDIGO, '5001': STONE,
+    '5013': DSHELL, '5010': '#c0bcb3', '5008': SANG, '5009': '#888',
   };
   const maxFunnelCount = Math.max(...D.funnel.map(f => f.count));
   const fl = document.getElementById('funnelList');
@@ -928,7 +944,7 @@ function init() {
     type: 'doughnut',
     data: {
       labels: Object.keys(D.countByStage),
-      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
+      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [OLIVE, INDIGO, SANG, STONE, DSHELL], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
       responsive: true, maintainAspectRatio: false, cutout: '60%',
@@ -938,7 +954,7 @@ function init() {
 
   new Chart(document.getElementById('featuresChart2'), {
     type: 'bar',
-    data: { labels: fLabels, datasets: [{ label: 'Partners booked', data: fData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED], borderRadius: 6, borderSkipped: false }] },
+    data: { labels: fLabels, datasets: [{ label: 'Partners booked', data: fData, backgroundColor: [OLIVE, INDIGO, SANG, STONE, DSHELL, DSTONE, BLACK], borderRadius: 6, borderSkipped: false }] },
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false } },
@@ -1005,7 +1021,7 @@ function _runFilter() {
   }
 
   results.slice(0, 100).forEach(p => {
-    const featStr = (p.features || []).slice(0, 3).join(', ') +
+    const featStr = (p.features || []).map(f => typeof f === 'object' ? f.name : f).slice(0, 3).join(', ') +
       ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
     const qStr = (p.quarters || []).length > 0
       ? (p.quarters || []).join(', ')
@@ -1069,8 +1085,12 @@ function _expandDetail(rowEl, p) {
       </div>
       ${(p.features||[]).length > 0 ? `
         <div style="margin-top:12px;">
-          <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Features Booked</label>
-          <div class="feature-tags">${p.features.map(f => `<span class="badge badge-navy">${f}</span>`).join('')}</div>
+          <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Deliverables</label>
+          <div class="feature-tags">${p.features.map(f => {
+            const name = typeof f === 'object' ? f.name : f;
+            const timing = typeof f === 'object' && f.timing ? f.timing : '';
+            return `<span class="badge badge-navy">${name}${timing ? `<span style="font-weight:400;opacity:0.75;"> · ${timing}</span>` : ''}</span>`;
+          }).join('')}</div>
         </div>` : ''}`;
   }
   div.classList.toggle('open');
@@ -1078,11 +1098,11 @@ function _expandDetail(rowEl, p) {
 
 // ── Scenario Planner ────────────────────────────────────────────
 const PKG_DEFAULTS = {
-  'Tier 1':          { price: 4000,  color: GOLD  },
-  'Tier 2':          { price: 7500,  color: TEAL  },
-  'Brand Spotlight': { price: 10000, color: NAVY  },
-  'New Opening':     { price: 6000,  color: AMBER },
-  'Marketing Complete': { price: 4000, color: GREEN },
+  'Tier 1':             { price: 4000,  color: OLIVE  },
+  'Tier 2':             { price: 8000,  color: INDIGO },
+  'Brand Spotlight':    { price: 10000, color: BLACK  },
+  'New Opening':        { price: 6000,  color: STONE  },
+  'Marketing Complete': { price: 4000,  color: DSHELL },
 };
 
 function initPlanner(D) {
@@ -1091,7 +1111,7 @@ function initPlanner(D) {
   Object.entries(PKG_DEFAULTS).forEach(([pkg, def]) => {
     const count = (D.countByStage || {})[pkg] || 0;
     const rev   = (D.byStage || {})[pkg] || 0;
-    const avg   = count > 0 ? Math.round(rev / count / 500) * 500 : def.price;
+    const avg   = def.price;
     tbody.innerHTML += `
       <tr>
         <td><span class="badge" style="background:${def.color}22;color:${def.color};border:1px solid ${def.color}55;">${pkg}</span></td>

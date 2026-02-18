@@ -135,7 +135,12 @@ def get_features(box):
     for fname, fkey in FEATURE_FIELDS.items():
         excl = {COLLECTION_NA} if fkey == "1067" else None
         if is_set(box, fkey, excl):
-            result.append(fname)
+            val = field_val(box, fkey)
+            if isinstance(val, list):
+                timing = ", ".join(str(v) for v in val if str(v) not in (excl or set()))
+            else:
+                timing = str(val).strip() if val else ""
+            result.append({"name": fname, "timing": timing})
     return result
 
 # ── Main ───────────────────────────────────────────────────────────
