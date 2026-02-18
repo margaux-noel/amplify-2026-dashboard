@@ -27,6 +27,7 @@ jobs:
       - name: Run update script
         env:
           STREAK_API_KEY: ${{ secrets.STREAK_API_KEY }}
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
         run: python3 update.py --no-git
 
       - name: Commit and push data.js

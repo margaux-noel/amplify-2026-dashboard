@@ -8,7 +8,7 @@ Usage:  python3 update.py
 Needs:  pip3 install requests
 """
 
-import os, json, subprocess, sys, requests
+import os, re, json, subprocess, sys, requests
 from datetime import datetime, timedelta
 from collections import defaultdict
 
@@ -17,6 +17,9 @@ API_KEY      = os.environ.get("STREAK_API_KEY", "strk_2lafc8Wr8YLM7VE64qJUkmGL4U
 PIPELINE_KEY = "agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM"
 BASE_URL     = "https://api.streak.com/api/v1"
 AUTH         = (API_KEY, "")
+
+STRIPE_KEY   = os.environ.get("STRIPE_SECRET_KEY", "")
+STRIPE_BASE  = "https://api.stripe.com/v1"
 
 # ── Stage keys ─────────────────────────────────────────────────────
 SIGNED_STAGES = {
@@ -193,6 +196,28 @@ def get_features(box, field_labels=None):
             result.append({"name": fname, "timing": timing})
     return result
 
+# ── Stripe invoice date lookup ──────────────────────────────────────
+_invoice_cache = {}
+
+def fetch_invoice_date(invoice_url):
+    """Return a datetime for when the Stripe invoice was created, or None."""
+    if not STRIPE_KEY or not invoice_url:
+        return None
+    m = re.search(r'/invoices/(in_\w+)', invoice_url)
+    if not m:
+        return None
+    inv_id = m.group(1)
+    if inv_id in _invoice_cache:
+        return _invoice_cache[inv_id]
+    try:
+        r = requests.get(f"{STRIPE_BASE}/invoices/{inv_id}", auth=(STRIPE_KEY, ""), timeout=10)
+        ts = r.json().get("created") if r.status_code == 200 else None
+        dt = datetime.fromtimestamp(ts) if ts else None
+    except Exception:
+        dt = None
+    _invoice_cache[inv_id] = dt
+    return dt
+
 # ── Main ───────────────────────────────────────────────────────────
 def compute_metrics(boxes):
     field_labels = fetch_field_labels()
@@ -224,22 +249,28 @@ def compute_metrics(boxes):
             label = SIGNED_STAGES[stage]
             signed_val[label] += p
             signed_cnt[label] += 1
-            # Track when this partner signed (prefer lastStageChangeDate, fall back to creationTimestamp)
-            ts = box.get("lastStageChangeDate") or box.get("creationTimestamp")
-            if ts:
-                try:
-                    dt = datetime.fromtimestamp(ts / 1000)
-                    mk = dt.strftime("%Y-%m")
-                    signed_by_month[mk]["count"] += 1
-                    signed_by_month[mk]["value"] += int(p)
-                    if dt >= week_ago:
-                        new_this_week.append({
-                            "name":  box.get("name", ""),
-                            "stage": SIGNED_STAGES[stage],
-                            "price": int(p),
-                        })
-                except Exception:
-                    pass
+            # Determine signed date: Stripe invoice creation date (most accurate),
+            # falling back to Streak lastStageChangeDate / creationTimestamp.
+            inv_url_raw = field_val(box, F_INVOICE_URL)
+            inv_url_str = str(inv_url_raw).strip() if inv_url_raw and str(inv_url_raw).startswith("http") else ""
+            sign_dt = fetch_invoice_date(inv_url_str)
+            if not sign_dt:
+                ts = box.get("lastStageChangeDate") or box.get("creationTimestamp")
+                if ts:
+                    try:
+                        sign_dt = datetime.fromtimestamp(ts / 1000)
+                    except Exception:
+                        pass
+            if sign_dt:
+                mk = sign_dt.strftime("%Y-%m")
+                signed_by_month[mk]["count"] += 1
+                signed_by_month[mk]["value"] += int(p)
+                if sign_dt >= week_ago:
+                    new_this_week.append({
+                        "name":  box.get("name", ""),
+                        "stage": SIGNED_STAGES[stage],
+                        "price": int(p),
+                    })
         elif stage in PIPELINE_STAGES:
             label = PIPELINE_STAGES[stage]
             pipeline_val[label] += p
@@ -417,7 +448,6 @@ if __name__ == "__main__":
     version    = datetime.now().strftime("%Y%m%d%H%M")
     with open(index_path, "r") as f:
         html = f.read()
-    import re
     html = re.sub(r'data\.js\?v=\d+', f'data.js?v={version}', html)
     with open(index_path, "w") as f:
         f.write(html)
