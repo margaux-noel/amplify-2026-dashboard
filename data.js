@@ -199,7 +199,7 @@ const AMPLIFY_DATA = {
     }
   ],
   "features": {
-    "Collection": 178,
+    "Collection": 196,
     "Forum": 124,
     "Newsletter": 121,
     "Journal Article": 14,
@@ -380,7 +380,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SVagCGVqrSpNJ572chalNMf",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "GB",
       "brand": "Dorchester Collection",
@@ -524,7 +529,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SzLQ7GVqrSpNJ57dhi7NsDa",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "Alila",
@@ -759,7 +769,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Fc7GVqrSpNJ57Crn1GzFO",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Italy",
       "brand": "VRetreats",
@@ -778,7 +793,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
@@ -837,7 +852,12 @@ const AMPLIFY_DATA = {
       "price": 8000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SmHbdGVqrSpNJ57opGDYW1N",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Turks and Caicos",
       "brand": "Beach Enclave",
@@ -1717,7 +1737,12 @@ const AMPLIFY_DATA = {
       "price": 8000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ShBLbGVqrSpNJ57qCwtVO5V",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "",
@@ -2794,7 +2819,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SO2tJGVqrSpNJ57P2LJkuq4",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "St Lucia",
       "brand": "",
@@ -2826,7 +2856,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ShBP8GVqrSpNJ57JozsVa4q",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "France",
       "brand": "",
@@ -3379,7 +3414,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SJEW2GVqrSpNJ5774hwW7Vg",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "GB",
       "brand": "NoMad",
@@ -4228,7 +4268,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz0NtGVqrSpNJ57pgeBgkAz",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Singapore",
       "brand": "Raffles",
@@ -4244,7 +4289,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz088GVqrSpNJ57q8TWDcsH",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "UAE",
       "brand": "Raffles",
@@ -4349,7 +4399,12 @@ const AMPLIFY_DATA = {
       "price": 8000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Suw4kGVqrSpNJ57b3JNiNjU\nhttps://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Suw6aGVqrSpNJ57kOtqfqt2\nhttps://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Suw7sGVqrSpNJ57MN2L0car\nhttps://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Suw8vGVqrSpNJ57AJ6YvaKW",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "",
       "brand": "Rocco Forte",
@@ -4568,7 +4623,12 @@ const AMPLIFY_DATA = {
       "price": 2000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SeedWGVqrSpNJ57MUIfx0GC",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "ETC Hotels",
@@ -4631,7 +4691,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/payments/pi_3S7ftkGVqrSpNJ570cxOZKMT",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Italy",
       "brand": "",
@@ -4935,7 +5000,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SVahaGVqrSpNJ572sShbBQT",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "GB",
       "brand": "Dorchester Collection",
@@ -5075,7 +5145,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SVHftGVqrSpNJ577GbVyEJE",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "GB",
       "brand": "Hari Hotels",
@@ -5823,7 +5898,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SyzIiGVqrSpNJ57k4pYpbse",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Turks and Caicos",
       "brand": "Independent",
@@ -6009,7 +6089,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz00LGVqrSpNJ572X6Nspti",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Cayman Islands",
       "brand": "Westin",
@@ -6139,7 +6224,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ST1n8GVqrSpNJ57cdbb9It0",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Croatia",
       "brand": "",

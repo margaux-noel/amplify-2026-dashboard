@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602181510"></script>
+  <script src="data.js?v=202602181630"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -807,6 +807,11 @@ function navigateToPartner(name) {
   document.getElementById('partnerSearch').value = name;
   _runFilter();
   document.getElementById('tab-search').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // Auto-expand the partner row once the filter has rendered
+  setTimeout(() => {
+    const firstRow = document.querySelector('#partnerSearchTbody tr');
+    if (firstRow) firstRow.click();
+  }, 50);
 }
 
 // ── Accordion toggle ─────────────────────────────────────────────
