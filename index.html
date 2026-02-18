@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602181344"></script>
+  <script src="data.js?v=202602181358"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -1245,22 +1245,26 @@ function buildDeliverableCalendar(D) {
     .forEach(p => {
       (p.features || []).forEach(f => {
         if (!f.timing || !f.timing.trim()) return;
-        const status = _delivStatus(f.timing);
-        if (status === 'none') return;
-        const label  = _scheduledLabel(f.timing); // e.g., "March"
-        // Find month index
-        const lc = label.toLowerCase();
-        let mIdx = -1;
-        for (let i = 0; i < MONTH_NAMES.length; i++) {
-          if (lc === MONTH_NAMES[i].toLowerCase() || lc === MONTH_SHORT[i].toLowerCase()) {
-            mIdx = i; break;
+        // Split comma-separated entries (e.g. "March - Completed, September - Planned")
+        // so each part is assessed independently for its own month and status.
+        const parts = f.timing.split(',').map(s => s.trim()).filter(Boolean);
+        parts.forEach(part => {
+          const status = _delivStatus(part);
+          if (status === 'none') return;
+          const label = _scheduledLabel(part); // e.g., "March"
+          const lc = label.toLowerCase();
+          let mIdx = -1;
+          for (let i = 0; i < MONTH_NAMES.length; i++) {
+            if (lc === MONTH_NAMES[i].toLowerCase() || lc === MONTH_SHORT[i].toLowerCase()) {
+              mIdx = i; break;
+            }
           }
-        }
-        if (mIdx < 0) return;
-        if (!cal[mIdx]) cal[mIdx] = {};
-        if (!cal[mIdx][f.name]) cal[mIdx][f.name] = { planned: 0, completed: 0 };
-        if (status === 'completed') cal[mIdx][f.name].completed++;
-        else cal[mIdx][f.name].planned++;
+          if (mIdx < 0) return;
+          if (!cal[mIdx]) cal[mIdx] = {};
+          if (!cal[mIdx][f.name]) cal[mIdx][f.name] = { planned: 0, completed: 0 };
+          if (status === 'completed') cal[mIdx][f.name].completed++;
+          else cal[mIdx][f.name].planned++;
+        });
       });
     });
 
