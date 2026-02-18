@@ -615,7 +615,7 @@
       <h3>Revenue Goal</h3>
       <div class="goal-input-wrap">
         <div style="font-size:22px; font-weight:700; color:var(--text-light);">$</div>
-        <input type="number" class="goal-input" id="goalInput" value="1500000" step="50000" oninput="updatePlanner()">
+        <input type="text" class="goal-input" id="goalInput" value="1,500,000" oninput="fmtGoalInput(this); updatePlanner()">
       </div>
       <div class="progress-wrap">
         <div class="progress-label-row">
@@ -1096,6 +1096,17 @@ function _expandDetail(rowEl, p) {
   div.classList.toggle('open');
 }
 
+// ── Goal input formatter ─────────────────────────────────────────
+function fmtGoalInput(el) {
+  const pos = el.selectionStart;
+  const before = el.value.length;
+  const raw = el.value.replace(/[^0-9]/g, '');
+  el.value = raw ? parseInt(raw).toLocaleString() : '';
+  // Restore cursor roughly (shift by inserted commas)
+  const diff = el.value.length - before;
+  el.setSelectionRange(pos + diff, pos + diff);
+}
+
 // ── Scenario Planner ────────────────────────────────────────────
 const PKG_DEFAULTS = {
   'Tier 1':             { price: 4000,  color: OLIVE  },
@@ -1131,7 +1142,7 @@ function getPkgPrice(pkg) {
 function updatePlanner() {
   if (typeof AMPLIFY_DATA === 'undefined') return;
   const D    = AMPLIFY_DATA;
-  const goal = parseInt(document.getElementById('goalInput').value) || 1500000;
+  const goal = parseInt((document.getElementById('goalInput').value || '').replace(/[^0-9]/g, '')) || 1500000;
   const signed = D.totalSigned;
   const gap    = Math.max(0, goal - signed);
   const pctVal = Math.min(100, Math.round(signed / goal * 100));
