@@ -220,7 +220,7 @@ def compute_metrics(boxes):
                 "brand":         str(field_val(box, F_BRAND) or "").strip(),
                 "group":         str(field_val(box, F_GROUP) or "").strip(),
                 "email":         str(field_val(box, F_EMAIL) or "").strip(),
-                "streakUrl":     f"https://app.streak.com/preview/{box.get('key', '')}",
+                "streakUrl":     f"https://app.streak.com/pipelines/{PIPELINE_KEY}/boxes/{box.get('key', '')}",
             })
 
     total_signed   = sum(signed_val.values())

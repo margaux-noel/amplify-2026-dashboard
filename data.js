@@ -287,7 +287,7 @@ const AMPLIFY_DATA = {
       "brand": "1 Hotels",
       "group": "Starwood Hotels & Resorts",
       "email": "wendi.yip@1hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXagdysCgw",
@@ -303,7 +303,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "susannah.lurie@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXagdysCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXagdysCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCQw",
@@ -334,7 +334,7 @@ const AMPLIFY_DATA = {
       "brand": "7Pines",
       "group": "Hyatt Hotels & Resorts",
       "email": "higeki.urier@lindnerhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCAw",
@@ -365,7 +365,7 @@ const AMPLIFY_DATA = {
       "brand": "7Pines",
       "group": "Hyatt Hotels & Resorts",
       "email": "higeki.urier@lindnerhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICQw",
@@ -396,7 +396,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Mauro.Pinho@acqualina.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5CAw",
@@ -427,7 +427,7 @@ const AMPLIFY_DATA = {
       "brand": "Alila",
       "group": "Hyatt Hotels & Resorts",
       "email": "rolando.castillo@alilahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CQw",
@@ -443,7 +443,7 @@ const AMPLIFY_DATA = {
       "brand": "Alila",
       "group": "Hyatt Hotels & Resorts",
       "email": "daniel.strawn@alilahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCww",
@@ -460,7 +460,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -474,7 +474,7 @@ const AMPLIFY_DATA = {
       "brand": "Almanac",
       "group": "Almanac Group",
       "email": "jan.mindermann@almanachotels.com, Alfredo.Martinez@almanachotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXC0-OECww",
@@ -490,7 +490,7 @@ const AMPLIFY_DATA = {
       "brand": "Almanac",
       "group": "Almanac Group",
       "email": "Alfredo.Martinez@almanachotels.com, j.mindermann@wsfgroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXC0-OECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXC0-OECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECQw",
@@ -521,7 +521,7 @@ const AMPLIFY_DATA = {
       "brand": "Almanac",
       "group": "Almanac Group",
       "email": "jan.mindermann@almanachotels.com, Alfredo.Martinez@almanachotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CQw",
@@ -552,7 +552,7 @@ const AMPLIFY_DATA = {
       "brand": "Almanac",
       "group": "Almanac Group",
       "email": "jan.mindermann@almanachotels.com, Alfredo.Martinez@almanachotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCQw",
@@ -583,7 +583,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "sofia.grigoratou@grecotel.com, Tina.Nykta@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCQw",
@@ -614,7 +614,7 @@ const AMPLIFY_DATA = {
       "brand": "Andaz",
       "group": "Hyatt Hotels & Resorts",
       "email": "valdirene.inocencio@andaz.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2CAw",
@@ -630,7 +630,7 @@ const AMPLIFY_DATA = {
       "brand": "LXR",
       "group": "Hilton Hotels & Resorts",
       "email": "Tyiesha.Thaxton@ArizonaBiltmore.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWgqMTpCQw",
@@ -657,7 +657,7 @@ const AMPLIFY_DATA = {
       "brand": "Atlantis Bahamas",
       "group": "Atlantis Bahamas",
       "email": "Megan.Prieto@atlantisparadise.com, Ann-Sofi.Gustafsson@atlantisparadise.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWgqMTpCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWgqMTpCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCAw",
@@ -688,7 +688,7 @@ const AMPLIFY_DATA = {
       "brand": "Atlantis",
       "group": "Kerzner International",
       "email": "Marcela.Bizachi@atlantisdubai.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCww",
@@ -705,7 +705,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -719,7 +719,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "Fernanda.Echavarria@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTRCgw",
@@ -735,7 +735,7 @@ const AMPLIFY_DATA = {
       "brand": "Beach Enclave",
       "group": "Beach Enclave",
       "email": "chris.halbauer@beachenclave.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTRCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTRCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx-t2_Cgw",
@@ -766,7 +766,7 @@ const AMPLIFY_DATA = {
       "brand": "Pan Pacific Hotels",
       "group": "Pan Pacific",
       "email": "nonnie.warren@pphg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx-t2_Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx-t2_Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCww",
@@ -797,7 +797,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "Sylvia.Oken@dorchestercollection.com, Lauren.Todaro@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSOCww",
@@ -814,7 +814,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -828,7 +828,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "reservations@borgopignano.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSOCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSOCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCww",
@@ -859,7 +859,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "a.gatto@borgosantandrea.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww",
@@ -890,7 +890,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Accor",
       "email": "made.yuri@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCQw",
@@ -917,7 +917,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "Fabio.peloia@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwr5XJCgw",
@@ -948,7 +948,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "sofia.grigoratou@grecotel.com, Tina.Nykta@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwr5XJCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwr5XJCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHCCQw",
@@ -979,7 +979,7 @@ const AMPLIFY_DATA = {
       "brand": "Capella",
       "group": "Capella",
       "email": "jade.woon@capellahotelgroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHCCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHCCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dH6Cww",
@@ -1010,7 +1010,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "louisescoto@carlisle-bay.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dH6Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dH6Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCAw",
@@ -1033,7 +1033,7 @@ const AMPLIFY_DATA = {
       "brand": "Tschuggen",
       "group": "Tschuggen Collection AG",
       "email": "r.imboden@tschuggencollection.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHGCQw",
@@ -1054,7 +1054,7 @@ const AMPLIFY_DATA = {
       "brand": "Unbound Collection",
       "group": "Hyatt Hotels & Resorts",
       "email": "alison.suan@carmelvalleyranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHGCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHGCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCQw",
@@ -1071,7 +1071,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -1085,7 +1085,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "aaprea@casangelina.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8CAw",
@@ -1116,7 +1116,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "alberto.liparoti@castelfalfi.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CAw",
@@ -1137,7 +1137,7 @@ const AMPLIFY_DATA = {
       "brand": "Sur-mesure",
       "group": "Sur-mesure",
       "email": "florian@reschio.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXq5_vTCgw",
@@ -1168,7 +1168,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "eleonora@chapter-italia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXq5_vTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXq5_vTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCww",
@@ -1189,7 +1189,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "Lauren.Norwood@WaldorfAstoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCQw",
@@ -1220,7 +1220,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "Michelle.Dvortsin@conradhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qACQw",
@@ -1256,7 +1256,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "oscar.quijano@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCww",
@@ -1287,7 +1287,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "Hillary.spence@conradhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCgw",
@@ -1318,7 +1318,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "laura.depalma@eaupalmbeach.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_rCAw",
@@ -1349,7 +1349,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "lepstein@edgewoodtahoe.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_rCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_rCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_1CQw",
@@ -1380,7 +1380,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Andreas.Caperonis@equinox-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_tCAw",
@@ -1411,7 +1411,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "chiara.dallagnola@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_tCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_tCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_VCgw",
@@ -1427,7 +1427,7 @@ const AMPLIFY_DATA = {
       "brand": "Explora Hotels",
       "group": "Explora",
       "email": "amvarela@explora.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_VCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_VCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCQw",
@@ -1458,7 +1458,7 @@ const AMPLIFY_DATA = {
       "brand": "Fh55",
       "group": "FH55",
       "email": "f.menchetti@fhhotelgroup.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECww",
@@ -1489,7 +1489,7 @@ const AMPLIFY_DATA = {
       "brand": "Fh55",
       "group": "FH55",
       "email": "f.menchetti@fhhotelgroup.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCAw",
@@ -1505,7 +1505,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Maxime.Aubin@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9Cgw",
@@ -1536,7 +1536,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Danielle.Gambardella@Fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-zCQw",
@@ -1552,7 +1552,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Alicia.Webb@Fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-zCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-zCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCQw",
@@ -1568,7 +1568,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "isabelle.daoust@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fqCQw",
@@ -1599,7 +1599,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "Nota.Damala@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fqCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fqCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCAw",
@@ -1615,7 +1615,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Marketing@theghg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWivZu5Cgw",
@@ -1632,7 +1632,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -1646,7 +1646,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Accor",
       "email": "Xuyen.Nguyen@garrya.com, Ha.Dinh@garrya.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWivZu5Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWivZu5Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCAw",
@@ -1663,7 +1663,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -1677,7 +1677,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dennis.deitmers@lestroisrois.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCAw",
@@ -1693,7 +1693,7 @@ const AMPLIFY_DATA = {
       "brand": "Grand Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "kevin.shields@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCgw",
@@ -1709,7 +1709,7 @@ const AMPLIFY_DATA = {
       "brand": "Grand Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "frank.cavella@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCQw",
@@ -1740,7 +1740,7 @@ const AMPLIFY_DATA = {
       "brand": "Grand Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "Andrea.heffner@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTdCQw",
@@ -1767,7 +1767,7 @@ const AMPLIFY_DATA = {
       "brand": "Grand Velas Resorts",
       "group": "Grand Velas Resorts",
       "email": "dmontesdeoca@velasresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTdCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTdCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw",
@@ -1798,7 +1798,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "sofia.grigoratou@grecotel.com, Tina.Nykta@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JazCQw",
@@ -1829,7 +1829,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "tomo.shinya@hotelthemitsui.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JazCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JazCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSDCQw",
@@ -1845,7 +1845,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jdeleon@eliteislandresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSDCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSDCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCgw",
@@ -1862,7 +1862,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002, 9017"
+          "timing": "9017, 9004"
         },
         {
           "name": "Newsletter",
@@ -1881,7 +1881,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "lorenzo.battaini@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCww",
@@ -1897,7 +1897,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "Sylvia.Oken@dorchestercollection.com, Lauren.Todaro@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCAw",
@@ -1913,7 +1913,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "s.madonna@hotelbyron.net",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCgw",
@@ -1930,7 +1930,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9005"
         },
         {
           "name": "Newsletter",
@@ -1944,7 +1944,7 @@ const AMPLIFY_DATA = {
       "brand": "The Set Collection",
       "group": "The Set Collection",
       "email": "yasmeen.sarwar@hotelcaferoyal.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSdCww",
@@ -1960,7 +1960,7 @@ const AMPLIFY_DATA = {
       "brand": "ETC Hotels",
       "group": "",
       "email": "mperez@etchotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSdCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSdCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCQw",
@@ -1991,7 +1991,7 @@ const AMPLIFY_DATA = {
       "brand": "Chapter",
       "group": "Chapter",
       "email": "eleonora@chapter-italia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rNCAw",
@@ -2007,7 +2007,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "Francesca.bianchi@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rNCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rNCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7CAw",
@@ -2038,7 +2038,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "renate.siebenhofer@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHbCww",
@@ -2054,7 +2054,7 @@ const AMPLIFY_DATA = {
       "brand": "SBM",
       "group": "SBM",
       "email": "m.vinciguerra@sbm.mc",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHbCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHbCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGTCgw",
@@ -2070,7 +2070,7 @@ const AMPLIFY_DATA = {
       "brand": "Rocco Forte",
       "group": "Rocco Forte",
       "email": "s.madonna@plazaederussie.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWzwvvtCAw",
@@ -2101,7 +2101,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "aaron@thehuntingtonhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWzwvvtCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWzwvvtCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuH7Cww",
@@ -2132,7 +2132,7 @@ const AMPLIFY_DATA = {
       "brand": "Hyatt Regency",
       "group": "Hyatt Hotels & Resorts",
       "email": "kumiko.takahashi@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuH7Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuH7Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCQw",
@@ -2163,7 +2163,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "pmagoulas@saniikos.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6SzCgw",
@@ -2194,7 +2194,7 @@ const AMPLIFY_DATA = {
       "brand": "InterContinental",
       "group": "IHG Hotels & Resorts",
       "email": "carla_durand@grupopresidente.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6SzCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6SzCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCgw",
@@ -2215,7 +2215,7 @@ const AMPLIFY_DATA = {
       "brand": "JW Marriott",
       "group": "Marriott International",
       "email": "jada.shigley@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF8KruCww",
@@ -2231,7 +2231,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "alissa.perez@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF8KruCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF8KruCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_tCgw",
@@ -2252,7 +2252,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sallyg@naturalselection.travel",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_tCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_tCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_FCQw",
@@ -2268,7 +2268,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "gregg.nielsen@jumeirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_FCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_FCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCAw",
@@ -2293,7 +2293,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dosm@kamalaya.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx67f0Cww",
@@ -2324,7 +2324,7 @@ const AMPLIFY_DATA = {
       "brand": "Katikies",
       "group": "Katikies",
       "email": "e.papageorgiou@katikies.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx67f0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx67f0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCgw",
@@ -2355,7 +2355,7 @@ const AMPLIFY_DATA = {
       "brand": "Katikies",
       "group": "Katikies",
       "email": "d.passa@katikies.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCAw",
@@ -2386,7 +2386,7 @@ const AMPLIFY_DATA = {
       "brand": "Katikies",
       "group": "Katikies",
       "email": "d.passa@katikies.com, e.papageorgiou@katikies.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCQw",
@@ -2417,7 +2417,7 @@ const AMPLIFY_DATA = {
       "brand": "Katikies",
       "group": "Katikies",
       "email": "reservations@katikies.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw",
@@ -2454,7 +2454,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "Kempinski",
       "email": "francesca.caraffi@kempinski.com, taryn.wolt@kempinski.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCww",
@@ -2485,7 +2485,7 @@ const AMPLIFY_DATA = {
       "brand": "Kerzner",
       "group": "Kerzner International",
       "email": "michael.foley@kerzner.com,  luciana.barbosa@kerzner.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6S1CQw",
@@ -2516,7 +2516,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "Gerard.Arazo1@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6S1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6S1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6TVCgw",
@@ -2547,7 +2547,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "Esperanza.Gonzalez1@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6TVCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6TVCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWeqau2Cww",
@@ -2563,7 +2563,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "Nami.Ishizaki@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWeqau2Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWeqau2Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPECww",
@@ -2594,7 +2594,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "david.rubio@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cgw",
@@ -2625,7 +2625,7 @@ const AMPLIFY_DATA = {
       "brand": "Michael Reybier Group",
       "group": "Michael Reybier Group",
       "email": "sbuchanan@loscarlondon.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWmuoTdCgw",
@@ -2656,7 +2656,7 @@ const AMPLIFY_DATA = {
       "brand": "Unbound Collection",
       "group": "Hyatt Hotels & Resorts",
       "email": "carla.rodriguez2@lazambrahotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWmuoTdCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWmuoTdCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_pCQw",
@@ -2672,7 +2672,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "shay@ladera.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_pCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_pCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCAw",
@@ -2688,7 +2688,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "pauline.ehrhart@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjCCAw",
@@ -2704,7 +2704,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "c.morinaux@roches-blanches-cassis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjCCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjCCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCgYG0CAw",
@@ -2731,7 +2731,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "Lignee Hotels",
       "email": "delphine.fangier@lignee-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCgYG0CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCgYG0CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw",
@@ -2762,7 +2762,7 @@ const AMPLIFY_DATA = {
       "brand": "Unbound Collection",
       "group": "Hyatt Hotels & Resorts",
       "email": "kledoux@fulcrumhospitality.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCQw",
@@ -2793,7 +2793,7 @@ const AMPLIFY_DATA = {
       "brand": "Storey Hotel Management",
       "group": "Storey Hotel Management",
       "email": "Marycarmen.Garcia@malliouhana.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjSCQw",
@@ -2824,7 +2824,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "laubier@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjSCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjSCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCgw",
@@ -2841,7 +2841,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -2855,7 +2855,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "svega@mohg.com, nmin@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiKCgw",
@@ -2871,7 +2871,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "hbisetti@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiKCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiKCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCww",
@@ -2887,7 +2887,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "alavalle@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiMCAw",
@@ -2903,7 +2903,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "fmarongiu@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiMCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiMCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww",
@@ -2934,7 +2934,7 @@ const AMPLIFY_DATA = {
       "brand": "Auberge Resort",
       "group": "Auberge Resorts Collection",
       "email": "conlee.butler@aubergeresorts.com, Meredith.Miller@aubergeresorts.com, merygrei.montilla@aubergeresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCAw",
@@ -2955,7 +2955,7 @@ const AMPLIFY_DATA = {
       "brand": "JdV by Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "melisa.lindley@destinationhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCAw",
@@ -2986,7 +2986,7 @@ const AMPLIFY_DATA = {
       "brand": "Mondrian",
       "group": "Accor",
       "email": "paulo.deassis@mondrianhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9Cgw",
@@ -3002,7 +3002,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage International",
       "group": "Montage International",
       "email": "peter.schratz@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWBrL_7CAw",
@@ -3033,7 +3033,7 @@ const AMPLIFY_DATA = {
       "brand": "SBM",
       "group": "SBM",
       "email": "m.vinciguerra@sbm.mc",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWBrL_7CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWBrL_7CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iFCQw",
@@ -3049,7 +3049,7 @@ const AMPLIFY_DATA = {
       "brand": "SBM",
       "group": "SBM",
       "email": "m.vinciguerra@sbm.mc",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iFCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iFCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cww",
@@ -3080,7 +3080,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "sofia.grigoratou@grecotel.com, Tina.Nykta@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CQw",
@@ -3111,7 +3111,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mmikowski@nantipa.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWCjrmCCww",
@@ -3142,7 +3142,7 @@ const AMPLIFY_DATA = {
       "brand": "Storey Hotel Management",
       "group": "Storey Hotel Management",
       "email": "marycarmen.garcia@storeyhotelgroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWCjrmCCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWCjrmCCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCAw",
@@ -3173,7 +3173,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "aallen@naplesgrande.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ipCww",
@@ -3194,7 +3194,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton Reserve",
       "group": "Marriott International",
       "email": "karen.giordano@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ipCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ipCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCgw",
@@ -3225,7 +3225,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "galit@nihi.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCww",
@@ -3241,7 +3241,7 @@ const AMPLIFY_DATA = {
       "brand": "NoMad",
       "group": "Sydell Group",
       "email": "azdunek@thenomadhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCww",
@@ -3257,7 +3257,7 @@ const AMPLIFY_DATA = {
       "brand": "Noble House",
       "group": "Noble House",
       "email": "msehulster@noblehousehotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCAw",
@@ -3273,7 +3273,7 @@ const AMPLIFY_DATA = {
       "brand": "Nobu",
       "group": "AIC Hotel Group",
       "email": "acastellano@nobuhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWahYSuCQw",
@@ -3304,7 +3304,7 @@ const AMPLIFY_DATA = {
       "brand": "Nomade",
       "group": "Nomade",
       "email": "patricia@nomadepeople.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWahYSuCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWahYSuCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWq04b6CAw",
@@ -3335,7 +3335,7 @@ const AMPLIFY_DATA = {
       "brand": "Nomade",
       "group": "Nomade",
       "email": "patricia@nomadepeople.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWq04b6CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWq04b6CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb7CQw",
@@ -3351,7 +3351,7 @@ const AMPLIFY_DATA = {
       "brand": "Omni Hotels",
       "group": "Omni Hotels",
       "email": "jjorgensen@omnihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb7CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb7CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWN5uCfCgw",
@@ -3374,7 +3374,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWN5uCfCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWN5uCfCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCQw",
@@ -3390,7 +3390,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "nota.damala@oneandonlyresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOTCAw",
@@ -3421,7 +3421,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "joanna.zografaki@oneandonlykeaisland.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOTCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOTCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO7Cww",
@@ -3437,7 +3437,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "liliana.reed@kerzner.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO7Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO7Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePTCQw",
@@ -3453,7 +3453,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "Rita.Neves@oneandonlyonezaabeel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePTCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePTCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCAw",
@@ -3469,7 +3469,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "liliana.reed@kerzner.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeONCQw",
@@ -3490,7 +3490,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "Antonio.Gracio@oneandonlyreethirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeONCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeONCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCAw",
@@ -3503,7 +3503,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9004"
         }
       ],
       "quarters": [],
@@ -3511,7 +3511,7 @@ const AMPLIFY_DATA = {
       "brand": "Salamander",
       "group": "Salamander",
       "email": "Michelle.Hawthorn@pgaresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCQw",
@@ -3528,7 +3528,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9005"
         },
         {
           "name": "Newsletter",
@@ -3542,7 +3542,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "luis.benedito@highgateportugal.pt",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePtCww",
@@ -3559,7 +3559,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002, 9007"
+          "timing": "9007, 9005"
         },
         {
           "name": "Newsletter",
@@ -3578,7 +3578,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mortiz@thehouseofaia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePtCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePtCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX05rThCww",
@@ -3594,7 +3594,7 @@ const AMPLIFY_DATA = {
       "brand": "Pan Pacific",
       "group": "Pan Pacific",
       "email": "nonnie.warren@pphg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX05rThCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX05rThCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOdCAw",
@@ -3610,7 +3610,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "jiraporn.prasert@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOdCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOdCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOzCQw",
@@ -3627,7 +3627,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9005"
         },
         {
           "name": "Newsletter",
@@ -3641,7 +3641,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "krystal.ettawil@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOzCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOzCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXa1Nv9Cww",
@@ -3672,7 +3672,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "d.moresi@grandhotelflora.net",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXa1Nv9Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXa1Nv9Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX2t4rSCgw",
@@ -3688,7 +3688,7 @@ const AMPLIFY_DATA = {
       "brand": "Pearl Resorts",
       "group": "Pearl Resorts",
       "email": "dave@moanamarketing.com, loic.troupel@pearlresortsoftahiti.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX2t4rSCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX2t4rSCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWumeniCww",
@@ -3704,7 +3704,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "peter.schratz@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWumeniCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWumeniCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbzCAw",
@@ -3720,7 +3720,7 @@ const AMPLIFY_DATA = {
       "brand": "Peninsula",
       "group": "Peninsula",
       "email": "carolinegoux@peninsula.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbzCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbzCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCAw",
@@ -3751,7 +3751,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "christina.krey@phaea.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCAw",
@@ -3778,7 +3778,7 @@ const AMPLIFY_DATA = {
       "brand": "Proper",
       "group": "Proper",
       "email": "alyssa.uslaner@properhotel.com, rowan.hand@properhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCgw",
@@ -3809,7 +3809,7 @@ const AMPLIFY_DATA = {
       "brand": "Querido",
       "group": "",
       "email": "acastellano@puenteromano.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-gOOqCAw",
@@ -3836,7 +3836,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "Tina.gassert@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-gOOqCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-gOOqCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cww",
@@ -3867,7 +3867,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "Melinda.Taylor@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cgw",
@@ -3886,7 +3886,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "brandon.wan@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8CQw",
@@ -3902,7 +3902,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "alison.marcoz@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCww",
@@ -3933,7 +3933,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "anoud.chehade@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCww",
@@ -3949,7 +3949,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "anna.czajkowska@raffles.com, tina.gassert@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCQw",
@@ -3980,7 +3980,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "alparslan.adiyaman@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCAw",
@@ -3996,7 +3996,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "perry.petrou@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWTuOyjCAw",
@@ -4012,7 +4012,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "michael.parsons@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWTuOyjCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWTuOyjCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW2Cgw",
@@ -4035,7 +4035,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "valentina.sobeshchuk@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCAw",
@@ -4051,7 +4051,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "janielle.toh@raffles.com\nleenu.tarani@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCww",
@@ -4067,7 +4067,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "zeynep.peker@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOsCgw",
@@ -4098,7 +4098,7 @@ const AMPLIFY_DATA = {
       "brand": "Regent",
       "group": "IHG Hotels & Resorts",
       "email": "lolita.wong1@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOsCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOsCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXJs8eDCgw",
@@ -4125,7 +4125,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "pouya.jalali@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXJs8eDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXJs8eDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECAw",
@@ -4156,7 +4156,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "tbalducci@arscollection.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWKCAw",
@@ -4172,7 +4172,7 @@ const AMPLIFY_DATA = {
       "brand": "Rocco Forte",
       "group": "Rocco Forte",
       "email": "lbalog@roccofortehotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWKCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWKCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-i_CQw",
@@ -4203,7 +4203,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "marianne.dorsch@royalhotelsanremo.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-i_CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-i_CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCgw",
@@ -4224,7 +4224,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mmajdoubi@royalmansour.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw",
@@ -4255,7 +4255,7 @@ const AMPLIFY_DATA = {
       "brand": "SLS",
       "group": "Accor",
       "email": "Carolina.HURTADO@slshotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCww",
@@ -4276,7 +4276,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "angiecb@sumaqhotelperu.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCgw",
@@ -4297,7 +4297,7 @@ const AMPLIFY_DATA = {
       "brand": "Salamander",
       "group": "Salamander",
       "email": "awishart@salamanderresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCww",
@@ -4313,7 +4313,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sales@sanclementepalace.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jgCgw",
@@ -4344,7 +4344,7 @@ const AMPLIFY_DATA = {
       "brand": "Shangri-La",
       "group": "Shangri-La",
       "email": "anita.y@shangri-la.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jgCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jgCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCww",
@@ -4375,7 +4375,7 @@ const AMPLIFY_DATA = {
       "brand": "Sheraton",
       "group": "Marriott International",
       "email": "Joanna.Nakihei@sheraton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCgw",
@@ -4391,7 +4391,7 @@ const AMPLIFY_DATA = {
       "brand": "ETC Hotels",
       "group": "ETC Hotels",
       "email": "mperez@etchotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCAw",
@@ -4422,7 +4422,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton Reserve",
       "group": "Marriott International",
       "email": "Marcos.GuerreroGonzalez@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j3CQw",
@@ -4438,7 +4438,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mjhooper@silversandsgrenada.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j3CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j3CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCQw",
@@ -4454,7 +4454,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mmola@singerpalacehotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2Cgw",
@@ -4470,7 +4470,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "debora@robertsrepresentation.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww",
@@ -4491,7 +4491,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "twaslewski@southalltn.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCww",
@@ -4522,7 +4522,7 @@ const AMPLIFY_DATA = {
       "brand": "Hidden Doorways",
       "group": "",
       "email": "armin@sunsweptresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-ECQw",
@@ -4553,7 +4553,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "maria.katsikea@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-ECQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-ECQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCAw",
@@ -4580,7 +4580,7 @@ const AMPLIFY_DATA = {
       "brand": "Tanzerra Resorts",
       "group": "Tanzerra Resorts",
       "email": "Linda.Schilling@Tanzerra.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCAw",
@@ -4596,7 +4596,7 @@ const AMPLIFY_DATA = {
       "brand": "Independent",
       "group": "Independent",
       "email": "leisuresales@terranea.com, cgale@terranea.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCww",
@@ -4612,7 +4612,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "msalice@terre-blanche.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCgw",
@@ -4643,7 +4643,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "alessandro.ilardi@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCAw",
@@ -4659,7 +4659,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jeroen.suijker@thebotree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCgw",
@@ -4690,7 +4690,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "tiffany.eckes@thebreakers.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-CCgw",
@@ -4721,7 +4721,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "kristin.neibergs@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-CCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-CCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCww",
@@ -4742,7 +4742,7 @@ const AMPLIFY_DATA = {
       "brand": "Atlantis Bahamas",
       "group": "Atlantis Bahamas",
       "email": "Megan.Prieto@atlantisparadise.com, Ann-Sofi.Gustafsson@atlantisparadise.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCAw",
@@ -4758,7 +4758,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "susannah.lurie@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXIxIyTCgw",
@@ -4789,7 +4789,7 @@ const AMPLIFY_DATA = {
       "brand": "Excellence Collection",
       "group": "The Excellence Collection",
       "email": "affiliates1@theexcellencecollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXIxIyTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXIxIyTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCww",
@@ -4820,7 +4820,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "giampaolo.ugolini@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCAw",
@@ -4851,7 +4851,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "cdemarte@thefifthavenuehotel.com, mlauture@thefifthavenuehotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCgw",
@@ -4882,7 +4882,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kwesthoff@globalambassadorhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCQw",
@@ -4898,7 +4898,7 @@ const AMPLIFY_DATA = {
       "brand": "Hari Hotels",
       "group": "",
       "email": "kerstin.remy@thehari.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCQw",
@@ -4914,7 +4914,7 @@ const AMPLIFY_DATA = {
       "brand": "Hoxton",
       "group": "Accor",
       "email": "sophia.aitken@thehox.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCww",
@@ -4945,7 +4945,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "michela.celena@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NznCww",
@@ -4976,7 +4976,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "rebecca@thelorenhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NznCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NznCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCgw",
@@ -5007,7 +5007,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "alex@thenewman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW1nY-XCAw",
@@ -5043,7 +5043,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW1nY-XCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW1nY-XCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWMCQw",
@@ -5060,7 +5060,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -5074,7 +5074,7 @@ const AMPLIFY_DATA = {
       "brand": "The Ranch",
       "group": "The Ranch",
       "email": "chrisr@theranchlife.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWMCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWMCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyHCAw",
@@ -5090,7 +5090,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "carissa@ranchlb.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyHCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyHCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7Cgw",
@@ -5106,7 +5106,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "peter.mack@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECww",
@@ -5137,7 +5137,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "pouya.jalali@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzPCgw",
@@ -5168,7 +5168,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Aulani.Kealoha@ritzcarlton.com, Megan.Sayegh@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzPCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzPCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCQw",
@@ -5199,7 +5199,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "eri.sugimoto@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCww",
@@ -5215,7 +5215,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Fabiola.Sotomayor@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCQw",
@@ -5246,7 +5246,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Thomas.Pfordresher@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCQw",
@@ -5267,7 +5267,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "tyler.j.landers@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCQw",
@@ -5284,7 +5284,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "9004"
         },
         {
           "name": "Newsletter",
@@ -5298,7 +5298,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Keenan.Rothenborg@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X0Cww",
@@ -5329,7 +5329,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "peter.francis@marriottluxurybrands.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICww",
@@ -5350,7 +5350,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "pouya.jalali@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCgw",
@@ -5371,7 +5371,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "Alejandro.Rivera@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWw4uOnCgw",
@@ -5402,7 +5402,7 @@ const AMPLIFY_DATA = {
       "brand": "Grecotel",
       "group": "Grecotel",
       "email": "sofia.grigoratou@grecotel.com, Tina.Nykta@grecotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWw4uOnCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWw4uOnCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCQw",
@@ -5418,7 +5418,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "nicki.fourroux@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCAw",
@@ -5449,7 +5449,7 @@ const AMPLIFY_DATA = {
       "brand": "Destination by Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "melisa.lindley@destinationhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCgw",
@@ -5465,7 +5465,7 @@ const AMPLIFY_DATA = {
       "brand": "Proper",
       "group": "Proper",
       "email": "rowan.hand@properhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCgw",
@@ -5496,7 +5496,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "john.bagley@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4Cww",
@@ -5512,7 +5512,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "giampaolo.ugolini@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCAw",
@@ -5528,7 +5528,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "alejandro.rivera@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XQCww",
@@ -5559,7 +5559,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "Zhilah.Vego@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XQCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XQCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCQw",
@@ -5590,7 +5590,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "angelica.osoriocollazos@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WECQw",
@@ -5621,7 +5621,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "nicholas.lobberecht@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WECQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WECQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCQw",
@@ -5637,7 +5637,7 @@ const AMPLIFY_DATA = {
       "brand": "Independent",
       "group": "Independent",
       "email": "lindsey@destinationsofdistinction.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICAw",
@@ -5673,7 +5673,7 @@ const AMPLIFY_DATA = {
       "brand": "Corinthia",
       "group": "Corinthia",
       "email": "shane.mills@corinthia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0CQw",
@@ -5709,7 +5709,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "Mohammed.Daod@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP8Cww",
@@ -5726,7 +5726,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002, 9017"
+          "timing": "9017, 9004"
         },
         {
           "name": "Newsletter",
@@ -5745,7 +5745,7 @@ const AMPLIFY_DATA = {
       "brand": "Lotte",
       "group": "Lotte",
       "email": "mnagle@lottenypalace.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT19jVCww",
@@ -5776,7 +5776,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton",
       "email": "Jeanine.Gilchrist@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT19jVCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT19jVCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX-vPPWCgw",
@@ -5807,7 +5807,7 @@ const AMPLIFY_DATA = {
       "brand": "Westin",
       "group": "Marriott International",
       "email": "Sherilyn.Micallef@westin.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX-vPPWCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX-vPPWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj4eCPCww",
@@ -5823,7 +5823,7 @@ const AMPLIFY_DATA = {
       "brand": "Westin",
       "group": "Marriott International",
       "email": "ayu.purbasanti@pyramidglobal.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj4eCPCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj4eCPCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1Cgw",
@@ -5839,7 +5839,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "j.belchior@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCww",
@@ -5856,7 +5856,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "9002, 9011"
+          "timing": "9011, 9004"
         },
         {
           "name": "Newsletter",
@@ -5875,7 +5875,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kpeguero@puntacana.com, alegarcia@puntacana.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPECgw",
@@ -5906,7 +5906,7 @@ const AMPLIFY_DATA = {
       "brand": "Viceroy",
       "group": "Viceroy",
       "email": "joao.silva@viceroy.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPECgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPECgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPUCQw",
@@ -5937,7 +5937,7 @@ const AMPLIFY_DATA = {
       "brand": "Vignette",
       "group": "IHG Hotels & Resorts",
       "email": "phanarat.neawphanassawa@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPUCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPUCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPMCgw",
@@ -5953,7 +5953,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "igajic@villa-dubrovnik.hr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPMCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPMCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCww",
@@ -5984,7 +5984,7 @@ const AMPLIFY_DATA = {
       "brand": "Belmond",
       "group": "Belmond Ltd",
       "email": "andrea.gervasoni@belmond.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOECQw",
@@ -6015,7 +6015,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "ricardo.gomes@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOECQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOECQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCAw",
@@ -6046,7 +6046,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "barbara.anderson@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfxCgw",
@@ -6077,7 +6077,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "julia.tolosa@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfxCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfxCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWsCgw",
@@ -6108,7 +6108,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "liza.vecino-castro@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWsCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWsCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK2JT-Cww",
@@ -6124,7 +6124,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "Romano.Hoffman@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK2JT-Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK2JT-Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXMCAw",
@@ -6155,7 +6155,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "luz.g.alvarado@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXMCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXMCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXzw5bPCgw",
@@ -6171,7 +6171,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "Ilaria.Zambelli@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXzw5bPCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXzw5bPCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycexCgw",
@@ -6202,7 +6202,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "isabel.gracia@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycexCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycexCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCgw",
@@ -6218,7 +6218,7 @@ const AMPLIFY_DATA = {
       "brand": "Marriott International",
       "group": "Marriott International",
       "email": "ashley.carroll@waileabeachresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceuCww",
@@ -6234,7 +6234,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Leslie.Vosburgh@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceuCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceuCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfOCQw",
@@ -6265,7 +6265,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Jenny.Debonis2@Hilton.com Patti.Perez@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfOCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfOCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycehCww",
@@ -6296,7 +6296,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Molly.Sanborn@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycehCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycehCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceRCAw",
@@ -6312,7 +6312,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Constantin.Benesch@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceRCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceRCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfeCww",
@@ -6343,7 +6343,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "lauren.norwood@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfeCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfeCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-CQw",
@@ -6379,7 +6379,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "oscar.quijano@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceBCQw",
@@ -6410,7 +6410,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "stephanie.bernazard@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceBCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceBCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCQw",
@@ -6426,7 +6426,7 @@ const AMPLIFY_DATA = {
       "brand": "Westin",
       "group": "Marriott International",
       "email": "libby.child@westin.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-Cgw",
@@ -6462,7 +6462,7 @@ const AMPLIFY_DATA = {
       "brand": "Boca Raton",
       "group": "Boca Raton",
       "email": "Dward@TheBocaRaton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww",
@@ -6493,7 +6493,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton Reserve",
       "group": "Marriott International",
       "email": "JoseAntonio.Rodriguez@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCww",
@@ -6509,7 +6509,7 @@ const AMPLIFY_DATA = {
       "brand": "Starwood Hotels",
       "group": "Starwood Hotels & Resorts",
       "email": "jolyon.hyne@1hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACQw",
@@ -6525,7 +6525,7 @@ const AMPLIFY_DATA = {
       "brand": "Airelles",
       "group": "Airelles",
       "email": "e.petitpez@airelles.com c.galan@airelles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACgw",
@@ -6541,7 +6541,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "alma.gandhi@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeekCAw",
@@ -6557,7 +6557,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "lcruz@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeekCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeekCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCgw",
@@ -6573,7 +6573,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "kamutporn_ch@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICww",
@@ -6589,7 +6589,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "f.ayala@anantara-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCAw",
@@ -6605,7 +6605,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "znoor@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCgw",
@@ -6621,7 +6621,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "rojjirat_op@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_Cww",
@@ -6637,7 +6637,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "lbui@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCQw",
@@ -6653,7 +6653,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "lcruz@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCww",
@@ -6669,7 +6669,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "karun_co@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCQw",
@@ -6685,7 +6685,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "fkolde@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeewCAw",
@@ -6701,7 +6701,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "sales.apk@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeewCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeewCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_Cww",
@@ -6717,7 +6717,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "sales.apk@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCgw",
@@ -6733,7 +6733,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "shammond@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICww",
@@ -6749,7 +6749,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "v.bakovic@anantara-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACAw",
@@ -6765,7 +6765,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "f.ayala@anantara-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACww",
@@ -6781,7 +6781,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "dfernando@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeACww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCgw",
@@ -6797,7 +6797,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "lbui@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCgw",
@@ -6813,7 +6813,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "amorn_be@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICAw",
@@ -6829,7 +6829,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "solos_fa@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeICAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCww",
@@ -6845,7 +6845,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "lcruz@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCAw",
@@ -6861,7 +6861,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "Lcruz@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2Cgw",
@@ -6877,7 +6877,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "Lcruz@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCQw",
@@ -6893,7 +6893,7 @@ const AMPLIFY_DATA = {
       "brand": "Andaz",
       "group": "Hyatt Hotels & Resorts",
       "email": "kathryn.carlton@andaz.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2CAw",
@@ -6909,7 +6909,7 @@ const AMPLIFY_DATA = {
       "brand": "Angsana",
       "group": "Accor",
       "email": "leisure-sales@angsana.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT2CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWs1IW8Cww",
@@ -6925,7 +6925,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Ashley.Mcgee@aspenmeadows.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWs1IW8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWs1IW8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCgw",
@@ -6941,7 +6941,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "ksiva@avanihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCww",
@@ -6957,7 +6957,7 @@ const AMPLIFY_DATA = {
       "brand": "BLESS",
       "group": "Palladium",
       "email": "malena.hohn@blesscollectionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWEgZylCgw",
@@ -6973,7 +6973,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "",
       "email": "Katrina.gomez@groupbanyan.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWEgZylCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWEgZylCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCgw",
@@ -6989,7 +6989,7 @@ const AMPLIFY_DATA = {
       "brand": "Marugal",
       "group": "Marugal",
       "email": "stephanie.myter@beau-rivage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSuCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCQw",
@@ -7005,7 +7005,7 @@ const AMPLIFY_DATA = {
       "brand": "Michel Reybier Group",
       "group": "Michel Reybier Group",
       "email": "j.alonso@bellevue-palace.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCgw",
@@ -7021,7 +7021,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "caitlin.johnson@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGqCgw",
@@ -7037,7 +7037,7 @@ const AMPLIFY_DATA = {
       "brand": "Collezione Em",
       "group": "",
       "email": "abargigli@collezioneem.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGqCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGqCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGiCgw",
@@ -7053,7 +7053,7 @@ const AMPLIFY_DATA = {
       "brand": "Canyon Ranch",
       "group": "Canyon Ranch",
       "email": "mcasas@canyonranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGiCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGiCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHWCQw",
@@ -7069,7 +7069,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jane@ccampo.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHWCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHWCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8Cww",
@@ -7085,7 +7085,7 @@ const AMPLIFY_DATA = {
       "brand": "Chable",
       "group": "Chable Group",
       "email": "daniel.ceballos@chablehotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW54oSoCQw",
@@ -7101,7 +7101,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW54oSoCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW54oSoCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCAw",
@@ -7117,7 +7117,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "akrausz@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cgw",
@@ -7133,7 +7133,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "francois.gelly@coquillade.fr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qECgw",
@@ -7149,7 +7149,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "esra.arpat@dmarisbay.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qECgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qECgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCQw",
@@ -7165,7 +7165,7 @@ const AMPLIFY_DATA = {
       "brand": "Delamar",
       "group": "Delamar",
       "email": "kpixley@thedelamar.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rQCAw",
@@ -7181,7 +7181,7 @@ const AMPLIFY_DATA = {
       "brand": "Delano",
       "group": "Accor",
       "email": "Ligy.ALARCON@delanohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rQCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rQCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCgw",
@@ -7197,7 +7197,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "angelique.johns@domesresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rYCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-DCgw",
@@ -7213,7 +7213,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "erossi@duntonmanagement.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-DCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-DCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-rCQw",
@@ -7229,7 +7229,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "p.castillo@edenroccapcana.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-rCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-rCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXhhpXACww",
@@ -7245,7 +7245,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Andrew.Jeffries@elencanto.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXhhpXACww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXhhpXACww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_NCQw",
@@ -7261,7 +7261,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "francois@espritsaintgermain.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_NCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_NCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCAw",
@@ -7277,7 +7277,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "lma@fccangkor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-LCQw",
@@ -7293,7 +7293,7 @@ const AMPLIFY_DATA = {
       "brand": "Faena",
       "group": "Accor",
       "email": "aschneider@faena.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-LCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-LCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-9Cgw",
@@ -7309,7 +7309,7 @@ const AMPLIFY_DATA = {
       "brand": "Faena",
       "group": "Accor",
       "email": "aschneider@faena.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCAw",
@@ -7325,7 +7325,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Joseph.Lincoln@Fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCww",
@@ -7341,7 +7341,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "eunice.vargas@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCww",
@@ -7357,7 +7357,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Sonja.Nelson@Fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_TCAw",
@@ -7373,7 +7373,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "ihoko.noda@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_TCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_TCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_dCQw",
@@ -7389,7 +7389,7 @@ const AMPLIFY_DATA = {
       "brand": "Foley Entertainment Group",
       "group": "Foley Entertainment Group",
       "email": "kwhite@foleyentertainmentgroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_dCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_dCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_lCAw",
@@ -7405,7 +7405,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_lCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_lCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eqCQw",
@@ -7421,7 +7421,7 @@ const AMPLIFY_DATA = {
       "brand": "Fontainebleau",
       "group": "Fontainebleau",
       "email": "jenny.gasalao@fblasvegas.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eqCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eqCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-ecCQw",
@@ -7437,7 +7437,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "Ahmad.abdullatif@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-ecCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-ecCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCgw",
@@ -7453,7 +7453,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "Anel.Sergazina@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCww",
@@ -7469,7 +7469,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "fabiana.pellone@furoregrandhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCgw",
@@ -7485,7 +7485,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "stefan.fuchs@gizapalace.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw",
@@ -7501,7 +7501,7 @@ const AMPLIFY_DATA = {
       "brand": "Grace Bay",
       "group": "Grace Bay",
       "email": "scott.khile@gracebayresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCww",
@@ -7517,7 +7517,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Suzanne@corbocollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCAw",
@@ -7533,7 +7533,7 @@ const AMPLIFY_DATA = {
       "brand": "Collezione EM",
       "group": "Collezione EM",
       "email": "abargigli@collezioneem.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eaCgw",
@@ -7549,7 +7549,7 @@ const AMPLIFY_DATA = {
       "brand": "Kempinski",
       "group": "Kempinski",
       "email": "morgane.doucey@kempinski.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eaCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eaCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXSzprXCww",
@@ -7565,7 +7565,7 @@ const AMPLIFY_DATA = {
       "brand": "Grand Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "jason.perone@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXSzprXCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXSzprXCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX8xrTMCgw",
@@ -7581,7 +7581,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton Hotels & Resorts",
       "email": "Daniela.Palomba@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX8xrTMCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX8xrTMCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCAw",
@@ -7597,7 +7597,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "isales@hospes.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCQw",
@@ -7613,7 +7613,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mitzi@staybardo.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCgw",
@@ -7629,7 +7629,7 @@ const AMPLIFY_DATA = {
       "brand": "Foley Entertainment Group",
       "group": "Foley Entertainment Group",
       "email": "kwhite@FoleyEntertainmentGroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCww",
@@ -7645,7 +7645,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "pauline@paulinederamond.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCww",
@@ -7661,7 +7661,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTTCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTXCAw",
@@ -7677,7 +7677,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTXCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTXCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCww",
@@ -7693,7 +7693,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTjCQw",
@@ -7709,7 +7709,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTDCgw",
@@ -7725,7 +7725,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT7Cgw",
@@ -7741,7 +7741,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT7Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT7Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCgw",
@@ -7757,7 +7757,7 @@ const AMPLIFY_DATA = {
       "brand": "Fasano",
       "group": "Fasano",
       "email": "ricardo.gilber@fasano.com.br",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGLCww",
@@ -7773,7 +7773,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "tania.mastrantoni@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGLCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGLCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCgw",
@@ -7789,7 +7789,7 @@ const AMPLIFY_DATA = {
       "brand": "Unbound Collection",
       "group": "Hyatt Hotels & Resorts",
       "email": "marcus.ong@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSzCww",
@@ -7805,7 +7805,7 @@ const AMPLIFY_DATA = {
       "brand": "SBM",
       "group": "SBM",
       "email": "m.vinciguerra@sbm.mc",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSzCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSzCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSbCgw",
@@ -7821,7 +7821,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "nkundoo@once-lifetime.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSbCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSbCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cww",
@@ -7837,7 +7837,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "joanna.joussemet@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCQw",
@@ -7853,7 +7853,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "Mt@hotelducouvent.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGHCww",
@@ -7869,7 +7869,7 @@ const AMPLIFY_DATA = {
       "brand": "Inkaterra",
       "group": "Inkaterra",
       "email": "virtuoso@inkaterra.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGHCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGHCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqyCww",
@@ -7885,7 +7885,7 @@ const AMPLIFY_DATA = {
       "brand": "InterContinental",
       "group": "IHG Hotels & Resorts",
       "email": "Justine.Bockenmeyer@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqyCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqyCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNrKCQw",
@@ -7901,7 +7901,7 @@ const AMPLIFY_DATA = {
       "brand": "InterContinental",
       "group": "IHG Hotels & Resorts",
       "email": "Ngoc.Ngo1@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNrKCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNrKCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqSCQw",
@@ -7917,7 +7917,7 @@ const AMPLIFY_DATA = {
       "brand": "InterContinental",
       "group": "IHG Hotels & Resorts",
       "email": "Sarah.BorgesdeSousa@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqSCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX6lNqSCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHzCAw",
@@ -7933,7 +7933,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Jgreen@jg-collection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHzCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHzCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWUwoj1CQw",
@@ -7949,7 +7949,7 @@ const AMPLIFY_DATA = {
       "brand": "JW Marriott",
       "group": "Marriott International",
       "email": "Linda.B.Miller@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWUwoj1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWUwoj1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF77aXCQw",
@@ -7965,7 +7965,7 @@ const AMPLIFY_DATA = {
       "brand": "JW Marriott",
       "group": "Marriott International",
       "email": "NTan@jwreston.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF77aXCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF77aXCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCgw",
@@ -7981,7 +7981,7 @@ const AMPLIFY_DATA = {
       "brand": "Kempinski",
       "group": "Kempinski",
       "email": "Jonathan.Gonzalez@adnhmc.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6T9CQw",
@@ -7997,7 +7997,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "Rebecca.Kircos@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6T9CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6T9CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-1CQw",
@@ -8013,7 +8013,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "Whitney.Dang@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-VCgw",
@@ -8029,7 +8029,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "tania.mastrantoni@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-VCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-VCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-NCQw",
@@ -8045,7 +8045,7 @@ const AMPLIFY_DATA = {
       "brand": "Cayuga Collection",
       "group": "Cayuga Collection",
       "email": "turney@clarkkotula.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-NCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-NCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8sJGjCgw",
@@ -8061,7 +8061,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "Marriott International",
       "email": "lgonzalez@laconcharesort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8sJGjCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8sJGjCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCgw",
@@ -8077,7 +8077,7 @@ const AMPLIFY_DATA = {
       "brand": "Noble House",
       "group": "Noble House",
       "email": "msehulster@noblehousehotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCAw",
@@ -8093,7 +8093,7 @@ const AMPLIFY_DATA = {
       "brand": "CoralTree Hotels",
       "group": "CoralTree Hospitality",
       "email": "dkasprzak@lakenonahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5Cww",
@@ -8109,7 +8109,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "mchiche@lasalcobas.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCgw",
@@ -8125,7 +8125,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "duangchompoo_po@anantara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECgw",
@@ -8141,7 +8141,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "joanna.joussemet@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCgw",
@@ -8157,7 +8157,7 @@ const AMPLIFY_DATA = {
       "brand": "Lefay",
       "group": "Lefay Resorts",
       "email": "m.fresta@lefayresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiCCAw",
@@ -8173,7 +8173,7 @@ const AMPLIFY_DATA = {
       "brand": "Lefay",
       "group": "Lefay Resorts",
       "email": "m.fresta@lefayresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiCCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiCCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4utuFCgw",
@@ -8189,7 +8189,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Audrey.Arnaud@hotels-baverez.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4utuFCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4utuFCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj0CQw",
@@ -8205,7 +8205,7 @@ const AMPLIFY_DATA = {
       "brand": "Les Sources",
       "group": "Les Sources",
       "email": "helene.huang@sources-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj0CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj0CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCQw",
@@ -8221,7 +8221,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "julia.buisan@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CQw",
@@ -8237,7 +8237,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "valentina.mizzi@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCAw",
@@ -8253,7 +8253,7 @@ const AMPLIFY_DATA = {
       "brand": "MGM",
       "group": "MGM",
       "email": "luxuryreservations@mgmresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOi8CAw",
@@ -8269,7 +8269,7 @@ const AMPLIFY_DATA = {
       "brand": "Foley Entertainment Group",
       "group": "Foley Entertainment Group",
       "email": "kwhite@FoleyEntertainmentGroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOi8CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOi8CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj4Cww",
@@ -8285,7 +8285,7 @@ const AMPLIFY_DATA = {
       "brand": "Macakizi",
       "group": "Macakizi",
       "email": "hazel@macakizi.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOj4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWAiKm9Cgw",
@@ -8301,7 +8301,7 @@ const AMPLIFY_DATA = {
       "brand": "Barnes Hospitality",
       "group": "",
       "email": "d.chernov@maisonbarnes.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWAiKm9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWAiKm9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWilfnqCAw",
@@ -8317,7 +8317,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "SDavenport@makereadyexperience.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWilfnqCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWilfnqCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjMCgw",
@@ -8333,7 +8333,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Catrinel@manibrothers.com, od@malibubeachinn.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjMCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjMCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCQw",
@@ -8349,7 +8349,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "nking@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3Cgw",
@@ -8365,7 +8365,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "julien.guillon@hotellutetia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ2qS2Cgw",
@@ -8381,7 +8381,7 @@ const AMPLIFY_DATA = {
       "brand": "Marriott International",
       "group": "Marriott International",
       "email": "Deaner.snively@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ2qS2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ2qS2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCQw",
@@ -8397,7 +8397,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "fpretin@roccofortehotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cgw",
@@ -8413,7 +8413,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "cristina.rio@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCww",
@@ -8429,7 +8429,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "cristina.rio@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ilCQw",
@@ -8445,7 +8445,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dlucas@meadowood.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ilCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ilCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iVCQw",
@@ -8461,7 +8461,7 @@ const AMPLIFY_DATA = {
       "brand": "Miraval",
       "group": "Hyatt Hotels & Resorts",
       "email": "marissa.halberstadt@miravalresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iVCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iVCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCAw",
@@ -8477,7 +8477,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCgw",
@@ -8493,7 +8493,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCAw",
@@ -8509,7 +8509,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCgw",
@@ -8525,7 +8525,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXWy9u4CQw",
@@ -8541,7 +8541,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jgaiao@napraia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXWy9u4CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXWy9u4CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWykp2DCAw",
@@ -8557,7 +8557,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "patricia@nomadepeople.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWykp2DCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWykp2DCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECww",
@@ -8573,7 +8573,7 @@ const AMPLIFY_DATA = {
       "brand": "Nomade",
       "group": "Nomade",
       "email": "ursula.nicholas@nomadepeople.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePdCww",
@@ -8589,7 +8589,7 @@ const AMPLIFY_DATA = {
       "brand": "One&Only",
       "group": "Kerzner International",
       "email": "zachary.burns@oneandonlyresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePdCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePdCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOrCww",
@@ -8605,7 +8605,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "c.celik@phv.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOrCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOrCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECgw",
@@ -8621,7 +8621,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "karina.gaughran@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCww",
@@ -8637,7 +8637,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "charmaine.chinappan@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qFCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO9Cgw",
@@ -8653,7 +8653,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "cari.abonador-alexander@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8Cgw",
@@ -8669,7 +8669,7 @@ const AMPLIFY_DATA = {
       "brand": "CoralTree Hotels",
       "group": "CoralTree Hospitality",
       "email": "emacho@piersixtysixresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCQw",
@@ -8685,7 +8685,7 @@ const AMPLIFY_DATA = {
       "brand": "Lungarno Collection",
       "group": "Lungarno Collection",
       "email": "f.martini@lungarnocollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCQw",
@@ -8701,7 +8701,7 @@ const AMPLIFY_DATA = {
       "brand": "Lungarno Collection",
       "group": "Lungarno Collection",
       "email": "f.martini@lungarnocollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXaCAw",
@@ -8717,7 +8717,7 @@ const AMPLIFY_DATA = {
       "brand": "Lungarno Collection",
       "group": "Lungarno Collection",
       "email": "f.martini@lungarnocollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXaCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXaCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCgw",
@@ -8733,7 +8733,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "ana.amorim@pestana.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7Cgw",
@@ -8749,7 +8749,7 @@ const AMPLIFY_DATA = {
       "brand": "Autograph Collection",
       "group": "Marriott International",
       "email": "c.schooss@princehawaii.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWZ84brCQw",
@@ -8765,7 +8765,7 @@ const AMPLIFY_DATA = {
       "brand": "Rixos",
       "group": "Accor",
       "email": "Petr.VANICEK@rixos.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWZ84brCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWZ84brCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWyCQw",
@@ -8781,7 +8781,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jgreen@jg-collection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWyCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWyCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCQw",
@@ -8797,7 +8797,7 @@ const AMPLIFY_DATA = {
       "brand": "Rosewood",
       "group": "Rosewood Hotels & Resorts",
       "email": "shaylyn.riley@rosewoodhotels.com, oriane.gurland@rosewoodhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCww",
@@ -8813,7 +8813,7 @@ const AMPLIFY_DATA = {
       "brand": "SO/",
       "group": "Accor",
       "email": "Emeline.VIGUIE@so-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCww",
@@ -8829,7 +8829,7 @@ const AMPLIFY_DATA = {
       "brand": "Salamander",
       "group": "Salamander",
       "email": "ccox@salamanderhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCww",
@@ -8845,7 +8845,7 @@ const AMPLIFY_DATA = {
       "brand": "Salamander",
       "group": "Salamander",
       "email": "mwright@salamanderhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iACQw",
@@ -8861,7 +8861,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dolores@san-canzian.hr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jfCww",
@@ -8877,7 +8877,7 @@ const AMPLIFY_DATA = {
       "brand": "Gurney's",
       "group": "Gurney's Resorts",
       "email": "debra.reasy@sanctuaryaz.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jfCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jfCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICQw",
@@ -8893,7 +8893,7 @@ const AMPLIFY_DATA = {
       "brand": "Proper",
       "group": "Proper",
       "email": "alyssa.uslaner@properhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iXCgw",
@@ -8909,7 +8909,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "almer@secretbay.dm",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iXCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iXCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCgw",
@@ -8925,7 +8925,7 @@ const AMPLIFY_DATA = {
       "brand": "Kempinski",
       "group": "Kempinski",
       "email": "taryn.wolt@kempinski.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICgw",
@@ -8941,7 +8941,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mcarrillo@silversandsgrenada.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qO0CAw",
@@ -8957,7 +8957,7 @@ const AMPLIFY_DATA = {
       "brand": "Six Senses",
       "group": "IHG Hotels & Resorts",
       "email": "Gamze.buyuksariyildiz@sixsenses.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qO0CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qO0CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOECQw",
@@ -8973,7 +8973,7 @@ const AMPLIFY_DATA = {
       "brand": "Six Senses",
       "group": "IHG Hotels & Resorts",
       "email": "Maria.Daniel@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOECQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOECQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qP0CQw",
@@ -8989,7 +8989,7 @@ const AMPLIFY_DATA = {
       "brand": "Six Senses",
       "group": "IHG Hotels & Resorts",
       "email": "stefan.mueller@sixsenses.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qP0CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qP0CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCQw",
@@ -9005,7 +9005,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "Michell.JUAREZH@sofitel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXLo_voCgw",
@@ -9021,7 +9021,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "Elena.Lecca@sofitel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXLo_voCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXLo_voCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww",
@@ -9037,7 +9037,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "Stephany.morales@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw",
@@ -9055,7 +9055,7 @@ const AMPLIFY_DATA = {
       "brand": "Grace Bay Resorts",
       "group": "Grace Bay Resorts",
       "email": "sara.archibald@gracebayresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCgw",
@@ -9071,7 +9071,7 @@ const AMPLIFY_DATA = {
       "brand": "Steigenberger",
       "group": "Deutsche Hospitality",
       "email": "luisa.lautner@deutschehospitality.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw",
@@ -9089,7 +9089,7 @@ const AMPLIFY_DATA = {
       "brand": "Stein Eriksen",
       "group": "Stein Eriksen",
       "email": "acrider@steinlodge.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSxCAw",
@@ -9107,7 +9107,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "sean.cordasco@thompsonhotels.com, john.seaborne@thompsonhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSxCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSxCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXE-dSQCQw",
@@ -9123,7 +9123,7 @@ const AMPLIFY_DATA = {
       "brand": "The Belize Collection",
       "group": "",
       "email": "julie@thebelizecollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXE-dSQCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXE-dSQCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCgw",
@@ -9139,7 +9139,7 @@ const AMPLIFY_DATA = {
       "brand": "Maybourne",
       "group": "Maybourne",
       "email": "pantille@maybourne.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2CQw",
@@ -9155,7 +9155,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "soner.komur@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCAw",
@@ -9171,7 +9171,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "haddy.wong@thebrando.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCww",
@@ -9187,7 +9187,7 @@ const AMPLIFY_DATA = {
       "brand": "Rosewood",
       "group": "Rosewood Hotels & Resorts",
       "email": "lara.mayer@rosewoodhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCww",
@@ -9203,7 +9203,7 @@ const AMPLIFY_DATA = {
       "brand": "The Chedi",
       "group": "GHM Hotels",
       "email": "amorais@chediandermatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_CCww",
@@ -9219,7 +9219,7 @@ const AMPLIFY_DATA = {
       "brand": "Maybourne",
       "group": "Maybourne",
       "email": "pantille@maybourne.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_CCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_CCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXThsirCgw",
@@ -9235,7 +9235,7 @@ const AMPLIFY_DATA = {
       "brand": "The Doyle Collection",
       "group": "The Doyle Collection",
       "email": "Katherine_Gordon@doylecollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXThsirCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXThsirCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_UCQw",
@@ -9251,7 +9251,7 @@ const AMPLIFY_DATA = {
       "brand": "Doyle Collection",
       "group": "The Doyle Collection",
       "email": "Janet_Scanlon@Doylecollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_UCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_UCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCww",
@@ -9267,7 +9267,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "NPayne@ptgconsulting.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbrCww",
@@ -9283,7 +9283,7 @@ const AMPLIFY_DATA = {
       "brand": "Hoxton",
       "group": "Accor",
       "email": "Lee.scott@thehox.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbrCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbrCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-sCww",
@@ -9299,7 +9299,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "s.sims@fivegraces.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-sCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-sCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CQw",
@@ -9315,7 +9315,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "nicole.anton@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7CQw",
@@ -9331,7 +9331,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "VICTORIA.SULLIVAN@EDITIONHOTELS.COM",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NynCQw",
@@ -9347,7 +9347,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "ciro.borrelli@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NynCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NynCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCww",
@@ -9363,7 +9363,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "Michel.Heredia@themarkhotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCQw",
@@ -9379,7 +9379,7 @@ const AMPLIFY_DATA = {
       "brand": "Maybourne",
       "group": "Maybourne",
       "email": "MCalvert@maybourne.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny_Cgw",
@@ -9395,7 +9395,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "patrick.kelly@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny_Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny_Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzfCAw",
@@ -9411,7 +9411,7 @@ const AMPLIFY_DATA = {
       "brand": "Ned",
       "group": "Soho House",
       "email": "nicola.lee@thened.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzfCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzfCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCgw",
@@ -9427,7 +9427,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "Giancarlo.Almonacid@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyrCQw",
@@ -9443,7 +9443,7 @@ const AMPLIFY_DATA = {
       "brand": "Oberoi",
       "group": "The Oberoi Group",
       "email": "samantha.steckbeck@oberoigroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyrCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyrCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCQw",
@@ -9459,7 +9459,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "nancy.getlan@thepalacemadrid.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCgw",
@@ -9475,7 +9475,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "tmartin@pawsup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz3CAw",
@@ -9491,7 +9491,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "katrin.b.sigurdardottir@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz3CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz3CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzrCAw",
@@ -9507,7 +9507,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Yanawut.Suksawat@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzrCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzrCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XUCww",
@@ -9534,7 +9534,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Inessa.Tsavaris@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cww",
@@ -9550,7 +9550,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "burcin.toros@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WMCAw",
@@ -9566,7 +9566,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Melinda.easley@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WMCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WMCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WoCAw",
@@ -9582,7 +9582,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Eloise.Engomites@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WoCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WoCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WkCgw",
@@ -9598,7 +9598,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "federica.oriente@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WkCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WkCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4CAw",
@@ -9614,7 +9614,7 @@ const AMPLIFY_DATA = {
       "brand": "Kiawah Resort",
       "group": "Kiawah Resort",
       "email": "smanise@danacommunications.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7CAw",
@@ -9630,7 +9630,7 @@ const AMPLIFY_DATA = {
       "brand": "EOS",
       "group": "",
       "email": "chemming@eoshospitality.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja7CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECAw",
@@ -9646,7 +9646,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "calves@thesebastianvail.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WQCww",
@@ -9662,7 +9662,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "Parveender.Kaur@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WQCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WQCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XICQw",
@@ -9678,7 +9678,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XICQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XICQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4Cww",
@@ -9694,7 +9694,7 @@ const AMPLIFY_DATA = {
       "brand": "The Stafford",
       "group": "The Stafford",
       "email": "Erik.concha@thestaffordlondon.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4CAw",
@@ -9710,7 +9710,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "Emily.Muniz@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X4CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICgw",
@@ -9726,7 +9726,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "gorka.zubiete@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPUCAw",
@@ -9742,7 +9742,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "anthony.morreale@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPUCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPUCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCww",
@@ -9758,7 +9758,7 @@ const AMPLIFY_DATA = {
       "brand": "Tivoli",
       "group": "Minor Hotels",
       "email": "s.marques@tivoli-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCQw",
@@ -9774,7 +9774,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "mi.cunha@tivoli-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rVCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cww",
@@ -9790,7 +9790,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCww",
@@ -9806,7 +9806,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "s.gregori@minor-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rdCww",
@@ -9822,7 +9822,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sandra.ramos@torelboutiques.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rdCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rdCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCww",
@@ -9838,7 +9838,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kirsten@withinthewild.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCAw",
@@ -9854,7 +9854,7 @@ const AMPLIFY_DATA = {
       "brand": "Viceroy",
       "group": "Viceroy",
       "email": "sam.torgerson@viceroy.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCAw",
@@ -9870,7 +9870,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "ariela.duina@villacora.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP0Cww",
@@ -9886,7 +9886,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "filippa.henningsson@thediplomatcollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCgw",
@@ -9902,7 +9902,7 @@ const AMPLIFY_DATA = {
       "brand": "Collezione EM",
       "group": "Collezione EM",
       "email": "abargigli@grandhotelminerva.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOiCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP4Cgw",
@@ -9918,7 +9918,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "d.zanetta@villa-aminta.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP4Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP4Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CQw",
@@ -9934,7 +9934,7 @@ const AMPLIFY_DATA = {
       "brand": "Collezione EM",
       "group": "Collezione EM",
       "email": "abargigli@collezioneem.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwl6ycCAw",
@@ -9950,7 +9950,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwl6ycCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwl6ycCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXm0Nr1Cww",
@@ -9966,7 +9966,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott",
       "email": "Rekia.Spencer@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXm0Nr1Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXm0Nr1Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfRCgw",
@@ -9982,7 +9982,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Rotem.Refael@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfRCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfRCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXruOamCAw",
@@ -10000,7 +10000,7 @@ const AMPLIFY_DATA = {
       "brand": "Waldorf Astoria",
       "group": "Hilton Hotels & Resorts",
       "email": "Kane.Savage@waldorfastoria.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXruOamCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXruOamCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXjguDfCQw",
@@ -10016,7 +10016,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXjguDfCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXjguDfCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCAw",
@@ -10032,7 +10032,7 @@ const AMPLIFY_DATA = {
       "brand": "1 Hotels",
       "group": "Starwood",
       "email": "mitja.dobaja@1hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeYCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCgw",
@@ -10048,7 +10048,7 @@ const AMPLIFY_DATA = {
       "brand": "Address",
       "group": "Emaar Hospitality Group",
       "email": "carinap@emaar.ae",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCQw",
@@ -10064,7 +10064,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCAw",
@@ -10080,7 +10080,7 @@ const AMPLIFY_DATA = {
       "brand": "Alila",
       "group": "Hyatt Hotels & Resorts",
       "email": "Alyson.Heidesch@AlilaHotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaevCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCQw",
@@ -10096,7 +10096,7 @@ const AMPLIFY_DATA = {
       "brand": "Alila",
       "group": "Hyatt Hotels & Resorts",
       "email": "alyson.heidesch@alilahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCgw",
@@ -10112,7 +10112,7 @@ const AMPLIFY_DATA = {
       "brand": "Alila",
       "group": "Hyatt Hotels & Resorts",
       "email": "taufik.rahman@alilahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cgw",
@@ -10128,7 +10128,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "columba@amawaterways.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CQw",
@@ -10144,7 +10144,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECgw",
@@ -10160,7 +10160,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kburaye@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECAw",
@@ -10176,7 +10176,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "hmorito@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefECAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCQw",
@@ -10192,7 +10192,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "chouplain@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCAw",
@@ -10208,7 +10208,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "edenicolo@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCQw",
@@ -10224,7 +10224,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "fliu@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCQw",
@@ -10240,7 +10240,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "jvargas@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeegCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCAw",
@@ -10256,7 +10256,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "adfruscia@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCAw",
@@ -10272,7 +10272,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "msharma@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefoCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4CAw",
@@ -10288,7 +10288,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "msharma@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4CQw",
@@ -10304,7 +10304,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "bputri@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCQw",
@@ -10320,7 +10320,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "amandayan.dosm@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafPCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CAw",
@@ -10336,7 +10336,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "esugimoto@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCww",
@@ -10352,7 +10352,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "carrindell@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICAw",
@@ -10368,7 +10368,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kburaye@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCQw",
@@ -10384,7 +10384,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "msharma@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACww",
@@ -10400,7 +10400,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "jpayne@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECww",
@@ -10416,7 +10416,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "jwalker@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cww",
@@ -10432,7 +10432,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kboukaid@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCAw",
@@ -10448,7 +10448,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "bputri@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefgCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICgw",
@@ -10464,7 +10464,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "bputri@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCww",
@@ -10480,7 +10480,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "msharma@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cgw",
@@ -10496,7 +10496,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "qhuynh@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zee4Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCww",
@@ -10512,7 +10512,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kburaye@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCAw",
@@ -10528,7 +10528,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "evandervoort@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zafvCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CAw",
@@ -10544,7 +10544,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "otektas@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4Cww",
@@ -10560,7 +10560,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "evandervoort@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zef4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CQw",
@@ -10576,7 +10576,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "evandervoort@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zae_CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCgw",
@@ -10592,7 +10592,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kburaye@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCgw",
@@ -10608,7 +10608,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "msharma@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefwCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACQw",
@@ -10624,7 +10624,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "Wendy.pan@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCww",
@@ -10640,7 +10640,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "tsvetich@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeoCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCgw",
@@ -10656,7 +10656,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "kburaye@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeQCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCgw",
@@ -10672,7 +10672,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "april.piazza@americancruiselines.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCgw",
@@ -10688,7 +10688,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "Minor Hotels",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaefCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWC94--Cgw",
@@ -10704,7 +10704,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "rpiasecki@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWC94--Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWC94--Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj_NHGCww",
@@ -10720,7 +10720,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "e.dunne@anantara-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj_NHGCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj_NHGCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCww",
@@ -10736,7 +10736,7 @@ const AMPLIFY_DATA = {
       "brand": "Andaz",
       "group": "Hyatt Hotels & Resorts",
       "email": "lenka.fabian@andaz.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSBCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCQw",
@@ -10752,7 +10752,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCQw",
@@ -10768,7 +10768,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mweinsoft@aquaexpeditions.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCAw",
@@ -10784,7 +10784,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCww",
@@ -10800,7 +10800,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXogYCrCAw",
@@ -10816,7 +10816,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dmiller@alhi.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXogYCrCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXogYCrCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cww",
@@ -10832,7 +10832,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "anthony@atlasoceanvoyages.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCgw",
@@ -10848,7 +10848,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT6CAw",
@@ -10864,7 +10864,7 @@ const AMPLIFY_DATA = {
       "brand": "Auberge",
       "group": "Auberge Resorts Collection",
       "email": "sam.mcdiarmid@aubergeresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT6CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JT6CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCAw",
@@ -10880,7 +10880,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "nicole.wilms@aubergedujeudepaume.fr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCgw",
@@ -10896,7 +10896,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCAw",
@@ -10912,7 +10912,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCww",
@@ -10928,7 +10928,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXQjPekCgw",
@@ -10944,7 +10944,7 @@ const AMPLIFY_DATA = {
       "brand": "Awasi",
       "group": "Awasi",
       "email": "lcruz@awasi.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXQjPekCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXQjPekCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCww",
@@ -10960,7 +10960,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kmills@azamara.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTGCQw",
@@ -10976,7 +10976,7 @@ const AMPLIFY_DATA = {
       "brand": "Baglioni",
       "group": "Palace Resorts",
       "email": "jkrueger@thepalacecompany.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTGCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTGCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCQw",
@@ -10992,7 +10992,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "p.balce@banwaprivateisland.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSRCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTmCgw",
@@ -11008,7 +11008,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "adil.khan@groupbanyan.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTmCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTmCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCAw",
@@ -11024,7 +11024,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "nohemi.chavarin@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCAw",
@@ -11040,7 +11040,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2Cgw",
@@ -11056,7 +11056,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "linda.schilling@groupbanyan.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTBCgw",
@@ -11072,7 +11072,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "sari.arab@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTBCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTBCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCQw",
@@ -11088,7 +11088,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "Manuel.Leal@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTWCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTOCAw",
@@ -11104,7 +11104,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "craig.mcmahon@banyantree.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTOCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTOCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCww",
@@ -11120,7 +11120,7 @@ const AMPLIFY_DATA = {
       "brand": "Banyan Tree",
       "group": "Banyan Group",
       "email": "bahae.hadri@groupbanyan.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCgw",
@@ -11136,7 +11136,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCww",
@@ -11152,7 +11152,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "joana.bornia@bardessono.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JShCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXorbqdCQw",
@@ -11168,7 +11168,7 @@ const AMPLIFY_DATA = {
       "brand": "Barriere Hotel Group",
       "group": "Barriere Hotel Group",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXorbqdCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXorbqdCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTeCQw",
@@ -11184,7 +11184,7 @@ const AMPLIFY_DATA = {
       "brand": "Belmond",
       "group": "Belmond Ltd",
       "email": "thomas.alderink@belmond.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTeCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTeCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCQw",
@@ -11200,7 +11200,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCAw",
@@ -11216,7 +11216,7 @@ const AMPLIFY_DATA = {
       "brand": "THE The Hospitality Experience",
       "group": "THE The Hospitality Experience",
       "email": "a.lollini@bdcresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSxCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTxCAw",
@@ -11232,7 +11232,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "apoon@bhh.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTxCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTxCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCww",
@@ -11248,7 +11248,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "shannon.byrne@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCww",
@@ -11264,7 +11264,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "Max.Tchanturia@bulgarihotels.co.uk",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCgw",
@@ -11280,7 +11280,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "giuseppe.barbieri@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG2Cww",
@@ -11296,7 +11296,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "salome.papuchon@bulgarihotels.fr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG2Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG2Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCgw",
@@ -11312,7 +11312,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "almudena.rodriguezserrano@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGWCgw",
@@ -11328,7 +11328,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "Shannon.byrne@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGWCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCQw",
@@ -11344,7 +11344,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "Kentaro.Kunisada@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHiCQw",
@@ -11360,7 +11360,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "fabio.peloia@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHiCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHiCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCAw",
@@ -11376,7 +11376,7 @@ const AMPLIFY_DATA = {
       "brand": "Bulgari",
       "group": "Marriott International",
       "email": "Jill.Plattner@bulgarihotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGKCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGCCQw",
@@ -11392,7 +11392,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "benjamin@cervo.swiss",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGCCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGCCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4CQw",
@@ -11408,7 +11408,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "annalisa.guidi@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qQCQw",
@@ -11424,7 +11424,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "annalisa.guidi@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qQCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qQCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCgw",
@@ -11440,7 +11440,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "elio.lopez@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cww",
@@ -11456,7 +11456,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "verenaisi.moimoi@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66q_Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCQw",
@@ -11472,7 +11472,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "Josefine.norrman@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qYCQw",
@@ -11488,7 +11488,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "jessica.sarkin@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qYCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qYCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4Cgw",
@@ -11504,7 +11504,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "birgit.albicker@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-r4Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66qvCgw",
@@ -11520,7 +11520,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "gabi.vincent@comohotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66qvCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66qvCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qoCQw",
@@ -11536,7 +11536,7 @@ const AMPLIFY_DATA = {
       "brand": "COMO",
       "group": "COMO",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qoCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qoCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCww",
@@ -11552,7 +11552,7 @@ const AMPLIFY_DATA = {
       "brand": "Relais & Chateaux",
       "group": "Relais & Chateaux",
       "email": "flavia.curci@caesar-augustus.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXEn8mjCQw",
@@ -11568,7 +11568,7 @@ const AMPLIFY_DATA = {
       "brand": "Canyon Ranch",
       "group": "Canyon Ranch",
       "email": "liaquez@canyonranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXEn8mjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXEn8mjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCww",
@@ -11584,7 +11584,7 @@ const AMPLIFY_DATA = {
       "brand": "Canyon Ranch",
       "group": "Canyon Ranch",
       "email": "mcasas@canyonranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCAw",
@@ -11600,7 +11600,7 @@ const AMPLIFY_DATA = {
       "brand": "Canyon Ranch",
       "group": "Canyon Ranch",
       "email": "mcasas@canyonranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHqCgw",
@@ -11616,7 +11616,7 @@ const AMPLIFY_DATA = {
       "brand": "Canyon Ranch",
       "group": "Canyon Ranch",
       "email": "mcasas@canyonranch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHqCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHqCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cww",
@@ -11632,7 +11632,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCgw",
@@ -11648,7 +11648,7 @@ const AMPLIFY_DATA = {
       "brand": "Capella",
       "group": "Capella",
       "email": "Jessica.Koh@capellahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCQw",
@@ -11664,7 +11664,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mario.petraroli@shedircollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGaCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCww",
@@ -11680,7 +11680,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCww",
@@ -11696,7 +11696,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "christy@definemarketing.com, krichard@carnerosresort.com, kzadnik@carnerosresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCww",
@@ -11712,7 +11712,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mcampagnone@carnival.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCgw",
@@ -11728,7 +11728,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "Laura.Osiride@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCgw",
@@ -11744,7 +11744,7 @@ const AMPLIFY_DATA = {
       "brand": "Casa Cipriani",
       "group": "Cipriani",
       "email": "jmarchini@cipriani.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCAw",
@@ -11760,7 +11760,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "emanuela.carosso@casadilanga.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHyCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCww",
@@ -11776,7 +11776,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "eohalloran@castlemartyrresort.ie",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGmCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCww",
@@ -11792,7 +11792,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "amiller@celebrity.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCQw",
@@ -11808,7 +11808,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGGCww",
@@ -11824,7 +11824,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "benjamin.leclerc@fonscolombe.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGGCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGGCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCAw",
@@ -11840,7 +11840,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "amanda.soto@claremontresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rPCAw",
@@ -11856,7 +11856,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dennis.bordkovych@laprairie.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rPCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rPCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rICgw",
@@ -11872,7 +11872,7 @@ const AMPLIFY_DATA = {
       "brand": "Conrad",
       "group": "Hilton Hotels & Resorts",
       "email": "garry.perotin@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rICgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-rICgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCww",
@@ -11888,7 +11888,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCgw",
@@ -11904,7 +11904,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCww",
@@ -11920,7 +11920,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "cgirard@crystalcruises.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCQw",
@@ -11936,7 +11936,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCQw",
@@ -11952,7 +11952,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCww",
@@ -11968,7 +11968,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "michael.foley@kerzner.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rfCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWIyOyHCQw",
@@ -11984,7 +11984,7 @@ const AMPLIFY_DATA = {
       "brand": "Diplomat Collection",
       "group": "Diplomat Collection",
       "email": "Filippa.Henningsson@thediplomatcollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWIyOyHCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWIyOyHCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCQw",
@@ -12000,7 +12000,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "cassie.potter@disney.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCAw",
@@ -12016,7 +12016,7 @@ const AMPLIFY_DATA = {
       "brand": "Dorchester Collection",
       "group": "Dorchester Collection",
       "email": "caroline.wilson-kent@dorchestercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JanCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCgw",
@@ -12032,7 +12032,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCQw",
@@ -12048,7 +12048,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "partners@dwarikas.com, sandra.farrell@r-recommends.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4Cww",
@@ -12064,7 +12064,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sales.usa@ecoventura.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCAw",
@@ -12080,7 +12080,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCww",
@@ -12096,7 +12096,7 @@ const AMPLIFY_DATA = {
       "brand": "Relais & Chateaux",
       "group": "Relais & Chateaux",
       "email": "marvin.zuniga@elsilenciolodge.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCQw",
@@ -12112,7 +12112,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCAw",
@@ -12128,7 +12128,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCww",
@@ -12144,7 +12144,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "Emerging Destinations",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-dCgw",
@@ -12160,7 +12160,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "katie.button@emporiumhotels.com.au",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-dCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-dCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCQw",
@@ -12176,7 +12176,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCww",
@@ -12192,7 +12192,7 @@ const AMPLIFY_DATA = {
       "brand": "Tanzerra Resorts",
       "group": "Tanzerra Resorts",
       "email": "gianna.goudreau@enchantmentresort.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCAw",
@@ -12208,7 +12208,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "allison.farrell@explorajourneys.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCgw",
@@ -12224,7 +12224,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "amvarela@explora.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-TCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9CQw",
@@ -12240,7 +12240,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "ana.ramirez@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCQw",
@@ -12256,7 +12256,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Maureen.wanja@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_jCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWMsefJCww",
@@ -12272,7 +12272,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "",
       "email": "Isabelle.FREMONT@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWMsefJCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWMsefJCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-jCww",
@@ -12288,7 +12288,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Maureen.wanja@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-jCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-jCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-NCAw",
@@ -12304,7 +12304,7 @@ const AMPLIFY_DATA = {
       "brand": "Fairmont",
       "group": "Accor",
       "email": "Elizabeth.Bonomo@Fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-NCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-NCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y2HCQw",
@@ -12320,7 +12320,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "karen.corburn@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y2HCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y2HCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3XCAw",
@@ -12336,7 +12336,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3XCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3XCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fiCQw",
@@ -12352,7 +12352,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "elodie.choquet@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fiCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fiCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f0Cww",
@@ -12368,7 +12368,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "Hunter.Swindle@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f0Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f0Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCgw",
@@ -12384,7 +12384,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Phonan@fsyflorida.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCgw",
@@ -12400,7 +12400,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCQw",
@@ -12416,7 +12416,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYpPWoCQw",
@@ -12432,7 +12432,7 @@ const AMPLIFY_DATA = {
       "brand": "Gaylord Hotels",
       "group": "",
       "email": "Karen.Wilson-Torres@gaylordhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYpPWoCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYpPWoCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCww",
@@ -12448,7 +12448,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f8CAw",
@@ -12464,7 +12464,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sales@ghf.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f8CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-f8CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWU7LHZCAw",
@@ -12480,7 +12480,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "d.moresi@grandhotelflora.net",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWU7LHZCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWU7LHZCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCn4DNCQw",
@@ -12496,7 +12496,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "bbilir@grandhoteletdemilan.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCn4DNCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCn4DNCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7Cgw",
@@ -12512,7 +12512,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jonas.schneider@resortragaz.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCgw",
@@ -12528,7 +12528,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "adougans@alexanderhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTbCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSLCQw",
@@ -12544,7 +12544,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sales@palace.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSLCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSLCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCww",
@@ -12560,7 +12560,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCAw",
@@ -12576,7 +12576,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCww",
@@ -12592,7 +12592,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCQw",
@@ -12608,7 +12608,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXwi92OCww",
@@ -12624,7 +12624,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton Hotels & Resorts",
       "email": "Joanne.Dirksz@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXwi92OCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXwi92OCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCAw",
@@ -12640,7 +12640,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton Hotels & Resorts",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSXCgw",
@@ -12656,7 +12656,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton Hotels & Resorts",
       "email": "mary.mayes@hilton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSXCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSXCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCQw",
@@ -12672,7 +12672,7 @@ const AMPLIFY_DATA = {
       "brand": "Hilton",
       "group": "Hilton Hotels & Resorts",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCgw",
@@ -12688,7 +12688,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kperrine@hollandamerica.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCQw",
@@ -12704,7 +12704,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mfuentes@hotelawa.cl",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT9CQw",
@@ -12720,7 +12720,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "pablo.alonso@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT9CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oT9CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCgw",
@@ -12736,7 +12736,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4CQw",
@@ -12752,7 +12752,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "pauline@paulinederamond.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LX4CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGtCgw",
@@ -12768,7 +12768,7 @@ const AMPLIFY_DATA = {
       "brand": "Autograph Collection",
       "group": "Marriott International",
       "email": "jtorres@enjoygroup.net",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGtCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGtCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCww",
@@ -12784,7 +12784,7 @@ const AMPLIFY_DATA = {
       "brand": "Bunkhouse",
       "group": "Hyatt Hotels & Resorts",
       "email": "edwin.machado@bunkhousegroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4-4-XCgw",
@@ -12800,7 +12800,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "amity.flanders@hotelvanzandt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4-4-XCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW4-4-XCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCQw",
@@ -12816,7 +12816,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "linn.wilson@hurtigruten.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCww",
@@ -12832,7 +12832,7 @@ const AMPLIFY_DATA = {
       "brand": "Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "sydney.asensio@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCww",
@@ -12848,7 +12848,7 @@ const AMPLIFY_DATA = {
       "brand": "Hyatt Regency",
       "group": "Hyatt Hotels & Resorts",
       "email": "jamie.wylie@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbHCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCgw",
@@ -12864,7 +12864,7 @@ const AMPLIFY_DATA = {
       "brand": "Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3Cww",
@@ -12880,7 +12880,7 @@ const AMPLIFY_DATA = {
       "brand": "Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_NCww",
@@ -12896,7 +12896,7 @@ const AMPLIFY_DATA = {
       "brand": "Aman",
       "group": "Aman",
       "email": "jvargas@aman.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_NCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_NCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCQw",
@@ -12912,7 +12912,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "cristian.toledo@jumeirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-pCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCAw",
@@ -12928,7 +12928,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "cristian.toledo@jumeirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-xCAw",
@@ -12944,7 +12944,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-xCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-xCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-JCgw",
@@ -12960,7 +12960,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "suzanne.strubbe@jumeirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-JCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-JCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCww",
@@ -12976,7 +12976,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "aaidha.majdhy@jumeirah.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCAw",
@@ -12992,7 +12992,7 @@ const AMPLIFY_DATA = {
       "brand": "Jumeirah",
       "group": "Jumeirah Group",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCAw",
@@ -13008,7 +13008,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK49KtCQw",
@@ -13024,7 +13024,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "e.papageorgiou@katikies.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK49KtCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK49KtCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOUCgw",
@@ -13040,7 +13040,7 @@ const AMPLIFY_DATA = {
       "brand": "Kimpton",
       "group": "IHG Hotels & Resorts",
       "email": "sunfill.li@ihg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOUCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOUCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_ZCgw",
@@ -13056,7 +13056,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "gertrud.schneider@kristiania.at",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_ZCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_ZCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-dCAw",
@@ -13072,7 +13072,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "diana.toniolo@terramoretti.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-dCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-dCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5CQw",
@@ -13088,7 +13088,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "diana.toniolo@terramoretti.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_5CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCww",
@@ -13104,7 +13104,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dtobon@hotelxcaret.com,dortegam@hotelxcaret.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-tCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCww",
@@ -13120,7 +13120,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbbCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCww",
@@ -13136,7 +13136,7 @@ const AMPLIFY_DATA = {
       "brand": "Opal Collection",
       "group": "Opal Collection",
       "email": "cbradway@lakeplacidlodge.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCww",
@@ -13152,7 +13152,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dave@moanamarketing.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCww",
@@ -13168,7 +13168,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCgw",
@@ -13184,7 +13184,7 @@ const AMPLIFY_DATA = {
       "brand": "Lotte",
       "group": "Lotte",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCww",
@@ -13200,7 +13200,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCQw",
@@ -13216,7 +13216,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sara.hamiltonmoran@msccruisesusa.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCgw",
@@ -13232,7 +13232,7 @@ const AMPLIFY_DATA = {
       "brand": "Accor - Ennismore",
       "group": "Accor",
       "email": "lynn.heng@mamashelter.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjUCww",
@@ -13248,7 +13248,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "jfreire@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCAw",
@@ -13264,7 +13264,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "etseli@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCww",
@@ -13280,7 +13280,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "sduggan@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCgw",
@@ -13296,7 +13296,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiSCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCQw",
@@ -13312,7 +13312,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbTCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCgw",
@@ -13328,7 +13328,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCww",
@@ -13344,7 +13344,7 @@ const AMPLIFY_DATA = {
       "brand": "Marriott International",
       "group": "Marriott International",
       "email": "lori.lauman@marriottluxurybrands.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbXCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CAw",
@@ -13360,7 +13360,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Andreia.Amyradakis@mayfairhousemiami.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCQw",
@@ -13376,7 +13376,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "alejandra.contreras@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jZCQw",
@@ -13392,7 +13392,7 @@ const AMPLIFY_DATA = {
       "brand": "Tanzerra Resorts",
       "group": "Tanzerra Resorts",
       "email": "gianna.goudreau@miiamo.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jZCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jZCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCAw",
@@ -13408,7 +13408,7 @@ const AMPLIFY_DATA = {
       "brand": "Minor Hotels",
       "group": "Minor Hotels",
       "email": "lsamarasinghe@minor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cgw",
@@ -13424,7 +13424,7 @@ const AMPLIFY_DATA = {
       "brand": "Miraval",
       "group": "Hyatt Hotels & Resorts",
       "email": "susie.klein@miravalresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCQw",
@@ -13440,7 +13440,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jlCQw",
@@ -13456,7 +13456,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "reservations@monacidelleterrenere.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jlCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jlCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CAw",
@@ -13472,7 +13472,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "Brea.Strager@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw",
@@ -13488,7 +13488,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "Shawna.Gage@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jVCQw",
@@ -13504,7 +13504,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "Daniel.Strawn@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jVCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jVCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jtCAw",
@@ -13520,7 +13520,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "Roger.Bright@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jtCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jtCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCAw",
@@ -13536,7 +13536,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "cataline.richmond@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jjCQw",
@@ -13552,7 +13552,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "maria.bader@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCQw",
@@ -13568,7 +13568,7 @@ const AMPLIFY_DATA = {
       "brand": "Montage",
       "group": "Montage International",
       "email": "Lydia.Redmond@montage.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCgw",
@@ -13584,7 +13584,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "travel@monteverdituscany.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCgw",
@@ -13600,7 +13600,7 @@ const AMPLIFY_DATA = {
       "brand": "Autograph Collection",
       "group": "Marriott International",
       "email": "lbriscoe@mountjuliet.ie",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cww",
@@ -13616,7 +13616,7 @@ const AMPLIFY_DATA = {
       "brand": "Belmond",
       "group": "Belmond Ltd",
       "email": "victoria.hut@belmond.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCww",
@@ -13632,7 +13632,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCgw",
@@ -13648,7 +13648,7 @@ const AMPLIFY_DATA = {
       "brand": "Nizuc",
       "group": "Grupo Brisas",
       "email": "cynthia.lopez@nizuc.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ijCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCAw",
@@ -13664,7 +13664,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "LesaB@expeditions.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCQw",
@@ -13680,7 +13680,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "kimberly.giblin@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXg7Y3zCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jpCAw",
@@ -13696,7 +13696,7 @@ const AMPLIFY_DATA = {
       "brand": "Nobu - AIC",
       "group": "AIC Hotel Group",
       "email": "jarauz@nobuhotelchicago.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jpCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jpCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cgw",
@@ -13712,7 +13712,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCgw",
@@ -13728,7 +13728,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "rsims@ncl.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCww",
@@ -13744,7 +13744,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9CAw",
@@ -13760,7 +13760,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "lindsey@destinationsofdistinction.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CAw",
@@ -13776,7 +13776,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "gcajas@oceaniacruises.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCAw",
@@ -13792,7 +13792,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMndCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-joTTCww",
@@ -13808,7 +13808,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "m.oostwegel@oostwegelcollection.nl",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-joTTCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-joTTCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8m5zUCww",
@@ -13824,7 +13824,7 @@ const AMPLIFY_DATA = {
       "brand": "Orient Express",
       "group": "Accor",
       "email": "Markus.Tscherner@accor.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8m5zUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW8m5zUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOtCQw",
@@ -13840,7 +13840,7 @@ const AMPLIFY_DATA = {
       "brand": "Habitas",
       "group": "Habitas",
       "email": "annie.turnell@ourhabitas.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOtCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOtCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCQw",
@@ -13856,7 +13856,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "dwoods@ponant.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePbCgw",
@@ -13872,7 +13872,7 @@ const AMPLIFY_DATA = {
       "brand": "Oetker Hotels",
       "group": "Oetker Hotels",
       "email": "silvio.araujo@oetkercollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePbCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePbCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWkCQw",
@@ -13888,7 +13888,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "i.ramini@palazzotalia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWkCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWkCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCAw",
@@ -13904,7 +13904,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CAw",
@@ -13920,7 +13920,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWRno-dCgw",
@@ -13936,7 +13936,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt",
       "email": "suzanne.shalaby@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWRno-dCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWRno-dCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePjCQw",
@@ -13952,7 +13952,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "rachael.brown@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePjCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePjCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO1CQw",
@@ -13968,7 +13968,7 @@ const AMPLIFY_DATA = {
       "brand": "Park Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "priscillaxiaofan.zhang@hyatt.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO1CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO1CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCAw",
@@ -13984,7 +13984,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCQw",
@@ -14000,7 +14000,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "Jeff.Seidel@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCgw",
@@ -14016,7 +14016,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "James.Winning@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCgw",
@@ -14032,7 +14032,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "Erin.Knott@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXqCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW6CAw",
@@ -14048,7 +14048,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "kathy.goodarzi@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW6CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW6CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CQw",
@@ -14064,7 +14064,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "Devra.Glynn@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCgw",
@@ -14080,7 +14080,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "tamara.shelton@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWCCgw",
@@ -14096,7 +14096,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "peter.schratz@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWCCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWCCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCww",
@@ -14112,7 +14112,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaHCQw",
@@ -14128,7 +14128,7 @@ const AMPLIFY_DATA = {
       "brand": "Playa Resorts",
       "group": "Playa Hotels & Resorts N.V.",
       "email": "Dan.Jimenez@playaresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaHCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaHCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCAw",
@@ -14144,7 +14144,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCAw",
@@ -14160,7 +14160,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCAw",
@@ -14176,7 +14176,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "heather.williams@aubergeresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCgw",
@@ -14192,7 +14192,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kcarideo@princesscruises.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cww",
@@ -14208,7 +14208,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Randolph.TenEyck@quarkexpeditions.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCAw",
@@ -14224,7 +14224,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "Isabel.GARCIA@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXiCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXWCgw",
@@ -14240,7 +14240,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "Isabel.GARCIA@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXWCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWiCAw",
@@ -14256,7 +14256,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "tanmay.choudhary@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWiCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWiCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX8Cww",
@@ -14272,7 +14272,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "eugene.tamesis@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXmCQw",
@@ -14288,7 +14288,7 @@ const AMPLIFY_DATA = {
       "brand": "Raffles",
       "group": "Accor",
       "email": "Reshu.Tyagi@raffles.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXmCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXmCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCQw",
@@ -14304,7 +14304,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "eschmit@rssc.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCww",
@@ -14320,7 +14320,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "willie@rentalescapes.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXyCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CQw",
@@ -14336,7 +14336,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Ray.Huynh@ritz-carltonyachtcollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCQw",
@@ -14352,7 +14352,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbLCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCgw",
@@ -14368,7 +14368,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCww",
@@ -14384,7 +14384,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "lily@roundhill.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCQw",
@@ -14400,7 +14400,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "diegovelez@rccl.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnbCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jvCww",
@@ -14416,7 +14416,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "grant@royaldavuifiji.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jvCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jvCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cgw",
@@ -14432,7 +14432,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCQw",
@@ -14448,7 +14448,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "abp@shawellness.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSBCgw",
@@ -14464,7 +14464,7 @@ const AMPLIFY_DATA = {
       "brand": "SLS",
       "group": "Accor",
       "email": "Vanessa.GARCIA@slshotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSBCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSBCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCgw",
@@ -14480,7 +14480,7 @@ const AMPLIFY_DATA = {
       "brand": "SLS",
       "group": "Accor",
       "email": "cynthia.sosa@slshotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCgw",
@@ -14496,7 +14496,7 @@ const AMPLIFY_DATA = {
       "brand": "SLS",
       "group": "Accor",
       "email": "sinan.bozkurt@slshotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCAw",
@@ -14512,7 +14512,7 @@ const AMPLIFY_DATA = {
       "brand": "Pendry",
       "group": "Montage International",
       "email": "peter.schratz@pendry.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCAw",
@@ -14528,7 +14528,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "anne@salthotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rFCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3CAw",
@@ -14544,7 +14544,7 @@ const AMPLIFY_DATA = {
       "brand": "Luxury Collection",
       "group": "Marriott",
       "email": "Dan.Jimenez@playaresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb3CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCgw",
@@ -14560,7 +14560,7 @@ const AMPLIFY_DATA = {
       "brand": "MGallery",
       "group": "Accor",
       "email": "david.constancio@fairmont.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iQCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCww",
@@ -14576,7 +14576,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnNCww",
@@ -14592,7 +14592,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Derrick.Strother@scenicusa.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnNCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnNCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCAw",
@@ -14608,7 +14608,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmTCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCAw",
@@ -14624,7 +14624,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnzCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCAw",
@@ -14640,7 +14640,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "ldeperro@seadream.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCgw",
@@ -14656,7 +14656,7 @@ const AMPLIFY_DATA = {
       "brand": "Four Seasons",
       "group": "Four Seasons",
       "email": "Kristy.Daley@fourseasons.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ifCAw",
@@ -14672,7 +14672,7 @@ const AMPLIFY_DATA = {
       "brand": "Serras Collection",
       "group": "Serras Collection",
       "email": "mg@serrashotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ifCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ifCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCQw",
@@ -14688,7 +14688,7 @@ const AMPLIFY_DATA = {
       "brand": "Shangri-La",
       "group": "Shangri-La",
       "email": "gem.valmores@shangri-la.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jACQw",
@@ -14704,7 +14704,7 @@ const AMPLIFY_DATA = {
       "brand": "Shangri-La",
       "group": "Shangri-La",
       "email": "thomas.diaz@shangri-la.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICww",
@@ -14720,7 +14720,7 @@ const AMPLIFY_DATA = {
       "brand": "Shangri-La",
       "group": "Shangri-La",
       "email": "Andrew.Hau@shangri-la.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iICww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cgw",
@@ -14736,7 +14736,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jennifert@silversea.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCAw",
@@ -14752,7 +14752,7 @@ const AMPLIFY_DATA = {
       "brand": "Kempinski",
       "group": "Kempinski",
       "email": "kornchuma.udomphan@kempinski.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iPCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCQw",
@@ -14768,7 +14768,7 @@ const AMPLIFY_DATA = {
       "brand": "Singita",
       "group": "Singita",
       "email": "Kristy.a@singita.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j_Cww",
@@ -14784,7 +14784,7 @@ const AMPLIFY_DATA = {
       "brand": "Singita",
       "group": "Singita",
       "email": "Rachel.m@singita.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j_Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j_Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCQw",
@@ -14800,7 +14800,7 @@ const AMPLIFY_DATA = {
       "brand": "Singita",
       "group": "Singita",
       "email": "Rachel.m@singita.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jwCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCAw",
@@ -14816,7 +14816,7 @@ const AMPLIFY_DATA = {
       "brand": "Singita",
       "group": "Singita",
       "email": "Rachel.m@singita.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jQCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCgw",
@@ -14832,7 +14832,7 @@ const AMPLIFY_DATA = {
       "brand": "Singita",
       "group": "Singita",
       "email": "Rachel.m@singita.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-jnCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCgw",
@@ -14848,7 +14848,7 @@ const AMPLIFY_DATA = {
       "brand": "Siro",
       "group": "Kerzner International",
       "email": "jeff.tseng@babalshams.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCww",
@@ -14864,7 +14864,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6Cgw",
@@ -14880,7 +14880,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "nilka.sanchez@sofitel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCAw",
@@ -14896,7 +14896,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "jason.zhang@sofitel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTRCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCAw",
@@ -14912,7 +14912,7 @@ const AMPLIFY_DATA = {
       "brand": "Sofitel",
       "group": "Accor",
       "email": "paul.andarakis@sofitel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6CAw",
@@ -14928,7 +14928,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "ccofelice@sonnenalp.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS6CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCww",
@@ -14944,7 +14944,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCww",
@@ -14960,7 +14960,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "christy.connolly@viceroy.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qNCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eT2Cww",
@@ -14976,7 +14976,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "reservations@stnicolasbay.gr",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eT2Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eT2Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCQw",
@@ -14992,7 +14992,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmbCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCAw",
@@ -15008,7 +15008,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eShCww",
@@ -15024,7 +15024,7 @@ const AMPLIFY_DATA = {
       "brand": "Viceroy",
       "group": "Viceroy",
       "email": "christy.connolly@viceroyhotelsandresorts.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eShCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eShCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSOCAw",
@@ -15040,7 +15040,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "ventas@sbuniquestays.ar",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSOCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSOCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCgw",
@@ -15056,7 +15056,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOYCww",
@@ -15072,7 +15072,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Tracy.Bi@THotel.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOYCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOYCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCgw",
@@ -15088,7 +15088,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnrCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCAw",
@@ -15104,7 +15104,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "pmisarova@marbellaclub.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTmCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCgw",
@@ -15120,7 +15120,7 @@ const AMPLIFY_DATA = {
       "brand": "Unbound Collection",
       "group": "Hyatt Hotels & Resorts",
       "email": "sarah.banks@thechatwallodge.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-MCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_cCgw",
@@ -15136,7 +15136,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mweinstein@thecolonypalmbeach.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_cCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_cCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCAw",
@@ -15152,7 +15152,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jurbancic@dewberryhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8CQw",
@@ -15168,7 +15168,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "anass.batale@dolderhotelag.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8Cww",
@@ -15184,7 +15184,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "diana@thefifearms.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_MCQw",
@@ -15200,7 +15200,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "cgrindstaff@seapines.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_MCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_MCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-SCAw",
@@ -15216,7 +15216,7 @@ const AMPLIFY_DATA = {
       "brand": "Mandarin Oriental",
       "group": "Mandarin Oriental",
       "email": "amyng@mohg.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-SCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-SCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCQw",
@@ -15232,7 +15232,7 @@ const AMPLIFY_DATA = {
       "brand": "Langham",
       "group": "Langham",
       "email": "jayson.heron-smith@langhamhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4_SCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCQw",
@@ -15248,7 +15248,7 @@ const AMPLIFY_DATA = {
       "brand": "Destination by Hyatt",
       "group": "Hyatt Hotels & Resorts",
       "email": "Beth.allen@destinationhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NybCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyfCAw",
@@ -15264,7 +15264,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "jmanzione@thelodgeatwoodloch.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyfCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyfCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCAw",
@@ -15280,7 +15280,7 @@ const AMPLIFY_DATA = {
       "brand": "Baillie Lodges",
       "group": "Baillie Lodges",
       "email": "libby@baillielodges.com.au",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCAw",
@@ -15296,7 +15296,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnTCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny3CAw",
@@ -15312,7 +15312,7 @@ const AMPLIFY_DATA = {
       "brand": "Hartling",
       "group": "Hartling Group",
       "email": "claudia.monero@hartlinggroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny3CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Ny3CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCAw",
@@ -15328,7 +15328,7 @@ const AMPLIFY_DATA = {
       "brand": "Peninsula",
       "group": "Peninsula",
       "email": "darleneadams@peninsula.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CAw",
@@ -15344,7 +15344,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "kujithaperera@theprinceakatokilondon.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCww",
@@ -15360,7 +15360,7 @@ const AMPLIFY_DATA = {
       "brand": "Atlantis Bahamas",
       "group": "Atlantis Bahamas",
       "email": "megan.prieto@atlantisparadise.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzbCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzLCww",
@@ -15376,7 +15376,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Antje.Heinz@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzLCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzLCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cgw",
@@ -15392,7 +15392,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "Amna.Maqbool@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WYCAw",
@@ -15408,7 +15408,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WYCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WYCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCgw",
@@ -15424,7 +15424,7 @@ const AMPLIFY_DATA = {
       "brand": "Ritz-Carlton",
       "group": "Marriott International",
       "email": "reece.vanasse@ritzcarlton.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACww",
@@ -15440,7 +15440,7 @@ const AMPLIFY_DATA = {
       "brand": "Anantara",
       "group": "Minor Hotels",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCww",
@@ -15456,7 +15456,7 @@ const AMPLIFY_DATA = {
       "brand": "Emerging Destinations",
       "group": "",
       "email": "ana@emergingdestinations.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCww",
@@ -15472,7 +15472,7 @@ const AMPLIFY_DATA = {
       "brand": "Hartling",
       "group": "Hartling Group",
       "email": "claudia.monero@hartlinggroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCgw",
@@ -15488,7 +15488,7 @@ const AMPLIFY_DATA = {
       "brand": "Royal Portfolio",
       "group": "Royal Portfolio",
       "email": "werner@trp.travel",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XwCww",
@@ -15504,7 +15504,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "sol.nieves@stregis.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XwCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XwCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACQw",
@@ -15520,7 +15520,7 @@ const AMPLIFY_DATA = {
       "brand": "St. Regis",
       "group": "Marriott International",
       "email": "mohammed.rihan@marriott.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XACQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCgw",
@@ -15536,7 +15536,7 @@ const AMPLIFY_DATA = {
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "diego.gutierrez@editionhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCgw",
@@ -15552,7 +15552,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "Sheree.Oats@thompsonhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOCCww",
@@ -15568,7 +15568,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "david.gibson@thompsonhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOCCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOCCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOMCww",
@@ -15584,7 +15584,7 @@ const AMPLIFY_DATA = {
       "brand": "Thompson",
       "group": "Hyatt Hotels & Resorts",
       "email": "paloma.navarro@thompsonhotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOMCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOMCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8CAw",
@@ -15600,7 +15600,7 @@ const AMPLIFY_DATA = {
       "brand": "Tierra",
       "group": "Tierra Group",
       "email": "n.russ@tierrahotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOUCww",
@@ -15616,7 +15616,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "yvonne@tintswalo.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOUCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOUCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOcCgw",
@@ -15632,7 +15632,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sascha@dutchfieldllc.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOcCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOcCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPSCQw",
@@ -15648,7 +15648,7 @@ const AMPLIFY_DATA = {
       "brand": "Tanzerra Resorts",
       "group": "Tanzerra Resorts",
       "email": "john@twinfarms.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPSCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPSCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CAw",
@@ -15664,7 +15664,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMn9CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCgw",
@@ -15680,7 +15680,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "chris.mastrota@uniworld.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmjCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CAw",
@@ -15696,7 +15696,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm7CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYkJz2Cgw",
@@ -15712,7 +15712,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "mlopez@vestigecollection.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYkJz2Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYkJz2Cgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CAw",
@@ -15728,7 +15728,7 @@ const AMPLIFY_DATA = {
       "brand": "Viceroy",
       "group": "Viceroy",
       "email": "lorrianne.mesina@viceroy.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO4CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCQw",
@@ -15744,7 +15744,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "amanda@a2bmarketing.net",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOsCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCQw",
@@ -15760,7 +15760,7 @@ const AMPLIFY_DATA = {
       "brand": "Accor",
       "group": "Accor",
       "email": "jf.silva@anantara-hotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPkCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCgw",
@@ -15776,7 +15776,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmtCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCgw",
@@ -15792,7 +15792,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnDCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCgw",
@@ -15808,7 +15808,7 @@ const AMPLIFY_DATA = {
       "brand": "Vik",
       "group": "Vik",
       "email": "jparapugna@vikretreats.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCQw",
@@ -15824,7 +15824,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "shannon.tiger@viking.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmzCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCAw",
@@ -15840,7 +15840,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "a.andreolli@aandbeyond.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPCCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCww",
@@ -15856,7 +15856,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sales@villafrancahotel.it",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8Cww",
@@ -15872,7 +15872,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "andrea.broggi@ticinohotelsgroup.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8Cww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoO8Cww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ29n8CAw",
@@ -15888,7 +15888,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ29n8CAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQ29n8CAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCgw",
@@ -15904,7 +15904,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "sabrina.newman@virginvoyages.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMntCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXolfefCQw",
@@ -15920,7 +15920,7 @@ const AMPLIFY_DATA = {
       "brand": "W Hotels",
       "group": "Marriott International",
       "email": "Andrea.Pendley@whotels.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXolfefCQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXolfefCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceeCww",
@@ -15936,7 +15936,7 @@ const AMPLIFY_DATA = {
       "brand": "Autograph Collection",
       "group": "Marriott International",
       "email": "c.leibenger@waldhaus-flims.ch",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceeCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceeCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CQw",
@@ -15952,7 +15952,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "Meg.Daly@windstarcruises.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CQw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCAw",
@@ -15968,7 +15968,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCAw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmLCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCww",
@@ -15984,7 +15984,7 @@ const AMPLIFY_DATA = {
       "brand": "",
       "group": "",
       "email": "",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCww"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmrCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9r5Cgw",
@@ -16000,7 +16000,7 @@ const AMPLIFY_DATA = {
       "brand": "Melia",
       "group": "Meli\u00e1",
       "email": "juanita.hernandez@melia.com",
-      "streakUrl": "https://app.streak.com/preview/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9r5Cgw"
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9r5Cgw"
     }
   ]
 };

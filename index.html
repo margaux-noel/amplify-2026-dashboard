@@ -226,6 +226,7 @@
       border: 1px solid var(--border);
       border-radius: 8px;
       font-size: 14px;
+      font-family: inherit;
       background: white;
       outline: none;
       transition: border-color 0.15s;
@@ -237,6 +238,7 @@
       border: 1px solid var(--border);
       border-radius: 8px;
       font-size: 13px;
+      font-family: inherit;
       background: white;
       color: var(--text);
       outline: none;
@@ -299,6 +301,7 @@
       border-radius: 10px;
       font-size: 22px;
       font-weight: 700;
+      font-family: inherit;
       color: var(--text);
       background: white;
       outline: none;
@@ -326,7 +329,7 @@
     .pkg-table th { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
     .pkg-table td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f0eeea; }
     .pkg-table tr:last-child td { border-bottom: none; }
-    .pkg-price-input { width: 90px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; text-align: right; outline: none; }
+    .pkg-price-input { width: 90px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; font-family: inherit; text-align: right; outline: none; }
     .pkg-price-input:focus { border-color: var(--gold); }
     .mini-progress { height: 6px; background: #f0eeea; border-radius: 3px; margin-top: 4px; overflow: hidden; }
     .mini-progress-fill { height: 100%; border-radius: 3px; background: var(--gold); }
@@ -1200,15 +1203,7 @@ function _expandDetail(rowEl, p) {
         <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
         <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
       </div>
-      ${(p.features||[]).length > 0 ? `
-        <div style="margin-top:12px;">
-          <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Deliverables</label>
-          <div class="feature-tags">${p.features.map(f => {
-            const name = typeof f === 'object' ? f.name : f;
-            const timing = typeof f === 'object' && f.timing ? f.timing : '';
-            return `<span class="badge badge-navy">${name}${timing ? `<span style="font-weight:400;opacity:0.75;"> · ${timing}</span>` : ''}</span>`;
-          }).join('')}</div>
-        </div>` : ''}`;
+      ${renderDeliverableSection(p)}`;
   }
   div.classList.toggle('open');
 }
@@ -1222,6 +1217,129 @@ function fmtGoalInput(el) {
   // Restore cursor roughly (shift by inserted commas)
   const diff = el.value.length - before;
   el.setSelectionRange(pos + diff, pos + diff);
+}
+
+// ── Deliverable view ─────────────────────────────────────────────
+const PACKAGE_DELIVERABLES = {
+  'Tier 1': [
+    { name: 'Collection',  label: 'Collection Inclusion', count: 1 },
+    { name: 'Newsletter',  label: 'Newsletter Feature',   count: 1 },
+    { name: 'Forum',       label: 'Forum Feature',        count: 1 },
+  ],
+  'Tier 2': [
+    { name: 'Collection',    label: 'Collection Inclusion', count: 2 },
+    { name: 'Newsletter',    label: 'Newsletter Feature',   count: 1 },
+    { name: 'Forum',         label: 'Forum Feature',        count: 2 },
+    { name: 'Advisor Assets',label: 'Advisor Assets',       count: 1 },
+  ],
+  'Brand Spotlight': [
+    { name: 'Collection',    label: 'Collection Feature',        count: 1 },
+    { name: 'Webinar',       label: 'Webinar',                   count: 1 },
+    { name: 'Advisor Assets',label: 'Advisor Assets',            count: 1 },
+    { name: 'Forum',         label: 'Live Forum Pre-Sale Access', count: 1 },
+  ],
+  'New Opening': [
+    { name: 'Collection',  label: 'Collection Feature',  count: 1 },
+    { name: 'Social Media',label: 'Social Media Feature', count: 1 },
+    { name: 'Forum',       label: 'Forum Post',           count: 1 },
+  ],
+};
+
+const _MONTHS = {
+  january:0, jan:0, february:1, feb:1, march:2, mar:2,
+  april:3, apr:3, may:4, june:5, jun:5, july:6, jul:6,
+  august:7, aug:7, september:8, sep:8, october:9, oct:9,
+  november:10, nov:10, december:11, dec:11,
+};
+
+function _parseDelivDate(str) {
+  if (!str) return null;
+  const s = str.toLowerCase();
+  for (const [name, idx] of Object.entries(_MONTHS)) {
+    if (s.includes(name)) {
+      const y = s.match(/\d{4}/);
+      return new Date(y ? +y[0] : 2026, idx, 1);
+    }
+  }
+  const q = s.match(/q([1-4])/);
+  if (q) {
+    const y = s.match(/\d{4}/);
+    return new Date(y ? +y[0] : 2026, (parseInt(q[1]) - 1) * 3, 1);
+  }
+  return null;
+}
+
+function _delivStatus(timing) {
+  if (!timing || !timing.trim()) return 'none';
+  const d = _parseDelivDate(timing);
+  if (!d) return 'upcoming'; // has a value but unrecognisable format — treat as planned
+  const now = new Date();
+  const past = d.getFullYear() * 12 + d.getMonth() < now.getFullYear() * 12 + now.getMonth();
+  return past ? 'completed' : 'upcoming';
+}
+
+function renderDeliverableSection(p) {
+  const expected = PACKAGE_DELIVERABLES[p.stage];
+
+  // No package definition — fall back to raw feature badges (pipeline stages etc.)
+  if (!expected) {
+    const feats = p.features || [];
+    if (!feats.length) return '';
+    return `<div style="margin-top:14px;">
+      <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Deliverables</label>
+      <div class="feature-tags" style="margin-top:6px;">${feats.map(f => {
+        const name   = typeof f === 'object' ? f.name : f;
+        const timing = typeof f === 'object' && f.timing ? f.timing : '';
+        return `<span class="badge badge-navy">${name}${timing ? `<span style="font-weight:400;opacity:0.75"> · ${timing}</span>` : ''}</span>`;
+      }).join('')}</div>
+    </div>`;
+  }
+
+  // Build lookup: feature name → [timing1, timing2, ...]
+  const lookup = {};
+  (p.features || []).forEach(f => {
+    const name = typeof f === 'object' ? f.name : f;
+    const raw  = typeof f === 'object' ? (f.timing || '') : '';
+    lookup[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+  });
+
+  const STATUS_BADGE = {
+    completed: `<span class="badge badge-green">✓ Completed</span>`,
+    upcoming:  `<span class="badge badge-amber">Upcoming</span>`,
+    none:      `<span class="badge badge-gray">Not yet planned</span>`,
+  };
+
+  let rows = '';
+  expected.forEach(d => {
+    const timings = lookup[d.name] || [];
+    for (let i = 0; i < d.count; i++) {
+      const t      = timings[i] || '';
+      const suffix = d.count > 1
+        ? ` <span style="color:var(--text-light);font-size:11px;font-weight:400;">(${i + 1} of ${d.count})</span>`
+        : '';
+      rows += `
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:9px 14px;font-size:13px;">${d.label}${suffix}</td>
+          <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">${t || '—'}</td>
+          <td style="padding:9px 14px;">${STATUS_BADGE[_delivStatus(t)]}</td>
+        </tr>`;
+    }
+  });
+
+  return `
+    <div style="margin-top:16px;">
+      <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);display:block;margin-bottom:8px;">Deliverables</label>
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr style="border-bottom:2px solid var(--border);">
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:45%;">Deliverable</th>
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:30%;">Scheduled</th>
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:25%;">Status</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
 }
 
 // ── Scenario Planner ────────────────────────────────────────────
