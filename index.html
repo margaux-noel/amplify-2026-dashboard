@@ -613,7 +613,7 @@
       <option value="In Kind Sponsorship">In Kind Sponsorship</option>
     </select>
     <select class="search-select" id="quarterFilter" onchange="filterPartners()">
-      <option value="">All Quarters</option>
+      <option value="">All Deliverable Quarters</option>
       <option value="Q1">Q1</option>
       <option value="Q2">Q2</option>
       <option value="Q3">Q3</option>
@@ -632,7 +632,7 @@
             <th class="sortable" onclick="sortPartners('stageKey')" id="sth-stageKey">Stage <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('price')" id="sth-price">Amount <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('invoiceStatus')" id="sth-invoiceStatus">Invoice Status <i class="sort-icon">↕</i></th>
-            <th>Quarter(s)</th>
+            <th>Deliverable Quarter(s)</th>
             <th class="sortable" onclick="sortPartners('country')" id="sth-country">Country <i class="sort-icon">↕</i></th>
             <th>Features</th>
             <th>Links</th>
@@ -1193,7 +1193,7 @@ function _expandDetail(rowEl, p) {
         <div class="detail-field"><label>Package Value</label><span>${p.price ? fmt(p.price) : '—'}</span></div>
         <div class="detail-field"><label>Invoice Status</label><span>${invoiceBadge(p.invoiceStatus)}</span></div>
         <div class="detail-field"><label>Country</label><span>${p.country || '—'}</span></div>
-        <div class="detail-field"><label>Quarter(s)</label><span>${(p.quarters||[]).length ? p.quarters.join(', ') : 'TBD'}</span></div>
+        <div class="detail-field"><label>Deliverable Quarter(s)</label><span>${(p.quarters||[]).length ? p.quarters.join(', ') : 'TBD'}</span></div>
         <div class="detail-field"><label>Brand</label><span>${p.brand || '—'}</span></div>
         <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
         <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
