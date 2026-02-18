@@ -186,6 +186,11 @@
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
     thead tr { border-bottom: 2px solid var(--border); }
     thead th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); white-space: nowrap; }
+    thead th.sortable { cursor: pointer; user-select: none; }
+    thead th.sortable:hover { color: var(--text); }
+    thead th.sort-active { color: var(--olive); }
+    .sort-icon { display: inline-block; margin-left: 4px; opacity: 0.35; font-style: normal; }
+    thead th.sort-active .sort-icon { opacity: 1; }
     tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
     tbody tr:hover { background: #fafaf8; cursor: pointer; }
     tbody td { padding: 11px 14px; color: var(--text); }
@@ -391,7 +396,7 @@
   <div class="acc-header" id="acc-hdr-glance" onclick="toggleSection('glance')">
     <div>
       <div class="acc-title">At a Glance</div>
-      <div class="acc-meta">Key numbers, revenue breakdown, and pipeline</div>
+      <div class="acc-meta">Key numbers, revenue breakdown, and pipeline.</div>
     </div>
     <div class="acc-chevron">▼</div>
   </div>
@@ -540,7 +545,7 @@
   <div class="acc-header" id="acc-hdr-partners" onclick="toggleSection('partners')">
     <div>
       <div class="acc-title">Partner Overview</div>
-      <div class="acc-meta">Geography, hotel groups, brands, and deliverables</div>
+      <div class="acc-meta">Geography, hotel groups, brands, and deliverables.</div>
     </div>
     <div class="acc-chevron">▼</div>
   </div>
@@ -623,12 +628,12 @@
       <table>
         <thead>
           <tr>
-            <th>Partner Name</th>
-            <th>Stage</th>
-            <th>Amount</th>
-            <th>Invoice Status</th>
+            <th class="sortable" onclick="sortPartners('name')" id="sth-name">Partner Name <i class="sort-icon">↕</i></th>
+            <th class="sortable" onclick="sortPartners('stageKey')" id="sth-stageKey">Stage <i class="sort-icon">↕</i></th>
+            <th class="sortable" onclick="sortPartners('price')" id="sth-price">Amount <i class="sort-icon">↕</i></th>
+            <th class="sortable" onclick="sortPartners('invoiceStatus')" id="sth-invoiceStatus">Invoice Status <i class="sort-icon">↕</i></th>
             <th>Quarter(s)</th>
-            <th>Country</th>
+            <th class="sortable" onclick="sortPartners('country')" id="sth-country">Country <i class="sort-icon">↕</i></th>
             <th>Features</th>
             <th>Links</th>
           </tr>
@@ -721,7 +726,7 @@
 <!-- ===== TEAM UPDATES ===== -->
 <div id="tab-team" class="section">
   <h2 class="section-title">Team Updates</h2>
-  <p class="section-subtitle">Program highlights and weekly notes. Use the notes field to add context before sharing.</p>
+  <p class="section-subtitle">Program highlights and a notes field to add context before sharing with the team.</p>
 
   <div class="updates-area">
     <h3>This Week's Highlights</h3>
@@ -1045,7 +1050,33 @@ function init() {
 
 // ── Partner Search (debounced + lazy detail rendering) ──────────
 let _searchTimer = null;
+let _sortCol = '';
+let _sortDir = 'asc';
 const _renderedDetails = new Set();
+
+const STAGE_ORDER = {'5014':0,'5015':1,'5016':2,'5017':3,'5007':4,'5011':5,'5004':6,'5001':7};
+
+function sortPartners(col) {
+  if (_sortCol === col) {
+    _sortDir = _sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    _sortCol = col;
+    _sortDir = col === 'price' ? 'desc' : 'asc';
+  }
+  // Update header highlight + icon
+  document.querySelectorAll('thead th.sortable').forEach(th => {
+    th.classList.remove('sort-active');
+    const icon = th.querySelector('.sort-icon');
+    if (icon) icon.textContent = '↕';
+  });
+  const active = document.getElementById('sth-' + col);
+  if (active) {
+    active.classList.add('sort-active');
+    const icon = active.querySelector('.sort-icon');
+    if (icon) icon.textContent = _sortDir === 'asc' ? '↑' : '↓';
+  }
+  _runFilter();
+}
 
 function filterPartners() {
   clearTimeout(_searchTimer);
@@ -1070,6 +1101,23 @@ function _runFilter() {
   if (quarter) {
     if (quarter === 'TBD') results = results.filter(p => !p.quarters || p.quarters.length === 0);
     else results = results.filter(p => (p.quarters || []).includes(quarter));
+  }
+
+  // Apply sort
+  if (_sortCol) {
+    results = [...results].sort((a, b) => {
+      let av, bv;
+      if (_sortCol === 'price') {
+        av = a.price || 0; bv = b.price || 0;
+      } else if (_sortCol === 'stageKey') {
+        av = STAGE_ORDER[a.stageKey] ?? 99; bv = STAGE_ORDER[b.stageKey] ?? 99;
+      } else {
+        av = (a[_sortCol] || '').toLowerCase(); bv = (b[_sortCol] || '').toLowerCase();
+      }
+      if (av < bv) return _sortDir === 'asc' ? -1 : 1;
+      if (av > bv) return _sortDir === 'asc' ? 1 : -1;
+      return 0;
+    });
   }
 
   document.getElementById('searchResultCount').textContent =
