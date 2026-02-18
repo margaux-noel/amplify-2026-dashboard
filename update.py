@@ -375,6 +375,17 @@ if __name__ == "__main__":
         f.write(f"const AMPLIFY_DATA = {json.dumps(data, indent=2)};\n")
     print(f"Wrote data.js ({os.path.getsize(data_js_path)//1024}KB)")
 
+    # Update cache-bust version in index.html so browsers always load fresh data.js
+    index_path = os.path.join(script_dir, "index.html")
+    version    = datetime.now().strftime("%Y%m%d%H%M")
+    with open(index_path, "r") as f:
+        html = f.read()
+    import re
+    html = re.sub(r'data\.js\?v=\d+', f'data.js?v={version}', html)
+    with open(index_path, "w") as f:
+        f.write(html)
+    print(f"Updated cache-bust version in index.html → v={version}")
+
     if no_git:
         print("Skipping git (--no-git mode, handled externally)")
         sys.exit(0)
