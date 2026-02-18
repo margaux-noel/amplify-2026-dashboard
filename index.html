@@ -325,6 +325,17 @@
     .mini-progress { height: 6px; background: #f0eeea; border-radius: 3px; margin-top: 4px; overflow: hidden; }
     .mini-progress-fill { height: 100%; border-radius: 3px; background: var(--gold); }
 
+    /* ── ACCORDION ── */
+    .acc-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; cursor: pointer; border-bottom: 2px solid var(--border); margin-bottom: 24px; user-select: none; transition: border-color 0.15s; }
+    .acc-header:hover { border-bottom-color: var(--olive); }
+    .acc-header:hover .acc-title { color: var(--olive); }
+    .acc-title { font-family: 'ChiswickSansText', sans-serif; font-size: 19px; font-weight: 600; color: var(--text); }
+    .acc-meta { font-size: 12px; color: var(--text-light); margin-top: 3px; }
+    .acc-chevron { font-size: 14px; color: var(--stone); transition: transform 0.22s ease; flex-shrink: 0; margin-left: 16px; }
+    .acc-header.closed .acc-chevron { transform: rotate(-90deg); }
+    .acc-body { margin-bottom: 8px; }
+    .acc-body.closed { display: none; }
+
     /* ── AMOUNT ── */
     .amount { font-variant-numeric: tabular-nums; }
 
@@ -364,7 +375,6 @@
 <!-- NAV TABS -->
 <div class="nav-tabs">
   <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
-  <div class="nav-tab" onclick="showTab('partners',this)">Partners</div>
   <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
   <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
   <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
@@ -374,102 +384,115 @@
 
 <!-- ===== OVERVIEW ===== -->
 <div id="tab-overview" class="section active">
-  <h2 class="section-title">Amplify 2026 at a Glance</h2>
+  <h2 class="section-title">Amplify 2026</h2>
   <p class="section-subtitle" id="overviewSubtitle">Full program status as of this week's data export.</p>
 
-  <div class="kpi-grid">
-    <div class="kpi-card gold">
-      <div class="kpi-label">Signed Partners</div>
-      <div class="kpi-value" id="kpiSignedCount">—</div>
-      <div class="kpi-sub">Tier 1 · Brand Spotlight · Tier 2 · New Opening · Marketing Complete</div>
+  <!-- ── AT A GLANCE ── -->
+  <div class="acc-header" id="acc-hdr-glance" onclick="toggleSection('glance')">
+    <div>
+      <div class="acc-title">At a Glance</div>
+      <div class="acc-meta">Key numbers, revenue breakdown, and pipeline</div>
     </div>
-    <div class="kpi-card navy">
-      <div class="kpi-label">Total Value Signed</div>
-      <div class="kpi-value" id="kpiTotalSigned">—</div>
-      <div class="kpi-sub">Across all signed packages</div>
-    </div>
-    <div class="kpi-card green">
-      <div class="kpi-label">Collected (Paid)</div>
-      <div class="kpi-value" id="kpiPaid">—</div>
-      <div class="kpi-sub" id="kpiPaidSub">—</div>
-      <span class="kpi-delta" id="paidTrackBadge">—</span>
-    </div>
-    <div class="kpi-card amber">
-      <div class="kpi-label">Total Value in Pipeline</div>
-      <div class="kpi-value" id="kpiTotalPipeline">—</div>
-      <div class="kpi-sub">Signed + In Discussion + Needs Invoice</div>
-    </div>
+    <div class="acc-chevron">▼</div>
   </div>
-
-  <div class="kpi-grid" style="grid-template-columns: repeat(4,1fr); margin-bottom:32px;">
-    <div class="kpi-card amber">
-      <div class="kpi-label">In Discussion</div>
-      <div class="kpi-value" id="kpiInDiscussion">—</div>
-      <div class="kpi-sub" id="kpiInDiscussionSub">—</div>
-    </div>
-    <div class="kpi-card red">
-      <div class="kpi-label">Needs Invoice</div>
-      <div class="kpi-value" id="kpiNeedsInvoice">—</div>
-      <div class="kpi-sub" id="kpiNeedsInvoiceSub">—</div>
-    </div>
-    <div class="kpi-card navy">
-      <div class="kpi-label">Final Follow Up</div>
-      <div class="kpi-value" id="kpiFinalFollowUp">—</div>
-      <div class="kpi-sub" id="kpiFinalFollowUpSub">—</div>
-    </div>
-    <div class="kpi-card gold">
-      <div class="kpi-label">Marketing Complete</div>
-      <div class="kpi-value" id="kpiMarketingComplete">—</div>
-      <div class="kpi-sub">Deliverables fulfilled</div>
-    </div>
-  </div>
-
-  <div class="chart-grid-2">
-    <div class="chart-card">
-      <h3>Revenue by Package</h3>
-      <div class="chart-wrap" style="height:240px;"><canvas id="revenueChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Invoice Collection Status</h3>
-      <div class="chart-wrap" style="height:240px;"><canvas id="invoiceChart"></canvas></div>
-    </div>
-  </div>
-
-  <div class="chart-grid-3">
-    <div class="chart-card">
-      <h3>Signed Partners by Tier</h3>
-      <div class="chart-wrap" style="height:200px;"><canvas id="tierChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Deliverable Quarter Preference</h3>
-      <div class="chart-wrap" style="height:200px;"><canvas id="quarterChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Features Booked (Signed)</h3>
-      <div class="chart-wrap" style="height:200px;"><canvas id="featuresChart"></canvas></div>
-    </div>
-  </div>
-
-  <!-- Pipeline funnel -->
-  <div class="chart-grid-2" style="margin-top:4px;">
-    <div class="chart-card wide">
-      <h3>Full Pipeline — All Stages</h3>
-      <div style="display:flex; align-items:center; gap:14px; padding: 0 12px 6px; border-bottom: 1px solid var(--border); margin-bottom:4px;">
-        <div style="width:190px; flex-shrink:0;"></div>
-        <div style="flex:1; min-width:60px;"></div>
-        <div style="width:44px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Partners</div>
-        <div style="width:38px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">% total</div>
-        <div style="width:90px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Value</div>
+  <div class="acc-body" id="acc-body-glance">
+    <div class="kpi-grid">
+      <div class="kpi-card gold">
+        <div class="kpi-label">Signed Partners</div>
+        <div class="kpi-value" id="kpiSignedCount">—</div>
+        <div class="kpi-sub">Tier 1 · Brand Spotlight · Tier 2 · New Opening · Marketing Complete</div>
       </div>
-      <div class="funnel-list" id="funnelList"></div>
+      <div class="kpi-card navy">
+        <div class="kpi-label">Total Value Signed</div>
+        <div class="kpi-value" id="kpiTotalSigned">—</div>
+        <div class="kpi-sub">Across all signed packages</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">Collected (Paid)</div>
+        <div class="kpi-value" id="kpiPaid">—</div>
+        <div class="kpi-sub" id="kpiPaidSub">—</div>
+        <span class="kpi-delta" id="paidTrackBadge">—</span>
+      </div>
+      <div class="kpi-card amber">
+        <div class="kpi-label">Total Value in Pipeline</div>
+        <div class="kpi-value" id="kpiTotalPipeline">—</div>
+        <div class="kpi-sub">Signed + In Discussion + Needs Invoice</div>
+      </div>
+    </div>
+
+    <div class="kpi-grid" style="grid-template-columns: repeat(4,1fr); margin-bottom:32px;">
+      <div class="kpi-card amber">
+        <div class="kpi-label">In Discussion</div>
+        <div class="kpi-value" id="kpiInDiscussion">—</div>
+        <div class="kpi-sub" id="kpiInDiscussionSub">—</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="kpi-label">Needs Invoice</div>
+        <div class="kpi-value" id="kpiNeedsInvoice">—</div>
+        <div class="kpi-sub" id="kpiNeedsInvoiceSub">—</div>
+      </div>
+      <div class="kpi-card navy">
+        <div class="kpi-label">Final Follow Up</div>
+        <div class="kpi-value" id="kpiFinalFollowUp">—</div>
+        <div class="kpi-sub" id="kpiFinalFollowUpSub">—</div>
+      </div>
+      <div class="kpi-card gold">
+        <div class="kpi-label">Marketing Complete</div>
+        <div class="kpi-value" id="kpiMarketingComplete">—</div>
+        <div class="kpi-sub">Deliverables fulfilled</div>
+      </div>
+    </div>
+
+    <div class="chart-grid-2">
+      <div class="chart-card">
+        <h3>Revenue by Package</h3>
+        <div class="chart-wrap" style="height:240px;"><canvas id="revenueChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Invoice Collection Status</h3>
+        <div class="chart-wrap" style="height:240px;"><canvas id="invoiceChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="chart-grid-3">
+      <div class="chart-card">
+        <h3>Signed Partners by Tier</h3>
+        <div class="chart-wrap" style="height:200px;"><canvas id="tierChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Deliverable Quarter Preference</h3>
+        <div class="chart-wrap" style="height:200px;"><canvas id="quarterChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Features Booked (Signed)</h3>
+        <div class="chart-wrap" style="height:200px;"><canvas id="featuresChart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="chart-grid-2" style="margin-top:4px;">
+      <div class="chart-card wide">
+        <h3>Full Pipeline — All Stages</h3>
+        <div style="display:flex; align-items:center; gap:14px; padding: 0 12px 6px; border-bottom: 1px solid var(--border); margin-bottom:4px;">
+          <div style="width:190px; flex-shrink:0;"></div>
+          <div style="flex:1; min-width:60px;"></div>
+          <div style="width:44px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Partners</div>
+          <div style="width:38px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">% total</div>
+          <div style="width:90px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Value</div>
+        </div>
+        <div class="funnel-list" id="funnelList"></div>
+      </div>
     </div>
   </div>
 
-  <!-- Invoice section -->
-  <div style="margin-top:40px; padding-top:32px; border-top: 1px solid var(--border);">
-    <h2 class="section-title">Invoice Tracker</h2>
-    <p class="section-subtitle" id="invoiceSubtitle">Invoice status across all signed partners.</p>
-
+  <!-- ── INVOICING ── -->
+  <div class="acc-header" id="acc-hdr-invoicing" onclick="toggleSection('invoicing')">
+    <div>
+      <div class="acc-title">Invoicing</div>
+      <div class="acc-meta" id="invoiceSubtitle">Invoice status across all signed partners.</div>
+    </div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body" id="acc-body-invoicing">
     <div class="kpi-grid" style="margin-bottom:28px;">
       <div class="kpi-card green">
         <div class="kpi-label">Paid</div>
@@ -512,39 +535,43 @@
       </div>
     </div>
   </div>
-</div>
 
-
-<!-- ===== PARTNERS ===== -->
-<div id="tab-partners" class="section">
-  <h2 class="section-title">Partner Overview</h2>
-  <p class="section-subtitle">Breakdown of signed Amplify 2026 partners by geography, brand, and group.</p>
-
-  <div class="chart-grid-3">
-    <div class="chart-card">
-      <h3>Top Countries</h3>
-      <div class="leaderboard" id="countryLeaderboard"></div>
+  <!-- ── PARTNER OVERVIEW ── -->
+  <div class="acc-header" id="acc-hdr-partners" onclick="toggleSection('partners')">
+    <div>
+      <div class="acc-title">Partner Overview</div>
+      <div class="acc-meta">Geography, hotel groups, brands, and deliverables</div>
     </div>
-    <div class="chart-card">
-      <h3>Top Hotel Groups</h3>
-      <div class="leaderboard" id="groupLeaderboard"></div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body" id="acc-body-partners">
+    <div class="chart-grid-3">
+      <div class="chart-card">
+        <h3>Top Countries</h3>
+        <div class="leaderboard" id="countryLeaderboard"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Top Hotel Groups</h3>
+        <div class="leaderboard" id="groupLeaderboard"></div>
+      </div>
+      <div class="chart-card">
+        <h3>Top Brands</h3>
+        <div class="leaderboard" id="brandLeaderboard"></div>
+      </div>
     </div>
-    <div class="chart-card">
-      <h3>Top Brands</h3>
-      <div class="leaderboard" id="brandLeaderboard"></div>
+
+    <div class="chart-grid-2">
+      <div class="chart-card">
+        <h3>Partner Mix by Package</h3>
+        <div class="chart-wrap" style="height:220px;"><canvas id="partnerTypeChart"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Feature Deliverables Booked</h3>
+        <div class="chart-wrap" style="height:220px;"><canvas id="featuresChart2"></canvas></div>
+      </div>
     </div>
   </div>
 
-  <div class="chart-grid-2">
-    <div class="chart-card">
-      <h3>Partner Mix by Package</h3>
-      <div class="chart-wrap" style="height:220px;"><canvas id="partnerTypeChart"></canvas></div>
-    </div>
-    <div class="chart-card">
-      <h3>Feature Deliverables Booked</h3>
-      <div class="chart-wrap" style="height:220px;"><canvas id="featuresChart2"></canvas></div>
-    </div>
-  </div>
 </div>
 
 
@@ -718,6 +745,12 @@ function showTab(tab, el) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
+}
+
+// ── Accordion toggle ─────────────────────────────────────────────
+function toggleSection(id) {
+  document.getElementById('acc-hdr-' + id).classList.toggle('closed');
+  document.getElementById('acc-body-' + id).classList.toggle('closed');
 }
 
 // ── Colors (Fora brand palette) ──────────────────────────────────
