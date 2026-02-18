@@ -393,7 +393,7 @@
       <div class="kpi-label">Collected (Paid)</div>
       <div class="kpi-value" id="kpiPaid">—</div>
       <div class="kpi-sub" id="kpiPaidSub">—</div>
-      <span class="kpi-delta up">▲ on track</span>
+      <span class="kpi-delta" id="paidTrackBadge">—</span>
     </div>
     <div class="kpi-card amber">
       <div class="kpi-label">Total Value in Pipeline</div>
@@ -809,6 +809,10 @@ function init() {
   document.getElementById('kpiTotalSigned').textContent    = fmt(D.totalSigned);
   document.getElementById('kpiPaid').textContent           = fmt(D.paid);
   document.getElementById('kpiPaidSub').textContent        = pct(D.paid, D.totalSigned) + ' of total signed';
+  const paidPct = D.totalSigned > 0 ? D.paid / D.totalSigned : 0;
+  const trackEl = document.getElementById('paidTrackBadge');
+  if (paidPct >= 0.5) { trackEl.className = 'kpi-delta up';   trackEl.textContent = '▲ on track'; }
+  else                 { trackEl.className = 'kpi-delta warn'; trackEl.textContent = '▼ behind pace — ' + Math.round(paidPct * 100) + '% collected'; }
   document.getElementById('kpiTotalPipeline').textContent  = fmt(D.totalPipeline);
   document.getElementById('kpiInDiscussion').textContent   = fmt(D.inDiscussion);
   document.getElementById('kpiInDiscussionSub').textContent = `${D.inDiscussionCount} partners in active conversation`;
