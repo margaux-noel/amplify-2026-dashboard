@@ -49,6 +49,7 @@
       --indigo: #333880;
       --stone: #827363;
       --shell: #e5dbd0;
+      --dark-sand: #f3ebe2;
       /* Semantic aliases kept for compatibility */
       --gold: #77742a;        /* Olive — primary accent on light bg */
       --gold-light: #e5dbd0;  /* Shell — warm cream accent on dark bg */
@@ -86,7 +87,7 @@
     .header-left p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 2px; }
     .header-right { display: flex; align-items: center; gap: 16px; }
     .week-badge {
-      background: rgba(195,182,41,0.18);
+      background: rgba(119,116,42,0.18);
       border: 1px solid var(--gold);
       color: var(--gold-light);
       padding: 6px 16px;
@@ -365,7 +366,7 @@
 <div class="header">
   <div class="header-left">
     <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
-      <span style="font-family:'DM Sans',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:4px 10px; border-radius:4px;">FORA</span>
+      <span style="font-family:'ChiswickSansText',sans-serif; font-size:11px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:4px 10px; border-radius:4px;">FORA</span>
       <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
       <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
     </div>
@@ -469,7 +470,7 @@
         <div class="chart-wrap" style="height:200px;"><canvas id="quarterChart"></canvas></div>
       </div>
       <div class="chart-card">
-        <h3>Features Booked (Signed)</h3>
+        <h3>Feature Deliverables (Signed)</h3>
         <div class="chart-wrap" style="height:200px;"><canvas id="featuresChart"></canvas></div>
       </div>
     </div>
@@ -571,7 +572,7 @@
         <div class="chart-wrap" style="height:220px;"><canvas id="partnerTypeChart"></canvas></div>
       </div>
       <div class="chart-card">
-        <h3>Feature Deliverables Booked</h3>
+        <h3>Feature Deliverables (Signed)</h3>
         <div class="chart-wrap" style="height:220px;"><canvas id="featuresChart2"></canvas></div>
       </div>
     </div>
@@ -583,7 +584,7 @@
 <!-- ===== PARTNER SEARCH ===== -->
 <div id="tab-search" class="section">
   <h2 class="section-title">Partner Search</h2>
-  <p class="section-subtitle">Look up any partner to see their Streak details — package, invoice status, features, and more.</p>
+  <p class="section-subtitle">Look up any partner to view their package, invoice status, deliverables, and contact details.</p>
 
   <div class="filter-bar">
     <div class="search-input-wrap">
@@ -978,6 +979,7 @@ function init() {
   document.getElementById('invPaidSub').textContent       = pct(D.paid, D.totalSigned) + ' of total signed value';
   document.getElementById('invOutstanding').textContent   = fmt(D.outstanding);
   document.getElementById('invWaiting').textContent       = fmt(D.waitingBilling);
+  document.getElementById('invWaitingSub').textContent    = 'Signed partners pending billing info';
   document.getElementById('invNeedsInvoice').textContent  = fmt(D.needsInvoice);
   document.getElementById('invNeedsInvoiceSub').textContent = `${D.needsInvoiceCount} signed partners`;
   document.getElementById('invoiceSubtitle').textContent  =
@@ -1480,7 +1482,7 @@ function copySnapshot() {
   navigator.clipboard.writeText(full).then(() => {
     const btn = event.target;
     btn.textContent = 'Copied!';
-    btn.style.background = '#3fa87a';
+    btn.style.background = OLIVE;
     setTimeout(() => { btn.textContent = 'Copy Summary'; btn.style.background = ''; }, 2000);
   });
 }
