@@ -71,6 +71,11 @@
     }
 
     /* ── HEADER ── */
+    .sticky-chrome {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
     .header {
       background: var(--navy);
       color: white;
@@ -78,9 +83,6 @@
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 100;
       box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     }
     .header-left h1 { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: 0.01em; color: var(--gold-light); }
@@ -365,29 +367,31 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<div class="header">
-  <div class="header-left">
-    <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
-      <span style="font-family:'ChiswickSansText',sans-serif; font-size:11px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:4px 10px; border-radius:4px;">FORA</span>
-      <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
-      <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
+<!-- STICKY CHROME (header + nav) -->
+<div class="sticky-chrome">
+  <div class="header">
+    <div class="header-left">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
+        <span style="font-family:'ChiswickSansText',sans-serif; font-size:11px; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:4px 10px; border-radius:4px;">FORA</span>
+        <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
+        <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
+      </div>
+      <h1>Amplify 2026 — Partner Dashboard</h1>
+      <p id="headerSubtitle">Loading data…</p>
     </div>
-    <h1>Amplify 2026 — Partner Dashboard</h1>
-    <p id="headerSubtitle">Loading data…</p>
+    <div class="header-right">
+      <span class="week-badge" id="weekBadge">—</span>
+    </div>
   </div>
-  <div class="header-right">
-    <span class="week-badge" id="weekBadge">—</span>
-  </div>
-</div>
 
-<!-- NAV TABS -->
-<div class="nav-tabs">
-  <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
-  <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
-  <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
-  <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
-  <div class="nav-tab" onclick="showTab('team',this)">Team Updates</div>
+  <!-- NAV TABS -->
+  <div class="nav-tabs">
+    <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
+    <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
+    <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
+    <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
+    <div class="nav-tab" onclick="showTab('team',this)">Team Updates</div>
+  </div>
 </div>
 
 
@@ -1271,11 +1275,23 @@ function _parseDelivDate(str) {
 
 function _delivStatus(timing) {
   if (!timing || !timing.trim()) return 'none';
+  const t = timing.toLowerCase();
+  // Labels from Streak TAG/DROPDOWN fields are "Month - Planned" or "Month - Completed"
+  if (t.includes('completed')) return 'completed';
+  if (t.includes('planned'))   return 'upcoming';
+  // DATE-type fields (Webinar) come through as "March 2026" — use date comparison
   const d = _parseDelivDate(timing);
-  if (!d) return 'upcoming'; // has a value but unrecognisable format — treat as planned
+  if (!d) return 'upcoming';
   const now = new Date();
-  const past = d.getFullYear() * 12 + d.getMonth() < now.getFullYear() * 12 + now.getMonth();
-  return past ? 'completed' : 'upcoming';
+  return d.getFullYear() * 12 + d.getMonth() < now.getFullYear() * 12 + now.getMonth()
+    ? 'completed' : 'upcoming';
+}
+
+function _scheduledLabel(timing) {
+  // "March - Planned" → "March", "March 2026" → "March 2026", "" → "—"
+  if (!timing || !timing.trim()) return '—';
+  const dash = timing.indexOf(' - ');
+  return dash > 0 ? timing.substring(0, dash).trim() : timing;
 }
 
 function renderDeliverableSection(p) {
@@ -1320,7 +1336,7 @@ function renderDeliverableSection(p) {
       rows += `
         <tr style="border-bottom:1px solid var(--border);">
           <td style="padding:9px 14px;font-size:13px;">${d.label}${suffix}</td>
-          <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">${t || '—'}</td>
+          <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">${_scheduledLabel(t)}</td>
           <td style="padding:9px 14px;">${STATUS_BADGE[_delivStatus(t)]}</td>
         </tr>`;
     }

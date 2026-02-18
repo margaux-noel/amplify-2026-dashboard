@@ -76,6 +76,35 @@ QUARTER_LABELS = {
 }
 COLLECTION_NA = "9025"  # "N/A" tag key for Collection field
 
+# ── Fetch dropdown labels for feature fields ────────────────────
+def fetch_field_labels():
+    """Return {field_key: {option_key: label}} for all feature fields."""
+    r = requests.get(f"{BASE_URL}/pipelines/{PIPELINE_KEY}", auth=AUTH)
+    if r.status_code != 200:
+        print(f"  Warning: could not fetch pipeline metadata ({r.status_code})")
+        return {}
+    data = r.json()
+    labels = {}
+    feature_keys = set(FEATURE_FIELDS.values())
+    for field in data.get("fields", []):
+        fkey  = str(field.get("key", ""))
+        ftype = field.get("type", "")
+        if fkey not in feature_keys:
+            continue
+        if ftype == "TAG":
+            # Tags store options as tagSettings.tags[].tag
+            tags = (field.get("tagSettings") or {}).get("tags", [])
+            if tags:
+                labels[fkey] = {str(t.get("key", "")): t.get("tag", "") for t in tags}
+        elif ftype == "DROPDOWN":
+            # Dropdowns store options as dropdownSettings.items[].name
+            items = (field.get("dropdownSettings") or {}).get("items", [])
+            if items:
+                labels[fkey] = {str(i.get("key", "")): i.get("name", "") for i in items}
+        # DATE type (Webinar) has no discrete options — handled at read time
+    print(f"  Loaded label mappings for {len(labels)} feature field(s)")
+    return labels
+
 # ── Helpers ────────────────────────────────────────────────────────
 def fetch_all_boxes():
     boxes, page = [], 0
@@ -130,21 +159,43 @@ def get_quarters(box):
     keys = qval if isinstance(qval, list) else [qval]
     return [QUARTER_LABELS.get(str(k), str(k)) for k in keys]
 
-def get_features(box):
+def get_features(box, field_labels=None):
+    field_labels = field_labels or {}
     result = []
     for fname, fkey in FEATURE_FIELDS.items():
         excl = {COLLECTION_NA} if fkey == "1067" else None
         if is_set(box, fkey, excl):
-            val = field_val(box, fkey)
-            if isinstance(val, list):
-                timing = ", ".join(str(v) for v in val if str(v) not in (excl or set()))
+            val    = field_val(box, fkey)
+            labels = field_labels.get(fkey, {})
+
+            if labels:
+                # TAG or DROPDOWN field — decode numeric key(s) to human label
+                if isinstance(val, list):
+                    items  = [str(v) for v in val if str(v) not in (excl or set())]
+                    timing = ", ".join(labels.get(v, v) for v in items)
+                else:
+                    raw    = str(val).strip() if val else ""
+                    timing = labels.get(raw, raw)
+            elif isinstance(val, (int, float)) and val > 1_000_000_000_000:
+                # DATE field (Unix ms timestamp, e.g. Webinar) — format as "Month YYYY"
+                try:
+                    timing = datetime.fromtimestamp(val / 1000).strftime("%B %Y")
+                except Exception:
+                    timing = str(val)
             else:
-                timing = str(val).strip() if val else ""
+                # Plain text or unknown
+                if isinstance(val, list):
+                    items  = [str(v) for v in val if str(v) not in (excl or set())]
+                    timing = ", ".join(items)
+                else:
+                    timing = str(val).strip() if val else ""
+
             result.append({"name": fname, "timing": timing})
     return result
 
 # ── Main ───────────────────────────────────────────────────────────
 def compute_metrics(boxes):
+    field_labels = fetch_field_labels()
     signed_val   = defaultdict(float)
     signed_cnt   = defaultdict(int)
     pipeline_val = defaultdict(float)
@@ -214,7 +265,7 @@ def compute_metrics(boxes):
                 "price":         int(p),
                 "invoiceStatus": INVOICE_LABELS.get(inv, ""),
                 "invoiceUrl":    str(inv_url).strip() if inv_url and str(inv_url).startswith("http") else "",
-                "features":      get_features(box),
+                "features":      get_features(box, field_labels),
                 "quarters":      get_quarters(box),
                 "country":       str(field_val(box, F_COUNTRY) or "").strip(),
                 "brand":         str(field_val(box, F_BRAND) or "").strip(),

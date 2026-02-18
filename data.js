@@ -269,15 +269,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9008"
+          "timing": "August - Planned"
         }
       ],
       "quarters": [
@@ -316,15 +316,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -347,15 +347,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -378,15 +378,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9008"
+          "timing": "August - Planned"
         }
       ],
       "quarters": [
@@ -409,15 +409,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9002"
+          "timing": "March - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9002"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -456,15 +456,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -503,15 +503,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -534,15 +534,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -565,15 +565,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -596,15 +596,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9008"
+          "timing": "August - Planned"
         }
       ],
       "quarters": [
@@ -643,11 +643,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -670,15 +670,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -701,15 +701,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -748,15 +748,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -779,15 +779,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -810,15 +810,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -841,15 +841,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -872,15 +872,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -903,11 +903,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -930,15 +930,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -961,15 +961,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         },
         {
           "name": "Webinar",
-          "timing": "1769619600000"
+          "timing": "January 2026"
         }
       ],
       "quarters": [
@@ -992,15 +992,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -1023,7 +1023,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9023"
+          "timing": "December - Planned"
         }
       ],
       "quarters": [
@@ -1046,7 +1046,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -1067,15 +1067,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -1098,15 +1098,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -1129,7 +1129,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -1150,15 +1150,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9003"
+          "timing": "May - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9003"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -1181,7 +1181,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -1202,15 +1202,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1233,19 +1233,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009, 9017"
+          "timing": "May - Planned, September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009, 9017"
+          "timing": "May - Planned, September - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -1269,15 +1269,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9017"
+          "timing": "September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9009"
+          "timing": "September - Planned"
         }
       ],
       "quarters": [
@@ -1300,15 +1300,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1331,15 +1331,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1362,15 +1362,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1393,15 +1393,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -1440,15 +1440,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9004"
+          "timing": "April - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -1471,15 +1471,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1518,15 +1518,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -1581,15 +1581,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -1628,15 +1628,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1659,15 +1659,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -1722,15 +1722,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -1753,11 +1753,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -1780,15 +1780,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9001"
+          "timing": "January - Planned"
         },
         {
           "name": "Webinar",
-          "timing": "1768928400000"
+          "timing": "January 2026"
         }
       ],
       "quarters": [
@@ -1811,15 +1811,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -1858,19 +1858,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003, 9017"
+          "timing": "February - Planned, September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9017, 9004"
+          "timing": "September - Planned, February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -1926,15 +1926,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -1973,15 +1973,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -2020,15 +2020,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2083,15 +2083,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9003"
+          "timing": "May - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9003"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -2114,15 +2114,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -2145,15 +2145,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9004"
+          "timing": "April - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2176,15 +2176,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -2207,7 +2207,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -2244,7 +2244,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -2281,11 +2281,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [],
@@ -2306,15 +2306,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -2337,15 +2337,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -2368,15 +2368,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -2399,15 +2399,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -2430,19 +2430,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007, 9009, 9011, 9013, 9015, 9017"
+          "timing": "April - Planned, May - Planned, June - Planned, July - Planned, August - Planned, September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005, 9007, 9009, 9013, 9015, 9017"
+          "timing": "March - Planned, April - Planned, May - Planned, July - Planned, August - Planned, September - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004, 9006, 9008, 9010"
+          "timing": "April - Planned, June - Planned, August - Planned, October - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -2467,15 +2467,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         },
         {
           "name": "Webinar",
-          "timing": "1771434000000"
+          "timing": "February 2026"
         }
       ],
       "quarters": [
@@ -2498,15 +2498,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2529,15 +2529,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -2576,15 +2576,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2607,15 +2607,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -2638,15 +2638,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2717,11 +2717,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -2744,15 +2744,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Journal Article",
-          "timing": "9006"
+          "timing": "January - Completed"
         },
         {
           "name": "Social Media",
-          "timing": "9006"
+          "timing": "January - Completed"
         }
       ],
       "quarters": [
@@ -2775,15 +2775,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -2806,15 +2806,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -2837,15 +2837,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -2916,15 +2916,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -2947,7 +2947,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -2968,15 +2968,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -3015,15 +3015,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -3062,15 +3062,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -3093,15 +3093,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -3124,15 +3124,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -3155,15 +3155,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -3186,7 +3186,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -3207,15 +3207,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -3286,15 +3286,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9007"
+          "timing": "June - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9007"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -3317,15 +3317,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9007"
+          "timing": "June - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9007"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -3364,7 +3364,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9013"
+          "timing": "July - Planned"
         }
       ],
       "quarters": [
@@ -3403,15 +3403,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -3482,7 +3482,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -3503,7 +3503,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -3524,15 +3524,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -3555,19 +3555,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003, 9007"
+          "timing": "February - Planned, April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007, 9005"
+          "timing": "April - Planned, March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9003"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -3623,15 +3623,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -3654,15 +3654,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -3733,15 +3733,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -3764,11 +3764,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9003"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -3791,15 +3791,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -3822,11 +3822,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -3849,15 +3849,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -3915,15 +3915,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -3962,15 +3962,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -4025,7 +4025,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9013"
+          "timing": "July - Planned"
         }
       ],
       "quarters": [
@@ -4080,15 +4080,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -4111,11 +4111,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -4138,15 +4138,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4185,15 +4185,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -4216,7 +4216,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -4237,15 +4237,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4268,7 +4268,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -4289,7 +4289,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -4326,15 +4326,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4357,15 +4357,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -4404,15 +4404,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9003"
+          "timing": "May - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9003"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -4483,7 +4483,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -4504,15 +4504,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -4535,15 +4535,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -4566,11 +4566,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9003"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4625,15 +4625,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4672,15 +4672,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -4703,15 +4703,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -4734,7 +4734,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -4771,15 +4771,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9001"
+          "timing": "January - Planned"
         },
         {
           "name": "Webinar",
-          "timing": "1767718800000"
+          "timing": "January 2026"
         }
       ],
       "quarters": [
@@ -4802,15 +4802,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9007"
+          "timing": "June - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9007"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -4833,15 +4833,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -4864,15 +4864,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -4927,15 +4927,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9002"
+          "timing": "March - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9002"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -4958,15 +4958,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -4989,15 +4989,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Journal Article",
-          "timing": "9005"
+          "timing": "February - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9005"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5020,19 +5020,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005, 9015"
+          "timing": "March - Planned, August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005, 9015"
+          "timing": "March - Planned, August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -5056,15 +5056,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -5119,15 +5119,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -5150,15 +5150,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         },
         {
           "name": "Webinar",
-          "timing": "1770224400000"
+          "timing": "February 2026"
         }
       ],
       "quarters": [
@@ -5181,15 +5181,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -5228,15 +5228,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -5259,7 +5259,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -5280,15 +5280,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5311,15 +5311,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -5342,7 +5342,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -5363,7 +5363,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [],
@@ -5384,15 +5384,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -5431,15 +5431,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5478,15 +5478,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002, 9021"
+          "timing": "January - Completed, November - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9011"
+          "timing": "November - Planned"
         }
       ],
       "quarters": [
@@ -5541,15 +5541,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -5572,15 +5572,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -5603,15 +5603,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
@@ -5650,19 +5650,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005, 9013"
+          "timing": "March - Planned, July - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005, 9013"
+          "timing": "March - Planned, July - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9004"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -5686,19 +5686,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007, 9015"
+          "timing": "April - Planned, August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007, 9015"
+          "timing": "April - Planned, August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9003"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -5722,19 +5722,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003, 9017"
+          "timing": "February - Planned, September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9017, 9004"
+          "timing": "September - Planned, February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5758,15 +5758,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9003"
+          "timing": "May - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9003"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -5789,15 +5789,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -5852,19 +5852,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003, 9011"
+          "timing": "February - Planned, June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011, 9004"
+          "timing": "June - Planned, February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5888,15 +5888,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9004"
+          "timing": "February - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9002"
+          "timing": "February - Planned"
         }
       ],
       "quarters": [
@@ -5919,15 +5919,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -5966,15 +5966,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Journal Article",
-          "timing": "9004"
+          "timing": "April - Planned"
         },
         {
           "name": "Social Media",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -5997,15 +5997,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -6028,15 +6028,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9019"
+          "timing": "October - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -6059,15 +6059,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9005"
+          "timing": "March - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9003"
+          "timing": "March - Planned"
         }
       ],
       "quarters": [
@@ -6090,15 +6090,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9013"
+          "timing": "July - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -6137,15 +6137,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9003"
+          "timing": "February - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -6184,15 +6184,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -6247,15 +6247,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9015"
+          "timing": "August - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9008"
+          "timing": "August - Planned"
         }
       ],
       "quarters": [
@@ -6278,15 +6278,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007"
+          "timing": "April - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -6325,15 +6325,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9019"
+          "timing": "October - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9019"
+          "timing": "October - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9010"
+          "timing": "October - Planned"
         }
       ],
       "quarters": [
@@ -6356,19 +6356,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9009, 9017"
+          "timing": "May - Planned, September - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9009, 9017"
+          "timing": "May - Planned, September - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9005"
+          "timing": "May - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9005"
+          "timing": "May - Planned"
         }
       ],
       "quarters": [
@@ -6392,15 +6392,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9011"
+          "timing": "June - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9006"
+          "timing": "June - Planned"
         }
       ],
       "quarters": [
@@ -6439,19 +6439,19 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9007, 9019"
+          "timing": "April - Planned, October - Planned"
         },
         {
           "name": "Forum",
-          "timing": "9007, 9019"
+          "timing": "April - Planned, October - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9004"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
-          "timing": "9003"
+          "timing": "April - Planned"
         }
       ],
       "quarters": [
@@ -6475,15 +6475,15 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9002"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
-          "timing": "9003"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
-          "timing": "9001"
+          "timing": "January - Completed"
         }
       ],
       "quarters": [
@@ -9520,11 +9520,11 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "9001"
+          "timing": "January - Planned"
         },
         {
           "name": "Newsletter",
-          "timing": "9013"
+          "timing": "January - Planned"
         }
       ],
       "quarters": [
