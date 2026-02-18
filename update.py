@@ -209,6 +209,7 @@ def compute_metrics(boxes):
     countries = defaultdict(int)
     brands    = defaultdict(int)
     groups    = defaultdict(int)
+    signed_by_month = defaultdict(lambda: {"count": 0, "value": 0})
 
     partners = []
 
@@ -221,6 +222,16 @@ def compute_metrics(boxes):
             label = SIGNED_STAGES[stage]
             signed_val[label] += p
             signed_cnt[label] += 1
+            # Track when this partner signed (prefer lastStageChangeDate, fall back to creationTimestamp)
+            ts = box.get("lastStageChangeDate") or box.get("creationTimestamp")
+            if ts:
+                try:
+                    dt = datetime.fromtimestamp(ts / 1000)
+                    mk = dt.strftime("%Y-%m")
+                    signed_by_month[mk]["count"] += 1
+                    signed_by_month[mk]["value"] += int(p)
+                except Exception:
+                    pass
         elif stage in PIPELINE_STAGES:
             label = PIPELINE_STAGES[stage]
             pipeline_val[label] += p
@@ -312,6 +323,22 @@ def compute_metrics(boxes):
     stage_order_key = {**{k: 0 for k in SIGNED_STAGES}, **{k: 1 for k in PIPELINE_STAGES}}
     partners.sort(key=lambda p: (stage_order_key.get(p["stageKey"], 2), p["name"]))
 
+    # Build signed-over-time series (sorted chronologically, with cumulative totals)
+    sorted_months = sorted(signed_by_month.keys())
+    cum_count = cum_value = 0
+    signed_over_time = []
+    for mk in sorted_months:
+        cum_count += signed_by_month[mk]["count"]
+        cum_value += signed_by_month[mk]["value"]
+        dt = datetime.strptime(mk, "%Y-%m")
+        signed_over_time.append({
+            "month":    dt.strftime("%b %Y"),
+            "count":    signed_by_month[mk]["count"],
+            "value":    signed_by_month[mk]["value"],
+            "cumCount": cum_count,
+            "cumValue": cum_value,
+        })
+
     return {
         "lastUpdated":      datetime.now().strftime("%b %d, %Y"),
         "signedCount":      signed_count,
@@ -333,6 +360,7 @@ def compute_metrics(boxes):
         "pipelineByStage":  {k: int(v) for k, v in pipeline_val.items()},
         "pipelineCountByStage": dict(pipeline_cnt),
         "funnel":           funnel,
+        "signedOverTime":   signed_over_time,
         "features":         dict(features),
         "quarters":         dict(quarters),
         "topCountries":     top_n(countries),

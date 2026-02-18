@@ -115,11 +115,62 @@ const AMPLIFY_DATA = {
       "value": 0
     }
   ],
+  "signedOverTime": [
+    {
+      "month": "Aug 2025",
+      "count": 204,
+      "value": 893500,
+      "cumCount": 204,
+      "cumValue": 893500
+    },
+    {
+      "month": "Sep 2025",
+      "count": 5,
+      "value": 36000,
+      "cumCount": 209,
+      "cumValue": 929500
+    },
+    {
+      "month": "Oct 2025",
+      "count": 4,
+      "value": 20500,
+      "cumCount": 213,
+      "cumValue": 950000
+    },
+    {
+      "month": "Nov 2025",
+      "count": 14,
+      "value": 50000,
+      "cumCount": 227,
+      "cumValue": 1000000
+    },
+    {
+      "month": "Dec 2025",
+      "count": 9,
+      "value": 41500,
+      "cumCount": 236,
+      "cumValue": 1041500
+    },
+    {
+      "month": "Jan 2026",
+      "count": 3,
+      "value": 6000,
+      "cumCount": 239,
+      "cumValue": 1047500
+    },
+    {
+      "month": "Feb 2026",
+      "count": 6,
+      "value": 48000,
+      "cumCount": 245,
+      "cumValue": 1095500
+    }
+  ],
   "features": {
     "Collection": 163,
     "Journal Article": 14,
     "Social Media": 14,
-    "Forum": 121,
+    "Forum": 122,
     "Newsletter": 119,
     "Advisor Assets": 24,
     "Webinar": 5
@@ -409,6 +460,10 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
+          "timing": "March - Planned"
+        },
+        {
+          "name": "Forum",
           "timing": "March - Planned"
         },
         {

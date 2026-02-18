@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602181056"></script>
+  <script src="data.js?v=202602181106"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -170,19 +170,21 @@
     .section-title { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
     .section-subtitle { font-size: 13px; color: var(--text-light); margin-bottom: 28px; }
 
-    /* ── PIPELINE FUNNEL ── */
-    .funnel-list { display: flex; flex-direction: column; gap: 2px; }
-    .funnel-section-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-light); padding: 14px 12px 4px; }
-    .funnel-section-label:first-child { padding-top: 4px; }
-    .funnel-item { display: flex; align-items: center; gap: 14px; padding: 9px 12px; border-radius: 8px; cursor: default; transition: background 0.15s; }
-    .funnel-item:hover { background: var(--dark-sand, #f3ebe2); }
-    .funnel-label { width: 190px; font-size: 13px; font-weight: 500; flex-shrink: 0; line-height: 1.3; }
-    .funnel-bar-wrap { flex: 1; background: #ede9e5; border-radius: 6px; height: 16px; overflow: hidden; min-width: 60px; }
-    .funnel-bar { height: 100%; border-radius: 6px; transition: width 0.7s cubic-bezier(0.4,0,0.2,1), opacity 0.15s; }
-    .funnel-item:hover .funnel-bar { opacity: 0.75; }
-    .funnel-count { width: 44px; text-align: right; font-size: 14px; font-weight: 700; color: var(--text); flex-shrink: 0; }
-    .funnel-pct { width: 38px; text-align: right; font-size: 11px; color: var(--text-light); flex-shrink: 0; }
-    .funnel-val { width: 90px; text-align: right; font-size: 12px; color: var(--text-light); flex-shrink: 0; }
+    /* ── PIPELINE OVERVIEW ── */
+    .pipeline-seg-bar { display: flex; height: 10px; border-radius: 8px; overflow: hidden; margin-bottom: 14px; gap: 2px; }
+    .pipeline-seg { height: 100%; border-radius: 4px; transition: width 0.7s cubic-bezier(0.4,0,0.2,1); }
+    .pipeline-seg-labels { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-bottom: 24px; }
+    .pipeline-seg-label { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-light); }
+    .pipeline-seg-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .pipeline-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
+    .pipeline-col-hdr { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-light); padding-bottom: 8px; border-bottom: 2px solid var(--border); margin-bottom: 2px; margin-top: 0; }
+    .pipeline-col-hdr.mt { margin-top: 20px; }
+    .pl-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    .pl-row:last-child { border-bottom: none; }
+    .pl-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .pl-name { flex: 1; font-size: 13px; font-weight: 500; }
+    .pl-count { font-size: 14px; font-weight: 700; color: var(--text); text-align: right; min-width: 28px; }
+    .pl-val { font-size: 12px; color: var(--text-light); text-align: right; min-width: 64px; }
 
     /* ── TABLE ── */
     .table-wrap { overflow-x: auto; }
@@ -484,15 +486,15 @@
 
     <div class="chart-grid-2" style="margin-top:4px;">
       <div class="chart-card wide">
+        <h3>Signed Partners Over Time</h3>
+        <div class="chart-wrap" style="height:220px;"><canvas id="signedOverTimeChart"></canvas></div>
+      </div>
+    </div>
+
+    <div style="margin-top:4px;">
+      <div class="chart-card">
         <h3>Full Pipeline — All Stages</h3>
-        <div style="display:flex; align-items:center; gap:14px; padding: 0 12px 6px; border-bottom: 1px solid var(--border); margin-bottom:4px;">
-          <div style="width:190px; flex-shrink:0;"></div>
-          <div style="flex:1; min-width:60px;"></div>
-          <div style="width:44px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Partners</div>
-          <div style="width:38px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">% total</div>
-          <div style="width:90px; text-align:right; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-light); flex-shrink:0;">Value</div>
-        </div>
-        <div class="funnel-list" id="funnelList"></div>
+        <div id="funnelList"></div>
       </div>
     </div>
   </div>
@@ -760,6 +762,15 @@ function showTab(tab, el) {
   if (el) el.classList.add('active');
 }
 
+// ── Navigate to a partner on the search tab ──────────────────────
+function navigateToPartner(name) {
+  const searchNavEl = document.querySelector('.nav-tab[onclick*="\'search\'"]');
+  showTab('search', searchNavEl);
+  document.getElementById('partnerSearch').value = name;
+  _runFilter();
+  document.getElementById('tab-search').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 // ── Accordion toggle ─────────────────────────────────────────────
 function toggleSection(id) {
   document.getElementById('acc-hdr-' + id).classList.toggle('closed');
@@ -936,50 +947,149 @@ function init() {
     }
   });
 
-  // Funnel
+  // Pipeline overview
   const funnelColors = {
-    '5014': OLIVE, '5015': DSHELL, '5016': BLACK, '5017': STONE, '5007': INDIGO,
-    '5011': SANG,  '5004': INDIGO, '5001': STONE,
+    '5014': OLIVE,  '5015': DSHELL, '5016': BLACK,  '5017': STONE, '5007': INDIGO,
+    '5011': SANG,   '5004': INDIGO, '5001': STONE,
     '5013': DSHELL, '5010': '#c0bcb3', '5008': SANG, '5009': '#888',
   };
-  const maxFunnelCount = Math.max(...D.funnel.map(f => f.count));
-  const totalFunnelCount = D.funnel.reduce((s, f) => s + f.count, 0);
-  const fl = document.getElementById('funnelList');
   const signedKeys   = new Set(['5014','5015','5016','5017','5007']);
   const pipelineKeys = new Set(['5011','5004','5001']);
-  const groupLabels  = { signed: 'Signed Partners', pipeline: 'In Pipeline', other: 'Other Stages' };
-  let currentGroup   = null;
 
-  D.funnel.forEach(f => {
-    const group = signedKeys.has(f.stageKey) ? 'signed'
-                : pipelineKeys.has(f.stageKey) ? 'pipeline' : 'other';
-    if (group !== currentGroup) {
-      currentGroup = group;
-      const hdr = document.createElement('div');
-      hdr.className = 'funnel-section-label';
-      hdr.textContent = groupLabels[group];
-      fl.appendChild(hdr);
-    }
+  (function buildPipelineOverview() {
+    const fl = document.getElementById('funnelList');
+    const signed   = D.funnel.filter(f => signedKeys.has(f.stageKey));
+    const pipeline = D.funnel.filter(f => pipelineKeys.has(f.stageKey));
+    const other    = D.funnel.filter(f => !signedKeys.has(f.stageKey) && !pipelineKeys.has(f.stageKey));
+    const total    = D.funnel.reduce((s, f) => s + f.count, 0);
+    const sCnt     = signed.reduce((s, f) => s + f.count, 0);
+    const pCnt     = pipeline.reduce((s, f) => s + f.count, 0);
+    const oCnt     = other.reduce((s, f) => s + f.count, 0);
+    const sp = total ? (sCnt / total * 100) : 0;
+    const pp = total ? (pCnt / total * 100) : 0;
+    const op = total ? (oCnt / total * 100) : 0;
 
-    const color   = funnelColors[f.stageKey] || '#aaa';
-    const valStr  = f.value ? fmt(f.value) : '—';
-    const pctStr  = totalFunnelCount > 0 ? Math.round(f.count / totalFunnelCount * 100) + '%' : '0%';
-    const barW    = maxFunnelCount ? (f.count / maxFunnelCount) * 100 : 0;
-    const tip     = `${f.label}: ${f.count} partner${f.count !== 1 ? 's' : ''}${f.value ? ' · ' + fmt(f.value) : ''} · ${pctStr} of all stages`;
+    const rowHtml = (f) => `
+      <div class="pl-row">
+        <div class="pl-dot" style="background:${funnelColors[f.stageKey]||'#aaa'};"></div>
+        <div class="pl-name">${f.label.replace('Signed \u2014 ','')}</div>
+        <div class="pl-count">${f.count}</div>
+        <div class="pl-val">${f.value ? fmt(f.value) : '\u2014'}</div>
+      </div>`;
 
-    const item = document.createElement('div');
-    item.className = 'funnel-item';
-    item.title = tip;
-    item.innerHTML = `
-      <div class="funnel-label">${f.label}</div>
-      <div class="funnel-bar-wrap">
-        <div class="funnel-bar" style="width:${barW}%; background:${color};"></div>
+    const otherSection = other.length ? `
+      <div class="pipeline-col-hdr mt">Other Stages</div>
+      ${other.map(f => `
+        <div class="pl-row">
+          <div class="pl-dot" style="background:${funnelColors[f.stageKey]||'#aaa'};"></div>
+          <div class="pl-name">${f.label}</div>
+          <div class="pl-count">${f.count}</div>
+          <div class="pl-val">\u2014</div>
+        </div>`).join('')}` : '';
+
+    fl.innerHTML = `
+      <div class="pipeline-seg-bar">
+        <div class="pipeline-seg" style="width:${sp}%;background:${OLIVE};"></div>
+        <div class="pipeline-seg" style="width:${pp}%;background:${INDIGO};"></div>
+        <div class="pipeline-seg" style="width:${op}%;background:#c0bcb3;"></div>
       </div>
-      <div class="funnel-count">${f.count}</div>
-      <div class="funnel-pct">${pctStr}</div>
-      <div class="funnel-val">${valStr}</div>`;
-    fl.appendChild(item);
-  });
+      <div class="pipeline-seg-labels">
+        <span class="pipeline-seg-label"><span class="pipeline-seg-dot" style="background:${OLIVE};"></span>Signed: <strong style="margin-left:3px;">${sCnt}</strong>&nbsp;(${Math.round(sp)}%)</span>
+        <span class="pipeline-seg-label"><span class="pipeline-seg-dot" style="background:${INDIGO};"></span>In Pipeline: <strong style="margin-left:3px;">${pCnt}</strong>&nbsp;(${Math.round(pp)}%)</span>
+        <span class="pipeline-seg-label"><span class="pipeline-seg-dot" style="background:#c0bcb3;"></span>Other Stages: <strong style="margin-left:3px;">${oCnt}</strong></span>
+      </div>
+      <div class="pipeline-cols">
+        <div>
+          <div class="pipeline-col-hdr">Signed Partners</div>
+          ${signed.map(rowHtml).join('')}
+        </div>
+        <div>
+          <div class="pipeline-col-hdr">In Pipeline</div>
+          ${pipeline.map(f => `
+            <div class="pl-row">
+              <div class="pl-dot" style="background:${funnelColors[f.stageKey]||'#aaa'};"></div>
+              <div class="pl-name">${f.label}</div>
+              <div class="pl-count">${f.count}</div>
+              <div class="pl-val">${f.value ? fmt(f.value) : '\u2014'}</div>
+            </div>`).join('')}
+          ${otherSection}
+        </div>
+      </div>`;
+  })();
+
+  // Signed over time chart
+  if (D.signedOverTime && D.signedOverTime.length > 0) {
+    const sotLabels   = D.signedOverTime.map(d => d.month);
+    const sotCumCount = D.signedOverTime.map(d => d.cumCount);
+    const sotCumValue = D.signedOverTime.map(d => d.cumValue);
+    new Chart(document.getElementById('signedOverTimeChart'), {
+      type: 'line',
+      data: {
+        labels: sotLabels,
+        datasets: [
+          {
+            label: 'Partners Signed (cumulative)',
+            data: sotCumCount,
+            borderColor: OLIVE,
+            backgroundColor: 'rgba(119,116,42,0.08)',
+            borderWidth: 2.5,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            fill: true,
+            tension: 0.35,
+            yAxisID: 'yCount',
+          },
+          {
+            label: 'Value Signed (cumulative)',
+            data: sotCumValue,
+            borderColor: INDIGO,
+            backgroundColor: 'rgba(51,56,128,0.06)',
+            borderWidth: 2,
+            pointRadius: 2,
+            pointHoverRadius: 4,
+            fill: true,
+            tension: 0.35,
+            yAxisID: 'yValue',
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => {
+                if (ctx.datasetIndex === 1) return ' ' + fmt(ctx.raw);
+                return ' ' + ctx.raw + ' partners';
+              }
+            }
+          }
+        },
+        scales: {
+          yCount: {
+            type: 'linear', position: 'left',
+            grid: { color: '#f0eeea' },
+            ticks: { stepSize: 25, color: OLIVE },
+          },
+          yValue: {
+            type: 'linear', position: 'right',
+            grid: { drawOnChartArea: false },
+            ticks: {
+              color: INDIGO,
+              callback: (v) => '$' + (v >= 1000 ? Math.round(v/1000) + 'K' : v)
+            }
+          },
+          x: { grid: { display: false }, ticks: { maxRotation: 45 } }
+        }
+      }
+    });
+  } else {
+    document.getElementById('signedOverTimeChart').parentElement.innerHTML =
+      '<p style="color:var(--text-light);font-size:13px;padding:20px 0;">Date data will appear after the next dashboard refresh.</p>';
+  }
 
   // ── Invoices tab ──
   document.getElementById('invPaid').textContent          = fmt(D.paid);
@@ -1006,7 +1116,7 @@ function init() {
                        '<span class="badge badge-gray">Standard</span>';
       invTbody.innerHTML += `
         <tr>
-          <td>${p.name}</td>
+          <td><a href="#" onclick="navigateToPartner(${JSON.stringify(p.name)}); return false;" style="color:var(--text);font-weight:600;text-decoration:none;">${p.name}</a></td>
           <td>${stageBadge(p.stage)}</td>
           <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
           <td>${p.country || '—'}</td>
