@@ -586,7 +586,6 @@
       <option value="Q2">Q2</option>
       <option value="Q3">Q3</option>
       <option value="Q4">Q4</option>
-      <option value="August">August</option>
       <option value="TBD">TBD (none set)</option>
     </select>
   </div>
@@ -866,7 +865,7 @@ function init() {
   });
 
   // ── Quarter chart ──
-  const qLabels = ['Q1', 'Q2', 'Q3', 'Q4', 'August', 'TBD'];
+  const qLabels = ['Q1', 'Q2', 'Q3', 'Q4', 'August', 'TBD'].filter(q => (D.quarters[q] || 0) > 0);
   const qData   = qLabels.map(q => D.quarters[q] || 0);
   new Chart(document.getElementById('quarterChart'), {
     type: 'bar',
