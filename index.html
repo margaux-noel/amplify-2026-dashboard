@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602181106"></script>
+  <script src="data.js?v=202602181344"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -185,6 +185,29 @@
     .pl-name { flex: 1; font-size: 13px; font-weight: 500; }
     .pl-count { font-size: 14px; font-weight: 700; color: var(--text); text-align: right; min-width: 28px; }
     .pl-val { font-size: 12px; color: var(--text-light); text-align: right; min-width: 64px; }
+
+    /* ── NEW THIS WEEK BANNER ── */
+    .new-banner { background: var(--dark-sand); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-bottom: 20px; display: flex; align-items: flex-start; gap: 14px; }
+    .new-banner-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--olive); flex-shrink: 0; margin-top: 5px; }
+    .new-banner-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--olive); margin-bottom: 6px; }
+    .new-banner-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .new-chip { display: inline-flex; align-items: center; gap: 6px; background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 4px 12px; font-size: 12px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .new-chip:hover { border-color: var(--olive); box-shadow: 0 0 0 2px rgba(119,116,42,0.12); }
+    .new-chip-name { font-weight: 600; color: var(--text); }
+    .new-chip-stage { color: var(--text-light); }
+
+    /* ── DELIVERABLE CALENDAR ── */
+    .cal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+    .cal-month { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .cal-month-name { font-family: 'ChiswickSansText', sans-serif; font-size: 14px; font-weight: 600; margin-bottom: 10px; color: var(--text); }
+    .cal-month.past .cal-month-name { color: var(--text-light); }
+    .cal-row { display: flex; align-items: center; gap: 8px; padding: 4px 0; border-bottom: 1px solid var(--border); }
+    .cal-row:last-child { border-bottom: none; }
+    .cal-type { flex: 1; font-size: 12px; color: var(--text); }
+    .cal-counts { display: flex; gap: 4px; align-items: center; font-size: 11px; }
+    .cal-done { color: var(--olive); font-weight: 700; }
+    .cal-planned { color: var(--indigo); font-weight: 700; }
+    .cal-total { font-size: 13px; font-weight: 700; color: var(--text-light); text-align: right; }
 
     /* ── TABLE ── */
     .table-wrap { overflow-x: auto; }
@@ -402,6 +425,9 @@
   <h2 class="section-title">Amplify 2026</h2>
   <p class="section-subtitle" id="overviewSubtitle">Full program status as of this week's data export.</p>
 
+  <!-- ── NEW THIS WEEK ── -->
+  <div id="newThisWeekBanner" style="display:none;"></div>
+
   <!-- ── AT A GLANCE ── -->
   <div class="acc-header" id="acc-hdr-glance" onclick="toggleSection('glance')">
     <div>
@@ -585,6 +611,18 @@
         <div class="chart-wrap" style="height:220px;"><canvas id="featuresChart2"></canvas></div>
       </div>
     </div>
+  </div>
+
+  <!-- ── DELIVERABLE CALENDAR ── -->
+  <div class="acc-header" id="acc-hdr-calendar" onclick="toggleSection('calendar')">
+    <div>
+      <div class="acc-title">Deliverable Calendar</div>
+      <div class="acc-meta" id="calendarMeta">Monthly view of all signed partner deliverables.</div>
+    </div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body closed" id="acc-body-calendar">
+    <div class="cal-grid" id="calGrid"></div>
   </div>
 
 </div>
@@ -1153,6 +1191,28 @@ function init() {
     }
   });
 
+  // ── New This Week banner ──
+  const ntw = D.newThisWeek || [];
+  if (ntw.length > 0) {
+    const banner = document.getElementById('newThisWeekBanner');
+    banner.style.display = 'flex';
+    banner.innerHTML = `
+      <div class="new-banner-dot"></div>
+      <div style="flex:1;">
+        <div class="new-banner-label">New this week — ${ntw.length} signed partner${ntw.length !== 1 ? 's' : ''}</div>
+        <div class="new-banner-chips">
+          ${ntw.map(p => `
+            <span class="new-chip" onclick="navigateToPartner(${JSON.stringify(p.name)})" title="Click to view in Partner Search">
+              <span class="new-chip-name">${p.name}</span>
+              <span class="new-chip-stage">${p.stage}${p.price ? ' · ' + fmt(p.price) : ''}</span>
+            </span>`).join('')}
+        </div>
+      </div>`;
+  }
+
+  // ── Deliverable Calendar ──
+  buildDeliverableCalendar(D);
+
   // ── Partner Search ──
   window._allPartners = D.partners || [];
   filterPartners();
@@ -1166,6 +1226,91 @@ function init() {
   // ── Team Updates ──
   buildTeamUpdates(D);
 }
+
+// ── Deliverable Calendar ─────────────────────────────────────────
+function buildDeliverableCalendar(D) {
+  const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const MONTH_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const DELIV_TYPES = ['Collection','Forum','Newsletter','Advisor Assets','Webinar','Social Media','Journal Article'];
+
+  // Determine current month for past/future colouring
+  const now = new Date();
+  const nowIdx = now.getFullYear() * 12 + now.getMonth();
+
+  // Build cal[monthIdx][type] = {planned: N, completed: N}
+  const cal = {};
+  const signedKeys2 = new Set(['5014','5015','5016','5017','5007']);
+  (D.partners || [])
+    .filter(p => signedKeys2.has(p.stageKey))
+    .forEach(p => {
+      (p.features || []).forEach(f => {
+        if (!f.timing || !f.timing.trim()) return;
+        const status = _delivStatus(f.timing);
+        if (status === 'none') return;
+        const label  = _scheduledLabel(f.timing); // e.g., "March"
+        // Find month index
+        const lc = label.toLowerCase();
+        let mIdx = -1;
+        for (let i = 0; i < MONTH_NAMES.length; i++) {
+          if (lc === MONTH_NAMES[i].toLowerCase() || lc === MONTH_SHORT[i].toLowerCase()) {
+            mIdx = i; break;
+          }
+        }
+        if (mIdx < 0) return;
+        if (!cal[mIdx]) cal[mIdx] = {};
+        if (!cal[mIdx][f.name]) cal[mIdx][f.name] = { planned: 0, completed: 0 };
+        if (status === 'completed') cal[mIdx][f.name].completed++;
+        else cal[mIdx][f.name].planned++;
+      });
+    });
+
+  const monthIdxs = Object.keys(cal).map(Number).sort((a, b) => a - b);
+  if (!monthIdxs.length) return;
+
+  // Compute total deliverables across all months for the subtitle
+  let totalDeliv = 0;
+  monthIdxs.forEach(mi => Object.values(cal[mi]).forEach(v => { totalDeliv += v.planned + v.completed; }));
+  document.getElementById('calendarMeta').textContent =
+    `${totalDeliv} deliverables across ${monthIdxs.length} months for signed partners.`;
+
+  const grid = document.getElementById('calGrid');
+  monthIdxs.forEach(mi => {
+    const isPast = (mi < now.getMonth()) && now.getFullYear() === 2026;
+    const types  = DELIV_TYPES.filter(t => cal[mi][t]);
+    const total  = types.reduce((s, t) => s + cal[mi][t].planned + cal[mi][t].completed, 0);
+
+    const rowsHtml = types.map(t => {
+      const { planned, completed } = cal[mi][t];
+      const countHtml = [
+        completed ? `<span class="cal-done" title="${completed} completed">✓${completed}</span>` : '',
+        planned   ? `<span class="cal-planned" title="${planned} upcoming">${planned}</span>` : '',
+      ].filter(Boolean).join('<span style="color:var(--border);margin:0 2px;">·</span>');
+      return `<div class="cal-row"><span class="cal-type">${t}</span><span class="cal-counts">${countHtml}</span></div>`;
+    }).join('');
+
+    const card = document.createElement('div');
+    card.className = 'cal-month' + (isPast ? ' past' : '');
+    card.innerHTML = `
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:10px;">
+        <div class="cal-month-name">${MONTH_NAMES[mi]}</div>
+        <div class="cal-total">${total}</div>
+      </div>
+      ${rowsHtml}`;
+    grid.appendChild(card);
+  });
+}
+
+// ── Keyboard shortcut: / → jump to Partner Search ────────────────
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) {
+    e.preventDefault();
+    const searchNavEl = document.querySelector('.nav-tab[onclick*="\'search\'"]');
+    showTab('search', searchNavEl);
+    const inp = document.getElementById('partnerSearch');
+    inp.focus();
+    inp.select();
+  }
+});
 
 // ── Partner Search (debounced + lazy detail rendering) ──────────
 let _searchTimer = null;

@@ -9,7 +9,7 @@ Needs:  pip3 install requests
 """
 
 import os, json, subprocess, sys, requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 # ── Config ─────────────────────────────────────────────────────────
@@ -210,6 +210,8 @@ def compute_metrics(boxes):
     brands    = defaultdict(int)
     groups    = defaultdict(int)
     signed_by_month = defaultdict(lambda: {"count": 0, "value": 0})
+    new_this_week   = []
+    week_ago        = datetime.now() - timedelta(days=7)
 
     partners = []
 
@@ -230,6 +232,12 @@ def compute_metrics(boxes):
                     mk = dt.strftime("%Y-%m")
                     signed_by_month[mk]["count"] += 1
                     signed_by_month[mk]["value"] += int(p)
+                    if dt >= week_ago:
+                        new_this_week.append({
+                            "name":  box.get("name", ""),
+                            "stage": SIGNED_STAGES[stage],
+                            "price": int(p),
+                        })
                 except Exception:
                     pass
         elif stage in PIPELINE_STAGES:
@@ -361,6 +369,7 @@ def compute_metrics(boxes):
         "pipelineCountByStage": dict(pipeline_cnt),
         "funnel":           funnel,
         "signedOverTime":   signed_over_time,
+        "newThisWeek":      sorted(new_this_week, key=lambda x: -x["price"]),
         "features":         dict(features),
         "quarters":         dict(quarters),
         "topCountries":     top_n(countries),

@@ -3,29 +3,29 @@
 
 const AMPLIFY_DATA = {
   "lastUpdated": "Feb 18, 2026",
-  "signedCount": 245,
-  "totalSigned": 1095500,
-  "totalPipeline": 1188500,
+  "signedCount": 247,
+  "totalSigned": 1101500,
+  "totalPipeline": 1198500,
   "paid": 600000,
-  "outstanding": 495500,
-  "waitingBilling": 23000,
+  "outstanding": 501500,
+  "waitingBilling": 13000,
   "inKind": 0,
   "needsInvoice": 31000,
   "needsInvoiceCount": 6,
-  "inDiscussion": 58000,
-  "inDiscussionCount": 65,
+  "inDiscussion": 62000,
+  "inDiscussionCount": 66,
   "finalFollowUp": 4000,
   "finalFollowUpCount": 148,
   "marketingComplete": 7000,
   "byStage": {
-    "Tier 1": 640500,
+    "Tier 1": 646500,
     "New Opening": 86000,
     "Brand Spotlight": 216000,
     "Tier 2": 146000,
     "Marketing Complete": 7000
   },
   "countByStage": {
-    "Tier 1": 182,
+    "Tier 1": 184,
     "New Opening": 15,
     "Brand Spotlight": 25,
     "Tier 2": 21,
@@ -33,20 +33,20 @@ const AMPLIFY_DATA = {
   },
   "pipelineByStage": {
     "Needs Invoice": 31000,
-    "In Discussion": 58000,
+    "In Discussion": 62000,
     "Final Follow Up": 4000
   },
   "pipelineCountByStage": {
     "Needs Invoice": 6,
-    "In Discussion": 65,
+    "In Discussion": 66,
     "Final Follow Up": 148
   },
   "funnel": [
     {
       "label": "Signed \u2014 Tier 1",
       "stageKey": "5014",
-      "count": 182,
-      "value": 640500
+      "count": 184,
+      "value": 646500
     },
     {
       "label": "Signed \u2014 Brand Spotlight",
@@ -81,8 +81,8 @@ const AMPLIFY_DATA = {
     {
       "label": "In Discussion",
       "stageKey": "5004",
-      "count": 65,
-      "value": 58000
+      "count": 66,
+      "value": 62000
     },
     {
       "label": "Final Follow Up",
@@ -105,7 +105,7 @@ const AMPLIFY_DATA = {
     {
       "label": "Declined",
       "stageKey": "5008",
-      "count": 169,
+      "count": 168,
       "value": 0
     },
     {
@@ -118,66 +118,78 @@ const AMPLIFY_DATA = {
   "signedOverTime": [
     {
       "month": "Aug 2025",
-      "count": 204,
-      "value": 893500,
-      "cumCount": 204,
-      "cumValue": 893500
+      "count": 205,
+      "value": 896500,
+      "cumCount": 205,
+      "cumValue": 896500
     },
     {
       "month": "Sep 2025",
       "count": 5,
       "value": 36000,
-      "cumCount": 209,
-      "cumValue": 929500
+      "cumCount": 210,
+      "cumValue": 932500
     },
     {
       "month": "Oct 2025",
       "count": 4,
       "value": 20500,
-      "cumCount": 213,
-      "cumValue": 950000
+      "cumCount": 214,
+      "cumValue": 953000
     },
     {
       "month": "Nov 2025",
       "count": 14,
       "value": 50000,
-      "cumCount": 227,
-      "cumValue": 1000000
+      "cumCount": 228,
+      "cumValue": 1003000
     },
     {
       "month": "Dec 2025",
       "count": 9,
       "value": 41500,
-      "cumCount": 236,
-      "cumValue": 1041500
+      "cumCount": 237,
+      "cumValue": 1044500
     },
     {
       "month": "Jan 2026",
       "count": 3,
       "value": 6000,
-      "cumCount": 239,
-      "cumValue": 1047500
+      "cumCount": 240,
+      "cumValue": 1050500
     },
     {
       "month": "Feb 2026",
-      "count": 6,
-      "value": 48000,
-      "cumCount": 245,
-      "cumValue": 1095500
+      "count": 7,
+      "value": 51000,
+      "cumCount": 247,
+      "cumValue": 1101500
+    }
+  ],
+  "newThisWeek": [
+    {
+      "name": "W Sardinia",
+      "stage": "Tier 1",
+      "price": 4000
+    },
+    {
+      "name": "Atlantis Bay",
+      "stage": "Tier 1",
+      "price": 3000
     }
   ],
   "features": {
-    "Collection": 163,
+    "Collection": 165,
+    "Forum": 124,
+    "Newsletter": 121,
     "Journal Article": 14,
     "Social Media": 14,
-    "Forum": 122,
-    "Newsletter": 119,
     "Advisor Assets": 24,
     "Webinar": 5
   },
   "quarters": {
     "TBD": 96,
-    "Q2": 74,
+    "Q2": 76,
     "Q3": 16,
     "Q4": 4,
     "Q1": 68
@@ -189,7 +201,7 @@ const AMPLIFY_DATA = {
     ],
     [
       "Italy",
-      26
+      28
     ],
     [
       "Spain",
@@ -713,6 +725,22 @@ const AMPLIFY_DATA = {
       "group": "Atlantis Bahamas",
       "email": "Megan.Prieto@atlantisparadise.com, Ann-Sofi.Gustafsson@atlantisparadise.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWgqMTpCQw"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXbjOfpCww",
+      "name": "Atlantis Bay",
+      "stage": "Tier 1",
+      "stageKey": "5014",
+      "price": 3000,
+      "invoiceStatus": "Outstanding",
+      "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Fc7GVqrSpNJ57Crn1GzFO",
+      "features": [],
+      "quarters": [],
+      "country": "Italy",
+      "brand": "VRetreats",
+      "group": "VRetreats",
+      "email": "laura.osiride@vretreats.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXbjOfpCww"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCAw",
@@ -2992,6 +3020,22 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww"
     },
     {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCww",
+      "name": "Mazzaro Sea Palace",
+      "stage": "Tier 1",
+      "stageKey": "5014",
+      "price": 3000,
+      "invoiceStatus": "Outstanding",
+      "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Fc7GVqrSpNJ57Crn1GzFO",
+      "features": [],
+      "quarters": [],
+      "country": "Italy",
+      "brand": "",
+      "group": "",
+      "email": "alessandra.rollini@vretreats.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCww"
+    },
+    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCAw",
       "name": "Mission Pacific Beach Resort",
       "stage": "Tier 1",
@@ -4045,8 +4089,23 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz0LlGVqrSpNJ575O2uvu4e",
-      "features": [],
-      "quarters": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "April - Planned"
+        },
+        {
+          "name": "Forum",
+          "timing": "April - Planned"
+        },
+        {
+          "name": "Newsletter",
+          "timing": "April - Planned"
+        }
+      ],
+      "quarters": [
+        "Q2"
+      ],
       "country": "GB",
       "brand": "Raffles",
       "group": "Accor",
@@ -6220,8 +6279,23 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T1t8yGVqrSpNJ57EV8o27IM",
-      "features": [],
-      "quarters": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "April - Planned"
+        },
+        {
+          "name": "Forum",
+          "timing": "March - Planned"
+        },
+        {
+          "name": "Newsletter",
+          "timing": "April - Planned"
+        }
+      ],
+      "quarters": [
+        "Q2"
+      ],
       "country": "Italy",
       "brand": "W Hotels",
       "group": "Marriott International",
@@ -8519,6 +8593,22 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iVCQw"
     },
     {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw",
+      "name": "Montage Deer Valley",
+      "stage": "In Discussion",
+      "stageKey": "5004",
+      "price": 4000,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "",
+      "brand": "Montage",
+      "group": "Montage International",
+      "email": "Trisha.Welsby@montage.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw"
+    },
+    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rZCAw",
       "name": "NH Collection Fori Imperiali",
       "stage": "In Discussion",
@@ -9088,7 +9178,7 @@ const AMPLIFY_DATA = {
       "invoiceUrl": "",
       "features": [],
       "quarters": [],
-      "country": "",
+      "country": "Mexico",
       "brand": "Luxury Collection",
       "group": "Marriott International",
       "email": "Stephany.morales@luxurycollection.com",
@@ -9100,7 +9190,7 @@ const AMPLIFY_DATA = {
       "stage": "Needs Invoice",
       "stageKey": "5011",
       "price": 5000,
-      "invoiceStatus": "Waiting for billing details",
+      "invoiceStatus": "To Invoice",
       "invoiceUrl": "",
       "features": [],
       "quarters": [
@@ -9134,7 +9224,7 @@ const AMPLIFY_DATA = {
       "stage": "Needs Invoice",
       "stageKey": "5011",
       "price": 5000,
-      "invoiceStatus": "Waiting for billing details",
+      "invoiceStatus": "To Invoice",
       "invoiceUrl": "",
       "features": [],
       "quarters": [
@@ -13528,22 +13618,6 @@ const AMPLIFY_DATA = {
       "group": "Montage International",
       "email": "Brea.Strager@montage.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CAw"
-    },
-    {
-      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw",
-      "name": "Montage Deer Valley",
-      "stage": "Declined",
-      "stageKey": "5008",
-      "price": 0,
-      "invoiceStatus": "",
-      "invoiceUrl": "",
-      "features": [],
-      "quarters": [],
-      "country": "",
-      "brand": "Montage",
-      "group": "Montage International",
-      "email": "Shawna.Gage@montage.com",
-      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9i5CQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jVCQw",
