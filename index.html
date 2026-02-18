@@ -364,7 +364,6 @@
 <!-- NAV TABS -->
 <div class="nav-tabs">
   <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
-  <div class="nav-tab" onclick="showTab('invoices',this)">Invoices</div>
   <div class="nav-tab" onclick="showTab('partners',this)">Partners</div>
   <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
   <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
@@ -465,53 +464,52 @@
       <div class="funnel-list" id="funnelList"></div>
     </div>
   </div>
-</div>
 
+  <!-- Invoice section -->
+  <div style="margin-top:40px; padding-top:32px; border-top: 1px solid var(--border);">
+    <h2 class="section-title">Invoice Tracker</h2>
+    <p class="section-subtitle" id="invoiceSubtitle">Invoice status across all signed partners.</p>
 
-<!-- ===== INVOICES ===== -->
-<div id="tab-invoices" class="section">
-  <h2 class="section-title">Invoice Tracker</h2>
-  <p class="section-subtitle" id="invoiceSubtitle">Invoice status across all signed partners.</p>
+    <div class="kpi-grid" style="margin-bottom:28px;">
+      <div class="kpi-card green">
+        <div class="kpi-label">Paid</div>
+        <div class="kpi-value" id="invPaid">—</div>
+        <div class="kpi-sub" id="invPaidSub">—</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="kpi-label">Outstanding</div>
+        <div class="kpi-value" id="invOutstanding">—</div>
+        <div class="kpi-sub">Invoices sent, awaiting payment</div>
+      </div>
+      <div class="kpi-card amber">
+        <div class="kpi-label">Waiting on Billing Info</div>
+        <div class="kpi-value" id="invWaiting">—</div>
+        <div class="kpi-sub" id="invWaitingSub">—</div>
+      </div>
+      <div class="kpi-card navy">
+        <div class="kpi-label">Needs Invoice Sent</div>
+        <div class="kpi-value" id="invNeedsInvoice">—</div>
+        <div class="kpi-sub" id="invNeedsInvoiceSub">—</div>
+      </div>
+    </div>
 
-  <div class="kpi-grid" style="margin-bottom:28px;">
-    <div class="kpi-card green">
-      <div class="kpi-label">Paid</div>
-      <div class="kpi-value" id="invPaid">—</div>
-      <div class="kpi-sub" id="invPaidSub">—</div>
-    </div>
-    <div class="kpi-card red">
-      <div class="kpi-label">Outstanding</div>
-      <div class="kpi-value" id="invOutstanding">—</div>
-      <div class="kpi-sub">Invoices sent, awaiting payment</div>
-    </div>
-    <div class="kpi-card amber">
-      <div class="kpi-label">Waiting on Billing Info</div>
-      <div class="kpi-value" id="invWaiting">—</div>
-      <div class="kpi-sub" id="invWaitingSub">—</div>
-    </div>
-    <div class="kpi-card navy">
-      <div class="kpi-label">Needs Invoice Sent</div>
-      <div class="kpi-value" id="invNeedsInvoice">—</div>
-      <div class="kpi-sub" id="invNeedsInvoiceSub">—</div>
-    </div>
-  </div>
-
-  <div class="chart-card">
-    <h3>Partners Needing Invoices — Action Required</h3>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Partner Name</th>
-            <th>Package</th>
-            <th>Amount</th>
-            <th>Country</th>
-            <th>Priority</th>
-            <th>Streak</th>
-          </tr>
-        </thead>
-        <tbody id="needsInvoiceTbody"></tbody>
-      </table>
+    <div class="chart-card">
+      <h3>Partners Needing Invoices — Action Required</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Partner Name</th>
+              <th>Package</th>
+              <th>Amount</th>
+              <th>Country</th>
+              <th>Priority</th>
+              <th>Streak</th>
+            </tr>
+          </thead>
+          <tbody id="needsInvoiceTbody"></tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
