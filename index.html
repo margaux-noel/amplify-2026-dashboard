@@ -4,33 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
+    /* ── Fora brand fonts ── */
+    @font-face {
+      font-family: 'ChiswickSansText';
+      src: url('fonts/ChiswickSansText-Regular.otf') format('opentype');
+      font-weight: 400; font-display: swap;
+    }
+    @font-face {
+      font-family: 'ChiswickSansText';
+      src: url('fonts/ChiswickSansText-Semibold.otf') format('opentype');
+      font-weight: 600; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Blanco';
+      src: url('fonts/Blanco-Regular.otf') format('opentype');
+      font-weight: 400; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Blanco';
+      src: url('fonts/Blanco-Bold.otf') format('opentype');
+      font-weight: 700; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Blanco';
+      src: url('fonts/Blanco-Italic.otf') format('opentype');
+      font-weight: 400; font-style: italic; font-display: swap;
+    }
+
     :root {
-      --navy: #614321;
-      --navy-mid: #7a5430;
-      --gold: #c3b629;
-      --gold-light: #e4da6e;
+      --navy: #131313;
+      --navy-mid: #1e1e1e;
+      --gold: #77742a;
+      --gold-light: #b5b347;
       --bg: #fefaf5;
       --white: #ffffff;
       --green: #3fa87a;
       --amber: #c87d1e;
-      --red: #c94f4f;
-      --text: #3a2610;
-      --text-light: #8a6a4a;
-      --border: #e8dece;
-      --shadow: 0 2px 12px rgba(97,67,33,0.10);
+      --red: #870d13;
+      --text: #131313;
+      --text-light: #827363;
+      --border: #e5dbd0;
+      --shadow: 0 2px 12px rgba(0,0,0,0.07);
       --radius: 12px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Blanco', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg);
       color: var(--text);
       font-size: 14px;
@@ -50,7 +74,7 @@
       z-index: 100;
       box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     }
-    .header-left h1 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; letter-spacing: 0.01em; color: var(--gold-light); }
+    .header-left h1 { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: 0.01em; color: var(--gold-light); }
     .header-left p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 2px; }
     .header-right { display: flex; align-items: center; gap: 16px; }
     .week-badge {
@@ -132,7 +156,7 @@
     .chart-wrap { position: relative; }
 
     /* ── SECTION TITLE ── */
-    .section-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .section-title { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
     .section-subtitle { font-size: 13px; color: var(--text-light); margin-bottom: 28px; }
 
     /* ── PIPELINE FUNNEL ── */
@@ -327,7 +351,6 @@
 <!-- NAV TABS -->
 <div class="nav-tabs">
   <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
-  <div class="nav-tab" onclick="showTab('pipeline',this)">Pipeline</div>
   <div class="nav-tab" onclick="showTab('invoices',this)">Invoices</div>
   <div class="nav-tab" onclick="showTab('partners',this)">Partners</div>
   <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
@@ -414,46 +437,12 @@
       <div class="chart-wrap" style="height:200px;"><canvas id="featuresChart"></canvas></div>
     </div>
   </div>
-</div>
 
-
-<!-- ===== PIPELINE ===== -->
-<div id="tab-pipeline" class="section">
-  <h2 class="section-title">Partner Pipeline</h2>
-  <p class="section-subtitle">How contacts are moving through the sales funnel.</p>
-
-  <div class="chart-card" style="margin-bottom:24px;">
-    <h3>Funnel: All Stages</h3>
-    <div class="funnel-list" id="funnelList"></div>
-  </div>
-
-  <div class="chart-grid-2">
-    <div class="chart-card">
-      <h3>Pipeline Potential Revenue</h3>
-      <div style="padding:8px 0;">
-        <div style="margin-bottom:20px;">
-          <div class="kpi-label">Signed (Confirmed)</div>
-          <div style="font-size:26px; font-weight:700; color:var(--green);" id="pipeSigned">—</div>
-        </div>
-        <div style="margin-bottom:20px;">
-          <div class="kpi-label">In Discussion + Final Follow Up</div>
-          <div style="font-size:26px; font-weight:700; color:var(--amber);" id="pipeDiscussion">—</div>
-          <div style="font-size:12px; color:var(--text-light);" id="pipeDiscussionSub">—</div>
-        </div>
-        <div style="margin-bottom:20px;">
-          <div class="kpi-label">Needs Invoice</div>
-          <div style="font-size:26px; font-weight:700; color:var(--red);" id="pipeNeedsInvoice">—</div>
-          <div style="font-size:12px; color:var(--text-light);">Signed but not yet invoiced</div>
-        </div>
-        <div>
-          <div class="kpi-label">Total Value in Pipeline</div>
-          <div style="font-size:26px; font-weight:700; color:var(--navy);" id="pipeTotalPipeline">—</div>
-        </div>
-      </div>
-    </div>
-    <div class="chart-card">
-      <h3>Stage Breakdown — Signed Partners</h3>
-      <div class="chart-wrap" style="height:220px;"><canvas id="pipelineStageChart"></canvas></div>
+  <!-- Pipeline funnel -->
+  <div class="chart-grid-2" style="margin-top:4px;">
+    <div class="chart-card wide">
+      <h3>Full Pipeline — All Stages</h3>
+      <div class="funnel-list" id="funnelList"></div>
     </div>
   </div>
 </div>
@@ -715,19 +704,19 @@ function showTab(tab, el) {
 }
 
 // ── Colors (Fora brand palette) ──────────────────────────────────
-const GOLD   = '#c3b629';  // Hokey Pokey — Fora accent
-const NAVY   = '#614321';  // Pickled Bean — Fora primary dark
+const GOLD   = '#77742a';  // Fora olive
+const NAVY   = '#131313';  // Fora black
 const GREEN  = '#3fa87a';
 const AMBER  = '#c87d1e';
-const RED    = '#c94f4f';
-const NAVY2  = '#7a5430';
-const GOLD2  = '#e4da6e';
+const RED    = '#870d13';  // Fora burgundy
+const NAVY2  = '#1e1e1e';
+const GOLD2  = '#b5b347';
 const TEAL   = '#3a8fa8';
 const PURPLE = '#7b5ea7';
 
-Chart.defaults.font.family = "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif";
+Chart.defaults.font.family = "'Blanco', -apple-system, BlinkMacSystemFont, sans-serif";
 Chart.defaults.font.size   = 12;
-Chart.defaults.color       = '#8a6a4a';
+Chart.defaults.color       = '#827363';
 
 // ── Formatters ──────────────────────────────────────────────────
 const fmt  = n => '$' + Math.round(n).toLocaleString();
@@ -872,13 +861,6 @@ function init() {
     }
   });
 
-  // ── Pipeline tab ──
-  document.getElementById('pipeSigned').textContent        = fmt(D.totalSigned);
-  document.getElementById('pipeDiscussion').textContent    = fmt(D.inDiscussion + D.finalFollowUp);
-  document.getElementById('pipeDiscussionSub').textContent = fmt(D.inDiscussion) + ' in discussion · ' + fmt(D.finalFollowUp) + ' final follow up';
-  document.getElementById('pipeNeedsInvoice').textContent  = fmt(D.needsInvoice);
-  document.getElementById('pipeTotalPipeline').textContent = fmt(D.totalPipeline);
-
   // Funnel
   const funnelColors = {
     '5014': GOLD, '5015': TEAL, '5016': NAVY, '5017': AMBER, '5007': GREEN,
@@ -901,19 +883,6 @@ function init() {
         <div class="funnel-count">${f.count}</div>
         <div class="funnel-val">${valStr}</div>
       </div>`;
-  });
-
-  // Pipeline stage chart
-  new Chart(document.getElementById('pipelineStageChart'), {
-    type: 'doughnut',
-    data: {
-      labels: Object.keys(D.countByStage),
-      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, cutout: '60%',
-      plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } } }
-    }
   });
 
   // ── Invoices tab ──
@@ -991,23 +960,28 @@ function init() {
   buildTeamUpdates(D);
 }
 
-// ── Partner Search ──────────────────────────────────────────────
+// ── Partner Search (debounced + lazy detail rendering) ──────────
+let _searchTimer = null;
+const _renderedDetails = new Set();
+
 function filterPartners() {
-  const query   = document.getElementById('partnerSearch').value.toLowerCase();
+  clearTimeout(_searchTimer);
+  _searchTimer = setTimeout(_runFilter, 180);
+}
+
+function _runFilter() {
+  const query   = document.getElementById('partnerSearch').value.toLowerCase().trim();
   const stage   = document.getElementById('stageFilter').value;
   const invoice = document.getElementById('invoiceFilter').value;
   const quarter = document.getElementById('quarterFilter').value;
 
   let results = window._allPartners || [];
-
-  if (query) {
-    results = results.filter(p =>
-      p.name.toLowerCase().includes(query) ||
-      (p.brand || '').toLowerCase().includes(query) ||
-      (p.group || '').toLowerCase().includes(query) ||
-      (p.country || '').toLowerCase().includes(query)
-    );
-  }
+  if (query)   results = results.filter(p =>
+    p.name.toLowerCase().includes(query) ||
+    (p.brand || '').toLowerCase().includes(query) ||
+    (p.group || '').toLowerCase().includes(query) ||
+    (p.country || '').toLowerCase().includes(query)
+  );
   if (stage)   results = results.filter(p => p.stage === stage);
   if (invoice) results = results.filter(p => p.invoiceStatus === invoice);
   if (quarter) {
@@ -1019,60 +993,87 @@ function filterPartners() {
     `${results.length} partner${results.length !== 1 ? 's' : ''} found`;
 
   const tbody = document.getElementById('partnerSearchTbody');
+  const frag  = document.createDocumentFragment();
+  _renderedDetails.clear();
   tbody.innerHTML = '';
 
   if (results.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-light);padding:24px;">No partners match your search.</td></tr>';
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td colspan="8" style="text-align:center;color:var(--text-light);padding:24px;">No partners match your search.</td>';
+    tbody.appendChild(tr);
     return;
   }
 
-  results.slice(0, 200).forEach(p => {
-    const featStr = (p.features || []).slice(0, 3).join(', ') + ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
-    const qStr = (p.quarters || []).length > 0 ? (p.quarters || []).join(', ') : '<span style="color:var(--text-light)">TBD</span>';
-    tbody.innerHTML += `
-      <tr onclick="toggleDetail('detail-${p.key}')">
-        <td><strong>${p.name}</strong></td>
-        <td>${stageBadge(p.stage)}</td>
-        <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
-        <td>${invoiceBadge(p.invoiceStatus)}</td>
-        <td>${qStr}</td>
-        <td>${p.country || '—'}</td>
-        <td style="font-size:12px;color:var(--text-light);">${featStr || '—'}</td>
-        <td>
-          <a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Streak</a>
-          ${p.invoiceUrl ? ` · <a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : ''}
-        </td>
-      </tr>
-      <tr>
-        <td colspan="8" style="padding:0;">
-          <div class="partner-detail" id="detail-${p.key}">
-            <div class="detail-grid">
-              <div class="detail-field"><label>Full Name</label><span>${p.name}</span></div>
-              <div class="detail-field"><label>Stage</label><span>${stageBadge(p.stage)}</span></div>
-              <div class="detail-field"><label>Package Value</label><span>${p.price ? fmt(p.price) : '—'}</span></div>
-              <div class="detail-field"><label>Invoice Status</label><span>${invoiceBadge(p.invoiceStatus)}</span></div>
-              <div class="detail-field"><label>Country</label><span>${p.country || '—'}</span></div>
-              <div class="detail-field"><label>Quarter(s)</label><span>${(p.quarters || []).length ? (p.quarters || []).join(', ') : 'TBD'}</span></div>
-              <div class="detail-field"><label>Brand</label><span>${p.brand || '—'}</span></div>
-              <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
-              <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
-            </div>
-            ${(p.features || []).length > 0 ? `
-              <div><label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Features Booked</label>
-              <div class="feature-tags">${(p.features || []).map(f => `<span class="badge badge-navy">${f}</span>`).join('')}</div></div>` : ''}
-          </div>
-        </td>
-      </tr>`;
+  results.slice(0, 100).forEach(p => {
+    const featStr = (p.features || []).slice(0, 3).join(', ') +
+      ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
+    const qStr = (p.quarters || []).length > 0
+      ? (p.quarters || []).join(', ')
+      : '<span style="color:var(--text-light)">TBD</span>';
+
+    // Main row — built via innerHTML on a detached element (fast)
+    const mainTr = document.createElement('tr');
+    mainTr.innerHTML = `
+      <td><strong>${p.name}</strong></td>
+      <td>${stageBadge(p.stage)}</td>
+      <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
+      <td>${invoiceBadge(p.invoiceStatus)}</td>
+      <td>${qStr}</td>
+      <td>${p.country || '—'}</td>
+      <td style="font-size:12px;color:var(--text-light);">${featStr || '—'}</td>
+      <td>
+        <a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Streak</a>
+        ${p.invoiceUrl ? ` · <a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : ''}
+      </td>`;
+    mainTr.addEventListener('click', () => _expandDetail(mainTr, p));
+    frag.appendChild(mainTr);
+
+    // Detail row — empty placeholder, filled lazily on first click
+    const detailTr = document.createElement('tr');
+    const detailTd = document.createElement('td');
+    detailTd.setAttribute('colspan', '8');
+    detailTd.style.padding = '0';
+    const detailDiv = document.createElement('div');
+    detailDiv.className = 'partner-detail';
+    detailDiv.id = 'detail-' + p.key;
+    detailTd.appendChild(detailDiv);
+    detailTr.appendChild(detailTd);
+    frag.appendChild(detailTr);
   });
 
-  if (results.length > 200) {
-    tbody.innerHTML += `<tr><td colspan="8" style="text-align:center;color:var(--text-light);padding:12px;">Showing first 200 of ${results.length} results. Narrow your search to see more.</td></tr>`;
+  if (results.length > 100) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td colspan="8" style="text-align:center;color:var(--text-light);padding:12px;">Showing first 100 of ${results.length} results — use filters to narrow down.</td>`;
+    frag.appendChild(tr);
   }
+
+  tbody.appendChild(frag);
 }
 
-function toggleDetail(id) {
-  const el = document.getElementById(id);
-  if (el) el.classList.toggle('open');
+function _expandDetail(rowEl, p) {
+  const div = document.getElementById('detail-' + p.key);
+  if (!div) return;
+  // Lazy-render content only on first open
+  if (!_renderedDetails.has(p.key)) {
+    _renderedDetails.add(p.key);
+    div.innerHTML = `
+      <div class="detail-grid">
+        <div class="detail-field"><label>Stage</label><span>${stageBadge(p.stage)}</span></div>
+        <div class="detail-field"><label>Package Value</label><span>${p.price ? fmt(p.price) : '—'}</span></div>
+        <div class="detail-field"><label>Invoice Status</label><span>${invoiceBadge(p.invoiceStatus)}</span></div>
+        <div class="detail-field"><label>Country</label><span>${p.country || '—'}</span></div>
+        <div class="detail-field"><label>Quarter(s)</label><span>${(p.quarters||[]).length ? p.quarters.join(', ') : 'TBD'}</span></div>
+        <div class="detail-field"><label>Brand</label><span>${p.brand || '—'}</span></div>
+        <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
+        <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
+      </div>
+      ${(p.features||[]).length > 0 ? `
+        <div style="margin-top:12px;">
+          <label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Features Booked</label>
+          <div class="feature-tags">${p.features.map(f => `<span class="badge badge-navy">${f}</span>`).join('')}</div>
+        </div>` : ''}`;
+  }
+  div.classList.toggle('open');
 }
 
 // ── Scenario Planner ────────────────────────────────────────────
