@@ -18,9 +18,6 @@ PIPELINE_KEY = "agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20M
 BASE_URL     = "https://api.streak.com/api/v1"
 AUTH         = (API_KEY, "")
 
-STRIPE_KEY   = os.environ.get("STRIPE_SECRET_KEY", "")
-STRIPE_BASE  = "https://api.stripe.com/v1"
-
 # ── Stage keys ─────────────────────────────────────────────────────
 SIGNED_STAGES = {
     "5014": "Tier 1",
@@ -54,6 +51,7 @@ F_BRAND       = "1033"
 F_GROUP       = "1034"
 F_QUARTER     = "1053"
 F_EMAIL       = "1050"
+F_INVOICE_DATE= "1036"
 
 FEATURE_FIELDS = {
     "Collection":     "1067",
@@ -196,28 +194,6 @@ def get_features(box, field_labels=None):
             result.append({"name": fname, "timing": timing})
     return result
 
-# ── Stripe invoice date lookup ──────────────────────────────────────
-_invoice_cache = {}
-
-def fetch_invoice_date(invoice_url):
-    """Return a datetime for when the Stripe invoice was created, or None."""
-    if not STRIPE_KEY or not invoice_url:
-        return None
-    m = re.search(r'/invoices/(in_\w+)', invoice_url)
-    if not m:
-        return None
-    inv_id = m.group(1)
-    if inv_id in _invoice_cache:
-        return _invoice_cache[inv_id]
-    try:
-        r = requests.get(f"{STRIPE_BASE}/invoices/{inv_id}", auth=(STRIPE_KEY, ""), timeout=10)
-        ts = r.json().get("created") if r.status_code == 200 else None
-        dt = datetime.fromtimestamp(ts) if ts else None
-    except Exception:
-        dt = None
-    _invoice_cache[inv_id] = dt
-    return dt
-
 # ── Main ───────────────────────────────────────────────────────────
 def compute_metrics(boxes):
     field_labels = fetch_field_labels()
@@ -249,11 +225,16 @@ def compute_metrics(boxes):
             label = SIGNED_STAGES[stage]
             signed_val[label] += p
             signed_cnt[label] += 1
-            # Determine signed date: Stripe invoice creation date (most accurate),
-            # falling back to Streak lastStageChangeDate / creationTimestamp.
-            inv_url_raw = field_val(box, F_INVOICE_URL)
-            inv_url_str = str(inv_url_raw).strip() if inv_url_raw and str(inv_url_raw).startswith("http") else ""
-            sign_dt = fetch_invoice_date(inv_url_str)
+            # Determine signed date: Invoice Date field from Streak (most accurate),
+            # falling back to lastStageChangeDate / creationTimestamp.
+            sign_dt = None
+            inv_date_val = field_val(box, F_INVOICE_DATE)
+            if inv_date_val:
+                try:
+                    # Streak DATE fields are Unix ms timestamps
+                    sign_dt = datetime.fromtimestamp(int(inv_date_val) / 1000)
+                except Exception:
+                    pass
             if not sign_dt:
                 ts = box.get("lastStageChangeDate") or box.get("creationTimestamp")
                 if ts:

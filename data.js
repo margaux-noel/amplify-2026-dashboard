@@ -118,50 +118,50 @@ const AMPLIFY_DATA = {
   "signedOverTime": [
     {
       "month": "Aug 2025",
-      "count": 205,
-      "value": 896500,
-      "cumCount": 205,
-      "cumValue": 896500
+      "count": 13,
+      "value": 30000,
+      "cumCount": 13,
+      "cumValue": 30000
     },
     {
       "month": "Sep 2025",
-      "count": 5,
-      "value": 36000,
-      "cumCount": 210,
-      "cumValue": 932500
+      "count": 22,
+      "value": 117000,
+      "cumCount": 35,
+      "cumValue": 147000
     },
     {
       "month": "Oct 2025",
-      "count": 4,
-      "value": 20500,
-      "cumCount": 214,
-      "cumValue": 953000
+      "count": 49,
+      "value": 211000,
+      "cumCount": 84,
+      "cumValue": 358000
     },
     {
       "month": "Nov 2025",
-      "count": 14,
-      "value": 50000,
-      "cumCount": 228,
-      "cumValue": 1003000
+      "count": 40,
+      "value": 177000,
+      "cumCount": 124,
+      "cumValue": 535000
     },
     {
       "month": "Dec 2025",
-      "count": 9,
-      "value": 41500,
-      "cumCount": 237,
-      "cumValue": 1044500
+      "count": 41,
+      "value": 188000,
+      "cumCount": 165,
+      "cumValue": 723000
     },
     {
       "month": "Jan 2026",
-      "count": 3,
-      "value": 6000,
-      "cumCount": 240,
-      "cumValue": 1050500
+      "count": 42,
+      "value": 198500,
+      "cumCount": 207,
+      "cumValue": 921500
     },
     {
       "month": "Feb 2026",
-      "count": 7,
-      "value": 51000,
+      "count": 40,
+      "value": 180000,
       "cumCount": 247,
       "cumValue": 1101500
     }
@@ -173,13 +173,33 @@ const AMPLIFY_DATA = {
       "price": 4000
     },
     {
+      "name": "Terre Blanche H\u00f4tel Spa Golf Resort",
+      "stage": "Tier 1",
+      "price": 4000
+    },
+    {
+      "name": "Fairmont Le Ch\u00e2teau Frontenac",
+      "stage": "Tier 1",
+      "price": 4000
+    },
+    {
       "name": "Atlantis Bay",
+      "stage": "Tier 1",
+      "price": 3000
+    },
+    {
+      "name": "The Hoxton Florence",
+      "stage": "Tier 1",
+      "price": 3000
+    },
+    {
+      "name": "Mazzaro Sea Palace",
       "stage": "Tier 1",
       "price": 3000
     }
   ],
   "features": {
-    "Collection": 165,
+    "Collection": 178,
     "Forum": 124,
     "Newsletter": 121,
     "Journal Article": 14,
@@ -551,7 +571,12 @@ const AMPLIFY_DATA = {
       "price": 7000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SNcT4GVqrSpNJ57S7NRkl10",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "July - Planned"
+        }
+      ],
       "quarters": [],
       "country": "",
       "brand": "Almanac",
@@ -1044,7 +1069,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "March - Planned"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -1974,7 +1999,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/payments/pi_3SQcmxGVqrSpNJ573GHm26pY",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "Dorchester Collection",
@@ -2037,7 +2067,12 @@ const AMPLIFY_DATA = {
       "price": 2000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SeefVGVqrSpNJ577Yo21QfX",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "ETC Hotels",
@@ -2103,7 +2138,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "April - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -2197,7 +2232,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "March - Planned"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
@@ -2308,7 +2343,12 @@ const AMPLIFY_DATA = {
       "price": 2000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/payments/pi_3SopebGVqrSpNJ570Jsj5eXZ",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "March - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "Ritz-Carlton",
@@ -2550,7 +2590,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "March - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -2640,7 +2680,12 @@ const AMPLIFY_DATA = {
       "price": 3000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SagVhGVqrSpNJ57oRivtV1L",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "April - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Japan",
       "brand": "Kimpton",
@@ -2889,7 +2934,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "April - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -3601,6 +3646,10 @@ const AMPLIFY_DATA = {
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SQA1ZGVqrSpNJ57rRAwkHbV",
       "features": [
         {
+          "name": "Collection",
+          "timing": "March - Planned"
+        },
+        {
           "name": "Forum",
           "timing": "February - Completed"
         }
@@ -3687,7 +3736,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz1NiGVqrSpNJ57TBDsBDqf",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "",
       "brand": "Pan Pacific",
@@ -3781,7 +3835,12 @@ const AMPLIFY_DATA = {
       "price": 6000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SpBXdGVqrSpNJ573RbwOipQ",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "July - Planned"
+        }
+      ],
       "quarters": [],
       "country": "French Polynesia/Tahiti",
       "brand": "Pearl Resorts",
@@ -3797,7 +3856,12 @@ const AMPLIFY_DATA = {
       "price": 10000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ScBAXGVqrSpNJ57a1w2xG8e",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "June - Planned"
+        }
+      ],
       "quarters": [],
       "country": "",
       "brand": "Pendry",
@@ -3813,7 +3877,12 @@ const AMPLIFY_DATA = {
       "price": 10000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SieipGVqrSpNJ57dJM5A9ev",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "Multiple Countries",
       "brand": "Peninsula",
@@ -4225,7 +4294,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "April - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -4252,7 +4321,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "April - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -4680,7 +4749,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "April - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -5198,7 +5267,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/payments/pi_3SFjIjGVqrSpNJ571oyBu7Ff",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "May - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "",
@@ -5233,7 +5307,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "April - Planned"
         },
         {
           "name": "Forum",
@@ -5425,7 +5499,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -5454,6 +5528,10 @@ const AMPLIFY_DATA = {
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sjl8QGVqrSpNJ574VSJB7si",
       "features": [
+        {
+          "name": "Collection",
+          "timing": "April - Planned"
+        },
         {
           "name": "Forum",
           "timing": "February - Completed"
@@ -6033,7 +6111,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "April - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -6313,7 +6391,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
@@ -6357,7 +6435,12 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SO18BGVqrSpNJ57AJyvscfO",
-      "features": [],
+      "features": [
+        {
+          "name": "Collection",
+          "timing": "March - Planned"
+        }
+      ],
       "quarters": [],
       "country": "USA",
       "brand": "Waldorf Astoria",
@@ -6521,7 +6604,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "June - Planned"
+          "timing": "May - Planned"
         },
         {
           "name": "Forum",
