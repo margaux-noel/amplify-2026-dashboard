@@ -4,30 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
-      --navy: #1a1a2e;
-      --navy-mid: #2d2d4a;
-      --gold: #c9a96e;
-      --gold-light: #e8d5b0;
-      --bg: #f5f4f0;
+      --navy: #614321;
+      --navy-mid: #7a5430;
+      --gold: #c3b629;
+      --gold-light: #e4da6e;
+      --bg: #fefaf5;
       --white: #ffffff;
       --green: #3fa87a;
-      --amber: #d98c2f;
+      --amber: #c87d1e;
       --red: #c94f4f;
-      --text: #1a1a2e;
-      --text-light: #6b6b8a;
-      --border: #e8e6de;
-      --shadow: 0 2px 12px rgba(26,26,46,0.08);
+      --text: #3a2610;
+      --text-light: #8a6a4a;
+      --border: #e8dece;
+      --shadow: 0 2px 12px rgba(97,67,33,0.10);
       --radius: 12px;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       background: var(--bg);
       color: var(--text);
       font-size: 14px;
@@ -47,11 +50,11 @@
       z-index: 100;
       box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     }
-    .header-left h1 { font-size: 22px; font-weight: 600; letter-spacing: 0.02em; color: var(--gold-light); }
+    .header-left h1 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; letter-spacing: 0.01em; color: var(--gold-light); }
     .header-left p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 2px; }
     .header-right { display: flex; align-items: center; gap: 16px; }
     .week-badge {
-      background: rgba(201,169,110,0.2);
+      background: rgba(195,182,41,0.18);
       border: 1px solid var(--gold);
       color: var(--gold-light);
       padding: 6px 16px;
@@ -129,7 +132,7 @@
     .chart-wrap { position: relative; }
 
     /* ── SECTION TITLE ── */
-    .section-title { font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
     .section-subtitle { font-size: 13px; color: var(--text-light); margin-bottom: 28px; }
 
     /* ── PIPELINE FUNNEL ── */
@@ -308,7 +311,12 @@
 <!-- HEADER -->
 <div class="header">
   <div class="header-left">
-    <h1>Fora Amplify 2026 — Partner Dashboard</h1>
+    <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
+      <span style="font-family:'DM Sans',sans-serif; font-size:11px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase; color:var(--gold); border:1px solid var(--gold); padding:4px 10px; border-radius:4px;">FORA</span>
+      <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
+      <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
+    </div>
+    <h1>Amplify 2026 — Partner Dashboard</h1>
     <p id="headerSubtitle">Loading data…</p>
   </div>
   <div class="header-right">
@@ -706,20 +714,20 @@ function showTab(tab, el) {
   if (el) el.classList.add('active');
 }
 
-// ── Colors ──────────────────────────────────────────────────────
-const GOLD   = '#c9a96e';
-const NAVY   = '#1a1a2e';
+// ── Colors (Fora brand palette) ──────────────────────────────────
+const GOLD   = '#c3b629';  // Hokey Pokey — Fora accent
+const NAVY   = '#614321';  // Pickled Bean — Fora primary dark
 const GREEN  = '#3fa87a';
-const AMBER  = '#d98c2f';
+const AMBER  = '#c87d1e';
 const RED    = '#c94f4f';
-const NAVY2  = '#2d2d4a';
-const GOLD2  = '#e8d5b0';
+const NAVY2  = '#7a5430';
+const GOLD2  = '#e4da6e';
 const TEAL   = '#3a8fa8';
 const PURPLE = '#7b5ea7';
 
-Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+Chart.defaults.font.family = "'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif";
 Chart.defaults.font.size   = 12;
-Chart.defaults.color       = '#6b6b8a';
+Chart.defaults.color       = '#8a6a4a';
 
 // ── Formatters ──────────────────────────────────────────────────
 const fmt  = n => '$' + Math.round(n).toLocaleString();
