@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amplify 2026 — Weekly Dashboard</title>
+  <title>Amplify 2026 — Partner Dashboard</title>
+  <script src="data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
@@ -46,22 +47,9 @@
       z-index: 100;
       box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     }
-    .header-left h1 {
-      font-size: 22px;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-      color: var(--gold-light);
-    }
-    .header-left p {
-      font-size: 13px;
-      color: rgba(255,255,255,0.5);
-      margin-top: 2px;
-    }
-    .header-right {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
+    .header-left h1 { font-size: 22px; font-weight: 600; letter-spacing: 0.02em; color: var(--gold-light); }
+    .header-left p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+    .header-right { display: flex; align-items: center; gap: 16px; }
     .week-badge {
       background: rgba(201,169,110,0.2);
       border: 1px solid var(--gold);
@@ -79,9 +67,10 @@
       display: flex;
       gap: 4px;
       border-bottom: 1px solid rgba(255,255,255,0.08);
+      overflow-x: auto;
     }
     .nav-tab {
-      padding: 12px 20px;
+      padding: 12px 18px;
       color: rgba(255,255,255,0.5);
       font-size: 13px;
       font-weight: 500;
@@ -89,6 +78,7 @@
       border-bottom: 2px solid transparent;
       transition: all 0.2s;
       user-select: none;
+      white-space: nowrap;
     }
     .nav-tab:hover { color: rgba(255,255,255,0.8); }
     .nav-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
@@ -98,12 +88,7 @@
     .section.active { display: block; }
 
     /* ── KPI CARDS ── */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      margin-bottom: 32px;
-    }
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 32px; }
     .kpi-card {
       background: var(--white);
       border-radius: var(--radius);
@@ -136,113 +121,103 @@
     .kpi-delta.warn { background: #fef3e2; color: var(--amber); }
 
     /* ── CHART GRID ── */
-    .chart-grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      margin-bottom: 24px;
-    }
-    .chart-grid-3 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 20px;
-      margin-bottom: 24px;
-    }
-    .chart-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 24px;
-      box-shadow: var(--shadow);
-    }
+    .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+    .chart-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+    .chart-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
     .chart-card.wide { grid-column: 1 / -1; }
-    .chart-card h3 {
-      font-size: 13px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      color: var(--text-light);
-      margin-bottom: 20px;
-    }
+    .chart-card h3 { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); margin-bottom: 20px; }
     .chart-wrap { position: relative; }
 
     /* ── SECTION TITLE ── */
-    .section-title {
-      font-size: 20px;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 6px;
-    }
-    .section-subtitle {
-      font-size: 13px;
-      color: var(--text-light);
-      margin-bottom: 28px;
-    }
+    .section-title { font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .section-subtitle { font-size: 13px; color: var(--text-light); margin-bottom: 28px; }
 
     /* ── PIPELINE FUNNEL ── */
     .funnel-list { display: flex; flex-direction: column; gap: 8px; }
-    .funnel-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .funnel-label { width: 200px; font-size: 13px; font-weight: 500; flex-shrink: 0; }
+    .funnel-item { display: flex; align-items: center; gap: 12px; }
+    .funnel-label { width: 220px; font-size: 13px; font-weight: 500; flex-shrink: 0; }
     .funnel-bar-wrap { flex: 1; background: #f0eeea; border-radius: 6px; height: 28px; overflow: hidden; }
     .funnel-bar { height: 100%; border-radius: 6px; display: flex; align-items: center; padding-left: 10px; font-size: 12px; font-weight: 700; color: white; transition: width 0.6s ease; }
     .funnel-count { width: 50px; text-align: right; font-size: 13px; font-weight: 700; color: var(--text); }
-    .funnel-pct { width: 45px; text-align: right; font-size: 11px; color: var(--text-light); }
+    .funnel-val { width: 80px; text-align: right; font-size: 12px; color: var(--text-light); }
 
-    /* ── ACTION TABLE ── */
+    /* ── TABLE ── */
     .table-wrap { overflow-x: auto; }
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
     thead tr { border-bottom: 2px solid var(--border); }
     thead th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); white-space: nowrap; }
     tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
-    tbody tr:hover { background: #fafaf8; }
+    tbody tr:hover { background: #fafaf8; cursor: pointer; }
     tbody td { padding: 11px 14px; color: var(--text); }
-    .badge {
-      display: inline-block;
-      padding: 3px 10px;
-      border-radius: 10px;
-      font-size: 11px;
-      font-weight: 600;
-      white-space: nowrap;
-    }
+    .badge { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600; white-space: nowrap; }
     .badge-green { background: #e8f5ee; color: #27a06a; }
     .badge-amber { background: #fef3e2; color: #c27a1a; }
     .badge-red { background: #fcecea; color: #b93a3a; }
     .badge-navy { background: #eaebf5; color: #3b3b7a; }
     .badge-gold { background: #fdf4e3; color: #9a6c1a; }
     .badge-gray { background: #f0eeea; color: #6b6b8a; }
+    .badge-teal { background: #e0f2f7; color: #1a7a8a; }
+
+    /* ── GEO + BRANDS ── */
+    .leaderboard { display: flex; flex-direction: column; gap: 6px; }
+    .lb-item { display: flex; align-items: center; gap: 10px; }
+    .lb-rank { width: 22px; text-align: center; font-size: 11px; font-weight: 700; color: var(--text-light); }
+    .lb-label { flex: 1; font-size: 13px; font-weight: 500; }
+    .lb-bar-wrap { width: 100px; background: #f0eeea; border-radius: 4px; height: 6px; }
+    .lb-bar { height: 100%; border-radius: 4px; background: var(--gold); }
+    .lb-count { width: 28px; text-align: right; font-size: 13px; font-weight: 700; color: var(--text); }
+
+    /* ── FILTER BAR ── */
+    .filter-bar { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+    .filter-btn { padding: 7px 16px; border-radius: 20px; border: 1px solid var(--border); background: white; font-size: 12px; font-weight: 600; cursor: pointer; color: var(--text-light); transition: all 0.15s; }
+    .filter-btn.active, .filter-btn:hover { background: var(--navy); color: white; border-color: var(--navy); }
+
+    /* ── SEARCH ── */
+    .search-input-wrap { position: relative; flex: 1; min-width: 260px; }
+    .search-input {
+      width: 100%;
+      padding: 10px 16px 10px 40px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      background: white;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-input:focus { border-color: var(--gold); }
+    .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-light); font-size: 16px; pointer-events: none; }
+    .search-select {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 13px;
+      background: white;
+      color: var(--text);
+      outline: none;
+      cursor: pointer;
+    }
+    .search-select:focus { border-color: var(--gold); }
+    .result-count { font-size: 13px; color: var(--text-light); padding: 4px 0; }
+
+    /* ── PARTNER DETAIL DRAWER ── */
+    .partner-detail {
+      display: none;
+      background: #fafaf8;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 0;
+    }
+    .partner-detail.open { display: block; }
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 24px; margin-bottom: 16px; }
+    .detail-field label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); display: block; margin-bottom: 3px; }
+    .detail-field span { font-size: 13px; color: var(--text); }
+    .feature-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 
     /* ── NEXT STEPS ── */
-    .next-steps-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-      margin-bottom: 24px;
-    }
-    .next-step-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 20px 24px;
-      box-shadow: var(--shadow);
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-    }
-    .step-number {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      background: var(--navy);
-      color: var(--gold-light);
-      font-size: 14px;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
+    .next-steps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+    .next-step-card { background: var(--white); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow); display: flex; gap: 16px; align-items: flex-start; }
+    .step-number { width: 32px; height: 32px; border-radius: 50%; background: var(--navy); color: var(--gold-light); font-size: 14px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
     .step-content h4 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
     .step-content p { font-size: 13px; color: var(--text-light); line-height: 1.5; }
     .step-tag { display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 10px; font-size: 11px; font-weight: 600; }
@@ -252,102 +227,79 @@
     .step-tag.nice { background: #e8f5ee; color: #27a06a; }
 
     /* ── TEAM UPDATES ── */
-    .updates-area {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 24px;
-      box-shadow: var(--shadow);
-      margin-bottom: 24px;
-    }
+    .updates-area { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); margin-bottom: 24px; }
     .updates-area h3 { font-size: 15px; font-weight: 600; margin-bottom: 16px; }
     .update-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
-    .update-item {
-      display: flex;
-      gap: 12px;
-      padding: 14px 16px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: #fafaf8;
-    }
-    .update-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      margin-top: 5px;
-      flex-shrink: 0;
-    }
+    .update-item { display: flex; gap: 12px; padding: 14px 16px; border-radius: 8px; border: 1px solid var(--border); background: #fafaf8; }
+    .update-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
     .update-dot.gold { background: var(--gold); }
     .update-dot.green { background: var(--green); }
     .update-dot.amber { background: var(--amber); }
     .update-dot.navy { background: var(--navy); }
     .update-text { font-size: 13px; line-height: 1.5; }
-    .notes-box {
-      width: 100%;
-      min-height: 100px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 12px 14px;
-      font-size: 13px;
-      color: var(--text);
-      font-family: inherit;
-      resize: vertical;
-      background: #fafaf8;
-      outline: none;
-    }
+    .notes-box { width: 100%; min-height: 100px; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; font-size: 13px; color: var(--text); font-family: inherit; resize: vertical; background: #fafaf8; outline: none; }
     .notes-box:focus { border-color: var(--gold); }
     .notes-label { font-size: 12px; font-weight: 600; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
 
-    /* ── GEO + BRANDS ── */
-    .leaderboard { display: flex; flex-direction: column; gap: 6px; }
-    .lb-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .lb-rank { width: 22px; text-align: center; font-size: 11px; font-weight: 700; color: var(--text-light); }
-    .lb-label { flex: 1; font-size: 13px; font-weight: 500; }
-    .lb-bar-wrap { width: 100px; background: #f0eeea; border-radius: 4px; height: 6px; }
-    .lb-bar { height: 100%; border-radius: 4px; background: var(--gold); }
-    .lb-count { width: 28px; text-align: right; font-size: 13px; font-weight: 700; color: var(--text); }
-
-    /* ── INVOICE DETAIL TABLE ── */
-    .amount { font-variant-numeric: tabular-nums; }
-
-    /* ── FILTER BAR ── */
-    .filter-bar {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-    }
-    .filter-btn {
-      padding: 7px 16px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
+    /* ── SCENARIO PLANNER ── */
+    .planner-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+    .planner-card { background: var(--white); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+    .planner-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 20px; color: var(--text); }
+    .goal-input-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+    .goal-input {
+      flex: 1;
+      padding: 14px 18px;
+      border: 2px solid var(--gold);
+      border-radius: 10px;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
       background: white;
-      font-size: 12px;
-      font-weight: 600;
-      cursor: pointer;
-      color: var(--text-light);
-      transition: all 0.15s;
+      outline: none;
+      max-width: 280px;
     }
-    .filter-btn.active, .filter-btn:hover {
-      background: var(--navy);
-      color: white;
-      border-color: var(--navy);
-    }
+    .goal-label { font-size: 13px; color: var(--text-light); }
+    .progress-wrap { margin-bottom: 24px; }
+    .progress-label-row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .progress-label { font-size: 13px; font-weight: 600; color: var(--text); }
+    .progress-pct { font-size: 22px; font-weight: 700; color: var(--green); }
+    .progress-bar-bg { width: 100%; height: 16px; background: #f0eeea; border-radius: 8px; overflow: hidden; }
+    .progress-bar-fg { height: 100%; border-radius: 8px; background: linear-gradient(90deg, var(--green), #5bc99a); transition: width 0.5s ease; }
+    .gap-amount { font-size: 28px; font-weight: 700; }
+    .gap-label { font-size: 13px; color: var(--text-light); margin-top: 4px; }
+
+    .scenario-list { display: flex; flex-direction: column; gap: 16px; }
+    .scenario-card { border: 1px solid var(--border); border-radius: 10px; padding: 16px 20px; background: #fafaf8; }
+    .scenario-card h4 { font-size: 14px; font-weight: 700; margin-bottom: 10px; }
+    .scenario-rows { display: flex; flex-direction: column; gap: 6px; }
+    .scenario-row { display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
+    .scenario-row .pkg { color: var(--text-light); }
+    .scenario-row .qty { font-weight: 700; color: var(--text); }
+
+    .pkg-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    .pkg-table th { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+    .pkg-table td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f0eeea; }
+    .pkg-table tr:last-child td { border-bottom: none; }
+    .pkg-price-input { width: 90px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 13px; text-align: right; outline: none; }
+    .pkg-price-input:focus { border-color: var(--gold); }
+    .mini-progress { height: 6px; background: #f0eeea; border-radius: 3px; margin-top: 4px; overflow: hidden; }
+    .mini-progress-fill { height: 100%; border-radius: 3px; background: var(--gold); }
+
+    /* ── AMOUNT ── */
+    .amount { font-variant-numeric: tabular-nums; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
       .kpi-grid { grid-template-columns: 1fr 1fr; }
-      .chart-grid-2, .chart-grid-3 { grid-template-columns: 1fr; }
-      .next-steps-grid { grid-template-columns: 1fr; }
+      .chart-grid-2, .chart-grid-3, .planner-grid, .next-steps-grid { grid-template-columns: 1fr; }
       .section { padding: 24px 20px; }
       .header { padding: 20px; }
-      .nav-tabs { padding: 0 20px; overflow-x: auto; }
+      .nav-tabs { padding: 0 20px; }
+      .detail-grid { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 600px) {
       .kpi-grid { grid-template-columns: 1fr; }
+      .detail-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -357,232 +309,199 @@
 <div class="header">
   <div class="header-left">
     <h1>Fora Amplify 2026 — Partner Dashboard</h1>
-    <p>Weekly overview · Data export refreshed Feb 17, 2026 at 8:02 PM</p>
+    <p id="headerSubtitle">Loading data…</p>
   </div>
   <div class="header-right">
-    <span class="week-badge">Week of Feb 17, 2026</span>
+    <span class="week-badge" id="weekBadge">—</span>
   </div>
 </div>
 
 <!-- NAV TABS -->
 <div class="nav-tabs">
-  <div class="nav-tab active" onclick="showTab('overview')">Overview</div>
-  <div class="nav-tab" onclick="showTab('pipeline')">Pipeline</div>
-  <div class="nav-tab" onclick="showTab('invoices')">Invoices</div>
-  <div class="nav-tab" onclick="showTab('partners')">Partners</div>
-  <div class="nav-tab" onclick="showTab('next-steps')">Next Steps</div>
-  <div class="nav-tab" onclick="showTab('team')">Team Updates</div>
+  <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
+  <div class="nav-tab" onclick="showTab('pipeline',this)">Pipeline</div>
+  <div class="nav-tab" onclick="showTab('invoices',this)">Invoices</div>
+  <div class="nav-tab" onclick="showTab('partners',this)">Partners</div>
+  <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
+  <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
+  <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
+  <div class="nav-tab" onclick="showTab('team',this)">Team Updates</div>
 </div>
 
-<!-- ===== OVERVIEW TAB ===== -->
+
+<!-- ===== OVERVIEW ===== -->
 <div id="tab-overview" class="section active">
-
   <h2 class="section-title">Amplify 2026 at a Glance</h2>
-  <p class="section-subtitle">Full program status as of this week's data export.</p>
+  <p class="section-subtitle" id="overviewSubtitle">Full program status as of this week's data export.</p>
 
-  <!-- KPI Row -->
   <div class="kpi-grid">
     <div class="kpi-card gold">
       <div class="kpi-label">Signed Partners</div>
-      <div class="kpi-value">245</div>
+      <div class="kpi-value" id="kpiSignedCount">—</div>
       <div class="kpi-sub">Tier 1 · Brand Spotlight · Tier 2 · New Opening · Marketing Complete</div>
     </div>
     <div class="kpi-card navy">
       <div class="kpi-label">Total Value Signed</div>
-      <div class="kpi-value">$1,095,500</div>
+      <div class="kpi-value" id="kpiTotalSigned">—</div>
       <div class="kpi-sub">Across all signed packages</div>
     </div>
     <div class="kpi-card green">
       <div class="kpi-label">Collected (Paid)</div>
-      <div class="kpi-value">$600,000</div>
-      <div class="kpi-sub">~54.8% of total signed</div>
+      <div class="kpi-value" id="kpiPaid">—</div>
+      <div class="kpi-sub" id="kpiPaidSub">—</div>
       <span class="kpi-delta up">▲ on track</span>
     </div>
     <div class="kpi-card amber">
       <div class="kpi-label">Total Value in Pipeline</div>
-      <div class="kpi-value">$1,188,500</div>
+      <div class="kpi-value" id="kpiTotalPipeline">—</div>
       <div class="kpi-sub">Signed + In Discussion + Needs Invoice</div>
     </div>
   </div>
 
-  <!-- Second KPI Row -->
   <div class="kpi-grid" style="grid-template-columns: repeat(4,1fr); margin-bottom:32px;">
     <div class="kpi-card amber">
       <div class="kpi-label">In Discussion</div>
-      <div class="kpi-value">$58,000</div>
-      <div class="kpi-sub">Potential revenue from active conversations</div>
+      <div class="kpi-value" id="kpiInDiscussion">—</div>
+      <div class="kpi-sub" id="kpiInDiscussionSub">—</div>
     </div>
     <div class="kpi-card red">
       <div class="kpi-label">Needs Invoice</div>
-      <div class="kpi-value">$31,000</div>
-      <div class="kpi-sub">Signed partners not yet invoiced</div>
+      <div class="kpi-value" id="kpiNeedsInvoice">—</div>
+      <div class="kpi-sub" id="kpiNeedsInvoiceSub">—</div>
     </div>
     <div class="kpi-card navy">
       <div class="kpi-label">Final Follow Up</div>
-      <div class="kpi-value">$4,000</div>
-      <div class="kpi-sub">Last touch before decision</div>
+      <div class="kpi-value" id="kpiFinalFollowUp">—</div>
+      <div class="kpi-sub" id="kpiFinalFollowUpSub">—</div>
     </div>
     <div class="kpi-card gold">
       <div class="kpi-label">Marketing Complete</div>
-      <div class="kpi-value">$7,000</div>
+      <div class="kpi-value" id="kpiMarketingComplete">—</div>
       <div class="kpi-sub">Deliverables fulfilled</div>
     </div>
   </div>
 
-  <!-- Charts Row 1 -->
   <div class="chart-grid-2">
     <div class="chart-card">
       <h3>Revenue by Package</h3>
-      <div class="chart-wrap" style="height:240px;">
-        <canvas id="revenueChart"></canvas>
-      </div>
+      <div class="chart-wrap" style="height:240px;"><canvas id="revenueChart"></canvas></div>
     </div>
     <div class="chart-card">
       <h3>Invoice Collection Status</h3>
-      <div class="chart-wrap" style="height:240px;">
-        <canvas id="invoiceChart"></canvas>
-      </div>
+      <div class="chart-wrap" style="height:240px;"><canvas id="invoiceChart"></canvas></div>
     </div>
   </div>
 
-  <!-- Charts Row 2 -->
   <div class="chart-grid-3">
     <div class="chart-card">
       <h3>Signed Partners by Tier</h3>
-      <div class="chart-wrap" style="height:200px;">
-        <canvas id="tierChart"></canvas>
-      </div>
+      <div class="chart-wrap" style="height:200px;"><canvas id="tierChart"></canvas></div>
     </div>
     <div class="chart-card">
       <h3>Deliverable Quarter Preference</h3>
-      <div class="chart-wrap" style="height:200px;">
-        <canvas id="quarterChart"></canvas>
-      </div>
+      <div class="chart-wrap" style="height:200px;"><canvas id="quarterChart"></canvas></div>
     </div>
     <div class="chart-card">
       <h3>Features Booked (Signed)</h3>
-      <div class="chart-wrap" style="height:200px;">
-        <canvas id="featuresChart"></canvas>
-      </div>
+      <div class="chart-wrap" style="height:200px;"><canvas id="featuresChart"></canvas></div>
     </div>
   </div>
-
 </div>
 
-<!-- ===== PIPELINE TAB ===== -->
-<div id="tab-pipeline" class="section">
 
+<!-- ===== PIPELINE ===== -->
+<div id="tab-pipeline" class="section">
   <h2 class="section-title">Partner Pipeline</h2>
   <p class="section-subtitle">How contacts are moving through the sales funnel.</p>
 
-  <div class="chart-grid-2" style="margin-bottom:24px;">
-    <div class="chart-card" style="grid-column: 1/-1;">
-      <h3>Funnel: All Stages</h3>
-      <div class="funnel-list" id="funnelList"></div>
-    </div>
+  <div class="chart-card" style="margin-bottom:24px;">
+    <h3>Funnel: All Stages</h3>
+    <div class="funnel-list" id="funnelList"></div>
   </div>
 
   <div class="chart-grid-2">
     <div class="chart-card">
-      <h3>In Discussion — By Owner</h3>
-      <div class="chart-wrap" style="height:200px;">
-        <canvas id="pipelineOwnerChart"></canvas>
-      </div>
-    </div>
-    <div class="chart-card">
       <h3>Pipeline Potential Revenue</h3>
-      <div style="padding: 12px 0;">
-        <div style="margin-bottom: 24px;">
+      <div style="padding:8px 0;">
+        <div style="margin-bottom:20px;">
           <div class="kpi-label">Signed (Confirmed)</div>
-          <div style="font-size: 26px; font-weight: 700; color: var(--green);">$1,095,500</div>
+          <div style="font-size:26px; font-weight:700; color:var(--green);" id="pipeSigned">—</div>
         </div>
-        <div style="margin-bottom: 24px;">
+        <div style="margin-bottom:20px;">
           <div class="kpi-label">In Discussion + Final Follow Up</div>
-          <div style="font-size: 26px; font-weight: 700; color: var(--amber);">$62,000</div>
-          <div style="font-size: 12px; color: var(--text-light);">$58K in discussion · $4K final follow up</div>
+          <div style="font-size:26px; font-weight:700; color:var(--amber);" id="pipeDiscussion">—</div>
+          <div style="font-size:12px; color:var(--text-light);" id="pipeDiscussionSub">—</div>
         </div>
-        <div style="margin-bottom: 24px;">
+        <div style="margin-bottom:20px;">
           <div class="kpi-label">Needs Invoice</div>
-          <div style="font-size: 26px; font-weight: 700; color: var(--red);">$31,000</div>
-          <div style="font-size: 12px; color: var(--text-light);">Signed but not yet invoiced</div>
+          <div style="font-size:26px; font-weight:700; color:var(--red);" id="pipeNeedsInvoice">—</div>
+          <div style="font-size:12px; color:var(--text-light);">Signed but not yet invoiced</div>
         </div>
         <div>
           <div class="kpi-label">Total Value in Pipeline</div>
-          <div style="font-size: 26px; font-weight: 700; color: var(--navy);">$1,188,500</div>
+          <div style="font-size:26px; font-weight:700; color:var(--navy);" id="pipeTotalPipeline">—</div>
         </div>
       </div>
     </div>
+    <div class="chart-card">
+      <h3>Stage Breakdown — Signed Partners</h3>
+      <div class="chart-wrap" style="height:220px;"><canvas id="pipelineStageChart"></canvas></div>
+    </div>
   </div>
-
 </div>
 
-<!-- ===== INVOICES TAB ===== -->
-<div id="tab-invoices" class="section">
 
+<!-- ===== INVOICES ===== -->
+<div id="tab-invoices" class="section">
   <h2 class="section-title">Invoice Tracker</h2>
-  <p class="section-subtitle">$31,000 in signed partners not yet invoiced. $495,500 outstanding and awaiting payment.</p>
+  <p class="section-subtitle" id="invoiceSubtitle">Invoice status across all signed partners.</p>
 
   <div class="kpi-grid" style="margin-bottom:28px;">
     <div class="kpi-card green">
       <div class="kpi-label">Paid</div>
-      <div class="kpi-value">$600,000</div>
-      <div class="kpi-sub">54.8% of total signed value</div>
+      <div class="kpi-value" id="invPaid">—</div>
+      <div class="kpi-sub" id="invPaidSub">—</div>
     </div>
     <div class="kpi-card red">
       <div class="kpi-label">Outstanding</div>
-      <div class="kpi-value">$495,500</div>
+      <div class="kpi-value" id="invOutstanding">—</div>
       <div class="kpi-sub">Invoices sent, awaiting payment</div>
     </div>
     <div class="kpi-card amber">
       <div class="kpi-label">Waiting on Billing Info</div>
-      <div class="kpi-value">$18,000</div>
-      <div class="kpi-sub">5 partners</div>
+      <div class="kpi-value" id="invWaiting">—</div>
+      <div class="kpi-sub" id="invWaitingSub">—</div>
     </div>
     <div class="kpi-card navy">
       <div class="kpi-label">Needs Invoice Sent</div>
-      <div class="kpi-value">$31,000</div>
-      <div class="kpi-sub">Signed but not yet invoiced</div>
+      <div class="kpi-value" id="invNeedsInvoice">—</div>
+      <div class="kpi-sub" id="invNeedsInvoiceSub">—</div>
     </div>
   </div>
 
-  <div class="chart-card" style="margin-bottom:24px;">
+  <div class="chart-card">
     <h3>Partners Needing Invoices — Action Required</h3>
     <div class="table-wrap">
-      <table id="needsInvoiceTable">
+      <table>
         <thead>
           <tr>
             <th>Partner Name</th>
             <th>Package</th>
             <th>Amount</th>
+            <th>Country</th>
             <th>Priority</th>
+            <th>Streak</th>
           </tr>
         </thead>
         <tbody id="needsInvoiceTbody"></tbody>
       </table>
     </div>
   </div>
-
-  <div class="chart-card">
-    <h3>Welcome Letters — Status Check</h3>
-    <div style="display:flex; gap:24px; padding:8px 0;">
-      <div>
-        <div class="kpi-label">Sent</div>
-        <div style="font-size:28px; font-weight:700; color:var(--green);">186</div>
-        <div style="font-size:12px; color:var(--text-light);">of 189 signed</div>
-      </div>
-      <div style="border-left:1px solid var(--border); padding-left:24px;">
-        <div class="kpi-label">Not Yet Sent</div>
-        <div style="font-size:28px; font-weight:700; color:var(--red);">3</div>
-        <div style="font-size:12px; color:var(--text-light);">need to be checked + sent</div>
-      </div>
-    </div>
-  </div>
-
 </div>
 
-<!-- ===== PARTNERS TAB ===== -->
-<div id="tab-partners" class="section">
 
+<!-- ===== PARTNERS ===== -->
+<div id="tab-partners" class="section">
   <h2 class="section-title">Partner Overview</h2>
   <p class="section-subtitle">Breakdown of signed Amplify 2026 partners by geography, brand, and group.</p>
 
@@ -603,548 +522,813 @@
 
   <div class="chart-grid-2">
     <div class="chart-card">
-      <h3>Partner Type Mix</h3>
-      <div class="chart-wrap" style="height:220px;">
-        <canvas id="partnerTypeChart"></canvas>
-      </div>
+      <h3>Partner Mix by Package</h3>
+      <div class="chart-wrap" style="height:220px;"><canvas id="partnerTypeChart"></canvas></div>
     </div>
     <div class="chart-card">
       <h3>Feature Deliverables Booked</h3>
-      <div class="chart-wrap" style="height:220px;">
-        <canvas id="featuresChart2"></canvas>
+      <div class="chart-wrap" style="height:220px;"><canvas id="featuresChart2"></canvas></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== PARTNER SEARCH ===== -->
+<div id="tab-search" class="section">
+  <h2 class="section-title">Partner Search</h2>
+  <p class="section-subtitle">Look up any partner to see their Streak details — package, invoice status, features, and more.</p>
+
+  <div class="filter-bar">
+    <div class="search-input-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="partnerSearch" placeholder="Search by name, brand, group, or country…" oninput="filterPartners()">
+    </div>
+    <select class="search-select" id="stageFilter" onchange="filterPartners()">
+      <option value="">All Stages</option>
+      <option value="Tier 1">Tier 1</option>
+      <option value="Tier 2">Tier 2</option>
+      <option value="Brand Spotlight">Brand Spotlight</option>
+      <option value="New Opening">New Opening</option>
+      <option value="Marketing Complete">Marketing Complete</option>
+      <option value="Needs Invoice">Needs Invoice</option>
+      <option value="In Discussion">In Discussion</option>
+      <option value="Final Follow Up">Final Follow Up</option>
+      <option value="Needs Contact">Needs Contact</option>
+      <option value="Declined">Declined</option>
+      <option value="Do Not Invite">Do Not Invite</option>
+    </select>
+    <select class="search-select" id="invoiceFilter" onchange="filterPartners()">
+      <option value="">All Invoice Statuses</option>
+      <option value="Paid">Paid</option>
+      <option value="Outstanding">Outstanding</option>
+      <option value="To Invoice">To Invoice</option>
+      <option value="Waiting for billing details">Waiting for billing details</option>
+      <option value="In Kind Sponsorship">In Kind Sponsorship</option>
+    </select>
+    <select class="search-select" id="quarterFilter" onchange="filterPartners()">
+      <option value="">All Quarters</option>
+      <option value="Q1">Q1</option>
+      <option value="Q2">Q2</option>
+      <option value="Q3">Q3</option>
+      <option value="Q4">Q4</option>
+      <option value="August">August</option>
+      <option value="TBD">TBD (none set)</option>
+    </select>
+  </div>
+  <div class="result-count" id="searchResultCount"></div>
+
+  <div class="chart-card" style="padding: 0; overflow: hidden; margin-top: 12px;">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Partner Name</th>
+            <th>Stage</th>
+            <th>Amount</th>
+            <th>Invoice Status</th>
+            <th>Quarter(s)</th>
+            <th>Country</th>
+            <th>Features</th>
+            <th>Links</th>
+          </tr>
+        </thead>
+        <tbody id="partnerSearchTbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<!-- ===== SCENARIO PLANNER ===== -->
+<div id="tab-planner" class="section">
+  <h2 class="section-title">Scenario Planner</h2>
+  <p class="section-subtitle">Set a revenue goal and explore what package mix it takes to get there.</p>
+
+  <!-- Goal input + Progress -->
+  <div class="planner-grid">
+    <div class="planner-card">
+      <h3>Revenue Goal</h3>
+      <div class="goal-input-wrap">
+        <div style="font-size:22px; font-weight:700; color:var(--text-light);">$</div>
+        <input type="number" class="goal-input" id="goalInput" value="1500000" step="50000" oninput="updatePlanner()">
       </div>
+      <div class="progress-wrap">
+        <div class="progress-label-row">
+          <span class="progress-label">Current progress</span>
+          <span class="progress-pct" id="plannerPct">—%</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fg" id="plannerProgressBar" style="width:0%"></div>
+        </div>
+        <div style="display:flex; justify-content:space-between; margin-top:6px;">
+          <span style="font-size:12px; color:var(--text-light);" id="plannerSignedLabel">—</span>
+          <span style="font-size:12px; color:var(--text-light);" id="plannerGoalLabel">—</span>
+        </div>
+      </div>
+      <div style="display:flex; gap:24px;">
+        <div>
+          <div class="kpi-label">Gap to close</div>
+          <div class="gap-amount" id="plannerGap" style="color:var(--red);">—</div>
+          <div class="gap-label">additional revenue needed</div>
+        </div>
+        <div>
+          <div class="kpi-label">Pipeline available</div>
+          <div class="gap-amount" id="plannerPipelineAvail" style="color:var(--amber);">—</div>
+          <div class="gap-label">in active discussions</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="planner-card">
+      <h3>Package Pricing (editable)</h3>
+      <table class="pkg-table">
+        <thead>
+          <tr>
+            <th>Package</th>
+            <th>Price</th>
+            <th>Current</th>
+            <th>Revenue</th>
+          </tr>
+        </thead>
+        <tbody id="pkgPricingTable"></tbody>
+      </table>
     </div>
   </div>
 
+  <!-- Scenarios -->
+  <div class="chart-card" style="margin-bottom:24px;">
+    <h3>How to close the gap — 3 scenarios</h3>
+    <div id="scenarioList" class="scenario-list"></div>
+  </div>
+
+  <!-- Package fill rates -->
+  <div class="chart-card">
+    <h3>Package Fill Rate — Current vs Goal</h3>
+    <div id="fillRateTable"></div>
+  </div>
 </div>
 
-<!-- ===== NEXT STEPS TAB ===== -->
-<div id="tab-next-steps" class="section">
 
+<!-- ===== NEXT STEPS ===== -->
+<div id="tab-next-steps" class="section">
   <h2 class="section-title">Suggested Next Steps</h2>
   <p class="section-subtitle">Data-driven priorities for the week ahead.</p>
-
-  <div class="next-steps-grid">
-
-    <div class="next-step-card">
-      <div class="step-number">1</div>
-      <div class="step-content">
-        <h4>Invoice $31,000 in signed partners</h4>
-        <p>These partners have signed contracts but haven't been invoiced yet. Get these out this week to start the payment clock.</p>
-        <span class="step-tag urgent">Urgent</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">2</div>
-      <div class="step-content">
-        <h4>Follow up on $495,500 in outstanding invoices</h4>
-        <p>Invoices have been sent but not paid. Prioritize the higher-value ones (Tier 2, Brand Spotlight partners). Consider sending a friendly payment reminder to anyone 30+ days past invoice date.</p>
-        <span class="step-tag urgent">Urgent</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">3</div>
-      <div class="step-content">
-        <h4>Collect billing details from 5 partners</h4>
-        <p>$18,000 is stuck in "Waiting for billing details" status. These partners have agreed but haven't provided payment info yet. A quick email nudge can unblock these invoices.</p>
-        <span class="step-tag this-week">This week</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">4</div>
-      <div class="step-content">
-        <h4>Convert 216 In-Discussion partners</h4>
-        <p>Margaux has 112 and Jes has 104 partners actively in conversation. $118K in potential revenue is scoped. Prioritize those with quotes already sent and focus on closing before Q1 deliverables begin.</p>
-        <span class="step-tag this-week">This week</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">5</div>
-      <div class="step-content">
-        <h4>Assign deliverable quarters for 134 partners</h4>
-        <p>134 signed partners still don't have a deliverable quarter preference recorded. This is critical for scheduling content in Q1 and Q2. Send a quick check-in email or update internally based on known timelines.</p>
-        <span class="step-tag this-week">This week</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">6</div>
-      <div class="step-content">
-        <h4>Send welcome letters to 3 remaining partners</h4>
-        <p>186 of 189 signed partners have welcome letters sent. 3 still need it. This is a quick win — complete onboarding so they feel officially welcomed and know what to expect.</p>
-        <span class="step-tag nice">Quick win</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">7</div>
-      <div class="step-content">
-        <h4>Plan Q1 content delivery calendar</h4>
-        <p>64 partners want Q1 deliverables, 51 want Q2. With Collection (148), Forum (109), and Newsletter (108) being the most popular features, confirm scheduling with the content team now to avoid a crunch.</p>
-        <span class="step-tag ongoing">Ongoing</span>
-      </div>
-    </div>
-
-    <div class="next-step-card">
-      <div class="step-number">8</div>
-      <div class="step-content">
-        <h4>Review Declined (50) and Do Not Invite (50) lists</h4>
-        <p>100 properties are marked declined or excluded. It's worth a periodic review — are any Declined partners candidates for re-engagement next quarter with a different package or pricing?</p>
-        <span class="step-tag ongoing">Ongoing</span>
-      </div>
-    </div>
-
-  </div>
-
+  <div class="next-steps-grid" id="nextStepsGrid"></div>
 </div>
 
-<!-- ===== TEAM UPDATES TAB ===== -->
-<div id="tab-team" class="section">
 
+<!-- ===== TEAM UPDATES ===== -->
+<div id="tab-team" class="section">
   <h2 class="section-title">Team Updates</h2>
   <p class="section-subtitle">Program highlights and weekly notes. Use the notes field to add context before sharing.</p>
 
   <div class="updates-area">
     <h3>This Week's Highlights</h3>
-    <div class="update-list">
-      <div class="update-item">
-        <div class="update-dot gold"></div>
-        <div class="update-text"><strong>189 partners signed</strong> for Amplify 2026 — Tier 1 leads with 141 properties. Strong growth across Marriott, Hyatt, and Hilton portfolios.</div>
-      </div>
-      <div class="update-item">
-        <div class="update-dot green"></div>
-        <div class="update-text"><strong>$600,000 collected</strong> — 54.8% of total signed value paid. Strong collection progress.</div>
-      </div>
-      <div class="update-item">
-        <div class="update-dot amber"></div>
-        <div class="update-text"><strong>$495,500 outstanding</strong> in sent invoices awaiting payment. Following up is the highest-value action this week.</div>
-      </div>
-      <div class="update-item">
-        <div class="update-dot navy"></div>
-        <div class="update-text"><strong>216 partners in active discussion</strong> — 112 with Margaux, 104 with Jes. $118K in additional revenue potential with pricing already scoped.</div>
-      </div>
-      <div class="update-item">
-        <div class="update-dot amber"></div>
-        <div class="update-text"><strong>Q1 deliverables pressure building:</strong> 64 partners requested Q1, 51 want Q2, but 134 signed partners still haven't specified a quarter. Scheduling alignment needed soon.</div>
-      </div>
-    </div>
-
+    <div class="update-list" id="updateList"></div>
     <div class="notes-label">Weekly Notes (add context before sharing)</div>
-    <textarea class="notes-box" id="weeklyNotes" placeholder="Add any team notes, context, or updates here before sharing this dashboard...&#10;&#10;Example: 'Marriott contract for W Nashville expected to close this week. Following up with Noble House on billing details.'"></textarea>
+    <textarea class="notes-box" id="weeklyNotes" placeholder="Add any team notes, context, or updates here before sharing this dashboard…"></textarea>
   </div>
 
-  <div class="chart-card" style="margin-bottom: 24px;">
+  <div class="chart-card" style="margin-bottom:24px;">
     <h3>Program Snapshot — Copy-Paste Summary</h3>
-    <div id="copySnapshot" style="background:#fafaf8; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:13px; line-height:1.8; white-space:pre-wrap; font-family: monospace;"></div>
+    <div id="copySnapshot" style="background:#fafaf8; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:13px; line-height:1.8; white-space:pre-wrap; font-family:monospace;"></div>
     <button onclick="copySnapshot()" style="margin-top:12px; padding:8px 20px; background:var(--navy); color:white; border:none; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">Copy Summary</button>
   </div>
-
 </div>
 
 
 <script>
-  // ── Tab Navigation ──
-  function showTab(tab) {
-    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-    document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-    document.getElementById('tab-' + tab).classList.add('active');
-    event.target.classList.add('active');
+// ── Tab Navigation ──────────────────────────────────────────────
+function showTab(tab, el) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  if (el) el.classList.add('active');
+}
+
+// ── Colors ──────────────────────────────────────────────────────
+const GOLD   = '#c9a96e';
+const NAVY   = '#1a1a2e';
+const GREEN  = '#3fa87a';
+const AMBER  = '#d98c2f';
+const RED    = '#c94f4f';
+const NAVY2  = '#2d2d4a';
+const GOLD2  = '#e8d5b0';
+const TEAL   = '#3a8fa8';
+const PURPLE = '#7b5ea7';
+
+Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+Chart.defaults.font.size   = 12;
+Chart.defaults.color       = '#6b6b8a';
+
+// ── Formatters ──────────────────────────────────────────────────
+const fmt  = n => '$' + Math.round(n).toLocaleString();
+const fmtK = n => '$' + (Math.round(n/1000)) + 'K';
+const pct  = (a, b) => b ? Math.round(a/b*100) + '%' : '0%';
+
+function stageBadge(stage) {
+  const cls = {
+    'Tier 1': 'badge-gold', 'Tier 2': 'badge-teal',
+    'Brand Spotlight': 'badge-navy', 'New Opening': 'badge-amber',
+    'Marketing Complete': 'badge-green',
+    'Needs Invoice': 'badge-red', 'In Discussion': 'badge-amber',
+    'Final Follow Up': 'badge-amber', 'Needs Contact': 'badge-gray',
+    'Needs Review': 'badge-gray', 'Declined': 'badge-red',
+    'Do Not Invite': 'badge-gray',
+  }[stage] || 'badge-gray';
+  return `<span class="badge ${cls}">${stage}</span>`;
+}
+
+function invoiceBadge(status) {
+  if (!status) return '<span class="badge badge-gray">—</span>';
+  const cls = {
+    'Paid': 'badge-green', 'Outstanding': 'badge-red',
+    'To Invoice': 'badge-amber', 'Waiting for billing details': 'badge-amber',
+    'In Kind Sponsorship': 'badge-navy', 'Invoice held': 'badge-gray',
+  }[status] || 'badge-gray';
+  return `<span class="badge ${cls}">${status}</span>`;
+}
+
+// ── Leaderboard builder ─────────────────────────────────────────
+function buildLeaderboard(id, data) {
+  const max = data[0] ? data[0][1] : 1;
+  const el = document.getElementById(id);
+  data.forEach(([label, count], i) => {
+    el.innerHTML += `
+      <div class="lb-item">
+        <div class="lb-rank">${i+1}</div>
+        <div class="lb-label">${label}</div>
+        <div class="lb-bar-wrap"><div class="lb-bar" style="width:${(count/max)*100}%"></div></div>
+        <div class="lb-count">${count}</div>
+      </div>`;
+  });
+}
+
+// ── Main data loading ───────────────────────────────────────────
+function init() {
+  if (typeof AMPLIFY_DATA === 'undefined') {
+    document.getElementById('headerSubtitle').textContent = '⚠ data.js not found — run python3 update.py';
+    return;
   }
+  const D = AMPLIFY_DATA;
 
-  // ── Chart defaults ──
-  Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
-  Chart.defaults.font.size = 12;
-  Chart.defaults.color = '#6b6b8a';
+  // Header
+  document.getElementById('headerSubtitle').textContent =
+    `Data refreshed ${D.lastUpdated} · ${D.signedCount} signed partners`;
+  document.getElementById('weekBadge').textContent = `Updated ${D.lastUpdated}`;
+  document.getElementById('overviewSubtitle').textContent =
+    `Full program status as of ${D.lastUpdated}.`;
 
-  const GOLD = '#c9a96e';
-  const NAVY = '#1a1a2e';
-  const GREEN = '#3fa87a';
-  const AMBER = '#d98c2f';
-  const RED = '#c94f4f';
-  const NAVY2 = '#2d2d4a';
-  const GOLD2 = '#e8d5b0';
-  const TEAL = '#3a8fa8';
-  const PURPLE = '#7b5ea7';
+  // ── Overview KPIs ──
+  document.getElementById('kpiSignedCount').textContent    = D.signedCount;
+  document.getElementById('kpiTotalSigned').textContent    = fmt(D.totalSigned);
+  document.getElementById('kpiPaid').textContent           = fmt(D.paid);
+  document.getElementById('kpiPaidSub').textContent        = pct(D.paid, D.totalSigned) + ' of total signed';
+  document.getElementById('kpiTotalPipeline').textContent  = fmt(D.totalPipeline);
+  document.getElementById('kpiInDiscussion').textContent   = fmt(D.inDiscussion);
+  document.getElementById('kpiInDiscussionSub').textContent = `${D.inDiscussionCount} partners in active conversation`;
+  document.getElementById('kpiNeedsInvoice').textContent   = fmt(D.needsInvoice);
+  document.getElementById('kpiNeedsInvoiceSub').textContent = `${D.needsInvoiceCount} signed partners not yet invoiced`;
+  document.getElementById('kpiFinalFollowUp').textContent  = fmt(D.finalFollowUp);
+  document.getElementById('kpiFinalFollowUpSub').textContent = `${D.finalFollowUpCount} partners · last touch before decision`;
+  document.getElementById('kpiMarketingComplete').textContent = fmt(D.marketingComplete);
 
-  // ── Revenue by Package ──
+  // ── Revenue by Package chart ──
+  const stageLabels = Object.keys(D.byStage);
+  const stageColors = [GOLD, NAVY, TEAL, AMBER, GREEN, PURPLE];
   new Chart(document.getElementById('revenueChart'), {
     type: 'bar',
     data: {
-      labels: ['Tier 1', 'Brand Spotlight', 'Tier 2', 'New Opening', 'Marketing Complete'],
-      datasets: [{
-        label: 'Revenue',
-        data: [640500, 216000, 146000, 86000, 7000],
-        backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN],
-        borderRadius: 6,
-        borderSkipped: false,
-      }]
+      labels: stageLabels,
+      datasets: [{ label: 'Revenue', data: Object.values(D.byStage), backgroundColor: stageColors, borderRadius: 6, borderSkipped: false }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: ctx => ' $' + ctx.raw.toLocaleString()
-          }
-        }
-      },
-      scales: {
-        y: {
-          ticks: { callback: v => '$' + (v/1000) + 'K' },
-          grid: { color: '#f0eeea' }
-        },
-        x: { grid: { display: false } }
-      }
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + fmt(ctx.raw) } } },
+      scales: { y: { ticks: { callback: v => fmtK(v) }, grid: { color: '#f0eeea' } }, x: { grid: { display: false } } }
     }
   });
 
-  // ── Invoice Status Donut ──
+  // ── Invoice donut ──
   new Chart(document.getElementById('invoiceChart'), {
     type: 'doughnut',
     data: {
       labels: ['Paid', 'Outstanding', 'Needs Invoice', 'Waiting on Billing'],
-      datasets: [{
-        data: [600000, 495500, 31000, 18000],
-        backgroundColor: [GREEN, RED, '#c0bcb3', AMBER],
-        borderWidth: 2,
-        borderColor: '#fff',
-      }]
+      datasets: [{ data: [D.paid, D.outstanding, D.needsInvoice, D.waitingBilling], backgroundColor: [GREEN, RED, '#c0bcb3', AMBER], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '65%',
+      responsive: true, maintainAspectRatio: false, cutout: '65%',
       plugins: {
         legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } },
-        tooltip: {
-          callbacks: {
-            label: ctx => ' $' + ctx.raw.toLocaleString()
-          }
-        }
+        tooltip: { callbacks: { label: ctx => ' ' + fmt(ctx.raw) } }
       }
     }
   });
 
-  // ── Tier Donut ──
+  // ── Tier donut ──
   new Chart(document.getElementById('tierChart'), {
     type: 'doughnut',
     data: {
-      labels: ['Tier 1', 'Brand Spotlight', 'Tier 2', 'New Opening'],
-      datasets: [{
-        data: [141, 19, 18, 11],
-        backgroundColor: [GOLD, NAVY, AMBER, TEAL],
-        borderWidth: 2,
-        borderColor: '#fff',
-      }]
+      labels: Object.keys(D.countByStage),
+      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '60%',
-      plugins: {
-        legend: { position: 'bottom', labels: { padding: 12, boxWidth: 12 } }
-      }
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
+      plugins: { legend: { position: 'bottom', labels: { padding: 12, boxWidth: 12 } } }
     }
   });
 
-  // ── Quarter Preference ──
+  // ── Quarter chart ──
+  const qLabels = ['Q1', 'Q2', 'Q3', 'Q4', 'August', 'TBD'];
+  const qData   = qLabels.map(q => D.quarters[q] || 0);
   new Chart(document.getElementById('quarterChart'), {
     type: 'bar',
-    data: {
-      labels: ['Q1', 'Q2', 'Q3', 'Q4', 'TBD'],
-      datasets: [{
-        data: [64, 51, 7, 2, 134],
-        backgroundColor: [GOLD, NAVY, TEAL, AMBER, '#c0bcb3'],
-        borderRadius: 6,
-        borderSkipped: false,
-      }]
-    },
+    data: { labels: qLabels, datasets: [{ data: qData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, '#c0bcb3'], borderRadius: 6, borderSkipped: false }] },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + ' partners' } }
-      },
-      scales: {
-        y: { grid: { color: '#f0eeea' } },
-        x: { grid: { display: false } }
-      }
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + ' partners' } } },
+      scales: { y: { grid: { color: '#f0eeea' } }, x: { grid: { display: false } } }
     }
   });
 
-  // ── Features ──
-  const featureLabels = ['Collection', 'Forum', 'Newsletter', 'Advisor Assets', 'Journal', 'Social', 'Webinar'];
-  const featureData = [148, 109, 108, 23, 9, 9, 5];
+  // ── Features chart ──
+  const fLabels = Object.keys(D.features);
+  const fData   = Object.values(D.features);
   new Chart(document.getElementById('featuresChart'), {
     type: 'bar',
-    data: {
-      labels: featureLabels,
-      datasets: [{
-        data: featureData,
-        backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED],
-        borderRadius: 6,
-        borderSkipped: false,
-      }]
-    },
+    data: { labels: fLabels, datasets: [{ data: fData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED], borderRadius: 6, borderSkipped: false }] },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
       plugins: { legend: { display: false } },
-      scales: {
-        x: { grid: { color: '#f0eeea' } },
-        y: { grid: { display: false } }
-      }
+      scales: { x: { grid: { color: '#f0eeea' } }, y: { grid: { display: false } } }
     }
   });
 
-  // ── Pipeline Funnel ──
-  const funnelData = [
-    { label: 'Signed — Tier 1', count: 182, color: GOLD, value: '$640,500' },
-    { label: 'Signed — Brand Spotlight', count: 28, color: NAVY, value: '$216,000' },
-    { label: 'Signed — Tier 2', count: 22, color: TEAL, value: '$146,000' },
-    { label: 'Signed — New Opening', count: 11, color: GREEN, value: '$86,000' },
-    { label: 'Marketing Complete', count: 2, color: PURPLE, value: '$7,000' },
-    { label: 'Needs Invoice', count: 8, color: RED, value: '$31,000' },
-    { label: 'In Discussion', count: 216, color: AMBER, value: '$58,000' },
-    { label: 'Final Follow Up', count: 4, color: '#8a6a2f', value: '$4,000' },
-    { label: 'On Hold', count: 132, color: '#9b96b0', value: '' },
-    { label: 'Declined', count: 50, color: '#c94f4f', value: '' },
-    { label: 'Do Not Invite', count: 50, color: '#666', value: '' },
-  ];
-  const funnelTotal = funnelData.reduce((s, d) => s + d.count, 0);
-  const maxCount = Math.max(...funnelData.map(d => d.count));
+  // ── Pipeline tab ──
+  document.getElementById('pipeSigned').textContent        = fmt(D.totalSigned);
+  document.getElementById('pipeDiscussion').textContent    = fmt(D.inDiscussion + D.finalFollowUp);
+  document.getElementById('pipeDiscussionSub').textContent = fmt(D.inDiscussion) + ' in discussion · ' + fmt(D.finalFollowUp) + ' final follow up';
+  document.getElementById('pipeNeedsInvoice').textContent  = fmt(D.needsInvoice);
+  document.getElementById('pipeTotalPipeline').textContent = fmt(D.totalPipeline);
+
+  // Funnel
+  const funnelColors = {
+    '5014': GOLD, '5015': TEAL, '5016': NAVY, '5017': AMBER, '5007': GREEN,
+    '5011': RED, '5004': AMBER, '5001': '#8a6a2f',
+    '5013': '#9b96b0', '5010': '#aaa', '5008': '#c94f4f', '5009': '#666',
+  };
+  const maxFunnelCount = Math.max(...D.funnel.map(f => f.count));
   const fl = document.getElementById('funnelList');
-  funnelData.forEach(d => {
+  D.funnel.forEach(f => {
+    const color = funnelColors[f.stageKey] || '#aaa';
+    const valStr = f.value ? fmt(f.value) : '';
     fl.innerHTML += `
       <div class="funnel-item">
-        <div class="funnel-label">${d.label}</div>
+        <div class="funnel-label">${f.label}</div>
         <div class="funnel-bar-wrap">
-          <div class="funnel-bar" style="width:${(d.count/maxCount)*100}%; background:${d.color};">
-            ${d.count > 50 ? d.count : ''}
+          <div class="funnel-bar" style="width:${maxFunnelCount ? (f.count/maxFunnelCount)*100 : 0}%; background:${color};">
+            ${f.count > 40 ? f.count : ''}
           </div>
         </div>
-        <div class="funnel-count">${d.count}</div>
-        <div class="funnel-pct" style="width:70px; color: var(--text-light); font-size:12px;">${d.value}</div>
+        <div class="funnel-count">${f.count}</div>
+        <div class="funnel-val">${valStr}</div>
       </div>`;
   });
 
-  // ── Pipeline Owner ──
-  new Chart(document.getElementById('pipelineOwnerChart'), {
+  // Pipeline stage chart
+  new Chart(document.getElementById('pipelineStageChart'), {
     type: 'doughnut',
     data: {
-      labels: ['Margaux', 'Jes'],
-      datasets: [{
-        data: [112, 104],
-        backgroundColor: [GOLD, NAVY],
-        borderWidth: 2,
-        borderColor: '#fff',
-      }]
+      labels: Object.keys(D.countByStage),
+      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '60%',
-      plugins: {
-        legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } },
-        tooltip: { callbacks: { label: ctx => ' ' + ctx.raw + ' partners' } }
-      }
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
+      plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } } }
     }
   });
 
-  // ── Needs Invoice Table ──
-  const needsInvoiceData = [
-    { name: 'Aman', pkg: 'BS + Newsletter', amount: 15000 },
-    { name: 'Orient Express', pkg: 'BS + Newsletter', amount: 15000 },
-    { name: 'Marriott Hawaii', pkg: 'BS + Webinar', amount: 10000 },
-    { name: 'Brunelleschi Hotel', pkg: 'Brand Spotlight', amount: 10000 },
-    { name: 'Park Hyatt', pkg: 'Brand Spotlight', amount: 10000 },
-    { name: 'The St. Regis New York', pkg: 'Tier 2', amount: 8000 },
-    { name: 'Windjammer Landing', pkg: 'New Opening', amount: 6000 },
-    { name: 'Na Praia', pkg: 'New Opening', amount: 6000 },
-    { name: 'Grand Hotel des Bains Kempinski St Moritz', pkg: 'New Opening', amount: 6000 },
-    { name: 'Canyon Ranch Austin', pkg: 'New Opening', amount: 6000 },
-    { name: 'Mandarin Oriental Milan', pkg: 'Tier 1', amount: 4000 },
-    { name: 'The Belize Collection', pkg: 'Tier 1', amount: 4000 },
-    { name: 'The Sanctuary at Kiawah Island', pkg: 'Tier 1', amount: 4000 },
-    { name: 'Terre Blanche Hôtel Spa Golf Resort', pkg: 'Tier 1', amount: 4000 },
-    { name: 'Salamander Washington DC', pkg: 'Tier 1', amount: 4000 },
-    { name: 'The Ritz-Carlton Grand Cayman', pkg: 'Tier 1', amount: 4000 },
-  ].sort((a,b) => b.amount - a.amount);
+  // ── Invoices tab ──
+  document.getElementById('invPaid').textContent          = fmt(D.paid);
+  document.getElementById('invPaidSub').textContent       = pct(D.paid, D.totalSigned) + ' of total signed value';
+  document.getElementById('invOutstanding').textContent   = fmt(D.outstanding);
+  document.getElementById('invWaiting').textContent       = fmt(D.waitingBilling);
+  document.getElementById('invNeedsInvoice').textContent  = fmt(D.needsInvoice);
+  document.getElementById('invNeedsInvoiceSub').textContent = `${D.needsInvoiceCount} signed partners`;
+  document.getElementById('invoiceSubtitle').textContent  =
+    `${fmt(D.needsInvoice)} in signed partners not yet invoiced. ${fmt(D.outstanding)} outstanding.`;
 
-  const tbody = document.getElementById('needsInvoiceTbody');
-  needsInvoiceData.forEach(d => {
-    const priority = d.amount >= 8000 ? '<span class="badge badge-red">High</span>' :
-                     d.amount >= 4000 ? '<span class="badge badge-amber">Medium</span>' :
-                     '<span class="badge badge-gray">Standard</span>';
-    tbody.innerHTML += `
-      <tr>
-        <td>${d.name}</td>
-        <td><span class="badge badge-navy">${d.pkg}</span></td>
-        <td class="amount">$${d.amount.toLocaleString()}</td>
-        <td>${priority}</td>
-      </tr>`;
-  });
-
-  // ── Country Leaderboard ──
-  const countries = [
-    { label: 'USA', count: 56 },
-    { label: 'Italy', count: 20 },
-    { label: 'Spain', count: 12 },
-    { label: 'Greece', count: 11 },
-    { label: 'Mexico', count: 11 },
-    { label: 'GB', count: 8 },
-    { label: 'Japan', count: 7 },
-    { label: 'Portugal', count: 3 },
-    { label: 'Monaco', count: 3 },
-    { label: 'Costa Rica', count: 3 },
-  ];
-  buildLeaderboard('countryLeaderboard', countries);
-
-  const groups = [
-    { label: 'Marriott International', count: 39 },
-    { label: 'Hyatt Hotels & Resorts', count: 14 },
-    { label: 'Hilton Hotels & Resorts', count: 11 },
-    { label: 'Accor', count: 6 },
-    { label: 'IHG Hotels & Resorts', count: 6 },
-    { label: 'Kerzner International', count: 6 },
-    { label: 'Grecotel', count: 6 },
-    { label: 'Dorchester Collection', count: 5 },
-    { label: 'Mandarin Oriental', count: 5 },
-    { label: 'Almanac Group', count: 4 },
-  ];
-  buildLeaderboard('groupLeaderboard', groups);
-
-  const brands = [
-    { label: 'Ritz-Carlton', count: 11 },
-    { label: 'W Hotels', count: 7 },
-    { label: 'Grecotel', count: 6 },
-    { label: 'Waldorf Astoria', count: 6 },
-    { label: 'Dorchester Collection', count: 5 },
-    { label: 'St. Regis', count: 5 },
-    { label: 'Mandarin Oriental', count: 5 },
-    { label: 'One&Only', count: 4 },
-    { label: 'Kimpton', count: 4 },
-    { label: 'Conrad', count: 4 },
-  ];
-  buildLeaderboard('brandLeaderboard', brands);
-
-  function buildLeaderboard(id, data) {
-    const max = data[0].count;
-    const el = document.getElementById(id);
-    data.forEach((d, i) => {
-      el.innerHTML += `
-        <div class="lb-item">
-          <div class="lb-rank">${i+1}</div>
-          <div class="lb-label">${d.label}</div>
-          <div class="lb-bar-wrap"><div class="lb-bar" style="width:${(d.count/max)*100}%"></div></div>
-          <div class="lb-count">${d.count}</div>
-        </div>`;
+  // Needs invoice table
+  const needsInvoicePartners = (D.partners || [])
+    .filter(p => p.stageKey === '5011' || p.invoiceStatus === 'To Invoice')
+    .sort((a,b) => b.price - a.price);
+  const invTbody = document.getElementById('needsInvoiceTbody');
+  if (needsInvoicePartners.length === 0) {
+    invTbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-light);padding:20px;">All signed partners have been invoiced — great work!</td></tr>';
+  } else {
+    needsInvoicePartners.forEach(p => {
+      const priority = p.price >= 8000 ? '<span class="badge badge-red">High</span>' :
+                       p.price >= 4000 ? '<span class="badge badge-amber">Medium</span>' :
+                       '<span class="badge badge-gray">Standard</span>';
+      invTbody.innerHTML += `
+        <tr>
+          <td>${p.name}</td>
+          <td>${stageBadge(p.stage)}</td>
+          <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
+          <td>${p.country || '—'}</td>
+          <td>${priority}</td>
+          <td><a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;">View →</a></td>
+        </tr>`;
     });
   }
 
-  // ── Partner Type Chart ──
+  // ── Partners tab ──
+  buildLeaderboard('countryLeaderboard', D.topCountries);
+  buildLeaderboard('groupLeaderboard',   D.topGroups);
+  buildLeaderboard('brandLeaderboard',   D.topBrands);
+
   new Chart(document.getElementById('partnerTypeChart'), {
     type: 'doughnut',
     data: {
-      labels: ['Hotel', 'Brand / Group', 'Cruise'],
-      datasets: [{
-        data: [161, 21, 7],
-        backgroundColor: [GOLD, NAVY, TEAL],
-        borderWidth: 2,
-        borderColor: '#fff',
-      }]
+      labels: Object.keys(D.countByStage),
+      datasets: [{ data: Object.values(D.countByStage), backgroundColor: [GOLD, NAVY, TEAL, AMBER, GREEN], borderWidth: 2, borderColor: '#fff' }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '60%',
-      plugins: {
-        legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } }
-      }
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
+      plugins: { legend: { position: 'bottom', labels: { padding: 16, boxWidth: 12 } } }
     }
   });
 
-  // ── Features Chart 2 (Partners tab) ──
   new Chart(document.getElementById('featuresChart2'), {
     type: 'bar',
-    data: {
-      labels: ['Collection', 'Forum', 'Newsletter', 'Advisor Assets', 'Journal', 'Social', 'Webinar'],
-      datasets: [{
-        label: 'Partners booked',
-        data: [148, 109, 108, 23, 9, 9, 5],
-        backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED],
-        borderRadius: 6,
-        borderSkipped: false,
-      }]
-    },
+    data: { labels: fLabels, datasets: [{ label: 'Partners booked', data: fData, backgroundColor: [GOLD, NAVY, TEAL, AMBER, PURPLE, GREEN, RED], borderRadius: 6, borderSkipped: false }] },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false } },
-      scales: {
-        y: { grid: { color: '#f0eeea' } },
-        x: { grid: { display: false } }
-      }
+      scales: { y: { grid: { color: '#f0eeea' } }, x: { grid: { display: false } } }
     }
   });
 
-  // ── Copy Snapshot ──
-  const snapshot = `FORA AMPLIFY 2026 — WEEKLY SNAPSHOT
-Week of Feb 17, 2026
-────────────────────────────────────
-SIGNED PARTNERS: 189
-  • Tier 1: 141  |  Brand Spotlight: 19
-  • Tier 2: 18   |  New Opening: 11
+  // ── Partner Search ──
+  window._allPartners = D.partners || [];
+  filterPartners();
 
-SIGNED VALUE: $1,095,500  |  TOTAL PIPELINE: $1,188,500
-  • Tier 1: $640,500   |  Brand Spotlight: $216,000
-  • Tier 2: $146,000   |  New Opening: $86,000
-  • Marketing Complete: $7,000
+  // ── Scenario Planner ──
+  initPlanner(D);
 
-INVOICE STATUS:
-  • Paid:            $600,000 (54.8%)
-  • Outstanding:     $495,500
-  • Waiting Billing: $18,000 (5 partners)
-  • Needs Invoice:   $31,000
+  // ── Next Steps ──
+  buildNextSteps(D);
 
-PIPELINE:
-  • In Discussion: $58,000
-  • Final Follow Up: $4,000
+  // ── Team Updates ──
+  buildTeamUpdates(D);
+}
 
-DELIVERABLES: Q1 is the busiest quarter
-  • Q1: 64  |  Q2: 51  |  Q3: 7  |  TBD: 134
+// ── Partner Search ──────────────────────────────────────────────
+function filterPartners() {
+  const query   = document.getElementById('partnerSearch').value.toLowerCase();
+  const stage   = document.getElementById('stageFilter').value;
+  const invoice = document.getElementById('invoiceFilter').value;
+  const quarter = document.getElementById('quarterFilter').value;
 
-TOP GROUPS: Marriott (39), Hyatt (14), Hilton (11)
-TOP COUNTRIES: USA (56), Italy (20), Spain (12)
+  let results = window._allPartners || [];
 
-PRIORITY THIS WEEK:
-  1. Invoice $31,000 in signed partners
-  2. Follow up on $495,500 outstanding
-  3. Collect billing details (5 partners, $18K)
-  4. Convert $58K In Discussion to signed
-  5. Assign Q preferences for 134 partners
-────────────────────────────────────`;
+  if (query) {
+    results = results.filter(p =>
+      p.name.toLowerCase().includes(query) ||
+      (p.brand || '').toLowerCase().includes(query) ||
+      (p.group || '').toLowerCase().includes(query) ||
+      (p.country || '').toLowerCase().includes(query)
+    );
+  }
+  if (stage)   results = results.filter(p => p.stage === stage);
+  if (invoice) results = results.filter(p => p.invoiceStatus === invoice);
+  if (quarter) {
+    if (quarter === 'TBD') results = results.filter(p => !p.quarters || p.quarters.length === 0);
+    else results = results.filter(p => (p.quarters || []).includes(quarter));
+  }
 
-  document.getElementById('copySnapshot').textContent = snapshot;
+  document.getElementById('searchResultCount').textContent =
+    `${results.length} partner${results.length !== 1 ? 's' : ''} found`;
 
-  function copySnapshot() {
-    const notes = document.getElementById('weeklyNotes').value;
-    const fullText = snapshot + (notes ? '\n\nTEAM NOTES:\n' + notes : '');
-    navigator.clipboard.writeText(fullText).then(() => {
-      const btn = event.target;
-      btn.textContent = 'Copied!';
-      btn.style.background = '#3fa87a';
-      setTimeout(() => { btn.textContent = 'Copy Summary'; btn.style.background = ''; }, 2000);
+  const tbody = document.getElementById('partnerSearchTbody');
+  tbody.innerHTML = '';
+
+  if (results.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-light);padding:24px;">No partners match your search.</td></tr>';
+    return;
+  }
+
+  results.slice(0, 200).forEach(p => {
+    const featStr = (p.features || []).slice(0, 3).join(', ') + ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
+    const qStr = (p.quarters || []).length > 0 ? (p.quarters || []).join(', ') : '<span style="color:var(--text-light)">TBD</span>';
+    tbody.innerHTML += `
+      <tr onclick="toggleDetail('detail-${p.key}')">
+        <td><strong>${p.name}</strong></td>
+        <td>${stageBadge(p.stage)}</td>
+        <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
+        <td>${invoiceBadge(p.invoiceStatus)}</td>
+        <td>${qStr}</td>
+        <td>${p.country || '—'}</td>
+        <td style="font-size:12px;color:var(--text-light);">${featStr || '—'}</td>
+        <td>
+          <a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Streak</a>
+          ${p.invoiceUrl ? ` · <a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : ''}
+        </td>
+      </tr>
+      <tr>
+        <td colspan="8" style="padding:0;">
+          <div class="partner-detail" id="detail-${p.key}">
+            <div class="detail-grid">
+              <div class="detail-field"><label>Full Name</label><span>${p.name}</span></div>
+              <div class="detail-field"><label>Stage</label><span>${stageBadge(p.stage)}</span></div>
+              <div class="detail-field"><label>Package Value</label><span>${p.price ? fmt(p.price) : '—'}</span></div>
+              <div class="detail-field"><label>Invoice Status</label><span>${invoiceBadge(p.invoiceStatus)}</span></div>
+              <div class="detail-field"><label>Country</label><span>${p.country || '—'}</span></div>
+              <div class="detail-field"><label>Quarter(s)</label><span>${(p.quarters || []).length ? (p.quarters || []).join(', ') : 'TBD'}</span></div>
+              <div class="detail-field"><label>Brand</label><span>${p.brand || '—'}</span></div>
+              <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
+              <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
+            </div>
+            ${(p.features || []).length > 0 ? `
+              <div><label style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--text-light);">Features Booked</label>
+              <div class="feature-tags">${(p.features || []).map(f => `<span class="badge badge-navy">${f}</span>`).join('')}</div></div>` : ''}
+          </div>
+        </td>
+      </tr>`;
+  });
+
+  if (results.length > 200) {
+    tbody.innerHTML += `<tr><td colspan="8" style="text-align:center;color:var(--text-light);padding:12px;">Showing first 200 of ${results.length} results. Narrow your search to see more.</td></tr>`;
+  }
+}
+
+function toggleDetail(id) {
+  const el = document.getElementById(id);
+  if (el) el.classList.toggle('open');
+}
+
+// ── Scenario Planner ────────────────────────────────────────────
+const PKG_DEFAULTS = {
+  'Tier 1':          { price: 4000,  color: GOLD  },
+  'Tier 2':          { price: 7500,  color: TEAL  },
+  'Brand Spotlight': { price: 10000, color: NAVY  },
+  'New Opening':     { price: 6000,  color: AMBER },
+  'Marketing Complete': { price: 4000, color: GREEN },
+};
+
+function initPlanner(D) {
+  // Build pricing table from actual averages
+  const tbody = document.getElementById('pkgPricingTable');
+  Object.entries(PKG_DEFAULTS).forEach(([pkg, def]) => {
+    const count = (D.countByStage || {})[pkg] || 0;
+    const rev   = (D.byStage || {})[pkg] || 0;
+    const avg   = count > 0 ? Math.round(rev / count / 500) * 500 : def.price;
+    tbody.innerHTML += `
+      <tr>
+        <td><span class="badge" style="background:${def.color}22;color:${def.color};border:1px solid ${def.color}55;">${pkg}</span></td>
+        <td><input type="number" class="pkg-price-input" id="price-${pkg.replace(/ /g,'_')}" value="${avg}" step="500" oninput="updatePlanner()"></td>
+        <td style="font-weight:700;">${count}</td>
+        <td class="amount">${rev ? fmt(rev) : '—'}</td>
+      </tr>`;
+  });
+  updatePlanner();
+}
+
+function getPkgPrice(pkg) {
+  const el = document.getElementById('price-' + pkg.replace(/ /g, '_'));
+  return el ? parseInt(el.value) || PKG_DEFAULTS[pkg]?.price || 0 : 0;
+}
+
+function updatePlanner() {
+  if (typeof AMPLIFY_DATA === 'undefined') return;
+  const D    = AMPLIFY_DATA;
+  const goal = parseInt(document.getElementById('goalInput').value) || 1500000;
+  const signed = D.totalSigned;
+  const gap    = Math.max(0, goal - signed);
+  const pctVal = Math.min(100, Math.round(signed / goal * 100));
+
+  document.getElementById('plannerPct').textContent        = pctVal + '%';
+  document.getElementById('plannerProgressBar').style.width = pctVal + '%';
+  document.getElementById('plannerSignedLabel').textContent = fmt(signed) + ' signed';
+  document.getElementById('plannerGoalLabel').textContent   = fmt(goal) + ' goal';
+  document.getElementById('plannerGap').textContent         = gap > 0 ? fmt(gap) : '✓ Goal reached!';
+  document.getElementById('plannerGap').style.color         = gap > 0 ? RED : GREEN;
+  document.getElementById('plannerPipelineAvail').textContent = fmt(D.inDiscussion + D.finalFollowUp);
+
+  // Scenarios
+  const t1Price  = getPkgPrice('Tier 1');
+  const t2Price  = getPkgPrice('Tier 2');
+  const bsPrice  = getPkgPrice('Brand Spotlight');
+  const noPrice  = getPkgPrice('New Opening');
+
+  const scenarios = [];
+  if (gap <= 0) {
+    scenarios.push({ title: '🎉 Goal already reached!', rows: [{ pkg: 'Total signed', qty: fmt(signed) + ' / ' + fmt(goal) }] });
+  } else {
+    // Scenario A: Tier 1 only
+    scenarios.push({
+      title: 'Scenario A — Close with Tier 1 only',
+      rows: [{ pkg: 'Tier 1 packages needed', qty: Math.ceil(gap / t1Price) + ' more @ ' + fmt(t1Price) }]
+    });
+    // Scenario B: Balanced (same current ratio, excluding Marketing Complete)
+    const totalCnt = (D.countByStage['Tier 1']||0) + (D.countByStage['Tier 2']||0) +
+                     (D.countByStage['Brand Spotlight']||0) + (D.countByStage['New Opening']||0);
+    if (totalCnt > 0) {
+      const r1 = (D.countByStage['Tier 1']||0) / totalCnt;
+      const r2 = (D.countByStage['Tier 2']||0) / totalCnt;
+      const rBS = (D.countByStage['Brand Spotlight']||0) / totalCnt;
+      const rNO = (D.countByStage['New Opening']||0) / totalCnt;
+      const avgPriceBalanced = r1*t1Price + r2*t2Price + rBS*bsPrice + rNO*noPrice;
+      const totalNew = Math.ceil(gap / avgPriceBalanced);
+      scenarios.push({
+        title: 'Scenario B — Same mix as current',
+        rows: [
+          { pkg: 'Tier 1', qty: Math.ceil(totalNew * r1) + ' more' },
+          { pkg: 'Brand Spotlight', qty: Math.ceil(totalNew * rBS) + ' more' },
+          { pkg: 'Tier 2', qty: Math.ceil(totalNew * r2) + ' more' },
+          { pkg: 'New Opening', qty: Math.ceil(totalNew * rNO) + ' more' },
+          { pkg: 'Total new partners', qty: '~' + totalNew },
+        ]
+      });
+    }
+    // Scenario C: Premium focus (50% BS, 30% T2, 20% T1)
+    const avgPricePremium = 0.5*bsPrice + 0.3*t2Price + 0.2*t1Price;
+    const premiumTotal = Math.ceil(gap / avgPricePremium);
+    scenarios.push({
+      title: 'Scenario C — Premium focus (more Brand Spotlight & Tier 2)',
+      rows: [
+        { pkg: 'Brand Spotlight (50%)', qty: Math.ceil(premiumTotal * 0.5) + ' more @ ' + fmt(bsPrice) },
+        { pkg: 'Tier 2 (30%)', qty: Math.ceil(premiumTotal * 0.3) + ' more @ ' + fmt(t2Price) },
+        { pkg: 'Tier 1 (20%)', qty: Math.ceil(premiumTotal * 0.2) + ' more @ ' + fmt(t1Price) },
+        { pkg: 'Total new partners', qty: '~' + premiumTotal },
+      ]
     });
   }
+
+  const sl = document.getElementById('scenarioList');
+  sl.innerHTML = '';
+  scenarios.forEach(s => {
+    sl.innerHTML += `
+      <div class="scenario-card">
+        <h4>${s.title}</h4>
+        <div class="scenario-rows">
+          ${s.rows.map(r => `<div class="scenario-row"><span class="pkg">${r.pkg}</span><span class="qty">${r.qty}</span></div>`).join('')}
+        </div>
+      </div>`;
+  });
+
+  // Fill rate table
+  const fillTarget = goal;
+  const fillEl = document.getElementById('fillRateTable');
+  fillEl.innerHTML = `
+    <table class="pkg-table">
+      <thead><tr><th>Package</th><th>Signed</th><th>Revenue</th><th>% of total signed</th><th>Progress to goal contribution</th></tr></thead>
+      <tbody>
+        ${Object.entries(PKG_DEFAULTS).map(([pkg]) => {
+          const count = (AMPLIFY_DATA.countByStage || {})[pkg] || 0;
+          const rev   = (AMPLIFY_DATA.byStage || {})[pkg] || 0;
+          const revPct = AMPLIFY_DATA.totalSigned > 0 ? Math.round(rev / AMPLIFY_DATA.totalSigned * 100) : 0;
+          const goalPct = Math.min(100, Math.round(rev / goal * 100));
+          return `
+            <tr>
+              <td>${stageBadge(pkg)}</td>
+              <td style="font-weight:700;">${count}</td>
+              <td class="amount">${fmt(rev)}</td>
+              <td>${revPct}%</td>
+              <td>
+                <div style="font-size:12px;color:var(--text-light);margin-bottom:3px;">${goalPct}% of goal</div>
+                <div class="mini-progress"><div class="mini-progress-fill" style="width:${goalPct}%"></div></div>
+              </td>
+            </tr>`;
+        }).join('')}
+      </tbody>
+    </table>`;
+}
+
+// ── Next Steps ──────────────────────────────────────────────────
+function buildNextSteps(D) {
+  const steps = [
+    {
+      title: `Invoice ${fmt(D.needsInvoice)} in signed partners`,
+      body: `${D.needsInvoiceCount} signed partner${D.needsInvoiceCount !== 1 ? 's' : ''} with contracts but no invoice yet. Get these out this week to start the payment clock.`,
+      tag: 'urgent'
+    },
+    {
+      title: `Follow up on ${fmt(D.outstanding)} in outstanding invoices`,
+      body: `Invoices sent but not yet paid. Prioritize higher-value Tier 2 and Brand Spotlight partners. Anyone 30+ days past invoice date should get a friendly payment reminder.`,
+      tag: 'urgent'
+    },
+    ...(D.waitingBilling > 0 ? [{
+      title: `Collect billing details (${fmt(D.waitingBilling)})`,
+      body: `Revenue is stuck in "Waiting for billing details" status. A quick email nudge can unblock these invoices.`,
+      tag: 'this-week'
+    }] : []),
+    {
+      title: `Convert ${D.inDiscussionCount} In-Discussion partners`,
+      body: `${fmt(D.inDiscussion)} in potential revenue is scoped. Prioritize those with quotes already sent and focus on closing before Q1 deliverables begin.`,
+      tag: 'this-week'
+    },
+    ...((D.quarters?.TBD || 0) > 0 ? [{
+      title: `Assign deliverable quarters for ${D.quarters.TBD} partners`,
+      body: `${D.quarters.TBD} signed partners don't have a quarter preference recorded. Critical for scheduling content in Q1 and Q2.`,
+      tag: 'this-week'
+    }] : []),
+    {
+      title: `Review Final Follow Up stage (${D.finalFollowUpCount} partners)`,
+      body: `${D.finalFollowUpCount} partners in Final Follow Up. These are your last chances to convert before they go cold.`,
+      tag: 'this-week'
+    },
+    {
+      title: 'Plan Q1 content delivery calendar',
+      body: `${D.quarters?.Q1 || 0} partners want Q1 deliverables, ${D.quarters?.Q2 || 0} want Q2. Confirm scheduling with the content team now to avoid a crunch.`,
+      tag: 'ongoing'
+    },
+  ];
+
+  const grid = document.getElementById('nextStepsGrid');
+  const tagLabels = { urgent: 'Urgent', 'this-week': 'This week', ongoing: 'Ongoing', nice: 'Quick win' };
+  steps.forEach((s, i) => {
+    grid.innerHTML += `
+      <div class="next-step-card">
+        <div class="step-number">${i+1}</div>
+        <div class="step-content">
+          <h4>${s.title}</h4>
+          <p>${s.body}</p>
+          <span class="step-tag ${s.tag}">${tagLabels[s.tag]}</span>
+        </div>
+      </div>`;
+  });
+}
+
+// ── Team Updates ────────────────────────────────────────────────
+function buildTeamUpdates(D) {
+  const paidPct = D.totalSigned > 0 ? Math.round(D.paid / D.totalSigned * 100) : 0;
+  const updates = [
+    { dot: 'gold',  text: `<strong>${D.signedCount} partners signed</strong> for Amplify 2026 — Tier 1 leads with ${D.countByStage?.['Tier 1'] || 0} properties. Strong growth across top hotel groups.` },
+    { dot: 'green', text: `<strong>${fmt(D.paid)} collected</strong> — ${paidPct}% of total signed value paid.` },
+    { dot: 'amber', text: `<strong>${fmt(D.outstanding)} outstanding</strong> in sent invoices awaiting payment. Following up is the highest-value action this week.` },
+    { dot: 'navy',  text: `<strong>${D.inDiscussionCount} partners in active discussion</strong> — ${fmt(D.inDiscussion)} in additional revenue potential.` },
+    ...(D.waitingBilling > 0 ? [{ dot: 'amber', text: `<strong>${fmt(D.waitingBilling)} waiting on billing details</strong> — quick follow-ups needed to unblock invoicing.` }] : []),
+  ];
+
+  const ul = document.getElementById('updateList');
+  updates.forEach(u => {
+    ul.innerHTML += `
+      <div class="update-item">
+        <div class="update-dot ${u.dot}"></div>
+        <div class="update-text">${u.text}</div>
+      </div>`;
+  });
+
+  // Snapshot
+  const snapshot = buildSnapshot(D);
+  document.getElementById('copySnapshot').textContent = snapshot;
+}
+
+function buildSnapshot(D) {
+  const paidPct = D.totalSigned > 0 ? Math.round(D.paid/D.totalSigned*100) : 0;
+  const byStage = Object.entries(D.byStage || {}).map(([k,v]) => `  • ${k}: ${fmt(v)} (${D.countByStage?.[k] || 0})`).join('\n');
+  const topGroups = (D.topGroups || []).slice(0,3).map(([l,c]) => `${l} (${c})`).join(', ');
+  const topCountries = (D.topCountries || []).slice(0,3).map(([l,c]) => `${l} (${c})`).join(', ');
+  return `FORA AMPLIFY 2026 — WEEKLY SNAPSHOT
+${D.lastUpdated}
+────────────────────────────────────
+SIGNED PARTNERS: ${D.signedCount}
+${byStage}
+
+SIGNED VALUE: ${fmt(D.totalSigned)}  |  TOTAL PIPELINE: ${fmt(D.totalPipeline)}
+
+INVOICE STATUS:
+  • Paid:            ${fmt(D.paid)} (${paidPct}%)
+  • Outstanding:     ${fmt(D.outstanding)}
+  • Waiting Billing: ${fmt(D.waitingBilling)}
+  • Needs Invoice:   ${fmt(D.needsInvoice)} (${D.needsInvoiceCount} partners)
+
+PIPELINE:
+  • In Discussion:   ${fmt(D.inDiscussion)} (${D.inDiscussionCount} partners)
+  • Final Follow Up: ${fmt(D.finalFollowUp)} (${D.finalFollowUpCount} partners)
+
+DELIVERABLES: Q1: ${D.quarters?.Q1||0}  |  Q2: ${D.quarters?.Q2||0}  |  Q3: ${D.quarters?.Q3||0}  |  TBD: ${D.quarters?.TBD||0}
+
+TOP GROUPS: ${topGroups}
+TOP COUNTRIES: ${topCountries}
+────────────────────────────────────`;
+}
+
+function copySnapshot() {
+  const notes = document.getElementById('weeklyNotes').value;
+  const base  = buildSnapshot(AMPLIFY_DATA);
+  const full  = base + (notes ? '\n\nTEAM NOTES:\n' + notes : '');
+  navigator.clipboard.writeText(full).then(() => {
+    const btn = event.target;
+    btn.textContent = 'Copied!';
+    btn.style.background = '#3fa87a';
+    setTimeout(() => { btn.textContent = 'Copy Summary'; btn.style.background = ''; }, 2000);
+  });
+}
+
+// ── Boot ────────────────────────────────────────────────────────
+init();
 </script>
 </body>
 </html>
