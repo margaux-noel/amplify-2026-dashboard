@@ -1350,7 +1350,7 @@ const PACKAGE_DELIVERABLES = {
     { name: 'Collection',    label: 'Collection Feature',        count: 1 },
     { name: 'Webinar',       label: 'Webinar',                   count: 1 },
     { name: 'Advisor Assets',label: 'Advisor Assets',            count: 1 },
-    { name: 'Forum',         label: 'Live Forum Pre-Sale Access', count: 1 },
+    { name: 'Forum',         label: 'Live Forum Pre-Sale Access', count: 1, alwaysYes: true },
   ],
   'New Opening': [
     { name: 'Collection',  label: 'Collection Feature',  count: 1 },
@@ -1437,6 +1437,16 @@ function renderDeliverableSection(p) {
 
   let rows = '';
   expected.forEach(d => {
+    if (d.alwaysYes) {
+      // This deliverable is always included in the package — no scheduling needed
+      rows += `
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:9px 14px;font-size:13px;">${d.label}</td>
+          <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">—</td>
+          <td style="padding:9px 14px;"><span class="badge badge-green">✓ Included</span></td>
+        </tr>`;
+      return;
+    }
     const timings = lookup[d.name] || [];
     for (let i = 0; i < d.count; i++) {
       const t      = timings[i] || '';
