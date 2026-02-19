@@ -530,7 +530,7 @@
     .nr-missing-list { font-size: 11px; color: #7a5c00; margin-top: 2px; opacity: 0.85; }
     /* Progress bar in search table */
     .prog-bar-wrap { background: #e9e4dd; border-radius: 4px; height: 5px; width: 60px; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: 6px; }
-    .prog-bar-fill { height: 5px; border-radius: 4px; background: var(--olive, #77742A); }
+    .prog-bar-fill { display: block; height: 5px; border-radius: 4px; background: var(--olive, #77742A); }
     .prog-cell { font-size: 12px; color: var(--text-main); white-space: nowrap; }
   </style>
 </head>
@@ -2396,6 +2396,7 @@ async function buildNeedsReview() {
 
   const flagged = [];
   const flaggedDups = [];
+  const flaggedStreak = [];
 
   (window._allPartners || []).forEach(p => {
     const expected = PACKAGE_DELIVERABLES[p.stage];
@@ -2423,6 +2424,28 @@ async function buildNeedsReview() {
       if (missing.length) flagged.push({ p, missing });
     }
 
+    // Check for live assets whose Streak status is still "upcoming" or "none" (should be marked complete)
+    if (expected) {
+      const lookup2 = {};
+      (p.features || []).forEach(f => {
+        const name = typeof f === 'object' ? f.name : f;
+        const raw  = typeof f === 'object' ? (f.timing || '') : '';
+        lookup2[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+      });
+      const needsStreakUpdate = [];
+      const partnerLiveAssets = (_liveAssets || []).filter(a => (a.partnerKeys || []).includes(p.key));
+      const liveDelivNames = [...new Set(partnerLiveAssets.map(a => a.deliverable))];
+      liveDelivNames.forEach(delivName => {
+        const d = expected.find(d => d.name === delivName);
+        if (!d || d.alwaysYes || d.noAsset || d.name === 'Webinar') return;
+        const timings = lookup2[delivName] || [];
+        // Flag if ALL timings for this deliverable are not yet marked complete
+        const hasCompleted = timings.some(t => _delivStatus(t) === 'completed');
+        if (!hasCompleted) needsStreakUpdate.push(d.label || delivName);
+      });
+      if (needsStreakUpdate.length) flaggedStreak.push({ p, delivs: needsStreakUpdate });
+    }
+
     // Check for duplicate assets (same deliverable + month uploaded more than once)
     const partnerAssets = (_liveAssets || []).filter(a => (a.partnerKeys || []).includes(p.key));
     const countByDelivMonth = {};
@@ -2437,7 +2460,7 @@ async function buildNeedsReview() {
     if (dups.length) flaggedDups.push({ p, dups });
   });
 
-  if (!flagged.length && !flaggedDups.length) {
+  if (!flagged.length && !flaggedDups.length && !flaggedStreak.length) {
     section.style.display = 'none';
     return;
   }
@@ -2472,7 +2495,22 @@ async function buildNeedsReview() {
       </div>
     </div>`).join('');
 
-  const totalIssues = flagged.length + flaggedDups.length;
+  const streakRows = flaggedStreak.map(({ p, delivs }) => `
+    <div class="nr-panel-row">
+      <div>
+        <strong>${p.name}</strong>
+        <div class="nr-missing-list" style="color:#333880;">Asset live but Streak not updated: ${delivs.join(', ')}</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+        ${stageBadge(p.stage)}
+        <a href="${p.streakUrl}" target="_blank" rel="noopener"
+          style="background:var(--indigo,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;text-decoration:none;">
+          Open in Streak
+        </a>
+      </div>
+    </div>`).join('');
+
+  const totalIssues = flagged.length + flaggedDups.length + flaggedStreak.length;
   section.innerHTML = `
     <div class="nr-panel">
       <div class="nr-panel-header" onclick="
@@ -2487,7 +2525,7 @@ async function buildNeedsReview() {
         <span class="nr-chevron" style="margin-left:auto;">${wasOpen ? '▼' : '▶'}</span>
       </div>
       <div class="nr-panel-body" style="display:${wasOpen ? '' : 'none'};">
-        ${dupRows}${missingRows}
+        ${dupRows}${missingRows}${streakRows}
       </div>
     </div>
   `;
