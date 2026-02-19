@@ -78,6 +78,24 @@
       ],
       "status": "draft",
       "uploadedAt": "2026-02-19T17:36:25.495Z"
+    },
+    {
+      "id": "1771522695019",
+      "deliverable": "Forum",
+      "label": "January Forum Feature",
+      "path": "partner-assets/forum-1771522695019.png",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WECQw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOzCQw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_rCAw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCgw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCQw"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T17:38:16.030Z"
     }
   ]
 }
