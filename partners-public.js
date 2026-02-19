@@ -216,7 +216,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -249,7 +249,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -501,7 +501,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -712,7 +712,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -785,7 +785,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -825,7 +825,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -1298,7 +1298,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -1391,7 +1391,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Advisor Assets",
@@ -1445,7 +1445,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -1488,7 +1488,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned, September - Planned"
+        "timing": "September - Planned, February - Completed"
       },
       {
         "name": "Forum",
@@ -1551,7 +1551,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -1771,7 +1771,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -1798,12 +1798,7 @@ const PARTNER_PUBLIC_DATA = {
     "name": "Jack's Camp",
     "package": "Tier 1",
     "invoiceStatus": "Paid",
-    "deliverables": [
-      {
-        "name": "Collection",
-        "timing": "February - Planned"
-      }
-    ],
+    "deliverables": [],
     "quarters": [],
     "country": "Botswana",
     "resources": {},
@@ -2181,7 +2176,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Advisor Assets",
@@ -2249,7 +2244,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -2420,7 +2415,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -2570,7 +2565,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -2636,7 +2631,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -2868,7 +2863,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -2935,7 +2930,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned, April - Planned"
+        "timing": "April - Planned, February - Completed"
       },
       {
         "name": "Forum",
@@ -3023,7 +3018,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -3486,7 +3481,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -3534,7 +3529,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -3549,7 +3544,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -3721,7 +3716,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -3922,7 +3917,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -3955,7 +3950,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -4043,7 +4038,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -4191,7 +4186,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Journal Article",
@@ -4361,7 +4356,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -4421,7 +4416,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       }
     ],
     "quarters": [],
@@ -4521,7 +4516,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed, August - Planned"
       }
     ],
     "quarters": [],
@@ -4854,7 +4849,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned, September - Planned"
+        "timing": "September - Planned, February - Completed"
       },
       {
         "name": "Forum",
@@ -4967,7 +4962,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned, June - Planned"
+        "timing": "June - Planned, February - Completed"
       },
       {
         "name": "Forum",
@@ -5005,7 +5000,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -5213,7 +5208,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",
@@ -5263,7 +5258,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "May - Planned"
+        "timing": "February - Completed"
       },
       {
         "name": "Forum",

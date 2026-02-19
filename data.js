@@ -214,7 +214,7 @@ const AMPLIFY_DATA = {
     }
   ],
   "features": {
-    "Collection": 197,
+    "Collection": 196,
     "Forum": 125,
     "Newsletter": 122,
     "Journal Article": 14,
@@ -620,7 +620,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -651,7 +651,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -953,7 +953,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -1189,7 +1189,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -1272,7 +1272,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -1324,7 +1324,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -1807,7 +1807,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -1901,7 +1901,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Advisor Assets",
@@ -1959,7 +1959,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -2006,7 +2006,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned, September - Planned"
+          "timing": "September - Planned, February - Completed"
         },
         {
           "name": "Forum",
@@ -2079,7 +2079,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -2365,7 +2365,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -2404,12 +2404,7 @@ const AMPLIFY_DATA = {
       "price": 4000,
       "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SG29aGVqrSpNJ57PIz8JdYi",
-      "features": [
-        {
-          "name": "Collection",
-          "timing": "February - Planned"
-        }
-      ],
+      "features": [],
       "quarters": [],
       "country": "Botswana",
       "brand": "",
@@ -2895,7 +2890,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Advisor Assets",
@@ -2953,7 +2948,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -3141,7 +3136,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -3318,7 +3313,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -3380,7 +3375,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -3681,7 +3676,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -3758,7 +3753,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned, April - Planned"
+          "timing": "April - Planned, February - Completed"
         },
         {
           "name": "Forum",
@@ -3862,7 +3857,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -4469,7 +4464,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -4521,7 +4516,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -4542,7 +4537,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -4780,7 +4775,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -5018,7 +5013,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -5049,7 +5044,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -5153,7 +5148,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -5170,7 +5165,7 @@ const AMPLIFY_DATA = {
       "country": "USA",
       "brand": "",
       "group": "",
-      "email": "cdemarte@thefifthavenuehotel.com, mlauture@thefifthavenuehotel.com",
+      "email": "mlauture@thefifthavenuehotel.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCAw"
     },
     {
@@ -5314,7 +5309,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Journal Article",
@@ -5511,7 +5506,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -5589,7 +5584,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         }
       ],
       "quarters": [],
@@ -5697,7 +5692,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed, August - Planned"
         }
       ],
       "quarters": [],
@@ -6061,7 +6056,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned, September - Planned"
+          "timing": "September - Planned, February - Completed"
         },
         {
           "name": "Forum",
@@ -6196,7 +6191,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned, June - Planned"
+          "timing": "June - Planned, February - Completed"
         },
         {
           "name": "Forum",
@@ -6232,7 +6227,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -6486,7 +6481,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
@@ -6548,7 +6543,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "May - Planned"
+          "timing": "February - Completed"
         },
         {
           "name": "Forum",
