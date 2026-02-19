@@ -453,7 +453,7 @@
     } else {
       // Fetch live assets directly from partner-resources.json so approved
       // assets appear immediately without waiting for the daily update.py run.
-      fetch('partner-resources.json?' + Date.now())
+      fetch('partner-resources.json?' + Date.now(), { cache: 'no-cache' })
         .then(r => r.json())
         .then(json => {
           const liveAssets = (json.assets || []).filter(a =>
@@ -614,7 +614,7 @@
             <h3>Questions about your partnership?</h3>
             <p>Reach out to the Fora Amplify team — we're happy to help.</p>
           </div>
-          <a href="mailto:partners@foratravel.com" class="contact-link" target="_blank" rel="noopener">Contact us →</a>
+          <a href="mailto:partners@foratravel.com" class="contact-link">Contact us →</a>
         </div>
       </div>`;
   }

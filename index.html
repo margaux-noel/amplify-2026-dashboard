@@ -452,6 +452,9 @@
     .btn-approve:disabled { opacity: .5; cursor: default; }
     .btn-reject  { background: white; color: var(--sangria); border: 1px solid var(--sangria); padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
     .btn-remove  { background: white; color: var(--text-light); border: 1px solid var(--border); padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .partner-chip { display: inline-flex; align-items: center; gap: 4px; background: var(--sand); border-radius: 4px; padding: 2px 6px; margin: 2px 2px 2px 0; font-size: 11px; }
+    .btn-unlink { background: none; border: none; color: var(--text-light); font-size: 13px; line-height: 1; cursor: pointer; padding: 0 1px; font-weight: 700; }
+    .btn-unlink:hover { color: var(--sangria); }
     /* Settings modal */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; align-items: center; justify-content: center; }
     .modal-overlay.open { display: flex; }
@@ -1296,6 +1299,19 @@ async function rejectAsset(id, btn) {
 
 async function removeAsset(id, btn) { await rejectAsset(id, btn); }
 
+async function unlinkAsset(assetId, partnerKey, btn) {
+  if (!confirm('Remove this partner from the asset? The asset will stay live for other partners.')) return;
+  btn.disabled = true; btn.textContent = '…';
+  try {
+    const resData = await ghGetFile('partner-resources.json');
+    const json = JSON.parse(resData.content);
+    const asset = json.assets.find(a => a.id === assetId);
+    if (asset) asset.partnerKeys = (asset.partnerKeys || []).filter(k => k !== partnerKey);
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Unlink asset ${assetId} from one partner`);
+    setTimeout(loadAssetsTab, 1800);
+  } catch(err) { btn.disabled = false; btn.textContent = '×'; alert(`Error: ${err.message}`); }
+}
+
 // ── Load & render assets tab ──────────────────────────────────────
 async function loadAssetsTab() {
   const banner = document.getElementById('assets-no-token-banner');
@@ -1313,7 +1329,11 @@ async function loadAssetsTab() {
     (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : []).forEach(p => { pNames[p.key] = p.name; });
     const base = window.location.origin + window.location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
     function assetCardHtml(a, isDraft) {
-      const pList = (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
+      const pList = isDraft
+        ? (a.partnerKeys || []).map(k => pNames[k] || k).join(', ')
+        : (a.partnerKeys || []).map(k =>
+            `<span class="partner-chip">${pNames[k] || k} <button class="btn-unlink" title="Unlink from this partner" onclick="unlinkAsset('${a.id}','${k}',this)">×</button></span>`
+          ).join('');
       const isPdf = a.path.toLowerCase().endsWith('.pdf');
       return `<div class="asset-card ${isDraft ? 'draft' : ''}">
         ${isPdf
