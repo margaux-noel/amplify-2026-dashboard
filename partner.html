@@ -62,16 +62,17 @@
     }
     .fora-mark {
       font-family: 'ChiswickSansText', sans-serif;
-      font-size: 22px;
+      font-size: 18px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.06em;
+    }
+    .header-label {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 18px;
       font-weight: 600;
       color: #e5dbd0;
       letter-spacing: 0.04em;
-    }
-    .header-label {
-      font-size: 12px;
-      color: rgba(255,255,255,0.45);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
     }
 
     /* ── HERO ── */
@@ -504,12 +505,8 @@
     // ── Hero ──
     const heroHtml = `
       <div class="hero">
-        <div class="hero-eyebrow">Amplify 2026 Partnership</div>
+        <div class="hero-eyebrow">Amplify 2026 Partnership &nbsp;·&nbsp; <span style="display:inline-block;background:${pkgColor.bg};color:${pkgColor.color};padding:2px 10px;border-radius:20px;font-size:11px;font-weight:700;letter-spacing:0.06em;vertical-align:middle;">${p.package}</span></div>
         <div class="hero-name">${p.name}</div>
-        <div class="hero-meta">
-          <span style="display:inline-block;background:${pkgColor.bg};color:${pkgColor.color};padding:3px 12px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:0.06em;">${p.package}</span>
-          ${p.country ? `<span style="margin-left:10px;color:rgba(255,255,255,0.45);font-size:13px;">${p.country}</span>` : ''}
-        </div>
       </div>`;
 
     // ── Package pills ──
