@@ -2024,7 +2024,7 @@ const PARTNER_PUBLIC_DATA = {
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw": {
-    "name": "Kempinski Germany",
+    "name": "Kempinski Germany: Hotel Adlon & Hotel Vier Jahreszeiten",
     "package": "Bespoke Kempinski",
     "invoiceStatus": "Invoice sent \u2014 payment pending",
     "deliverables": [
@@ -5808,6 +5808,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "January Collection Feature",
           "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ],
+      "Newsletter": [
+        {
+          "label": "January Newsletter Feature",
+          "path": "",
           "note": ""
         }
       ]

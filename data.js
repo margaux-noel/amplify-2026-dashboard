@@ -2662,7 +2662,7 @@ const AMPLIFY_DATA = {
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw",
-      "name": "Kempinski Germany",
+      "name": "Kempinski Germany: Hotel Adlon & Hotel Vier Jahreszeiten",
       "stage": "Brand Spotlight",
       "stageKey": "5016",
       "package": "Bespoke Kempinski",
@@ -10112,7 +10112,7 @@ const AMPLIFY_DATA = {
       "invoiceUrl": "",
       "features": [],
       "quarters": [],
-      "country": "",
+      "country": "Spain",
       "brand": "EDITION",
       "group": "Marriott International",
       "email": "ciro.borrelli@editionhotels.com",
