@@ -429,7 +429,7 @@
     const st = delivStatus(timing);
     const mo = scheduledMonth(timing);
     if (st === 'completed') return `<span class="badge badge-done">✓ Completed${mo ? ' — ' + mo : ''}</span>`;
-    if (st === 'upcoming')  return `<span class="badge badge-upcoming">Scheduled — ${mo || 'TBD'}</span>`;
+    if (st === 'upcoming')  return `<span class="badge badge-upcoming">Scheduled</span>`;
     return '<span class="badge badge-tbd">To be confirmed</span>';
   }
 
