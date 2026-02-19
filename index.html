@@ -423,21 +423,22 @@
 
     /* ── ASSETS TAB ── */
     .assets-form-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 24px; }
-    .assets-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; margin-bottom: 20px; }
-    .af-field { display: flex; flex-direction: column; gap: 6px; }
+    .assets-form-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; align-items: start; }
+    .af-field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
     .af-field label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--text-light); }
     .af-input { font-size: 13px; font-family: inherit; border: 1px solid var(--border); border-radius: 7px; padding: 8px 12px; background: var(--bg); outline: none; color: var(--text); }
     .af-input:focus { border-color: var(--olive); }
     .partner-selector { border: 1px solid var(--border); border-radius: 7px; background: var(--bg); }
     .partner-selector-search { padding: 8px 12px; border-bottom: 1px solid var(--border); }
     .partner-selector-search input { width: 100%; border: none; background: transparent; font-size: 13px; font-family: inherit; outline: none; color: var(--text); }
-    .partner-selector-list { max-height: 200px; overflow-y: auto; }
-    .partner-selector-item { display: flex; align-items: center; gap: 10px; padding: 7px 12px; cursor: pointer; font-size: 13px; }
+    .partner-selector-list { max-height: 380px; overflow-y: auto; }
+    .partner-selector-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; cursor: pointer; font-size: 13px; transition: background 0.1s; }
     .partner-selector-item:hover { background: var(--dark-sand); }
-    .partner-selector-item input[type="checkbox"] { cursor: pointer; accent-color: var(--olive); }
+    .partner-selector-item:has(input:checked) { background: rgba(119,116,42,0.12); font-weight: 600; color: var(--olive); }
+    .partner-selector-item input[type="checkbox"] { cursor: pointer; accent-color: var(--olive); width: 15px; height: 15px; flex-shrink: 0; }
     .partner-selector-actions { padding: 6px 12px; border-top: 1px solid var(--border); display: flex; gap: 12px; align-items: center; }
     .partner-selector-actions button { font-size: 11px; color: var(--olive); background: none; border: none; cursor: pointer; font-family: inherit; font-weight: 600; }
-    .asset-upload-preview { max-width: 220px; max-height: 130px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border); margin-top: 8px; }
+    .asset-upload-preview { width: 100%; max-height: 280px; border-radius: 8px; object-fit: contain; border: 1px solid var(--border); margin-top: 8px; background: var(--sand); }
     .pending-badge { background: var(--sangria); color: white; border-radius: 10px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-left: 8px; vertical-align: middle; }
     .asset-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
     .asset-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
@@ -905,53 +906,59 @@
   <!-- Upload form -->
   <div class="assets-form-card">
     <h3 style="font-size:14px;font-weight:700;margin-bottom:20px;font-family:'ChiswickSansText',sans-serif;">Upload New Asset</h3>
-    <div class="assets-form-grid">
-      <div class="af-field">
-        <label>Deliverable</label>
-        <select id="af-deliverable" class="af-input">
-          <option value="">Select deliverable…</option>
-          <option>Collection</option>
-          <option>Newsletter</option>
-          <option>Forum</option>
-          <option>Advisor Assets</option>
-          <option>Webinar</option>
-          <option>Social Media</option>
-        </select>
-      </div>
-      <div class="af-field">
-        <label>Label</label>
-        <input id="af-label" type="text" class="af-input" placeholder="e.g. February 2026 Newsletter Feature">
-      </div>
-      <div class="af-field" style="grid-column:1/-1;">
-        <label>File (image or PDF)</label>
-        <input id="af-file" type="file" accept="image/*,.pdf" class="af-input" onchange="previewUploadImg(this)">
-        <img id="af-preview" class="asset-upload-preview" style="display:none;" alt="Preview">
-        <div id="af-preview-pdf" style="display:none;margin-top:8px;font-size:13px;color:var(--text-light);">📄 <span id="af-preview-pdf-name"></span></div>
-        <div id="af-detect-status" style="display:none;margin-top:6px;font-size:12px;color:var(--text-light);"></div>
-      </div>
-      <div class="af-field" style="grid-column:1/-1;">
-        <label>Note (optional)</label>
-        <input id="af-note" type="text" class="af-input" placeholder="Any context about this asset…">
-      </div>
-    </div>
-    <div class="af-field" style="margin-bottom:20px;">
-      <label>Apply to Partners <span id="ps-count" style="font-weight:400;font-size:11px;color:var(--olive);margin-left:6px;"></span></label>
-      <div class="partner-selector">
-        <div class="partner-selector-search">
-          <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)">
+    <div class="assets-form-two-col">
+
+      <!-- Left: file + details -->
+      <div>
+        <div class="af-field">
+          <label>File (image or PDF)</label>
+          <input id="af-file" type="file" accept="image/*,.pdf" class="af-input" onchange="previewUploadImg(this)">
+          <img id="af-preview" class="asset-upload-preview" style="display:none;" alt="Preview">
+          <div id="af-preview-pdf" style="display:none;margin-top:10px;padding:16px;background:var(--sand);border-radius:8px;font-size:14px;text-align:center;">📄 <span id="af-preview-pdf-name"></span></div>
         </div>
-        <div class="partner-selector-list" id="ps-list">
-          <div style="padding:12px;color:var(--text-light);font-size:13px;">Loading partners…</div>
+        <div class="af-field">
+          <label>Deliverable</label>
+          <select id="af-deliverable" class="af-input">
+            <option value="">Select deliverable…</option>
+            <option>Collection</option>
+            <option>Newsletter</option>
+            <option>Forum</option>
+            <option>Advisor Assets</option>
+            <option>Webinar</option>
+            <option>Social Media</option>
+          </select>
         </div>
-        <div class="partner-selector-actions">
-          <button onclick="selectAllPartners()">Select all visible</button>
-          <button onclick="clearAllPartners()">Clear</button>
+        <div class="af-field">
+          <label>Label</label>
+          <input id="af-label" type="text" class="af-input" placeholder="e.g. February 2026 Newsletter Feature">
+        </div>
+        <div class="af-field">
+          <label>Note (optional)</label>
+          <input id="af-note" type="text" class="af-input" placeholder="Any context about this asset…">
+        </div>
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:4px;">
+          <button onclick="submitAsset(this)" class="btn-approve" style="padding:10px 22px;font-size:13px;">Submit for review</button>
+          <span id="af-status" style="font-size:12px;"></span>
         </div>
       </div>
-    </div>
-    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
-      <button onclick="submitAsset(this)" class="btn-approve" style="padding:10px 22px;font-size:13px;">Submit for review</button>
-      <span id="af-status" style="font-size:12px;"></span>
+
+      <!-- Right: partner selector -->
+      <div class="af-field" style="margin-bottom:0;">
+        <label>Apply to Partners <span id="ps-count" style="font-weight:400;font-size:11px;color:var(--olive);margin-left:6px;"></span></label>
+        <div class="partner-selector">
+          <div class="partner-selector-search">
+            <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)">
+          </div>
+          <div class="partner-selector-list" id="ps-list">
+            <div style="padding:12px;color:var(--text-light);font-size:13px;">Loading partners…</div>
+          </div>
+          <div class="partner-selector-actions">
+            <button onclick="selectAllPartners()">Select all visible</button>
+            <button onclick="clearAllPartners()">Clear</button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -1159,8 +1166,7 @@ function updatePartnerCount() {
 function previewUploadImg(input) {
   const img = document.getElementById('af-preview');
   const pdf = document.getElementById('af-preview-pdf');
-  const det = document.getElementById('af-detect-status');
-  img.style.display = 'none'; pdf.style.display = 'none'; det.style.display = 'none';
+  img.style.display = 'none'; pdf.style.display = 'none';
   if (!input.files || !input.files[0]) return;
   const file = input.files[0];
   if (file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf')) {
@@ -1168,71 +1174,6 @@ function previewUploadImg(input) {
     pdf.style.display = '';
   } else {
     img.src = URL.createObjectURL(file); img.style.display = '';
-  }
-  detectPartners(file);
-}
-
-// ── Auto-detect partners from file ───────────────────────────────
-function loadScript(src) {
-  return new Promise((res, rej) => {
-    if (document.querySelector(`script[src="${src}"]`)) { res(); return; }
-    const s = document.createElement('script'); s.src = src;
-    s.onload = res; s.onerror = rej; document.head.appendChild(s);
-  });
-}
-
-async function extractFileText(file) {
-  const isPdf = file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf');
-  if (isPdf) {
-    await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
-    window.pdfjsLib.GlobalWorkerOptions.workerSrc =
-      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-    const buf = await file.arrayBuffer();
-    const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
-    let text = '';
-    for (let i = 1; i <= Math.min(pdf.numPages, 10); i++) {
-      const page = await pdf.getPage(i);
-      const content = await page.getTextContent();
-      text += content.items.map(it => it.str).join(' ') + ' ';
-    }
-    return text;
-  } else {
-    await loadScript('https://unpkg.com/tesseract.js@5/dist/tesseract.min.js');
-    const result = await Tesseract.recognize(file, 'eng', { logger: () => {} });
-    return result.data.text;
-  }
-}
-
-async function detectPartners(file) {
-  const det = document.getElementById('af-detect-status');
-  det.style.color = 'var(--text-light)';
-  det.textContent = 'Scanning for partner names…'; det.style.display = '';
-  try {
-    const text = await extractFileText(file);
-    if (!text.trim()) { det.textContent = 'Could not read text — select partners manually.'; return; }
-    const textLow = text.toLowerCase();
-    const partners = (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : [])
-      .filter(p => SIGNED_STAGES_SET.has(p.stage));
-    const stopWords = new Set(['hotel','hotels','resort','resorts','collection','suite','suites','palace','beach','island','villa','villas','feature','travel','fora','opening','luxury','boutique','group','house','lodge']);
-    const matched = partners.filter(p => {
-      const nameLow = p.name.toLowerCase();
-      if (textLow.includes(nameLow)) return true;
-      const words = nameLow.split(/\s+/).filter(w => w.length > 4 && !stopWords.has(w));
-      return words.length > 0 && words.some(w => textLow.includes(w));
-    });
-    if (!matched.length) {
-      const snippet = text.trim().slice(0, 120).replace(/\s+/g, ' ');
-      det.textContent = `No partners detected — select manually. (Extracted: "${snippet}…")`;
-      return;
-    }
-    document.querySelectorAll('#ps-list input[type="checkbox"]').forEach(cb => {
-      cb.checked = matched.some(p => p.key === cb.value);
-    });
-    updatePartnerCount();
-    det.style.color = 'var(--olive)';
-    det.textContent = `✓ ${matched.length} partner${matched.length > 1 ? 's' : ''} detected: ${matched.slice(0,5).map(p => p.name).join(', ')}${matched.length > 5 ? ` +${matched.length - 5} more` : ''}`;
-  } catch(err) {
-    det.textContent = `Detection failed — select partners manually.`;
   }
 }
 
@@ -1271,7 +1212,6 @@ async function submitAsset(btn) {
     document.getElementById('af-note').value = '';
     document.getElementById('af-preview').style.display = 'none';
     document.getElementById('af-preview-pdf').style.display = 'none';
-    document.getElementById('af-detect-status').style.display = 'none';
     document.getElementById('ps-search').value = '';
     filterPartnerSelector('');
     clearAllPartners();
