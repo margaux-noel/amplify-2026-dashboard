@@ -1678,7 +1678,6 @@ function buildLiveGroups(live, pNames, base) {
             <div class="live-row-deliv">${displayLabel}</div>
             <div class="live-row-partners">${partners || '—'}</div>
           </div>
-          <button class="btn-remove" onclick="removeAsset('${a.id}',this)">Remove</button>
         </div>`;
       }).join('');
       return `<div class="live-subgroup open">
@@ -2396,30 +2395,48 @@ async function buildNeedsReview() {
   await _awaitLiveAssets();
 
   const flagged = [];
+  const flaggedDups = [];
+
   (window._allPartners || []).forEach(p => {
     const expected = PACKAGE_DELIVERABLES[p.stage];
-    if (!expected) return;
-    const lookup = {};
-    (p.features || []).forEach(f => {
-      const name = typeof f === 'object' ? f.name : f;
-      const raw  = typeof f === 'object' ? (f.timing || '') : '';
-      lookup[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+
+    // Check for missing assets on completed deliverables
+    if (expected) {
+      const lookup = {};
+      (p.features || []).forEach(f => {
+        const name = typeof f === 'object' ? f.name : f;
+        const raw  = typeof f === 'object' ? (f.timing || '') : '';
+        lookup[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+      });
+      const missing = [];
+      expected.forEach(d => {
+        if (d.alwaysYes || d.noAsset) return;
+        const timings = lookup[d.name] || [];
+        const completedTimings = timings.filter(t => _delivStatus(t) === 'completed');
+        if (!completedTimings.length) return;
+        const hasAsset = (_liveAssets || []).some(a =>
+          (a.partnerKeys || []).includes(p.key) && a.deliverable === d.name
+        );
+        if (!hasAsset) missing.push(d.label || d.name);
+      });
+      if (missing.length) flagged.push({ p, missing });
+    }
+
+    // Check for duplicate assets (same deliverable + month uploaded more than once)
+    const partnerAssets = (_liveAssets || []).filter(a => (a.partnerKeys || []).includes(p.key));
+    const countByDelivMonth = {};
+    partnerAssets.forEach(a => {
+      const month = _labelMonth(a.label) || '?';
+      const k = `${a.deliverable}|${month}`;
+      countByDelivMonth[k] = (countByDelivMonth[k] || 0) + 1;
     });
-    const missing = [];
-    expected.forEach(d => {
-      if (d.alwaysYes) return;
-      const timings = lookup[d.name] || [];
-      const completedTimings = timings.filter(t => _delivStatus(t) === 'completed');
-      if (!completedTimings.length) return;
-      const hasAsset = (_liveAssets || []).some(a =>
-        (a.partnerKeys || []).includes(p.key) && a.deliverable === d.name
-      );
-      if (!hasAsset) missing.push(d.label || d.name);
-    });
-    if (missing.length) flagged.push({ p, missing });
+    const dups = Object.entries(countByDelivMonth)
+      .filter(([, n]) => n > 1)
+      .map(([k, n]) => { const [d, m] = k.split('|'); return `${m} ${d} (×${n})`; });
+    if (dups.length) flaggedDups.push({ p, dups });
   });
 
-  if (!flagged.length) {
+  if (!flagged.length && !flaggedDups.length) {
     section.style.display = 'none';
     return;
   }
@@ -2427,6 +2444,34 @@ async function buildNeedsReview() {
   // Remember open/closed state across rebuilds
   const wasOpen = section.dataset.bodyOpen !== 'false';
   section.style.display = '';
+
+  const missingRows = flagged.map(({ p, missing }) => `
+    <div class="nr-panel-row">
+      <div>
+        <strong>${p.name}</strong>
+        <div class="nr-missing-list">Completed in Streak but no asset uploaded: ${missing.join(', ')}</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+        ${stageBadge(p.stage)}
+        <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
+          style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
+      </div>
+    </div>`).join('');
+
+  const dupRows = flaggedDups.map(({ p, dups }) => `
+    <div class="nr-panel-row">
+      <div>
+        <strong>${p.name}</strong>
+        <div class="nr-missing-list" style="color:#870D13;">Duplicate assets uploaded: ${dups.join(', ')}</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+        ${stageBadge(p.stage)}
+        <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
+          style="background:#870D13;color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
+      </div>
+    </div>`).join('');
+
+  const totalIssues = flagged.length + flaggedDups.length;
   section.innerHTML = `
     <div class="nr-panel">
       <div class="nr-panel-header" onclick="
@@ -2437,25 +2482,11 @@ async function buildNeedsReview() {
         this.closest('.nr-panel').closest('#needs-review-section').dataset.bodyOpen = !isOpen;
       ">
         <span style="font-size:15px;">⚠️</span>
-        <span>Needs Review — ${flagged.length} partner${flagged.length !== 1 ? 's' : ''} marked complete but missing published assets</span>
+        <span>Needs Review — ${totalIssues} issue${totalIssues !== 1 ? 's' : ''} across partners</span>
         <span class="nr-chevron" style="margin-left:auto;">${wasOpen ? '▼' : '▶'}</span>
       </div>
       <div class="nr-panel-body" style="display:${wasOpen ? '' : 'none'};">
-        ${flagged.map(({ p, missing }) => `
-          <div class="nr-panel-row">
-            <div>
-              <strong>${p.name}</strong>
-              <div class="nr-missing-list">Missing assets for: ${missing.join(', ')}</div>
-            </div>
-            <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
-              ${stageBadge(p.stage)}
-              <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
-                style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">
-                View
-              </button>
-            </div>
-          </div>
-        `).join('')}
+        ${dupRows}${missingRows}
       </div>
     </div>
   `;
@@ -2514,7 +2545,7 @@ const PACKAGE_DELIVERABLES = {
   ],
   'Brand Spotlight': [
     { name: 'Collection',    label: 'Collection Feature',        count: 1 },
-    { name: 'Webinar',       label: 'Webinar',                   count: 1 },
+    { name: 'Webinar',       label: 'Webinar',                   count: 1, noAsset: true },
     { name: 'Advisor Assets',label: 'Advisor Assets',            count: 1 },
     { name: 'Forum',         label: 'Live Forum Pre-Sale Access', count: 1, alwaysYes: true },
   ],
