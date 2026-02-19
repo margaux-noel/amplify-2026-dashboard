@@ -8,12 +8,12 @@ const AMPLIFY_DATA = {
   "totalPipeline": 1201500,
   "paid": 648000,
   "outstanding": 471500,
-  "waitingBilling": 13000,
+  "waitingBilling": 17000,
   "inKind": 0,
-  "needsInvoice": 13000,
-  "needsInvoiceCount": 3,
-  "inDiscussion": 65000,
-  "inDiscussionCount": 66,
+  "needsInvoice": 17000,
+  "needsInvoiceCount": 4,
+  "inDiscussion": 61000,
+  "inDiscussionCount": 64,
   "finalFollowUp": 4000,
   "finalFollowUpCount": 148,
   "marketingComplete": 12000,
@@ -32,14 +32,14 @@ const AMPLIFY_DATA = {
     "Marketing Complete": 3
   },
   "pipelineByStage": {
-    "In Discussion": 65000,
+    "In Discussion": 61000,
     "Final Follow Up": 4000,
-    "Needs Invoice": 13000
+    "Needs Invoice": 17000
   },
   "pipelineCountByStage": {
-    "In Discussion": 66,
+    "In Discussion": 64,
     "Final Follow Up": 148,
-    "Needs Invoice": 3
+    "Needs Invoice": 4
   },
   "funnel": [
     {
@@ -75,14 +75,14 @@ const AMPLIFY_DATA = {
     {
       "label": "Needs Invoice",
       "stageKey": "5011",
-      "count": 3,
-      "value": 13000
+      "count": 4,
+      "value": 17000
     },
     {
       "label": "In Discussion",
       "stageKey": "5004",
-      "count": 66,
-      "value": 65000
+      "count": 64,
+      "value": 61000
     },
     {
       "label": "Final Follow Up",
@@ -105,7 +105,7 @@ const AMPLIFY_DATA = {
     {
       "label": "Declined",
       "stageKey": "5008",
-      "count": 168,
+      "count": 173,
       "value": 0
     },
     {
@@ -3094,7 +3094,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "January - Completed"
         },
         {
           "name": "Forum",
@@ -3349,7 +3349,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Planned"
+          "timing": "March - Planned"
         },
         {
           "name": "Forum",
@@ -4766,7 +4766,7 @@ const AMPLIFY_DATA = {
       "country": "Turks and Caicos",
       "brand": "Grace Bay Resorts",
       "group": "Grace Bay Resorts",
-      "email": "sara.archibald@gracebayresorts.com",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw"
     },
     {
@@ -5314,7 +5314,7 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "February - Completed"
+          "timing": "February - Planned"
         },
         {
           "name": "Journal Article",
@@ -7870,22 +7870,6 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fMCgw"
     },
     {
-      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw",
-      "name": "Grace Bay Club Turks & Caicos",
-      "stage": "In Discussion",
-      "stageKey": "5004",
-      "price": 0,
-      "invoiceStatus": "",
-      "invoiceUrl": "",
-      "features": [],
-      "quarters": [],
-      "country": "Turks and Caicos",
-      "brand": "Grace Bay",
-      "group": "Grace Bay",
-      "email": "scott.khile@gracebayresorts.com",
-      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw"
-    },
-    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qZCww",
       "name": "Grand Hotel Belvedere",
       "stage": "In Discussion",
@@ -9949,10 +9933,10 @@ const AMPLIFY_DATA = {
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4CAw",
       "name": "The Sanctuary at Kiawah Island Golf Resort",
-      "stage": "In Discussion",
-      "stageKey": "5004",
+      "stage": "Needs Invoice",
+      "stageKey": "5011",
       "price": 4000,
-      "invoiceStatus": "",
+      "invoiceStatus": "Waiting for billing details",
       "invoiceUrl": "",
       "features": [],
       "quarters": [],
@@ -12781,6 +12765,38 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWYpPWoCQw"
     },
     {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw",
+      "name": "Grace Bay Club",
+      "stage": "Declined",
+      "stageKey": "5008",
+      "price": 0,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eyCQw"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWb0oTqCAw",
+      "name": "Grace Bay Resorts",
+      "stage": "Declined",
+      "stageKey": "5008",
+      "price": 0,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWb0oTqCAw"
+    },
+    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMnLCww",
       "name": "Grand Hotel Falkenberg",
       "stage": "Do Not Invite",
@@ -14461,6 +14477,22 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaHCQw"
     },
     {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXbvpDxCAw",
+      "name": "Point Grace",
+      "stage": "Declined",
+      "stageKey": "5008",
+      "price": 0,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXbvpDxCAw"
+    },
+    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmdCAw",
       "name": "Polar Online",
       "stage": "Do Not Invite",
@@ -14699,6 +14731,22 @@ const AMPLIFY_DATA = {
       "group": "",
       "email": "",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMmDCgw"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXb4LfoCAw",
+      "name": "Rock House",
+      "stage": "Declined",
+      "stageKey": "5008",
+      "price": 0,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXb4LfoCAw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCww",
@@ -16267,6 +16315,22 @@ const AMPLIFY_DATA = {
       "group": "Marriott International",
       "email": "c.leibenger@waldhaus-flims.ch",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceeCww"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW71IKuCQw",
+      "name": "West Bay Club",
+      "stage": "Declined",
+      "stageKey": "5008",
+      "price": 0,
+      "invoiceStatus": "",
+      "invoiceUrl": "",
+      "features": [],
+      "quarters": [],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com , scott.khile@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW71IKuCQw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXPrMm9CQw",

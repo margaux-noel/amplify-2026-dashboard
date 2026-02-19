@@ -24,6 +24,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXagdysCgw": {
@@ -38,6 +39,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefYCQw": {
@@ -62,6 +64,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCAw": {
@@ -86,6 +89,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefICQw": {
@@ -110,6 +114,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5CAw": {
@@ -138,6 +143,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaf_CQw": {
@@ -152,6 +158,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zefQCww": {
@@ -176,6 +183,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Spain",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXC0-OECww": {
@@ -190,6 +206,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zeeECQw": {
@@ -214,6 +231,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Austria",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CQw": {
@@ -238,6 +264,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Czech Republic",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCQw": {
@@ -262,6 +297,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSeCQw": {
@@ -286,6 +322,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Costa Rica",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JS2CAw": {
@@ -295,6 +332,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWgqMTpCQw": {
@@ -315,6 +353,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Bahamas",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXbjOfpCww": {
@@ -329,6 +368,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCAw": {
@@ -353,6 +393,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "UAE",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSWCww": {
@@ -377,6 +418,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JTRCgw": {
@@ -391,6 +441,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Turks and Caicos",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx-t2_Cgw": {
@@ -415,6 +466,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qVCww": {
@@ -439,6 +491,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSOCww": {
@@ -463,6 +516,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7JSGCww": {
@@ -487,6 +549,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww": {
@@ -511,12 +574,28 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Indonesia",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771525307778.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGyCQw": {
     "name": "Bvlgari Hotels & Resorts",
     "package": "Brand Spotlight",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -531,6 +610,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwr5XJCgw": {
@@ -555,6 +635,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHCCQw": {
@@ -579,6 +660,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dH6Cww": {
@@ -603,6 +685,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Antigua",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHmCAw": {
@@ -619,12 +702,13 @@ const PARTNER_PUBLIC_DATA = {
       "Q4"
     ],
     "country": "Switzerland",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHGCQw": {
     "name": "Carmel Valley Ranch",
     "package": "Tier 1",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -633,6 +717,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCQw": {
@@ -657,6 +742,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dG8CAw": {
@@ -681,6 +775,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6CAw": {
@@ -695,6 +790,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXq5_vTCgw": {
@@ -719,6 +815,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCww": {
@@ -733,6 +830,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCQw": {
@@ -757,6 +855,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qACQw": {
@@ -786,6 +900,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX66rvCww": {
@@ -810,6 +925,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-tCgw": {
@@ -834,6 +958,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_rCAw": {
@@ -858,6 +998,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_1CQw": {
@@ -882,6 +1038,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_tCAw": {
@@ -906,6 +1078,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_VCgw": {
@@ -915,6 +1088,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCQw": {
@@ -939,6 +1113,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWECww": {
@@ -963,6 +1138,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_zCAw": {
@@ -972,6 +1163,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Canada",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_9Cgw": {
@@ -996,6 +1188,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL-zCQw": {
@@ -1005,6 +1198,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXrL_DCQw": {
@@ -1014,12 +1208,13 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Canada",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fqCQw": {
     "name": "Four Seasons Astir Palace Hotel Athens",
     "package": "Tier 1",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -1038,6 +1233,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCAw": {
@@ -1052,6 +1248,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWivZu5Cgw": {
@@ -1076,6 +1273,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Vietnam",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-eCCAw": {
@@ -1100,6 +1313,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Switzerland",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCAw": {
@@ -1109,6 +1331,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCgw": {
@@ -1118,6 +1341,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl-fcCQw": {
@@ -1142,6 +1366,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTdCQw": {
@@ -1162,6 +1402,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw": {
@@ -1186,6 +1427,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522164903.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JazCQw": {
@@ -1210,6 +1460,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Japan",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSDCQw": {
@@ -1219,6 +1478,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Antigua",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTnCgw": {
@@ -1248,6 +1508,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Spain",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCww": {
@@ -1262,6 +1531,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSrCAw": {
@@ -1271,6 +1541,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oTLCgw": {
@@ -1295,6 +1566,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSdCww": {
@@ -1309,6 +1581,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCQw": {
@@ -1333,6 +1606,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rNCAw": {
@@ -1342,6 +1616,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oS7CAw": {
@@ -1366,6 +1641,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Austria",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuHbCww": {
@@ -1375,6 +1651,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Monaco",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuGTCgw": {
@@ -1384,6 +1661,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWzwvvtCAw": {
@@ -1408,6 +1686,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3xuH7Cww": {
@@ -1432,6 +1711,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-iHCQw": {
@@ -1456,6 +1736,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6SzCgw": {
@@ -1480,6 +1761,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCgw": {
@@ -1494,6 +1776,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF8KruCww": {
@@ -1508,6 +1791,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_tCgw": {
@@ -1522,6 +1806,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Botswana",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_FCQw": {
@@ -1531,6 +1816,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCAw": {
@@ -1549,6 +1835,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Thailand",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXx67f0Cww": {
@@ -1573,6 +1860,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf-lCgw": {
@@ -1597,6 +1885,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCAw": {
@@ -1621,6 +1910,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_JCQw": {
@@ -1645,6 +1935,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw": {
@@ -1675,6 +1966,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q4"
     ],
     "country": "Germany",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JajCww": {
@@ -1699,6 +1991,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6S1CQw": {
@@ -1723,6 +2016,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXGm6TVCgw": {
@@ -1747,6 +2041,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWeqau2Cww": {
@@ -1761,6 +2056,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPECww": {
@@ -1785,6 +2081,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LW0Cgw": {
@@ -1809,6 +2106,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWmuoTdCgw": {
@@ -1833,6 +2131,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_pCQw": {
@@ -1847,6 +2146,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "St Lucia",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjyCAw": {
@@ -1856,6 +2156,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "France",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjCCAw": {
@@ -1870,6 +2171,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "France",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXCgYG0CAw": {
@@ -1890,6 +2192,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw": {
@@ -1914,6 +2217,29 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522164903.png",
+          "note": ""
+        }
+      ],
+      "Journal Article": [
+        {
+          "label": "January Journal Article Feature",
+          "path": "",
+          "note": ""
+        }
+      ],
+      "Social Media": [
+        {
+          "label": "January Social Media Feature",
+          "path": "",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjiCQw": {
@@ -1938,6 +2264,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Anguilla",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjSCQw": {
@@ -1962,6 +2297,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Switzerland",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOjcCgw": {
@@ -1986,6 +2322,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "GB",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiKCgw": {
@@ -1995,6 +2340,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Germany",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCww": {
@@ -2004,6 +2350,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOiMCAw": {
@@ -2013,6 +2360,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "France",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww": {
@@ -2022,7 +2370,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "January - Completed"
       },
       {
         "name": "Forum",
@@ -2037,6 +2385,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771525307778.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCww": {
@@ -2046,6 +2410,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9itCAw": {
@@ -2060,6 +2425,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCAw": {
@@ -2084,15 +2450,17 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j9Cgw": {
     "name": "Montage International",
     "package": "Brand Spotlight",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWBrL_7CAw": {
@@ -2117,6 +2485,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Monaco",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iFCQw": {
@@ -2126,6 +2495,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Monaco",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cww": {
@@ -2150,6 +2520,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522164903.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CQw": {
@@ -2174,6 +2553,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Costa Rica",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWCjrmCCww": {
@@ -2198,6 +2593,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Fiji",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCAw": {
@@ -2207,7 +2611,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Planned"
+        "timing": "March - Planned"
       },
       {
         "name": "Forum",
@@ -2222,6 +2626,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771526379026.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9ipCww": {
@@ -2236,6 +2649,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Costa Rica",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCgw": {
@@ -2260,6 +2674,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Indonesia",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iZCww": {
@@ -2274,6 +2704,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCww": {
@@ -2283,6 +2714,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA, Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jNCAw": {
@@ -2292,6 +2724,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWahYSuCQw": {
@@ -2316,6 +2749,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWq04b6CAw": {
@@ -2340,6 +2774,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb7CQw": {
@@ -2349,6 +2784,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWN5uCfCgw": {
@@ -2365,6 +2801,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCQw": {
@@ -2374,6 +2811,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOTCAw": {
@@ -2398,6 +2836,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeO7Cww": {
@@ -2407,6 +2846,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePTCQw": {
@@ -2416,6 +2856,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "UAE",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePzCAw": {
@@ -2425,6 +2866,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeONCQw": {
@@ -2439,6 +2881,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Maldives",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCAw": {
@@ -2457,6 +2900,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWcCQw": {
@@ -2481,6 +2933,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Portugal",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpePtCww": {
@@ -2510,6 +2963,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX05rThCww": {
@@ -2524,6 +2978,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOdCAw": {
@@ -2533,6 +2988,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Thailand",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnpeOzCQw": {
@@ -2557,6 +3013,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXa1Nv9Cww": {
@@ -2581,6 +3053,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX2t4rSCgw": {
@@ -2595,12 +3068,13 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "French Polynesia/Tahiti",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWumeniCww": {
     "name": "Pendry Hotels",
     "package": "Brand Spotlight",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -2609,6 +3083,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbzCAw": {
@@ -2623,6 +3098,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Multiple Countries",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCAw": {
@@ -2647,6 +3123,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCAw": {
@@ -2667,6 +3144,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXSCgw": {
@@ -2691,6 +3169,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW-gOOqCAw": {
@@ -2711,6 +3190,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Multiple Countries",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cww": {
@@ -2735,6 +3215,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Indonesia",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pX6Cgw": {
@@ -2747,6 +3228,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW8CQw": {
@@ -2756,6 +3238,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Qatar",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCww": {
@@ -2780,6 +3263,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "UAE",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCww": {
@@ -2789,6 +3273,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Poland",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWmCQw": {
@@ -2813,6 +3298,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Turkey",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWqCAw": {
@@ -2837,6 +3323,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWTuOyjCAw": {
@@ -2846,6 +3333,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Singapore",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pW2Cgw": {
@@ -2862,6 +3350,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Seychelles",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pXCCAw": {
@@ -2876,6 +3365,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Singapore",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWWCww": {
@@ -2890,6 +3380,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "UAE",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qOsCgw": {
@@ -2914,6 +3405,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Hong Kong",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXJs8eDCgw": {
@@ -2934,6 +3426,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXECAw": {
@@ -2958,6 +3451,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWX7pWKCAw": {
@@ -2972,6 +3466,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-i_CQw": {
@@ -2996,6 +3491,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCgw": {
@@ -3010,6 +3506,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Morocco",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw": {
@@ -3034,6 +3531,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCww": {
@@ -3048,6 +3554,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Peru",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCgw": {
@@ -3062,6 +3569,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCww": {
@@ -3071,6 +3579,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5jgCgw": {
@@ -3095,6 +3604,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCww": {
@@ -3119,6 +3629,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Hawaii",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCgw": {
@@ -3133,6 +3644,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5igCAw": {
@@ -3157,6 +3669,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-j3CQw": {
@@ -3166,6 +3679,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Grenada",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-ivCQw": {
@@ -3180,6 +3694,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2Cgw": {
@@ -3189,6 +3704,29 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "French Polynesia",
+    "resources": {},
+    "lastUpdated": "Feb 19, 2026"
+  },
+  "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww": {
+    "name": "Solaz a Luxury Collection Resort Los Cabos",
+    "package": "Tier 2",
+    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "deliverables": [],
+    "quarters": [],
+    "country": "Mexico",
+    "resources": {},
+    "lastUpdated": "Feb 19, 2026"
+  },
+  "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw": {
+    "name": "South Bank - Grace Bay Resorts",
+    "package": "Brand Spotlight",
+    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "deliverables": [],
+    "quarters": [
+      "Q3"
+    ],
+    "country": "Turks and Caicos",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww": {
@@ -3203,6 +3741,27 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
+    "lastUpdated": "Feb 19, 2026"
+  },
+  "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw": {
+    "name": "Stein Eriksen Lodge Deer Valley",
+    "package": "Marketing Complete",
+    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "deliverables": [],
+    "quarters": [
+      "Q1"
+    ],
+    "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCww": {
@@ -3227,6 +3786,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "St Lucia",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-ECQw": {
@@ -3251,6 +3811,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-KCAw": {
@@ -3271,6 +3832,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Multiple Countries",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCAw": {
@@ -3280,6 +3842,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSGCww": {
@@ -3289,6 +3852,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "France",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSRCgw": {
@@ -3313,6 +3877,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXsCAw": {
@@ -3322,6 +3887,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCgw": {
@@ -3346,6 +3912,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-CCgw": {
@@ -3370,6 +3952,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCww": {
@@ -3384,6 +3975,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Bahamas",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCAw": {
@@ -3398,6 +3990,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXIxIyTCgw": {
@@ -3422,6 +4015,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522164903.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCww": {
@@ -3446,6 +4048,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-iCAw": {
@@ -3470,6 +4073,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXnt4-cCgw": {
@@ -3494,6 +4106,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaXCQw": {
@@ -3508,6 +4121,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JaTCQw": {
@@ -3517,6 +4131,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JbnCww": {
@@ -3541,6 +4156,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NznCww": {
@@ -3565,6 +4181,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Bermuda",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771525307778.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCgw": {
@@ -3574,7 +4206,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [
       {
         "name": "Collection",
-        "timing": "February - Completed"
+        "timing": "February - Planned"
       },
       {
         "name": "Journal Article",
@@ -3589,6 +4221,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "GB",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW1nY-XCAw": {
@@ -3618,6 +4251,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWMCQw": {
@@ -3642,6 +4276,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyHCAw": {
@@ -3656,6 +4306,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34Nz7Cgw": {
@@ -3665,6 +4316,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XECww": {
@@ -3689,6 +4341,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzPCgw": {
@@ -3713,6 +4366,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XkCQw": {
@@ -3737,6 +4391,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCww": {
@@ -3746,6 +4401,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzHCQw": {
@@ -3770,6 +4426,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XoCQw": {
@@ -3784,6 +4441,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCQw": {
@@ -3808,6 +4466,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8X0Cww": {
@@ -3832,6 +4499,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICww": {
@@ -3850,6 +4518,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Japan",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCgw": {
@@ -3864,6 +4541,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWw4uOnCgw": {
@@ -3888,6 +4566,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCQw": {
@@ -3897,6 +4576,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCAw": {
@@ -3921,6 +4601,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WUCgw": {
@@ -3930,6 +4619,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XYCgw": {
@@ -3954,6 +4644,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q4"
     ],
     "country": "USA",
+    "resources": {
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771522299585.png",
+          "note": ""
+        }
+      ],
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W4Cww": {
@@ -3963,6 +4669,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XgCAw": {
@@ -3972,6 +4679,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8XQCww": {
@@ -3996,6 +4704,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Maldives",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522584384.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WwCQw": {
@@ -4020,6 +4744,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WECQw": {
@@ -4044,6 +4769,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JabCQw": {
@@ -4058,6 +4799,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Turks and Caicos",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8WICAw": {
@@ -4087,6 +4829,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl8W0CQw": {
@@ -4116,6 +4859,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoP8Cww": {
@@ -4145,12 +4889,21 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT19jVCww": {
     "name": "The Westerly at Hilton Aruba Caribbean Resort",
     "package": "New Opening",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -4169,6 +4922,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Aruba",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX-vPPWCgw": {
@@ -4193,6 +4947,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Malta",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWj4eCPCww": {
@@ -4207,6 +4962,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Cayman Islands",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q1Cgw": {
@@ -4216,6 +4972,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Portugal",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPsCww": {
@@ -4245,6 +5002,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Dominican Republic",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPECgw": {
@@ -4269,6 +5035,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Portugal",
+    "resources": {
+      "Forum": [
+        {
+          "label": "February Forum Feature",
+          "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWG8qPUCQw": {
@@ -4293,6 +5068,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Thailand",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoPMCgw": {
@@ -4307,6 +5083,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Croatia",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rpCww": {
@@ -4331,6 +5108,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOECQw": {
@@ -4355,6 +5133,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Portugal",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXuoOSCAw": {
@@ -4379,6 +5158,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfxCgw": {
@@ -4403,12 +5183,13 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Spain",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWsCgw": {
     "name": "W Fort Lauderdale",
     "package": "Tier 1",
-    "invoiceStatus": "Invoice sent \u2014 payment pending",
+    "invoiceStatus": "Paid",
     "deliverables": [
       {
         "name": "Collection",
@@ -4427,6 +5208,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWK2JT-Cww": {
@@ -4436,6 +5218,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "Oman",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXMCAw": {
@@ -4460,6 +5243,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Dominican Republic",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXzw5bPCgw": {
@@ -4484,6 +5268,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycexCgw": {
@@ -4508,6 +5293,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCgw": {
@@ -4517,6 +5303,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceuCww": {
@@ -4531,6 +5318,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfOCQw": {
@@ -4555,6 +5343,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycehCww": {
@@ -4579,6 +5368,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceRCAw": {
@@ -4601,6 +5391,7 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Japan",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfeCww": {
@@ -4625,6 +5416,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q4"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-CQw": {
@@ -4654,6 +5446,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "Mexico",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyceBCQw": {
@@ -4678,6 +5471,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qlCQw": {
@@ -4687,6 +5481,7 @@ const PARTNER_PUBLIC_DATA = {
     "deliverables": [],
     "quarters": [],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXyce-Cgw": {
@@ -4716,6 +5511,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q3"
     ],
     "country": "USA",
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww": {
@@ -4740,6 +5536,22 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "USA",
+    "resources": {
+      "Forum": [
+        {
+          "label": "January Forum Feature",
+          "path": "partner-assets/forum-1771522695019.png",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "January Collection Feature",
+          "path": "partner-assets/collection-1771523560297.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   }
 };
