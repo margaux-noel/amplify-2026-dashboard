@@ -444,15 +444,33 @@
   if (typeof PARTNER_PUBLIC_DATA === 'undefined') {
     renderError('Data unavailable', 'Partner data could not be loaded. Please try again or contact partners@foratravel.com.');
   } else {
-    const params = new URLSearchParams(window.location.search);
-    const key    = params.get('key');
+    const params  = new URLSearchParams(window.location.search);
+    const key     = params.get('key');
     const partner = key ? PARTNER_PUBLIC_DATA[key] : null;
 
     if (!partner) {
       renderError('Page not found', 'This link may be incorrect or expired. Please contact your Fora representative for a new link.');
     } else {
-      renderPartner(partner);
-      document.getElementById('footerDate').textContent = partner.lastUpdated || '';
+      // Fetch live assets directly from partner-resources.json so approved
+      // assets appear immediately without waiting for the daily update.py run.
+      fetch('partner-resources.json?' + Date.now())
+        .then(r => r.json())
+        .then(json => {
+          const liveAssets = (json.assets || []).filter(a =>
+            a.status === 'live' && (a.partnerKeys || []).includes(key)
+          );
+          const resources = {};
+          liveAssets.forEach(a => {
+            if (!resources[a.deliverable]) resources[a.deliverable] = [];
+            resources[a.deliverable].push({ label: a.label, path: a.path, note: a.note || '' });
+          });
+          partner.resources = resources;
+        })
+        .catch(() => { /* fall back to resources baked into partners-public.js */ })
+        .finally(() => {
+          renderPartner(partner);
+          document.getElementById('footerDate').textContent = partner.lastUpdated || '';
+        });
     }
   }
 
