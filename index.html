@@ -938,9 +938,9 @@
             <th class="sortable" onclick="sortPartners('stageKey')" id="sth-stageKey">Stage <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('price')" id="sth-price">Amount <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('invoiceStatus')" id="sth-invoiceStatus">Invoice Status <i class="sort-icon">↕</i></th>
-            <th>Deliverable Quarter(s)</th>
+            <th class="sortable" onclick="sortPartners('quarters')" id="sth-quarters">Deliverable Quarter(s) <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('country')" id="sth-country">Country <i class="sort-icon">↕</i></th>
-            <th>Progress</th>
+            <th class="sortable" onclick="sortPartners('progress')" id="sth-progress">Progress <i class="sort-icon">↕</i></th>
             <th>Links</th>
           </tr>
         </thead>
@@ -2235,7 +2235,7 @@ function sortPartners(col) {
     _sortDir = _sortDir === 'asc' ? 'desc' : 'asc';
   } else {
     _sortCol = col;
-    _sortDir = col === 'price' ? 'desc' : 'asc';
+    _sortDir = (col === 'price' || col === 'progress') ? 'desc' : 'asc';
   }
   // Update header highlight + icon
   document.querySelectorAll('thead th.sortable').forEach(th => {
@@ -2285,6 +2285,13 @@ function _runFilter() {
         av = a.price || 0; bv = b.price || 0;
       } else if (_sortCol === 'stageKey') {
         av = STAGE_ORDER[a.stageKey] ?? 99; bv = STAGE_ORDER[b.stageKey] ?? 99;
+      } else if (_sortCol === 'quarters') {
+        const aq = (a.quarters || []).slice().sort(); const bq = (b.quarters || []).slice().sort();
+        av = aq[0] || 'ZZZ'; bv = bq[0] || 'ZZZ';
+      } else if (_sortCol === 'progress') {
+        const ap = _delivProgressSimple(a); const bp = _delivProgressSimple(b);
+        av = ap && ap.total > 0 ? ap.completed / ap.total : -1;
+        bv = bp && bp.total > 0 ? bp.completed / bp.total : -1;
       } else {
         av = (a[_sortCol] || '').toLowerCase(); bv = (b[_sortCol] || '').toLowerCase();
       }
