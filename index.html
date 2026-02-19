@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602181630"></script>
+  <script src="data.js?v=202602191017"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -800,6 +800,17 @@ function showTab(tab, el) {
   if (el) el.classList.add('active');
 }
 
+// ── Copy partner portal link to clipboard ────────────────────────
+function copyPartnerLink(key, btn) {
+  const url = window.location.origin + window.location.pathname.replace('index.html','').replace(/\/$/, '') + '/partner.html?key=' + key;
+  navigator.clipboard.writeText(url).then(() => {
+    const orig = btn.textContent;
+    btn.textContent = 'Copied!';
+    btn.style.background = '#1a6b3a';
+    setTimeout(() => { btn.textContent = orig; btn.style.background = ''; }, 2000);
+  });
+}
+
 // ── Navigate to a partner on the search tab ──────────────────────
 function navigateToPartner(name) {
   const searchNavEl = document.querySelector('.nav-tab[onclick*="\'search\'"]');
@@ -1471,7 +1482,11 @@ function _expandDetail(rowEl, p) {
         <div class="detail-field"><label>Hotel Group</label><span>${p.group || '—'}</span></div>
         <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
       </div>
-      ${renderDeliverableSection(p)}`;
+      ${renderDeliverableSection(p)}
+      <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <button onclick="copyPartnerLink('${p.key}',this)" style="background:var(--olive);color:#fff;border:none;padding:8px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;">Copy Partner Link</button>
+        <a href="partner.html?key=${p.key}" target="_blank" style="font-size:12px;color:var(--text-light);text-decoration:none;font-weight:500;">Preview portal →</a>
+      </div>`;
   }
   div.classList.toggle('open');
 }

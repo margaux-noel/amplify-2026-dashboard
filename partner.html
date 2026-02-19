@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Amplify 2026 Partnership — Fora</title>
+  <script src="partners-public.js?v=202602191017"></script>
+  <style>
+    @font-face {
+      font-family: 'ChiswickSansText';
+      src: url('fonts/ChiswickSansText-Regular.otf') format('opentype');
+      font-weight: 400; font-display: swap;
+    }
+    @font-face {
+      font-family: 'ChiswickSansText';
+      src: url('fonts/ChiswickSansText-Semibold.otf') format('opentype');
+      font-weight: 600; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Blanco';
+      src: url('fonts/Blanco-Regular.otf') format('opentype');
+      font-weight: 400; font-display: swap;
+    }
+    @font-face {
+      font-family: 'Blanco';
+      src: url('fonts/Blanco-Bold.otf') format('opentype');
+      font-weight: 700; font-display: swap;
+    }
+
+    :root {
+      --navy:    #131313;
+      --olive:   #77742a;
+      --indigo:  #333880;
+      --sangria: #870d13;
+      --stone:   #827363;
+      --shell:   #e5dbd0;
+      --sand:    #fefaf5;
+      --dsand:   #f3ebe2;
+      --border:  #e5dbd0;
+      --text:    #131313;
+      --tlight:  #827363;
+      --radius:  14px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Blanco', -apple-system, sans-serif;
+      background: var(--sand);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    .header {
+      background: var(--navy);
+      padding: 28px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .fora-mark {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: #e5dbd0;
+      letter-spacing: 0.04em;
+    }
+    .header-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: var(--navy);
+      padding: 0 40px 48px;
+      border-bottom: 3px solid var(--olive);
+    }
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--olive);
+      margin-bottom: 10px;
+    }
+    .hero-name {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 38px;
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+    .hero-meta {
+      font-size: 14px;
+      color: rgba(255,255,255,0.5);
+    }
+    .hero-meta span { margin-right: 16px; }
+
+    /* ── LAYOUT ── */
+    .content {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* ── SECTION ── */
+    .section {
+      margin-bottom: 40px;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--tlight);
+      margin-bottom: 16px;
+    }
+
+    /* ── PACKAGE PILLS ── */
+    .pkg-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .pkg-pill {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 18px;
+      flex: 1 1 160px;
+    }
+    .pkg-pill-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+    .pkg-pill-text { line-height: 1.3; }
+    .pkg-pill-name { font-size: 13px; font-weight: 600; color: var(--text); }
+    .pkg-pill-qty  { font-size: 12px; color: var(--tlight); }
+
+    /* ── DELIVERABLES TABLE ── */
+    .deliv-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .deliv-table thead tr {
+      background: var(--dsand);
+    }
+    .deliv-table th {
+      padding: 11px 18px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--tlight);
+    }
+    .deliv-table td {
+      padding: 14px 18px;
+      font-size: 14px;
+      border-top: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    .deliv-table tr:last-child td { border-bottom: none; }
+
+    /* ── STATUS BADGES ── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .badge-done    { background: #e8f5ee; color: #1a6b3a; }
+    .badge-upcoming{ background: #ecedf8; color: var(--indigo); }
+    .badge-tbd     { background: var(--dsand); color: var(--tlight); }
+    .badge-included{ background: #e8f5ee; color: #1a6b3a; }
+
+    /* ── INVOICE CARD ── */
+    .invoice-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .invoice-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .invoice-title {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 3px;
+    }
+    .invoice-sub { font-size: 13px; color: var(--tlight); }
+
+    /* ── CONTACT CARD ── */
+    .contact-card {
+      background: var(--dsand);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .contact-text h3 {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .contact-text p { font-size: 13px; color: var(--tlight); }
+    .contact-link {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .contact-link:hover { background: #2a2a2a; }
+
+    /* ── ERROR STATE ── */
+    .error-wrap {
+      max-width: 480px;
+      margin: 80px auto;
+      text-align: center;
+      padding: 0 24px;
+    }
+    .error-wrap h2 {
+      font-family: 'ChiswickSansText', sans-serif;
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+    .error-wrap p { color: var(--tlight); margin-bottom: 24px; }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 12px;
+      color: var(--tlight);
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      .header { padding: 20px 20px; }
+      .hero { padding: 0 20px 36px; }
+      .hero-name { font-size: 28px; }
+      .content { padding: 32px 16px 60px; }
+      .invoice-card { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="fora-mark">Fora</div>
+  <div class="header-label">Amplify 2026</div>
+</div>
+
+<div id="app">
+  <!-- Filled by JS -->
+</div>
+
+<div class="footer">
+  <p>Fora Travel · <a href="mailto:suppliers@foratravel.com" style="color:var(--tlight);">suppliers@foratravel.com</a> · Updated <span id="footerDate"></span></p>
+</div>
+
+<script>
+  // ── Package definitions ───────────────────────────────────────
+  const PACKAGE_DELIVERABLES = {
+    'Tier 1': [
+      { name: 'Collection',  label: 'Collection Inclusion', icon: '🗂', count: 1 },
+      { name: 'Newsletter',  label: 'Newsletter Feature',   icon: '✉️', count: 1 },
+      { name: 'Forum',       label: 'Forum Feature',        icon: '💬', count: 1 },
+    ],
+    'Tier 2': [
+      { name: 'Collection',    label: 'Collection Inclusion', icon: '🗂', count: 2 },
+      { name: 'Newsletter',    label: 'Newsletter Feature',   icon: '✉️', count: 1 },
+      { name: 'Forum',         label: 'Forum Feature',        icon: '💬', count: 2 },
+      { name: 'Advisor Assets',label: 'Advisor Assets',       icon: '📦', count: 1 },
+    ],
+    'Brand Spotlight': [
+      { name: 'Collection',    label: 'Collection Feature',        icon: '🗂', count: 1 },
+      { name: 'Webinar',       label: 'Webinar',                   icon: '🎙', count: 1 },
+      { name: 'Advisor Assets',label: 'Advisor Assets',            icon: '📦', count: 1 },
+      { name: 'Forum',         label: 'Live Forum Pre-Sale Access', icon: '⭐', count: 1, alwaysYes: true },
+    ],
+    'New Opening': [
+      { name: 'Collection',  label: 'Collection Feature',  icon: '🗂', count: 1 },
+      { name: 'Social Media',label: 'Social Media Feature', icon: '📱', count: 1 },
+      { name: 'Forum',       label: 'Forum Post',           icon: '💬', count: 1 },
+    ],
+  };
+
+  const PKG_COLORS = {
+    'Tier 1':          { bg: '#f0efe6', color: '#77742a' },
+    'Tier 2':          { bg: '#ecedf8', color: '#333880' },
+    'Brand Spotlight': { bg: '#1e1e1e', color: '#e5dbd0' },
+    'New Opening':     { bg: '#f5ece8', color: '#7a3520' },
+    'Marketing Complete':{ bg: '#e8f5ee', color: '#1a6b3a' },
+  };
+
+  // ── Status helpers ────────────────────────────────────────────
+  function delivStatus(timing) {
+    if (!timing || !timing.trim()) return 'none';
+    const t = timing.toLowerCase();
+    if (t.includes('completed')) return 'completed';
+    if (t.includes('planned'))   return 'upcoming';
+    // DATE-type fields (e.g. Webinar) come as "Month YYYY"
+    const now = new Date();
+    const months = { january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11 };
+    for (const [name, idx] of Object.entries(months)) {
+      if (t.includes(name)) {
+        const yr = t.match(/\d{4}/);
+        const d = new Date(yr ? +yr[0] : now.getFullYear(), idx, 1);
+        return d.getFullYear() * 12 + d.getMonth() < now.getFullYear() * 12 + now.getMonth()
+          ? 'completed' : 'upcoming';
+      }
+    }
+    return 'upcoming';
+  }
+
+  function scheduledMonth(timing) {
+    if (!timing || !timing.trim()) return null;
+    const dash = timing.indexOf(' - ');
+    return dash > 0 ? timing.substring(0, dash).trim() : timing;
+  }
+
+  function statusBadge(timing, alwaysYes) {
+    if (alwaysYes) return '<span class="badge badge-included">✓ Included</span>';
+    const st = delivStatus(timing);
+    const mo = scheduledMonth(timing);
+    if (st === 'completed') return `<span class="badge badge-done">✓ Completed${mo ? ' — ' + mo : ''}</span>`;
+    if (st === 'upcoming')  return `<span class="badge badge-upcoming">Scheduled — ${mo || 'TBD'}</span>`;
+    return '<span class="badge badge-tbd">To be confirmed</span>';
+  }
+
+  // ── Invoice status ────────────────────────────────────────────
+  const INVOICE_STYLE = {
+    'Paid':                              { icon: '✓', bg: '#e8f5ee', color: '#1a6b3a', sub: 'Thank you — your payment has been received.' },
+    'Invoice sent — payment pending':    { icon: '⏳', bg: '#fdf6e3', color: '#7a5c00', sub: 'Your invoice has been sent. Please arrange payment at your earliest convenience.' },
+    'Invoice coming soon':               { icon: '📄', bg: '#f3ebe2', color: '#827363', sub: 'We\'ll be in touch with your invoice shortly.' },
+    'Awaiting your billing information': { icon: '📋', bg: '#fdf6e3', color: '#7a5c00', sub: 'Please send your billing details to suppliers@foratravel.com so we can issue your invoice.' },
+    'In-kind partnership':               { icon: '🤝', bg: '#ecedf8', color: '#333880', sub: 'This partnership is recorded as in-kind.' },
+    'On hold — please contact us':       { icon: '⚠', bg: '#fdf0f0', color: '#870d13', sub: 'Please reach out to suppliers@foratravel.com.' },
+  };
+
+  // ── Main render ───────────────────────────────────────────────
+  const app = document.getElementById('app');
+
+  if (typeof PARTNER_PUBLIC_DATA === 'undefined') {
+    renderError('Data unavailable', 'Partner data could not be loaded. Please try again or contact suppliers@foratravel.com.');
+  } else {
+    const params = new URLSearchParams(window.location.search);
+    const key    = params.get('key');
+    const partner = key ? PARTNER_PUBLIC_DATA[key] : null;
+
+    if (!partner) {
+      renderError('Page not found', 'This link may be incorrect or expired. Please contact your Fora representative for a new link.');
+    } else {
+      renderPartner(partner);
+      document.getElementById('footerDate').textContent = partner.lastUpdated || '';
+    }
+  }
+
+  function renderError(title, msg) {
+    app.innerHTML = `
+      <div class="error-wrap">
+        <h2>${title}</h2>
+        <p>${msg}</p>
+        <a href="mailto:suppliers@foratravel.com" style="color:var(--olive);font-weight:600;">suppliers@foratravel.com</a>
+      </div>`;
+  }
+
+  function renderPartner(p) {
+    const pkgColor  = PKG_COLORS[p.package] || { bg: '#f3ebe2', color: '#827363' };
+    const delivDefs = PACKAGE_DELIVERABLES[p.package] || [];
+
+    // ── Hero ──
+    const heroHtml = `
+      <div class="hero">
+        <div class="hero-eyebrow">Amplify 2026 Partnership</div>
+        <div class="hero-name">${p.name}</div>
+        <div class="hero-meta">
+          <span style="display:inline-block;background:${pkgColor.bg};color:${pkgColor.color};padding:3px 12px;border-radius:20px;font-size:12px;font-weight:700;letter-spacing:0.06em;">${p.package}</span>
+          ${p.country ? `<span style="margin-left:10px;color:rgba(255,255,255,0.45);font-size:13px;">${p.country}</span>` : ''}
+        </div>
+      </div>`;
+
+    // ── Package pills ──
+    const pillsHtml = delivDefs.map(d => {
+      const qty = d.count > 1 ? `<div class="pkg-pill-qty">×${d.count}</div>` : '';
+      return `
+        <div class="pkg-pill">
+          <div class="pkg-pill-icon" style="background:${pkgColor.bg};color:${pkgColor.color};">${d.icon}</div>
+          <div class="pkg-pill-text">
+            <div class="pkg-pill-name">${d.label}</div>
+            ${qty}
+          </div>
+        </div>`;
+    }).join('');
+
+    // ── Deliverables table ──
+    const lookup = {};
+    (p.deliverables || []).forEach(f => {
+      const raw = typeof f === 'object' ? (f.timing || '') : '';
+      lookup[f.name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+    });
+
+    let delivRows = '';
+    if (delivDefs.length === 0) {
+      delivRows = `<tr><td colspan="3" style="color:var(--tlight);text-align:center;padding:20px;">Deliverables will be confirmed by your Fora representative.</td></tr>`;
+    } else {
+      delivDefs.forEach(d => {
+        if (d.alwaysYes) {
+          delivRows += `
+            <tr>
+              <td><strong>${d.label}</strong></td>
+              <td style="color:var(--tlight);">—</td>
+              <td>${statusBadge('', true)}</td>
+            </tr>`;
+          return;
+        }
+        const timings = lookup[d.name] || [];
+        for (let i = 0; i < d.count; i++) {
+          const t      = timings[i] || '';
+          const suffix = d.count > 1 ? ` <span style="color:var(--tlight);font-weight:400;font-size:12px;">(${i+1} of ${d.count})</span>` : '';
+          const mo     = scheduledMonth(t);
+          delivRows += `
+            <tr>
+              <td><strong>${d.label}</strong>${suffix}</td>
+              <td style="color:var(--tlight);">${mo || '—'}</td>
+              <td>${statusBadge(t, false)}</td>
+            </tr>`;
+        }
+      });
+    }
+
+    // ── Invoice section ──
+    const invStyle = INVOICE_STYLE[p.invoiceStatus] || { icon: '📄', bg: '#f3ebe2', color: '#827363', sub: 'For invoice enquiries, please contact suppliers@foratravel.com.' };
+    const invoiceHtml = `
+      <div class="invoice-card">
+        <div class="invoice-icon" style="background:${invStyle.bg};color:${invStyle.color};">${invStyle.icon}</div>
+        <div>
+          <div class="invoice-title" style="color:${invStyle.color};">${p.invoiceStatus || 'Invoice status unavailable'}</div>
+          <div class="invoice-sub">${invStyle.sub}</div>
+        </div>
+      </div>`;
+
+    // ── Quarter info ──
+    const quarterHtml = (p.quarters && p.quarters.length)
+      ? `<p style="margin-top:12px;font-size:13px;color:var(--tlight);">Your deliverables are scheduled for <strong style="color:var(--text);">${p.quarters.join(' and ')}</strong>.</p>`
+      : '';
+
+    app.innerHTML = `
+      ${heroHtml}
+      <div class="content">
+        <div class="section">
+          <div class="section-label">Your Package — ${p.package}</div>
+          <div class="pkg-pills">${pillsHtml}</div>
+        </div>
+
+        <div class="section">
+          <div class="section-label">Your Deliverables</div>
+          <table class="deliv-table">
+            <thead>
+              <tr>
+                <th>Deliverable</th>
+                <th>Scheduled</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>${delivRows}</tbody>
+          </table>
+          ${quarterHtml}
+        </div>
+
+        <div class="section">
+          <div class="section-label">Invoice</div>
+          ${invoiceHtml}
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-text">
+            <h3>Questions about your partnership?</h3>
+            <p>Reach out to the Fora Amplify team — we're happy to help.</p>
+          </div>
+          <a href="mailto:suppliers@foratravel.com" class="contact-link">Contact us →</a>
+        </div>
+      </div>`;
+  }
+</script>
+</body>
+</html>
