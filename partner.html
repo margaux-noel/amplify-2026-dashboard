@@ -384,6 +384,12 @@
     ],
   };
 
+  const DELIV_ICONS = {
+    'Collection': '🗂', 'Newsletter': '✉️', 'Forum': '💬',
+    'Advisor Assets': '📦', 'Webinar': '🎙', 'Social Media': '📱',
+    'Journal Article': '📝', 'Webinar Recording': '🎙',
+  };
+
   const PKG_COLORS = {
     'Tier 1':          { bg: '#f0efe6', color: '#77742a' },
     'Tier 2':          { bg: '#ecedf8', color: '#333880' },
@@ -484,7 +490,16 @@
 
   function renderPartner(p) {
     const pkgColor  = PKG_COLORS[p.package] || { bg: '#f3ebe2', color: '#827363' };
-    const delivDefs = PACKAGE_DELIVERABLES[p.package] || [];
+    // Fall back to building delivDefs from the partner's own data if no package template exists
+    let delivDefs = PACKAGE_DELIVERABLES[p.package];
+    if (!delivDefs) {
+      delivDefs = (p.deliverables || []).map(d => ({
+        name: d.name,
+        label: d.name,
+        icon: DELIV_ICONS[d.name] || '📋',
+        count: 1,
+      }));
+    }
 
     // ── Hero ──
     const heroHtml = `
