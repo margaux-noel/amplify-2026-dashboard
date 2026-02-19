@@ -455,6 +455,16 @@
     .partner-chip { display: inline-flex; align-items: center; gap: 4px; background: var(--sand); border-radius: 4px; padding: 2px 6px; margin: 2px 2px 2px 0; font-size: 11px; }
     .btn-unlink { background: none; border: none; color: var(--text-light); font-size: 13px; line-height: 1; cursor: pointer; padding: 0 1px; font-weight: 700; }
     .btn-unlink:hover { color: var(--sangria); }
+    .draft-add-wrap { position: relative; margin-top: 6px; }
+    .draft-add-input { width: 100%; box-sizing: border-box; padding: 5px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; font-family: inherit; background: var(--sand); }
+    .draft-add-dropdown { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); z-index: 50; max-height: 180px; overflow-y: auto; }
+    .dad-item { padding: 7px 12px; font-size: 12px; cursor: pointer; }
+    .dad-item:hover { background: var(--sand); }
+    /* Overview jump nav */
+    .overview-jumpnav { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 0 0 22px; font-size: 12px; color: var(--text-light); }
+    .overview-jumpnav span { margin-right: 2px; }
+    .overview-jumpnav a { color: var(--olive); text-decoration: none; cursor: pointer; padding: 4px 12px; border: 1px solid rgba(119,116,42,0.35); border-radius: 20px; font-size: 12px; transition: all 0.15s; white-space: nowrap; }
+    .overview-jumpnav a:hover { background: rgba(119,116,42,0.08); border-color: var(--olive); }
     /* Settings modal */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; align-items: center; justify-content: center; }
     .modal-overlay.open { display: flex; }
@@ -477,7 +487,7 @@
         <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
         <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
       </div>
-      <h1>Amplify 2026 — Partner Dashboard</h1>
+      <h1>Amplify 2026 — Internal Dashboard</h1>
       <p id="headerSubtitle">Loading data…</p>
     </div>
     <div class="header-right">
@@ -488,19 +498,9 @@
 
   <!-- NAV TABS -->
   <div class="nav-tabs">
-    <div class="nav-tab-wrapper">
-      <div class="nav-tab active" onclick="showTab('overview',this)">
-        <span class="nav-tab-name">Overview</span>
-        <span class="nav-tab-desc">Metrics, planning & team tools</span>
-      </div>
-      <div class="nav-dropdown">
-        <a href="#" onclick="jumpToSection('glance');return false;">At a Glance</a>
-        <a href="#" onclick="jumpToSection('invoicing');return false;">Invoicing</a>
-        <a href="#" onclick="jumpToSection('calendar');return false;">Deliverable Calendar</a>
-        <a href="#" onclick="jumpToSection('planner');return false;">Revenue Planner</a>
-        <a href="#" onclick="jumpToSection('priorities');return false;">Priorities</a>
-        <a href="#" onclick="jumpToSection('team-acc');return false;">Team</a>
-      </div>
+    <div class="nav-tab active" onclick="showTab('overview',this)">
+      <span class="nav-tab-name">Overview</span>
+      <span class="nav-tab-desc">Metrics, planning & team tools</span>
     </div>
     <div class="nav-tab" onclick="showTab('search',this)">
       <span class="nav-tab-name">Partners</span>
@@ -518,6 +518,16 @@
 <div id="tab-overview" class="section active">
   <h2 class="section-title">Amplify 2026</h2>
   <p class="section-subtitle" id="overviewSubtitle">Full program status as of this week's data export.</p>
+
+  <div class="overview-jumpnav">
+    <span>Jump to:</span>
+    <a onclick="jumpToSection('glance')">At a Glance</a>
+    <a onclick="jumpToSection('invoicing')">Invoicing</a>
+    <a onclick="jumpToSection('calendar')">Deliverable Calendar</a>
+    <a onclick="jumpToSection('planner')">Revenue Planner</a>
+    <a onclick="jumpToSection('priorities')">Priorities</a>
+    <a onclick="jumpToSection('team-acc')">Team</a>
+  </div>
 
   <!-- ── NEW THIS WEEK ── -->
   <div id="newThisWeekBanner" style="display:none;"></div>
@@ -1203,13 +1213,18 @@ async function detectPartners(file) {
     const textLow = text.toLowerCase();
     const partners = (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : [])
       .filter(p => SIGNED_STAGES_SET.has(p.stage));
+    const stopWords = new Set(['hotel','hotels','resort','resorts','collection','suite','suites','palace','beach','island','villa','villas','feature','travel','fora','opening','luxury','boutique','group','house','lodge']);
     const matched = partners.filter(p => {
       const nameLow = p.name.toLowerCase();
       if (textLow.includes(nameLow)) return true;
-      const words = nameLow.split(/\s+/).filter(w => w.length > 4);
-      return words.length > 0 && words.every(w => textLow.includes(w));
+      const words = nameLow.split(/\s+/).filter(w => w.length > 4 && !stopWords.has(w));
+      return words.length > 0 && words.some(w => textLow.includes(w));
     });
-    if (!matched.length) { det.textContent = 'No partners detected — select manually.'; return; }
+    if (!matched.length) {
+      const snippet = text.trim().slice(0, 120).replace(/\s+/g, ' ');
+      det.textContent = `No partners detected — select manually. (Extracted: "${snippet}…")`;
+      return;
+    }
     document.querySelectorAll('#ps-list input[type="checkbox"]').forEach(cb => {
       cb.checked = matched.some(p => p.key === cb.value);
     });
@@ -1299,17 +1314,54 @@ async function rejectAsset(id, btn) {
 
 async function removeAsset(id, btn) { await rejectAsset(id, btn); }
 
-async function unlinkAsset(assetId, partnerKey, btn) {
-  if (!confirm('Remove this partner from the asset? The asset will stay live for other partners.')) return;
+async function removeFromDraft(assetId, partnerKey, btn) {
   btn.disabled = true; btn.textContent = '…';
   try {
     const resData = await ghGetFile('partner-resources.json');
     const json = JSON.parse(resData.content);
     const asset = json.assets.find(a => a.id === assetId);
     if (asset) asset.partnerKeys = (asset.partnerKeys || []).filter(k => k !== partnerKey);
-    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Unlink asset ${assetId} from one partner`);
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Remove partner from draft asset ${assetId}`);
     setTimeout(loadAssetsTab, 1800);
   } catch(err) { btn.disabled = false; btn.textContent = '×'; alert(`Error: ${err.message}`); }
+}
+
+function showDraftAddSuggestions(e) {
+  const input = e.target;
+  const q = input.value.toLowerCase().trim();
+  const assetId = input.dataset.assetId;
+  const dropdown = document.getElementById('dad-' + assetId);
+  if (!q) { dropdown.style.display = 'none'; dropdown.innerHTML = ''; return; }
+  const allPartners = (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : []).filter(p => SIGNED_STAGES_SET.has(p.stage));
+  const existingKeys = [...document.querySelectorAll(`[data-chip-asset="${assetId}"]`)].map(el => el.dataset.partnerKey);
+  const matches = allPartners.filter(p => p.name.toLowerCase().includes(q) && !existingKeys.includes(p.key)).slice(0, 6);
+  if (!matches.length) { dropdown.innerHTML = '<div class="dad-item" style="color:var(--text-light);">No match</div>'; dropdown.style.display = 'block'; return; }
+  dropdown.innerHTML = matches.map(p => `<div class="dad-item" onmousedown="addToDraft('${assetId}','${p.key}',event)">${p.name}</div>`).join('');
+  dropdown.style.display = 'block';
+}
+
+function hideDraftAddSuggestions(assetId) {
+  setTimeout(() => {
+    const d = document.getElementById('dad-' + assetId);
+    if (d) { d.style.display = 'none'; d.innerHTML = ''; }
+  }, 200);
+}
+
+async function addToDraft(assetId, partnerKey, e) {
+  if (e) e.preventDefault();
+  const input = document.querySelector(`[data-asset-id="${assetId}"]`);
+  if (input) input.value = '';
+  hideDraftAddSuggestions(assetId);
+  try {
+    const resData = await ghGetFile('partner-resources.json');
+    const json = JSON.parse(resData.content);
+    const asset = json.assets.find(a => a.id === assetId);
+    if (asset && !(asset.partnerKeys || []).includes(partnerKey)) {
+      asset.partnerKeys = [...(asset.partnerKeys || []), partnerKey];
+    }
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Add partner to draft asset ${assetId}`);
+    setTimeout(loadAssetsTab, 1800);
+  } catch(err) { alert(`Error: ${err.message}`); }
 }
 
 // ── Load & render assets tab ──────────────────────────────────────
@@ -1329,11 +1381,11 @@ async function loadAssetsTab() {
     (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : []).forEach(p => { pNames[p.key] = p.name; });
     const base = window.location.origin + window.location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
     function assetCardHtml(a, isDraft) {
-      const pList = isDraft
-        ? (a.partnerKeys || []).map(k => pNames[k] || k).join(', ')
-        : (a.partnerKeys || []).map(k =>
-            `<span class="partner-chip">${pNames[k] || k} <button class="btn-unlink" title="Unlink from this partner" onclick="unlinkAsset('${a.id}','${k}',this)">×</button></span>`
-          ).join('');
+      const chips = isDraft
+        ? (a.partnerKeys || []).map(k =>
+            `<span class="partner-chip" data-chip-asset="${a.id}" data-partner-key="${k}">${pNames[k] || k} <button class="btn-unlink" onclick="removeFromDraft('${a.id}','${k}',this)">×</button></span>`
+          ).join('')
+        : (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
       const isPdf = a.path.toLowerCase().endsWith('.pdf');
       return `<div class="asset-card ${isDraft ? 'draft' : ''}">
         ${isPdf
@@ -1343,7 +1395,14 @@ async function loadAssetsTab() {
           <div class="asset-card-deliv">${a.deliverable}</div>
           <div class="asset-card-label">${a.label}</div>
           <div class="asset-card-meta">
-            ${pList ? `<strong>Partners:</strong> ${pList}<br>` : ''}
+            ${isDraft
+              ? `<strong>Partners:</strong>
+                 <div style="margin:4px 0 2px;">${chips || '<em style="color:var(--text-light);font-size:11px;">None selected</em>'}</div>
+                 <div class="draft-add-wrap">
+                   <input type="text" class="draft-add-input" placeholder="+ Add partner…" data-asset-id="${a.id}" oninput="showDraftAddSuggestions(event)" onblur="hideDraftAddSuggestions('${a.id}')" autocomplete="off">
+                   <div class="draft-add-dropdown" id="dad-${a.id}"></div>
+                 </div>`
+              : (chips ? `<strong>Partners:</strong> ${chips}<br>` : '')}
             ${a.note ? `${a.note}<br>` : ''}
             ${a.uploadedAt ? new Date(a.uploadedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric'}) : ''}
           </div>
