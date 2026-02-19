@@ -459,7 +459,7 @@
   <div class="nav-tabs">
     <div class="nav-tab active" onclick="showTab('overview',this)">
       <span class="nav-tab-name">Overview</span>
-      <span class="nav-tab-desc">Program snapshot & metrics</span>
+      <span class="nav-tab-desc">Metrics, planning & team tools</span>
     </div>
     <div class="nav-tab" onclick="showTab('search',this)">
       <span class="nav-tab-name">Partners</span>
@@ -468,18 +468,6 @@
     <div class="nav-tab" onclick="showTab('assets',this)">
       <span class="nav-tab-name">Assets</span>
       <span class="nav-tab-desc">Upload & review partner content</span>
-    </div>
-    <div class="nav-tab" onclick="showTab('planner',this)">
-      <span class="nav-tab-name">Revenue Planner</span>
-      <span class="nav-tab-desc">Scenario & package modeling</span>
-    </div>
-    <div class="nav-tab" onclick="showTab('next-steps',this)">
-      <span class="nav-tab-name">Priorities</span>
-      <span class="nav-tab-desc">Weekly action items</span>
-    </div>
-    <div class="nav-tab" onclick="showTab('team',this)">
-      <span class="nav-tab-name">Team</span>
-      <span class="nav-tab-desc">Highlights & team notes</span>
     </div>
   </div>
 </div>
@@ -690,6 +678,100 @@
     <div class="cal-grid" id="calGrid"></div>
   </div>
 
+  <!-- ── REVENUE PLANNER ── -->
+  <div class="acc-header" id="acc-hdr-planner" onclick="toggleSection('planner')">
+    <div>
+      <div class="acc-title">Revenue Planner</div>
+      <div class="acc-meta">Set a goal and model what package mix gets you there.</div>
+    </div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body closed" id="acc-body-planner">
+    <div class="planner-grid">
+      <div class="planner-card">
+        <h3>Revenue Goal</h3>
+        <div class="goal-input-wrap">
+          <div style="font-size:22px; font-weight:700; color:var(--text-light);">$</div>
+          <input type="text" class="goal-input" id="goalInput" value="1,500,000" oninput="fmtGoalInput(this); updatePlanner()">
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-label-row">
+            <span class="progress-label">Current progress</span>
+            <span class="progress-pct" id="plannerPct">—%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fg" id="plannerProgressBar" style="width:0%"></div>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-top:6px;">
+            <span style="font-size:12px; color:var(--text-light);" id="plannerSignedLabel">—</span>
+            <span style="font-size:12px; color:var(--text-light);" id="plannerGoalLabel">—</span>
+          </div>
+        </div>
+        <div style="display:flex; gap:24px;">
+          <div>
+            <div class="kpi-label">Gap to close</div>
+            <div class="gap-amount" id="plannerGap" style="color:var(--red);">—</div>
+            <div class="gap-label">additional revenue needed</div>
+          </div>
+          <div>
+            <div class="kpi-label">Pipeline available</div>
+            <div class="gap-amount" id="plannerPipelineAvail" style="color:var(--amber);">—</div>
+            <div class="gap-label">in active discussions</div>
+          </div>
+        </div>
+      </div>
+      <div class="planner-card">
+        <h3>Package Pricing (editable)</h3>
+        <table class="pkg-table">
+          <thead><tr><th>Package</th><th>Price</th><th>Current</th><th>Revenue</th></tr></thead>
+          <tbody id="pkgPricingTable"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="chart-card" style="margin-bottom:24px;">
+      <h3>How to close the gap — 3 scenarios</h3>
+      <div id="scenarioList" class="scenario-list"></div>
+    </div>
+    <div class="chart-card">
+      <h3>Package Breakdown — Current Signed</h3>
+      <div id="fillRateTable"></div>
+    </div>
+  </div>
+
+  <!-- ── PRIORITIES ── -->
+  <div class="acc-header" id="acc-hdr-priorities" onclick="toggleSection('priorities')">
+    <div>
+      <div class="acc-title">Priorities</div>
+      <div class="acc-meta">Data-driven action items for the week ahead.</div>
+    </div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body closed" id="acc-body-priorities">
+    <div class="next-steps-grid" id="nextStepsGrid"></div>
+  </div>
+
+  <!-- ── TEAM ── -->
+  <div class="acc-header" id="acc-hdr-team-acc" onclick="toggleSection('team-acc')">
+    <div>
+      <div class="acc-title">Team</div>
+      <div class="acc-meta">Weekly highlights and notes for team sharing.</div>
+    </div>
+    <div class="acc-chevron">▼</div>
+  </div>
+  <div class="acc-body closed" id="acc-body-team-acc">
+    <div class="updates-area">
+      <h3>This Week's Highlights</h3>
+      <div class="update-list" id="updateList"></div>
+      <div class="notes-label">Weekly Notes (add context before sharing)</div>
+      <textarea class="notes-box" id="weeklyNotes" placeholder="Add any team notes, context, or updates here before sharing this dashboard…"></textarea>
+    </div>
+    <div class="chart-card" style="margin-bottom:24px;">
+      <h3>Program Snapshot — Copy-Paste Summary</h3>
+      <div id="copySnapshot" style="background:#fafaf8; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:13px; line-height:1.8; white-space:pre-wrap; font-family:monospace;"></div>
+      <button onclick="copySnapshot()" style="margin-top:12px; padding:8px 20px; background:var(--navy); color:white; border:none; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">Copy Summary</button>
+    </div>
+  </div>
+
 </div>
 
 
@@ -758,102 +840,6 @@
 </div>
 
 
-<!-- ===== SCENARIO PLANNER ===== -->
-<div id="tab-planner" class="section">
-  <h2 class="section-title">Scenario Planner</h2>
-  <p class="section-subtitle">Set a revenue goal and explore what package mix it takes to get there.</p>
-
-  <!-- Goal input + Progress -->
-  <div class="planner-grid">
-    <div class="planner-card">
-      <h3>Revenue Goal</h3>
-      <div class="goal-input-wrap">
-        <div style="font-size:22px; font-weight:700; color:var(--text-light);">$</div>
-        <input type="text" class="goal-input" id="goalInput" value="1,500,000" oninput="fmtGoalInput(this); updatePlanner()">
-      </div>
-      <div class="progress-wrap">
-        <div class="progress-label-row">
-          <span class="progress-label">Current progress</span>
-          <span class="progress-pct" id="plannerPct">—%</span>
-        </div>
-        <div class="progress-bar-bg">
-          <div class="progress-bar-fg" id="plannerProgressBar" style="width:0%"></div>
-        </div>
-        <div style="display:flex; justify-content:space-between; margin-top:6px;">
-          <span style="font-size:12px; color:var(--text-light);" id="plannerSignedLabel">—</span>
-          <span style="font-size:12px; color:var(--text-light);" id="plannerGoalLabel">—</span>
-        </div>
-      </div>
-      <div style="display:flex; gap:24px;">
-        <div>
-          <div class="kpi-label">Gap to close</div>
-          <div class="gap-amount" id="plannerGap" style="color:var(--red);">—</div>
-          <div class="gap-label">additional revenue needed</div>
-        </div>
-        <div>
-          <div class="kpi-label">Pipeline available</div>
-          <div class="gap-amount" id="plannerPipelineAvail" style="color:var(--amber);">—</div>
-          <div class="gap-label">in active discussions</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="planner-card">
-      <h3>Package Pricing (editable)</h3>
-      <table class="pkg-table">
-        <thead>
-          <tr>
-            <th>Package</th>
-            <th>Price</th>
-            <th>Current</th>
-            <th>Revenue</th>
-          </tr>
-        </thead>
-        <tbody id="pkgPricingTable"></tbody>
-      </table>
-    </div>
-  </div>
-
-  <!-- Scenarios -->
-  <div class="chart-card" style="margin-bottom:24px;">
-    <h3>How to close the gap — 3 scenarios</h3>
-    <div id="scenarioList" class="scenario-list"></div>
-  </div>
-
-  <!-- Package fill rates -->
-  <div class="chart-card">
-    <h3>Package Breakdown — Current Signed</h3>
-    <div id="fillRateTable"></div>
-  </div>
-</div>
-
-
-<!-- ===== NEXT STEPS ===== -->
-<div id="tab-next-steps" class="section">
-  <h2 class="section-title">Suggested Next Steps</h2>
-  <p class="section-subtitle">Data-driven priorities for the week ahead.</p>
-  <div class="next-steps-grid" id="nextStepsGrid"></div>
-</div>
-
-
-<!-- ===== TEAM UPDATES ===== -->
-<div id="tab-team" class="section">
-  <h2 class="section-title">Team Updates</h2>
-  <p class="section-subtitle">Program highlights and a notes field to add context before sharing with the team.</p>
-
-  <div class="updates-area">
-    <h3>This Week's Highlights</h3>
-    <div class="update-list" id="updateList"></div>
-    <div class="notes-label">Weekly Notes (add context before sharing)</div>
-    <textarea class="notes-box" id="weeklyNotes" placeholder="Add any team notes, context, or updates here before sharing this dashboard…"></textarea>
-  </div>
-
-  <div class="chart-card" style="margin-bottom:24px;">
-    <h3>Program Snapshot — Copy-Paste Summary</h3>
-    <div id="copySnapshot" style="background:#fafaf8; border:1px solid var(--border); border-radius:8px; padding:16px; font-size:13px; line-height:1.8; white-space:pre-wrap; font-family:monospace;"></div>
-    <button onclick="copySnapshot()" style="margin-top:12px; padding:8px 20px; background:var(--navy); color:white; border:none; border-radius:8px; font-size:13px; font-weight:600; cursor:pointer;">Copy Summary</button>
-  </div>
-</div>
 
 
 <!-- ===== ASSETS ===== -->
@@ -890,6 +876,7 @@
         <input id="af-file" type="file" accept="image/*,.pdf" class="af-input" onchange="previewUploadImg(this)">
         <img id="af-preview" class="asset-upload-preview" style="display:none;" alt="Preview">
         <div id="af-preview-pdf" style="display:none;margin-top:8px;font-size:13px;color:var(--text-light);">📄 <span id="af-preview-pdf-name"></span></div>
+        <div id="af-detect-status" style="display:none;margin-top:6px;font-size:12px;color:var(--text-light);"></div>
       </div>
       <div class="af-field" style="grid-column:1/-1;">
         <label>Note (optional)</label>
@@ -1106,7 +1093,8 @@ function updatePartnerCount() {
 function previewUploadImg(input) {
   const img = document.getElementById('af-preview');
   const pdf = document.getElementById('af-preview-pdf');
-  img.style.display = 'none'; pdf.style.display = 'none';
+  const det = document.getElementById('af-detect-status');
+  img.style.display = 'none'; pdf.style.display = 'none'; det.style.display = 'none';
   if (!input.files || !input.files[0]) return;
   const file = input.files[0];
   if (file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf')) {
@@ -1114,6 +1102,66 @@ function previewUploadImg(input) {
     pdf.style.display = '';
   } else {
     img.src = URL.createObjectURL(file); img.style.display = '';
+  }
+  detectPartners(file);
+}
+
+// ── Auto-detect partners from file ───────────────────────────────
+function loadScript(src) {
+  return new Promise((res, rej) => {
+    if (document.querySelector(`script[src="${src}"]`)) { res(); return; }
+    const s = document.createElement('script'); s.src = src;
+    s.onload = res; s.onerror = rej; document.head.appendChild(s);
+  });
+}
+
+async function extractFileText(file) {
+  const isPdf = file.type === 'application/pdf' || file.name.toLowerCase().endsWith('.pdf');
+  if (isPdf) {
+    await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc =
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    const buf = await file.arrayBuffer();
+    const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
+    let text = '';
+    for (let i = 1; i <= Math.min(pdf.numPages, 10); i++) {
+      const page = await pdf.getPage(i);
+      const content = await page.getTextContent();
+      text += content.items.map(it => it.str).join(' ') + ' ';
+    }
+    return text;
+  } else {
+    await loadScript('https://unpkg.com/tesseract.js@5/dist/tesseract.min.js');
+    const result = await Tesseract.recognize(file, 'eng', { logger: () => {} });
+    return result.data.text;
+  }
+}
+
+async function detectPartners(file) {
+  const det = document.getElementById('af-detect-status');
+  det.style.color = 'var(--text-light)';
+  det.textContent = 'Scanning for partner names…'; det.style.display = '';
+  try {
+    const text = await extractFileText(file);
+    if (!text.trim()) { det.textContent = 'Could not read text — select partners manually.'; return; }
+    const textLow = text.toLowerCase();
+    const partners = (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : [])
+      .filter(p => SIGNED_STAGES_SET.has(p.stage));
+    const matched = partners.filter(p => {
+      const nameLow = p.name.toLowerCase();
+      if (textLow.includes(nameLow)) return true;
+      const words = nameLow.split(/\s+/).filter(w => w.length > 4);
+      return words.length > 0 && words.every(w => textLow.includes(w));
+    });
+    if (!matched.length) { det.textContent = 'No partners detected — select manually.'; return; }
+    document.querySelectorAll('#ps-list input[type="checkbox"]').forEach(cb => {
+      cb.checked = matched.some(p => p.key === cb.value);
+    });
+    updatePartnerCount();
+    det.style.color = 'var(--olive)';
+    det.textContent = `✓ ${matched.length} partner${matched.length > 1 ? 's' : ''} detected: ${matched.slice(0,5).map(p => p.name).join(', ')}${matched.length > 5 ? ` +${matched.length - 5} more` : ''}`;
+  } catch(err) {
+    det.textContent = `Detection failed — select partners manually.`;
   }
 }
 
@@ -1151,12 +1199,14 @@ async function submitAsset(btn) {
     document.getElementById('af-file').value = '';
     document.getElementById('af-note').value = '';
     document.getElementById('af-preview').style.display = 'none';
+    document.getElementById('af-preview-pdf').style.display = 'none';
+    document.getElementById('af-detect-status').style.display = 'none';
     document.getElementById('ps-search').value = '';
     filterPartnerSelector('');
     clearAllPartners();
     st.textContent = '✓ Submitted for review!'; st.style.color = 'var(--olive)';
     setTimeout(() => { st.textContent = ''; }, 5000);
-    loadAssetsTab();
+    setTimeout(loadAssetsTab, 1800);
   } catch(err) { st.textContent = `Error: ${err.message}`; st.style.color = 'var(--sangria)'; }
   finally { btn.disabled = false; }
 }
@@ -1171,7 +1221,7 @@ async function approveAsset(id, btn) {
     if (!asset) throw new Error('Asset not found');
     asset.status = 'live';
     await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Approve asset: ${asset.label}`);
-    loadAssetsTab();
+    setTimeout(loadAssetsTab, 1800);
   } catch(err) { btn.disabled = false; btn.textContent = 'Approve'; alert(`Error: ${err.message}`); }
 }
 
@@ -1187,7 +1237,7 @@ async function rejectAsset(id, btn) {
     try { const img = await ghGetFile(asset.path); await ghDeleteFile(asset.path, img.sha); } catch(e) { /* already gone */ }
     json.assets.splice(idx, 1);
     await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Remove asset: ${asset.label}`);
-    loadAssetsTab();
+    setTimeout(loadAssetsTab, 1800);
   } catch(err) { btn.disabled = false; btn.textContent = 'Reject'; alert(`Error: ${err.message}`); }
 }
 
