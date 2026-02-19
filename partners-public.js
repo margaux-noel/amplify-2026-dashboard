@@ -2520,15 +2520,7 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Greece",
-    "resources": {
-      "Collection": [
-        {
-          "label": "January Collection Feature",
-          "path": "partner-assets/collection-1771522164903.png",
-          "note": ""
-        }
-      ]
-    },
+    "resources": {},
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j1CQw": {
@@ -3018,13 +3010,6 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "January Collection Feature",
           "path": "partner-assets/collection-1771522299585.png",
-          "note": ""
-        }
-      ],
-      "Forum": [
-        {
-          "label": "January Forum Feature",
-          "path": "partner-assets/forum-1771522695019.png",
           "note": ""
         }
       ]
@@ -3520,7 +3505,7 @@ const PARTNER_PUBLIC_DATA = {
       },
       {
         "name": "Forum",
-        "timing": "April - Planned"
+        "timing": "January - Completed"
       },
       {
         "name": "Newsletter",

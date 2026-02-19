@@ -8,7 +8,7 @@ const AMPLIFY_DATA = {
   "totalPipeline": 1201500,
   "paid": 648000,
   "outstanding": 471500,
-  "waitingBilling": 17000,
+  "waitingBilling": 12500,
   "inKind": 0,
   "needsInvoice": 17000,
   "needsInvoiceCount": 4,
@@ -4494,7 +4494,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Forum",
-          "timing": "April - Planned"
+          "timing": "January - Completed"
         },
         {
           "name": "Newsletter",
@@ -7555,10 +7555,12 @@ const AMPLIFY_DATA = {
       "stage": "Needs Invoice",
       "stageKey": "5011",
       "price": 4500,
-      "invoiceStatus": "Waiting for billing details",
+      "invoiceStatus": "To Invoice",
       "invoiceUrl": "",
       "features": [],
-      "quarters": [],
+      "quarters": [
+        "Q1"
+      ],
       "country": "USA",
       "brand": "Delano",
       "group": "Accor",
