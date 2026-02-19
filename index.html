@@ -435,20 +435,30 @@
     .partner-selector-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; cursor: pointer; font-size: 13px; transition: background 0.1s; }
     .partner-selector-item:hover { background: var(--dark-sand); }
     .partner-selector-item:has(input:checked) { background: rgba(119,116,42,0.12); font-weight: 600; color: var(--olive); }
+    .partner-selector-item.ps-focus { background: var(--dark-sand); outline: 2px solid var(--olive); outline-offset: -2px; }
     .partner-selector-item input[type="checkbox"] { cursor: pointer; accent-color: var(--olive); width: 15px; height: 15px; flex-shrink: 0; }
     .partner-selector-actions { padding: 6px 12px; border-top: 1px solid var(--border); display: flex; gap: 12px; align-items: center; }
     .partner-selector-actions button { font-size: 11px; color: var(--olive); background: none; border: none; cursor: pointer; font-family: inherit; font-weight: 600; }
     .asset-upload-preview { width: 100%; max-height: 280px; border-radius: 8px; object-fit: contain; border: 1px solid var(--border); margin-top: 8px; background: var(--sand); }
     .pending-badge { background: var(--sangria); color: white; border-radius: 10px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-left: 8px; vertical-align: middle; }
+    /* Live assets — small grid cards */
     .asset-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
     .asset-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-    .asset-card.draft { border-color: #c9a800; }
     .asset-card-thumb { width: 100%; height: 150px; object-fit: cover; background: var(--dark-sand); display: block; }
     .asset-card-body { padding: 14px 16px; }
     .asset-card-deliv { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--olive); margin-bottom: 4px; }
     .asset-card-label { font-size: 14px; font-weight: 600; margin-bottom: 8px; font-family: 'ChiswickSansText', sans-serif; }
     .asset-card-meta { font-size: 12px; color: var(--text-light); margin-bottom: 12px; line-height: 1.6; }
     .asset-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    /* Pending review — wide two-column cards */
+    .review-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 16px; }
+    .review-card-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+    .review-card-img { width: 100%; max-height: 380px; border-radius: 8px; object-fit: contain; border: 1px solid var(--border); background: var(--dark-sand); display: block; }
+    .review-card-pdf { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 260px; background: var(--dark-sand); border-radius: 8px; text-decoration: none; color: var(--text); gap: 10px; font-size: 13px; border: 1px solid var(--border); }
+    .review-card-deliv { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--olive); margin-bottom: 6px; }
+    .review-card-label { font-size: 17px; font-weight: 600; font-family: 'ChiswickSansText', sans-serif; margin-bottom: 18px; }
+    .review-card-section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--text-light); margin-bottom: 8px; }
+    .review-card-actions { display: flex; gap: 10px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border); }
     .btn-approve { background: var(--olive); color: white; border: none; padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
     .btn-approve:disabled { opacity: .5; cursor: default; }
     .btn-reject  { background: white; color: var(--sangria); border: 1px solid var(--sangria); padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
@@ -534,7 +544,7 @@
   <div id="newThisWeekBanner" style="display:none;"></div>
 
   <!-- ── AT A GLANCE ── -->
-  <div class="acc-header" id="acc-hdr-glance" onclick="toggleSection('glance')">
+  <div class="acc-header closed" id="acc-hdr-glance" onclick="toggleSection('glance')">
     <div>
       <div class="acc-title">At a Glance</div>
       <div class="acc-meta">Key numbers, revenue breakdown, and pipeline.</div>
@@ -631,7 +641,7 @@
   </div>
 
   <!-- ── INVOICING ── -->
-  <div class="acc-header" id="acc-hdr-invoicing" onclick="toggleSection('invoicing')">
+  <div class="acc-header closed" id="acc-hdr-invoicing" onclick="toggleSection('invoicing')">
     <div>
       <div class="acc-title">Invoicing</div>
       <div class="acc-meta" id="invoiceSubtitle">Invoice status across all signed partners.</div>
@@ -683,7 +693,7 @@
   </div>
 
   <!-- ── PARTNER OVERVIEW ── -->
-  <div class="acc-header" id="acc-hdr-partners" onclick="toggleSection('partners')">
+  <div class="acc-header closed" id="acc-hdr-partners" onclick="toggleSection('partners')">
     <div>
       <div class="acc-title">Partner Overview</div>
       <div class="acc-meta">Geography, hotel groups, brands, and deliverables.</div>
@@ -719,7 +729,7 @@
   </div>
 
   <!-- ── DELIVERABLE CALENDAR ── -->
-  <div class="acc-header" id="acc-hdr-calendar" onclick="toggleSection('calendar')">
+  <div class="acc-header closed" id="acc-hdr-calendar" onclick="toggleSection('calendar')">
     <div>
       <div class="acc-title">Deliverable Calendar</div>
       <div class="acc-meta" id="calendarMeta">Monthly view of all signed partner deliverables.</div>
@@ -731,7 +741,7 @@
   </div>
 
   <!-- ── REVENUE PLANNER ── -->
-  <div class="acc-header" id="acc-hdr-planner" onclick="toggleSection('planner')">
+  <div class="acc-header closed" id="acc-hdr-planner" onclick="toggleSection('planner')">
     <div>
       <div class="acc-title">Revenue Planner</div>
       <div class="acc-meta">Set a goal and model what package mix gets you there.</div>
@@ -791,7 +801,7 @@
   </div>
 
   <!-- ── PRIORITIES ── -->
-  <div class="acc-header" id="acc-hdr-priorities" onclick="toggleSection('priorities')">
+  <div class="acc-header closed" id="acc-hdr-priorities" onclick="toggleSection('priorities')">
     <div>
       <div class="acc-title">Priorities</div>
       <div class="acc-meta">Data-driven action items for the week ahead.</div>
@@ -950,7 +960,7 @@
         <label>Apply to Partners <span id="ps-count" style="font-weight:400;font-size:11px;color:var(--olive);margin-left:6px;"></span></label>
         <div class="partner-selector">
           <div class="partner-selector-search">
-            <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)">
+            <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)" onkeydown="psSearchKeydown(event)">
           </div>
           <div class="partner-selector-list" id="ps-list">
             <div style="padding:12px;color:var(--text-light);font-size:13px;">Loading partners…</div>
@@ -971,7 +981,7 @@
       Pending Review <span id="pending-badge" class="pending-badge" style="display:none;"></span>
     </div>
     <div class="acc-body open" id="acc-body-pending">
-      <div class="asset-cards" id="pending-cards">
+      <div id="pending-cards">
         <p style="color:var(--text-light);font-size:13px;">No assets pending review.</p>
       </div>
     </div>
@@ -1019,6 +1029,7 @@ function showTab(tab, el) {
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
   if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); if (!ghToken()) openSettings(); }
+  localStorage.setItem('amplifyTab', tab);
 }
 
 // ── Jump to Overview section from dropdown ───────────────────────
@@ -1153,6 +1164,37 @@ function filterPartnerSelector(q) {
   document.querySelectorAll('#ps-list .partner-selector-item').forEach(el => {
     el.style.display = el.querySelector('span').textContent.toLowerCase().includes(low) ? '' : 'none';
   });
+  _psFocusIdx = -1;
+  document.querySelectorAll('#ps-list .partner-selector-item').forEach(el => el.classList.remove('ps-focus'));
+}
+
+let _psFocusIdx = -1;
+
+function psSearchKeydown(e) {
+  const visible = [...document.querySelectorAll('#ps-list .partner-selector-item')].filter(el => el.style.display !== 'none');
+  if (!visible.length) return;
+  if (e.key === 'ArrowDown') {
+    e.preventDefault();
+    _psFocusIdx = Math.min(_psFocusIdx + 1, visible.length - 1);
+    _psHighlight(visible);
+  } else if (e.key === 'ArrowUp') {
+    e.preventDefault();
+    _psFocusIdx = Math.max(_psFocusIdx - 1, 0);
+    _psHighlight(visible);
+  } else if (e.key === 'Enter' && _psFocusIdx >= 0) {
+    e.preventDefault();
+    const cb = visible[_psFocusIdx].querySelector('input[type="checkbox"]');
+    cb.checked = !cb.checked;
+    updatePartnerCount();
+  }
+}
+
+function _psHighlight(visible) {
+  document.querySelectorAll('#ps-list .partner-selector-item').forEach(el => el.classList.remove('ps-focus'));
+  if (_psFocusIdx >= 0 && _psFocusIdx < visible.length) {
+    visible[_psFocusIdx].classList.add('ps-focus');
+    visible[_psFocusIdx].scrollIntoView({ block: 'nearest' });
+  }
 }
 function selectAllPartners() {
   document.querySelectorAll('#ps-list .partner-selector-item:not([style*="none"]) input').forEach(cb => cb.checked = true);
@@ -1247,12 +1289,20 @@ async function submitAsset(btn) {
 async function approveAsset(id, btn) {
   btn.disabled = true; btn.textContent = 'Approving…';
   try {
-    const resData = await ghGetFile('partner-resources.json');
-    const json = JSON.parse(resData.content);
-    const asset = json.assets.find(a => a.id === id);
-    if (!asset) throw new Error('Asset not found');
-    asset.status = 'live';
-    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Approve asset: ${asset.label}`);
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const resData = await ghGetFile('partner-resources.json');
+      const json = JSON.parse(resData.content);
+      const asset = json.assets.find(a => a.id === id);
+      if (!asset) throw new Error('Asset not found');
+      asset.status = 'live';
+      try {
+        await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Approve asset: ${asset.label}`);
+        break;
+      } catch(e) {
+        if (attempt < 2 && e.message && e.message.includes('does not match')) continue;
+        throw e;
+      }
+    }
     setTimeout(loadAssetsTab, 1800);
   } catch(err) { btn.disabled = false; btn.textContent = 'Approve'; alert(`Error: ${err.message}`); }
 }
@@ -1261,14 +1311,22 @@ async function rejectAsset(id, btn) {
   if (!confirm('Remove this asset? The image file will also be deleted.')) return;
   btn.disabled = true; btn.textContent = 'Removing…';
   try {
-    const resData = await ghGetFile('partner-resources.json');
-    const json = JSON.parse(resData.content);
-    const idx = json.assets.findIndex(a => a.id === id);
-    if (idx === -1) throw new Error('Asset not found');
-    const asset = json.assets[idx];
-    try { const img = await ghGetFile(asset.path); await ghDeleteFile(asset.path, img.sha); } catch(e) { /* already gone */ }
-    json.assets.splice(idx, 1);
-    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Remove asset: ${asset.label}`);
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const resData = await ghGetFile('partner-resources.json');
+      const json = JSON.parse(resData.content);
+      const idx = json.assets.findIndex(a => a.id === id);
+      if (idx === -1) throw new Error('Asset not found');
+      const asset = json.assets[idx];
+      try { const img = await ghGetFile(asset.path); await ghDeleteFile(asset.path, img.sha); } catch(e) { /* already gone */ }
+      json.assets.splice(idx, 1);
+      try {
+        await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Remove asset: ${asset.label}`);
+        break;
+      } catch(e) {
+        if (attempt < 2 && e.message && e.message.includes('does not match')) continue;
+        throw e;
+      }
+    }
     setTimeout(loadAssetsTab, 1800);
   } catch(err) { btn.disabled = false; btn.textContent = 'Reject'; alert(`Error: ${err.message}`); }
 }
@@ -1351,7 +1409,36 @@ async function loadAssetsTab() {
           ).join('')
         : (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
       const isPdf = a.path.toLowerCase().endsWith('.pdf');
-      return `<div class="asset-card ${isDraft ? 'draft' : ''}">
+      const uploadDate = a.uploadedAt ? new Date(a.uploadedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric'}) : '';
+
+      if (isDraft) {
+        return `<div class="review-card">
+          <div class="review-card-two-col">
+            <div>
+              ${isPdf
+                ? `<a href="${base}/${a.path}" target="_blank" rel="noopener" class="review-card-pdf"><span style="font-size:40px;">📄</span> View PDF</a>`
+                : `<img class="review-card-img" src="${base}/${a.path}" alt="${a.label}" onerror="this.style.background='var(--dark-sand)'">`}
+            </div>
+            <div>
+              <div class="review-card-deliv">${a.deliverable}</div>
+              <div class="review-card-label">${a.label}</div>
+              <div class="review-card-section-label">Partners</div>
+              <div style="margin-bottom:6px;">${chips || '<em style="color:var(--text-light);font-size:12px;">None selected</em>'}</div>
+              <div class="draft-add-wrap">
+                <input type="text" class="draft-add-input" placeholder="+ Add partner…" data-asset-id="${a.id}" oninput="showDraftAddSuggestions(event)" onblur="hideDraftAddSuggestions('${a.id}')" autocomplete="off">
+                <div class="draft-add-dropdown" id="dad-${a.id}"></div>
+              </div>
+              ${uploadDate ? `<div style="font-size:12px;color:var(--text-light);margin-top:12px;">Uploaded ${uploadDate}</div>` : ''}
+              <div class="review-card-actions">
+                <button class="btn-approve" onclick="approveAsset('${a.id}',this)">Approve</button>
+                <button class="btn-reject"  onclick="rejectAsset('${a.id}',this)">Reject</button>
+              </div>
+            </div>
+          </div>
+        </div>`;
+      }
+
+      return `<div class="asset-card">
         ${isPdf
           ? `<a href="${base}/${a.path}" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;height:150px;background:var(--dark-sand);font-size:42px;text-decoration:none;">📄</a>`
           : `<img class="asset-card-thumb" src="${base}/${a.path}" alt="${a.label}" onerror="this.style.background='var(--dark-sand)'">`}
@@ -1359,22 +1446,12 @@ async function loadAssetsTab() {
           <div class="asset-card-deliv">${a.deliverable}</div>
           <div class="asset-card-label">${a.label}</div>
           <div class="asset-card-meta">
-            ${isDraft
-              ? `<strong>Partners:</strong>
-                 <div style="margin:4px 0 2px;">${chips || '<em style="color:var(--text-light);font-size:11px;">None selected</em>'}</div>
-                 <div class="draft-add-wrap">
-                   <input type="text" class="draft-add-input" placeholder="+ Add partner…" data-asset-id="${a.id}" oninput="showDraftAddSuggestions(event)" onblur="hideDraftAddSuggestions('${a.id}')" autocomplete="off">
-                   <div class="draft-add-dropdown" id="dad-${a.id}"></div>
-                 </div>`
-              : (chips ? `<strong>Partners:</strong> ${chips}<br>` : '')}
+            ${chips ? `<strong>Partners:</strong> ${chips}<br>` : ''}
             ${a.note ? `${a.note}<br>` : ''}
-            ${a.uploadedAt ? new Date(a.uploadedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric'}) : ''}
+            ${uploadDate}
           </div>
           <div class="asset-card-actions">
-            ${isDraft
-              ? `<button class="btn-approve" onclick="approveAsset('${a.id}',this)">Approve</button>
-                 <button class="btn-reject"  onclick="rejectAsset('${a.id}',this)">Reject</button>`
-              : `<button class="btn-remove"  onclick="removeAsset('${a.id}',this)">Remove</button>`}
+            <button class="btn-remove" onclick="removeAsset('${a.id}',this)">Remove</button>
           </div>
         </div>
       </div>`;
@@ -2492,6 +2569,11 @@ function copySnapshot() {
 
 // ── Boot ────────────────────────────────────────────────────────
 init();
+const _savedTab = localStorage.getItem('amplifyTab');
+if (_savedTab) {
+  const _savedTabEl = document.querySelector(`.nav-tab[onclick*="'${_savedTab}'"]`);
+  showTab(_savedTab, _savedTabEl);
+}
 </script>
 </body>
 </html>
