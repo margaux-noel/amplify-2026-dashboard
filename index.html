@@ -1029,7 +1029,26 @@ function showTab(tab, el) {
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
   if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); if (!ghToken()) openSettings(); }
+  if (tab === 'search') _prefetchLiveAssets();
   localStorage.setItem('amplifyTab', tab);
+}
+
+// ── Live asset cache (public, no token needed) ───────────────────
+let _liveAssets     = null;
+let _liveAssetsFetch = null;
+
+function _prefetchLiveAssets() {
+  if (_liveAssets !== null || _liveAssetsFetch) return;
+  _liveAssetsFetch = fetch('partner-resources.json?' + Date.now(), { cache: 'no-store' })
+    .then(r => r.json())
+    .then(json => { _liveAssets = (json.assets || []).filter(a => a.status === 'live'); })
+    .catch(() => { _liveAssets = []; });
+}
+
+async function _awaitLiveAssets() {
+  if (_liveAssets !== null) return;
+  if (!_liveAssetsFetch) _prefetchLiveAssets();
+  await _liveAssetsFetch;
 }
 
 // ── Jump to Overview section from dropdown ───────────────────────
@@ -2123,11 +2142,12 @@ function _runFilter() {
   tbody.appendChild(frag);
 }
 
-function _expandDetail(rowEl, p) {
+async function _expandDetail(rowEl, p) {
   const div = document.getElementById('detail-' + p.key);
   if (!div) return;
   // Lazy-render content only on first open
   if (!_renderedDetails.has(p.key)) {
+    await _awaitLiveAssets();
     _renderedDetails.add(p.key);
     div.innerHTML = `
       <div class="detail-grid">
@@ -2262,15 +2282,39 @@ function renderDeliverableSection(p) {
     none:      `<span class="badge badge-gray">Not yet planned</span>`,
   };
 
+  // Build asset lookup: deliverable name → [asset, ...]
+  const assetsByDeliv = {};
+  (_liveAssets || []).filter(a => (a.partnerKeys || []).includes(p.key)).forEach(a => {
+    if (!assetsByDeliv[a.deliverable]) assetsByDeliv[a.deliverable] = [];
+    assetsByDeliv[a.deliverable].push(a);
+  });
+
+  const hasAnyAssets = Object.keys(assetsByDeliv).length > 0;
+
+  function assetCellHtml(delivName) {
+    const assets = assetsByDeliv[delivName] || [];
+    if (!assets.length) return '<td style="padding:9px 14px;"></td>';
+    const links = assets.map(a => {
+      const isPdf = a.path.toLowerCase().endsWith('.pdf');
+      if (isPdf) {
+        return `<a href="${a.path}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--olive);font-weight:600;text-decoration:none;">📄 <span>${a.label || 'View PDF'}</span></a>`;
+      }
+      return `<a href="${a.path}" target="_blank" rel="noopener" title="${a.label || delivName}">
+        <img src="${a.path}" style="width:56px;height:40px;object-fit:cover;border-radius:5px;border:1px solid var(--border);display:block;" onerror="this.style.display='none'">
+      </a>`;
+    }).join('<span style="margin:0 4px;color:var(--border);">|</span>');
+    return `<td style="padding:9px 14px;">${links}</td>`;
+  }
+
   let rows = '';
   expected.forEach(d => {
     if (d.alwaysYes) {
-      // This deliverable is always included in the package — no scheduling needed
       rows += `
         <tr style="border-bottom:1px solid var(--border);">
           <td style="padding:9px 14px;font-size:13px;">${d.label}</td>
           <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">—</td>
           <td style="padding:9px 14px;"><span class="badge badge-green">✓ Included</span></td>
+          ${hasAnyAssets ? '<td style="padding:9px 14px;"></td>' : ''}
         </tr>`;
       return;
     }
@@ -2285,6 +2329,7 @@ function renderDeliverableSection(p) {
           <td style="padding:9px 14px;font-size:13px;">${d.label}${suffix}</td>
           <td style="padding:9px 14px;font-size:13px;color:var(--text-light);">${_scheduledLabel(t)}</td>
           <td style="padding:9px 14px;">${STATUS_BADGE[_delivStatus(t)]}</td>
+          ${hasAnyAssets ? (i === 0 ? assetCellHtml(d.name) : '<td style="padding:9px 14px;"></td>') : ''}
         </tr>`;
     }
   });
@@ -2295,9 +2340,10 @@ function renderDeliverableSection(p) {
       <table style="width:100%;border-collapse:collapse;">
         <thead>
           <tr style="border-bottom:2px solid var(--border);">
-            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:45%;">Deliverable</th>
-            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:30%;">Scheduled</th>
-            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);width:25%;">Status</th>
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);">Deliverable</th>
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);">Scheduled</th>
+            <th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);">Status</th>
+            ${hasAnyAssets ? '<th style="text-align:left;padding:6px 14px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-light);">Published Content</th>' : ''}
           </tr>
         </thead>
         <tbody>${rows}</tbody>
