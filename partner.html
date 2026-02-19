@@ -152,6 +152,22 @@
     .pkg-pill-name { font-size: 13px; font-weight: 600; color: var(--text); }
     .pkg-pill-qty  { font-size: 12px; color: var(--tlight); }
 
+    /* ── ASSET THUMBNAILS ── */
+    .asset-attach-row td { padding: 0 18px 12px; }
+    .asset-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .asset-pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--dsand); border: 1px solid var(--border);
+      border-radius: 8px; padding: 6px 12px 6px 6px;
+      text-decoration: none; color: var(--text); font-size: 12px;
+      transition: border-color 0.15s;
+    }
+    .asset-pill:hover { border-color: var(--olive); }
+    .asset-thumb {
+      width: 48px; height: 36px; object-fit: cover;
+      border-radius: 5px; background: var(--shell); flex-shrink: 0;
+    }
+
     /* ── DELIVERABLES TABLE ── */
     .deliv-table {
       width: 100%;
@@ -510,6 +526,16 @@
               <td>${statusBadge(t, false)}</td>
             </tr>`;
         }
+        // Show any approved assets attached to this deliverable
+        const assets = (p.resources || {})[d.name] || [];
+        if (assets.length) {
+          const pills = assets.map(a => `
+            <a href="${a.path}" target="_blank" rel="noopener" class="asset-pill">
+              <img src="${a.path}" class="asset-thumb" alt="${a.label}" onerror="this.style.display='none'">
+              <span>${a.label || d.label}</span>
+            </a>`).join('');
+          delivRows += `<tr class="asset-attach-row"><td colspan="3"><div class="asset-pills">${pills}</div></td></tr>`;
+        }
       });
     }
 
@@ -552,17 +578,10 @@
           ${quarterHtml}
         </div>
 
-        ${p.resourcesUrl ? `
+        ${Object.keys(p.resources || {}).length ? `
         <div class="section">
-          <div class="section-label">Your Content</div>
-          <div class="content-card">
-            <div class="content-card-icon">📁</div>
-            <div class="content-card-body">
-              <div class="content-card-title">Your published Amplify features</div>
-              <div class="content-card-sub">Your collection page, newsletter feature, and other published content are available here.</div>
-            </div>
-            <a href="${p.resourcesUrl}" target="_blank" rel="noopener" class="content-card-link">View your features →</a>
-          </div>
+          <div class="section-label">Your Published Features</div>
+          <p style="font-size:13px;color:var(--tlight);margin-bottom:14px;">Screenshots of your live Amplify features are attached to the relevant deliverables in the table above.</p>
         </div>` : ''}
 
         <div class="section">

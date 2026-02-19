@@ -444,17 +444,29 @@ if __name__ == "__main__":
         "Invoice held":                "On hold — please contact us",
     }
     SIGNED_STAGE_KEYS = {"5014","5015","5016","5017","5007"}
-    # Load any manually-set partner resource URLs (Google Drive links etc.)
+    # Load approved partner assets from partner-resources.json
     resources_path = os.path.join(script_dir, "partner-resources.json")
-    partner_resources = {}
+    partner_assets = {}  # key -> { deliverable_name -> [asset_info] }
     if os.path.exists(resources_path):
         try:
             with open(resources_path) as f:
                 raw = json.load(f)
-            # Skip meta keys starting with "_"
-            partner_resources = {k: v for k, v in raw.items() if not k.startswith("_")}
-            if partner_resources:
-                print(f"  Loaded {len(partner_resources)} partner resource URL(s)")
+            live_assets = [a for a in raw.get("assets", []) if a.get("status") == "live"]
+            for asset in live_assets:
+                for pk in asset.get("partnerKeys", []):
+                    if pk not in partner_assets:
+                        partner_assets[pk] = {}
+                    deliv = asset["deliverable"]
+                    if deliv not in partner_assets[pk]:
+                        partner_assets[pk][deliv] = []
+                    partner_assets[pk][deliv].append({
+                        "label": asset.get("label", ""),
+                        "path":  asset["path"],
+                        "note":  asset.get("note", ""),
+                    })
+            total = sum(len(v) for v in partner_assets.values())
+            if total:
+                print(f"  Loaded {total} live asset(s) across {len(partner_assets)} partner(s)")
         except Exception as e:
             print(f"  Warning: could not read partner-resources.json ({e})")
 
@@ -469,7 +481,7 @@ if __name__ == "__main__":
             "deliverables":  p["features"],
             "quarters":      p["quarters"],
             "country":       p["country"],
-            "resourcesUrl":  partner_resources.get(p["key"], ""),
+            "resources":     partner_assets.get(p["key"], {}),
             "lastUpdated":   data["lastUpdated"],
         }
     partners_js_path = os.path.join(script_dir, "partners-public.js")

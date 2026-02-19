@@ -388,6 +388,47 @@
       .kpi-grid { grid-template-columns: 1fr; }
       .detail-grid { grid-template-columns: 1fr; }
     }
+
+    /* ── ASSETS TAB ── */
+    .assets-form-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 24px; }
+    .assets-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 24px; margin-bottom: 20px; }
+    .af-field { display: flex; flex-direction: column; gap: 6px; }
+    .af-field label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--text-light); }
+    .af-input { font-size: 13px; font-family: inherit; border: 1px solid var(--border); border-radius: 7px; padding: 8px 12px; background: var(--bg); outline: none; color: var(--text); }
+    .af-input:focus { border-color: var(--olive); }
+    .partner-selector { border: 1px solid var(--border); border-radius: 7px; background: var(--bg); }
+    .partner-selector-search { padding: 8px 12px; border-bottom: 1px solid var(--border); }
+    .partner-selector-search input { width: 100%; border: none; background: transparent; font-size: 13px; font-family: inherit; outline: none; color: var(--text); }
+    .partner-selector-list { max-height: 200px; overflow-y: auto; }
+    .partner-selector-item { display: flex; align-items: center; gap: 10px; padding: 7px 12px; cursor: pointer; font-size: 13px; }
+    .partner-selector-item:hover { background: var(--dark-sand); }
+    .partner-selector-item input[type="checkbox"] { cursor: pointer; accent-color: var(--olive); }
+    .partner-selector-actions { padding: 6px 12px; border-top: 1px solid var(--border); display: flex; gap: 12px; align-items: center; }
+    .partner-selector-actions button { font-size: 11px; color: var(--olive); background: none; border: none; cursor: pointer; font-family: inherit; font-weight: 600; }
+    .asset-upload-preview { max-width: 220px; max-height: 130px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border); margin-top: 8px; }
+    .pending-badge { background: var(--sangria); color: white; border-radius: 10px; padding: 2px 8px; font-size: 11px; font-weight: 700; margin-left: 8px; vertical-align: middle; }
+    .asset-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+    .asset-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+    .asset-card.draft { border-color: #c9a800; }
+    .asset-card-thumb { width: 100%; height: 150px; object-fit: cover; background: var(--dark-sand); display: block; }
+    .asset-card-body { padding: 14px 16px; }
+    .asset-card-deliv { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--olive); margin-bottom: 4px; }
+    .asset-card-label { font-size: 14px; font-weight: 600; margin-bottom: 8px; font-family: 'ChiswickSansText', sans-serif; }
+    .asset-card-meta { font-size: 12px; color: var(--text-light); margin-bottom: 12px; line-height: 1.6; }
+    .asset-card-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn-approve { background: var(--olive); color: white; border: none; padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .btn-approve:disabled { opacity: .5; cursor: default; }
+    .btn-reject  { background: white; color: var(--sangria); border: 1px solid var(--sangria); padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .btn-remove  { background: white; color: var(--text-light); border: 1px solid var(--border); padding: 7px 14px; border-radius: 7px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; }
+    /* Settings modal */
+    .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; align-items: center; justify-content: center; }
+    .modal-overlay.open { display: flex; }
+    .modal-box { background: white; border-radius: var(--radius); padding: 28px 32px; max-width: 460px; width: 90%; box-shadow: 0 8px 40px rgba(0,0,0,0.22); }
+    .modal-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; font-family: 'ChiswickSansText', sans-serif; }
+    .modal-close { float: right; background: none; border: none; font-size: 22px; cursor: pointer; color: var(--text-light); margin-top: -4px; line-height: 1; }
+    .gear-btn { background: none; border: none; color: rgba(255,255,255,0.45); font-size: 18px; cursor: pointer; padding: 4px 6px; line-height: 1; transition: color 0.15s; }
+    .gear-btn:hover { color: rgba(255,255,255,0.9); }
+    .assets-no-token { background: #fdf6e3; border: 1px solid #c9a800; border-radius: 8px; padding: 12px 16px; font-size: 13px; margin-bottom: 20px; }
   </style>
 </head>
 <body>
@@ -406,6 +447,7 @@
     </div>
     <div class="header-right">
       <span class="week-badge" id="weekBadge">—</span>
+      <button class="gear-btn" onclick="openSettings()" title="Settings">⚙</button>
     </div>
   </div>
 
@@ -413,6 +455,7 @@
   <div class="nav-tabs">
     <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
     <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
+    <div class="nav-tab" onclick="showTab('assets',this)">Assets</div>
     <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
     <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
     <div class="nav-tab" onclick="showTab('team',this)">Team Updates</div>
@@ -791,6 +834,112 @@
 </div>
 
 
+<!-- ===== ASSETS ===== -->
+<div id="tab-assets" class="section">
+  <h2 class="section-title">Partner Assets</h2>
+  <p class="section-subtitle">Upload screenshots of completed deliverables and apply them to one or more partners. Assets go live on partner portals after your approval.</p>
+
+  <div id="assets-no-token-banner" class="assets-no-token" style="display:none;">
+    <strong>Access code required</strong> — click the ⚙ gear icon in the top-right corner to enter your GitHub access code. Team members: ask Margaux for the code.
+  </div>
+
+  <!-- Upload form -->
+  <div class="assets-form-card">
+    <h3 style="font-size:14px;font-weight:700;margin-bottom:20px;font-family:'ChiswickSansText',sans-serif;">Upload New Asset</h3>
+    <div class="assets-form-grid">
+      <div class="af-field">
+        <label>Deliverable</label>
+        <select id="af-deliverable" class="af-input">
+          <option value="">Select deliverable…</option>
+          <option>Collection</option>
+          <option>Newsletter</option>
+          <option>Forum</option>
+          <option>Advisor Assets</option>
+          <option>Webinar</option>
+          <option>Social Media</option>
+        </select>
+      </div>
+      <div class="af-field">
+        <label>Label</label>
+        <input id="af-label" type="text" class="af-input" placeholder="e.g. February 2026 Newsletter Feature">
+      </div>
+      <div class="af-field" style="grid-column:1/-1;">
+        <label>Screenshot</label>
+        <input id="af-file" type="file" accept="image/*" class="af-input" onchange="previewUploadImg(this)">
+        <img id="af-preview" class="asset-upload-preview" style="display:none;" alt="Preview">
+      </div>
+      <div class="af-field" style="grid-column:1/-1;">
+        <label>Note (optional)</label>
+        <input id="af-note" type="text" class="af-input" placeholder="Any context about this asset…">
+      </div>
+    </div>
+    <div class="af-field" style="margin-bottom:20px;">
+      <label>Apply to Partners <span id="ps-count" style="font-weight:400;font-size:11px;color:var(--olive);margin-left:6px;"></span></label>
+      <div class="partner-selector">
+        <div class="partner-selector-search">
+          <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)">
+        </div>
+        <div class="partner-selector-list" id="ps-list">
+          <div style="padding:12px;color:var(--text-light);font-size:13px;">Loading partners…</div>
+        </div>
+        <div class="partner-selector-actions">
+          <button onclick="selectAllPartners()">Select all visible</button>
+          <button onclick="clearAllPartners()">Clear</button>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+      <button onclick="submitAsset(this)" class="btn-approve" style="padding:10px 22px;font-size:13px;">Submit for review</button>
+      <span id="af-status" style="font-size:12px;"></span>
+    </div>
+  </div>
+
+  <!-- Pending review -->
+  <div class="acc-section" style="margin-bottom:24px;">
+    <div class="acc-header" id="acc-hdr-pending" onclick="toggleSection('pending')">
+      Pending Review <span id="pending-badge" class="pending-badge" style="display:none;"></span>
+    </div>
+    <div class="acc-body open" id="acc-body-pending">
+      <div class="asset-cards" id="pending-cards">
+        <p style="color:var(--text-light);font-size:13px;">No assets pending review.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live assets -->
+  <div class="acc-section">
+    <div class="acc-header" id="acc-hdr-live" onclick="toggleSection('live')">Live Assets</div>
+    <div class="acc-body open" id="acc-body-live">
+      <div class="asset-cards" id="live-cards">
+        <p style="color:var(--text-light);font-size:13px;">No live assets yet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Settings modal -->
+<div class="modal-overlay" id="settingsModal" onclick="if(event.target===this)closeSettings()">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeSettings()">×</button>
+    <h3>Access Code</h3>
+    <p style="font-size:13px;color:var(--text-light);margin:8px 0 20px;line-height:1.5;">
+      Enter the GitHub access code to enable asset uploads and approvals.<br>
+      <strong>Team members:</strong> ask Margaux for this code — you only need to enter it once.
+    </p>
+    <div class="af-field" style="margin-bottom:16px;">
+      <label>Access Code</label>
+      <input id="settings-token" type="password" class="af-input" placeholder="ghp_…" autocomplete="off">
+    </div>
+    <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+      <button onclick="saveSettings()" class="btn-approve">Save</button>
+      <button onclick="clearSettings()" class="btn-remove">Clear saved code</button>
+    </div>
+    <p id="settings-status" style="margin-top:12px;font-size:12px;display:none;"></p>
+  </div>
+</div>
+
+
 <script>
 // ── Tab Navigation ──────────────────────────────────────────────
 function showTab(tab, el) {
@@ -798,6 +947,7 @@ function showTab(tab, el) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
+  if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); }
 }
 
 // ── Copy partner portal link to clipboard ────────────────────────
@@ -811,24 +961,252 @@ function copyPartnerLink(key, btn) {
   });
 }
 
-// ── Save resource URL to partner-resources.json (via clipboard) ──
-function saveResourceUrl(key) {
-  const input = document.getElementById('res-' + key);
-  const note  = document.getElementById('res-note-' + key);
-  const url   = input.value.trim();
-  const entry = JSON.stringify({ [key]: url });
-  // Build the one-line edit the user needs to make in partner-resources.json
-  const commitSnippet = `"${key}": "${url}"`;
-  navigator.clipboard.writeText(commitSnippet).then(() => {
-    note.textContent = '✓ Copied! Paste this line into partner-resources.json, then run update.py (or let auto-update run).';
-    note.style.display = 'block';
-    note.style.color = 'var(--olive)';
-    setTimeout(() => { note.style.display = 'none'; }, 6000);
-  }).catch(() => {
-    note.textContent = `Add this to partner-resources.json: ${commitSnippet}`;
-    note.style.display = 'block';
-    note.style.color = 'var(--text-light)';
+// ── GitHub API helpers ────────────────────────────────────────────
+const GH_REPO   = 'margaux-noel/amplify-2026-dashboard';
+const GH_BRANCH = 'main';
+function ghToken() { return localStorage.getItem('amplify_gh_token') || ''; }
+
+async function ghGetFile(path) {
+  if (!ghToken()) throw new Error('No access code set.');
+  const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(path)}?ref=${GH_BRANCH}`, {
+    headers: { 'Authorization': `token ${ghToken()}`, 'Accept': 'application/vnd.github.v3+json' }
   });
+  if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.message || `GitHub ${r.status}`); }
+  const d = await r.json();
+  return { content: decodeURIComponent(escape(atob(d.content.replace(/\s/g,'')))), sha: d.sha };
+}
+
+async function ghPutFile(path, content, sha, message) {
+  const encoded = btoa(unescape(encodeURIComponent(content)));
+  const body = { message, content: encoded, branch: GH_BRANCH };
+  if (sha) body.sha = sha;
+  const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(path)}`, {
+    method: 'PUT',
+    headers: { 'Authorization': `token ${ghToken()}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.message || `GitHub ${r.status}`); }
+  return r.json();
+}
+
+async function ghUploadImage(path, file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = async e => {
+      const base64 = e.target.result.split(',')[1];
+      try {
+        const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(path)}`, {
+          method: 'PUT',
+          headers: { 'Authorization': `token ${ghToken()}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: `Upload asset: ${path}`, content: base64, branch: GH_BRANCH })
+        });
+        if (!r.ok) { const e2 = await r.json().catch(() => ({})); reject(new Error(e2.message || `GitHub ${r.status}`)); return; }
+        resolve(await r.json());
+      } catch(err) { reject(err); }
+    };
+    reader.onerror = () => reject(new Error('Could not read file'));
+    reader.readAsDataURL(file);
+  });
+}
+
+async function ghDeleteFile(path, sha) {
+  const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(path)}`, {
+    method: 'DELETE',
+    headers: { 'Authorization': `token ${ghToken()}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: `Remove asset: ${path}`, sha, branch: GH_BRANCH })
+  });
+  if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.message || `GitHub ${r.status}`); }
+  return r.json();
+}
+
+// ── Settings modal ────────────────────────────────────────────────
+function openSettings() {
+  document.getElementById('settings-token').value = ghToken();
+  document.getElementById('settings-status').style.display = 'none';
+  document.getElementById('settingsModal').classList.add('open');
+}
+function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
+function saveSettings() {
+  const val = document.getElementById('settings-token').value.trim();
+  if (!val) return;
+  localStorage.setItem('amplify_gh_token', val);
+  const s = document.getElementById('settings-status');
+  s.textContent = '✓ Access code saved.'; s.style.color = 'var(--olive)'; s.style.display = 'block';
+  document.getElementById('assets-no-token-banner').style.display = 'none';
+  setTimeout(closeSettings, 1200);
+}
+function clearSettings() {
+  localStorage.removeItem('amplify_gh_token');
+  document.getElementById('settings-token').value = '';
+  const s = document.getElementById('settings-status');
+  s.textContent = 'Access code cleared.'; s.style.color = 'var(--text-light)'; s.style.display = 'block';
+}
+
+// ── Partner selector ──────────────────────────────────────────────
+const SIGNED_STAGES_SET = new Set(['Tier 1','Tier 2','Brand Spotlight','New Opening','Marketing Complete']);
+let _partnerSelectorBuilt = false;
+
+function buildPartnerSelector() {
+  if (_partnerSelectorBuilt) return;
+  _partnerSelectorBuilt = true;
+  const partners = (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : [])
+    .filter(p => SIGNED_STAGES_SET.has(p.stage))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  document.getElementById('ps-list').innerHTML = partners.map(p =>
+    `<label class="partner-selector-item">
+      <input type="checkbox" value="${p.key}" onchange="updatePartnerCount()">
+      <span>${p.name}</span>
+    </label>`
+  ).join('');
+}
+
+function filterPartnerSelector(q) {
+  const low = q.toLowerCase();
+  document.querySelectorAll('#ps-list .partner-selector-item').forEach(el => {
+    el.style.display = el.querySelector('span').textContent.toLowerCase().includes(low) ? '' : 'none';
+  });
+}
+function selectAllPartners() {
+  document.querySelectorAll('#ps-list .partner-selector-item:not([style*="none"]) input').forEach(cb => cb.checked = true);
+  updatePartnerCount();
+}
+function clearAllPartners() {
+  document.querySelectorAll('#ps-list input[type="checkbox"]').forEach(cb => cb.checked = false);
+  updatePartnerCount();
+}
+function updatePartnerCount() {
+  const n = document.querySelectorAll('#ps-list input:checked').length;
+  document.getElementById('ps-count').textContent = n ? `${n} selected` : '';
+}
+function previewUploadImg(input) {
+  const img = document.getElementById('af-preview');
+  if (input.files && input.files[0]) { img.src = URL.createObjectURL(input.files[0]); img.style.display = ''; }
+  else img.style.display = 'none';
+}
+
+// ── Submit asset ──────────────────────────────────────────────────
+async function submitAsset(btn) {
+  if (!ghToken()) { openSettings(); return; }
+  const deliv = document.getElementById('af-deliverable').value;
+  const label = document.getElementById('af-label').value.trim();
+  const file  = document.getElementById('af-file').files[0];
+  const note  = document.getElementById('af-note').value.trim();
+  const keys  = [...document.querySelectorAll('#ps-list input:checked')].map(cb => cb.value);
+  const st    = document.getElementById('af-status');
+  if (!deliv) { st.textContent = 'Please select a deliverable.'; st.style.color = 'var(--sangria)'; return; }
+  if (!label) { st.textContent = 'Please enter a label.'; st.style.color = 'var(--sangria)'; return; }
+  if (!file)  { st.textContent = 'Please select a screenshot.'; st.style.color = 'var(--sangria)'; return; }
+  if (!keys.length) { st.textContent = 'Please select at least one partner.'; st.style.color = 'var(--sangria)'; return; }
+  btn.disabled = true; st.style.color = 'var(--text-light)'; st.textContent = 'Uploading image…';
+  try {
+    const ext  = file.name.split('.').pop().toLowerCase() || 'png';
+    const ts   = Date.now();
+    const slug = deliv.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const imgPath = `partner-assets/${slug}-${ts}.${ext}`;
+    await ghUploadImage(imgPath, file);
+    st.textContent = 'Saving record…';
+    let resData;
+    try { resData = await ghGetFile('partner-resources.json'); }
+    catch(e) { resData = { content: '{"assets":[]}', sha: null }; }
+    const json = JSON.parse(resData.content);
+    if (!json.assets) json.assets = [];
+    json.assets.push({ id: String(ts), deliverable: deliv, label, path: imgPath, partnerKeys: keys, status: 'draft', uploadedAt: new Date().toISOString(), note });
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Add draft asset: ${label}`);
+    // Reset form
+    document.getElementById('af-deliverable').value = '';
+    document.getElementById('af-label').value = '';
+    document.getElementById('af-file').value = '';
+    document.getElementById('af-note').value = '';
+    document.getElementById('af-preview').style.display = 'none';
+    document.getElementById('ps-search').value = '';
+    filterPartnerSelector('');
+    clearAllPartners();
+    st.textContent = '✓ Submitted for review!'; st.style.color = 'var(--olive)';
+    setTimeout(() => { st.textContent = ''; }, 5000);
+    loadAssetsTab();
+  } catch(err) { st.textContent = `Error: ${err.message}`; st.style.color = 'var(--sangria)'; }
+  finally { btn.disabled = false; }
+}
+
+// ── Approve / Reject / Remove ─────────────────────────────────────
+async function approveAsset(id, btn) {
+  btn.disabled = true; btn.textContent = 'Approving…';
+  try {
+    const resData = await ghGetFile('partner-resources.json');
+    const json = JSON.parse(resData.content);
+    const asset = json.assets.find(a => a.id === id);
+    if (!asset) throw new Error('Asset not found');
+    asset.status = 'live';
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Approve asset: ${asset.label}`);
+    loadAssetsTab();
+  } catch(err) { btn.disabled = false; btn.textContent = 'Approve'; alert(`Error: ${err.message}`); }
+}
+
+async function rejectAsset(id, btn) {
+  if (!confirm('Remove this asset? The image file will also be deleted.')) return;
+  btn.disabled = true; btn.textContent = 'Removing…';
+  try {
+    const resData = await ghGetFile('partner-resources.json');
+    const json = JSON.parse(resData.content);
+    const idx = json.assets.findIndex(a => a.id === id);
+    if (idx === -1) throw new Error('Asset not found');
+    const asset = json.assets[idx];
+    try { const img = await ghGetFile(asset.path); await ghDeleteFile(asset.path, img.sha); } catch(e) { /* already gone */ }
+    json.assets.splice(idx, 1);
+    await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Remove asset: ${asset.label}`);
+    loadAssetsTab();
+  } catch(err) { btn.disabled = false; btn.textContent = 'Reject'; alert(`Error: ${err.message}`); }
+}
+
+async function removeAsset(id, btn) { await rejectAsset(id, btn); }
+
+// ── Load & render assets tab ──────────────────────────────────────
+async function loadAssetsTab() {
+  const banner = document.getElementById('assets-no-token-banner');
+  banner.style.display = ghToken() ? 'none' : '';
+  if (!ghToken()) return;
+  try {
+    const resData = await ghGetFile('partner-resources.json');
+    const json = JSON.parse(resData.content);
+    const assets = json.assets || [];
+    const draft = assets.filter(a => a.status === 'draft');
+    const live  = assets.filter(a => a.status === 'live');
+    const badge = document.getElementById('pending-badge');
+    badge.textContent = draft.length; badge.style.display = draft.length ? '' : 'none';
+    const pNames = {};
+    (typeof AMPLIFY_DATA !== 'undefined' ? AMPLIFY_DATA.partners : []).forEach(p => { pNames[p.key] = p.name; });
+    const base = window.location.origin + window.location.pathname.replace(/index\.html$/, '').replace(/\/$/, '');
+    function assetCardHtml(a, isDraft) {
+      const pList = (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
+      return `<div class="asset-card ${isDraft ? 'draft' : ''}">
+        <img class="asset-card-thumb" src="${base}/${a.path}" alt="${a.label}" onerror="this.style.background='var(--dark-sand)'">
+        <div class="asset-card-body">
+          <div class="asset-card-deliv">${a.deliverable}</div>
+          <div class="asset-card-label">${a.label}</div>
+          <div class="asset-card-meta">
+            ${pList ? `<strong>Partners:</strong> ${pList}<br>` : ''}
+            ${a.note ? `${a.note}<br>` : ''}
+            ${a.uploadedAt ? new Date(a.uploadedAt).toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric'}) : ''}
+          </div>
+          <div class="asset-card-actions">
+            ${isDraft
+              ? `<button class="btn-approve" onclick="approveAsset('${a.id}',this)">Approve</button>
+                 <button class="btn-reject"  onclick="rejectAsset('${a.id}',this)">Reject</button>`
+              : `<button class="btn-remove"  onclick="removeAsset('${a.id}',this)">Remove</button>`}
+          </div>
+        </div>
+      </div>`;
+    }
+    document.getElementById('pending-cards').innerHTML = draft.length
+      ? draft.map(a => assetCardHtml(a, true)).join('')
+      : '<p style="color:var(--text-light);font-size:13px;">No assets pending review.</p>';
+    document.getElementById('live-cards').innerHTML = live.length
+      ? live.map(a => assetCardHtml(a, false)).join('')
+      : '<p style="color:var(--text-light);font-size:13px;">No live assets yet.</p>';
+  } catch(err) {
+    console.error('Assets tab error:', err);
+    document.getElementById('pending-cards').innerHTML = `<p style="color:var(--sangria);font-size:13px;">Could not load assets: ${err.message}</p>`;
+  }
 }
 
 // ── Navigate to a partner on the search tab ──────────────────────
@@ -1503,17 +1881,9 @@ function _expandDetail(rowEl, p) {
         <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
       </div>
       ${renderDeliverableSection(p)}
-      <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);">
-        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
-          <span style="font-size:11px;font-weight:600;color:var(--text-light);text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;">Resources URL</span>
-          <input id="res-${p.key}" type="url" placeholder="Paste Google Drive folder link…" value="${(p.resourcesUrl||'')}" style="flex:1;min-width:200px;font-size:12px;font-family:inherit;border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none;background:var(--bg);">
-          <button onclick="saveResourceUrl('${p.key}')" style="background:var(--indigo);color:#fff;border:none;padding:7px 14px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap;">Save &amp; copy commit</button>
-        </div>
-        <p id="res-note-${p.key}" style="display:none;font-size:11px;margin:0 0 10px;color:var(--olive);"></p>
-        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
-          <button onclick="copyPartnerLink('${p.key}',this)" style="background:var(--olive);color:#fff;border:none;padding:8px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;">Copy Partner Link</button>
-          <a href="partner.html?key=${p.key}" target="_blank" style="font-size:12px;color:var(--text-light);text-decoration:none;font-weight:500;">Preview portal →</a>
-        </div>
+      <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+        <button onclick="copyPartnerLink('${p.key}',this)" style="background:var(--olive);color:#fff;border:none;padding:8px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;">Copy Partner Link</button>
+        <a href="partner.html?key=${p.key}" target="_blank" style="font-size:12px;color:var(--text-light);text-decoration:none;font-weight:500;">Preview portal →</a>
       </div>`;
   }
   div.classList.toggle('open');
