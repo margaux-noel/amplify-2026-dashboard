@@ -225,6 +225,17 @@
       ],
       "status": "live",
       "uploadedAt": "2026-02-19T19:57:31.765Z"
+    },
+    {
+      "id": "1771531230782",
+      "deliverable": "Collection",
+      "label": "February Collection Feature",
+      "path": "partner-assets/collection-1771531230782.png",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXa1Nv9Cww"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T20:00:32.747Z"
     }
   ]
 }
