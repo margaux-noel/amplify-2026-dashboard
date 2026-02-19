@@ -249,6 +249,18 @@
       ],
       "status": "draft",
       "uploadedAt": "2026-02-19T20:02:53.570Z"
+    },
+    {
+      "id": "1771531565702",
+      "deliverable": "Collection",
+      "label": "February Collection Feature",
+      "path": "partner-assets/collection-1771531565702.png",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Ja3CQw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39JazCQw"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T20:06:06.920Z"
     }
   ]
 }
