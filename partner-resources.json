@@ -176,17 +176,6 @@
       ],
       "status": "live",
       "uploadedAt": "2026-02-19T18:21:48.555Z"
-    },
-    {
-      "id": "1771525712911",
-      "deliverable": "Forum",
-      "label": "January Forum Feature",
-      "path": "partner-assets/forum-1771525712911.png",
-      "partnerKeys": [
-        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9idCAw"
-      ],
-      "status": "live",
-      "uploadedAt": "2026-02-19T18:28:33.909Z"
     }
   ]
 }
