@@ -2375,7 +2375,7 @@ function _runFilter() {
 
 // ── Deliverable completion progress (synchronous, CRM data only) ─
 function _delivProgressSimple(p) {
-  const expected = PACKAGE_DELIVERABLES[p.stage];
+  const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
   if (!expected) return null;
   const lookup = {};
   (p.features || []).forEach(f => {
@@ -2406,7 +2406,7 @@ async function buildNeedsReview() {
   const flaggedStreak = [];
 
   (window._allPartners || []).forEach(p => {
-    const expected = PACKAGE_DELIVERABLES[p.stage];
+    const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
 
     // Check for missing assets on completed deliverables
     if (expected) {
@@ -2604,6 +2604,23 @@ const PACKAGE_DELIVERABLES = {
     { name: 'Forum',          label: 'Forum Post',           count: 1 },
     { name: 'Advisor Assets', label: 'Advisor Assets',       count: 1 },
   ],
+  'Brand Spotlight + Additional Webinar': [
+    { name: 'Collection',    label: 'Collection Feature',        count: 1 },
+    { name: 'Webinar',       label: 'Webinar',                   count: 2, noAsset: true },
+    { name: 'Advisor Assets',label: 'Advisor Assets',            count: 1 },
+    { name: 'Forum',         label: 'Live Forum Pre-Sale Access', count: 1, alwaysYes: true },
+  ],
+  'Bespoke Kempinski': [
+    { name: 'Collection',    label: 'Collection Inclusions',       count: 6 },
+    { name: 'Newsletter',    label: 'Advisor Newsletter Features', count: 4 },
+    { name: 'Webinar',       label: 'Webinars',                    count: 2, noAsset: true },
+    { name: 'Advisor Assets',label: 'Advisor Assets',              count: 4 },
+    { name: 'Forum',         label: 'Forum Posts',                 count: 6 },
+  ],
+  'Newsletter + Forum Feature': [
+    { name: 'Newsletter', label: 'Newsletter Feature', count: 1 },
+    { name: 'Forum',      label: 'Forum Feature',      count: 1 },
+  ],
 };
 
 const _MONTHS = {
@@ -2652,7 +2669,7 @@ function _scheduledLabel(timing) {
 }
 
 function renderDeliverableSection(p) {
-  const expected = PACKAGE_DELIVERABLES[p.stage];
+  const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
 
   // No package definition — fall back to raw feature badges (pipeline stages etc.)
   if (!expected) {

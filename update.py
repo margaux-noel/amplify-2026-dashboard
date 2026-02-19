@@ -52,6 +52,20 @@ F_GROUP       = "1034"
 F_QUARTER     = "1053"
 F_EMAIL       = "1050"
 F_INVOICE_DATE= "1036"
+F_PACKAGE     = "1016"
+
+PACKAGE_LABELS = {
+    "9001": "Tier 1",
+    "9002": "Tier 2",
+    "9003": "Brand Spotlight",
+    "9004": "New Opening",
+    "9008": "Brand Spotlight + Newsletter",
+    "9009": "Brand Spotlight + Additional Webinar",
+    "9011": "New Opening + Advisor Assets",
+    "9012": "Bespoke Kempinski",
+    "9013": "Wedding Ad",
+    "9014": "Newsletter + Forum Feature",
+}
 
 FEATURE_FIELDS = {
     "Collection":     "1067",
@@ -293,6 +307,7 @@ def compute_metrics(boxes):
                 "name":          box.get("name", ""),
                 "stage":         ALL_STAGE_NAMES.get(stage, stage),
                 "stageKey":      stage,
+                "package":       PACKAGE_LABELS.get(str(field_val(box, F_PACKAGE) or ""), ALL_STAGE_NAMES.get(stage, stage)),
                 "price":         int(p),
                 "invoiceStatus": INVOICE_LABELS.get(inv, ""),
                 "invoiceUrl":    str(inv_url).strip() if inv_url and str(inv_url).startswith("http") else "",
@@ -476,7 +491,7 @@ if __name__ == "__main__":
             continue
         public_partners[p["key"]] = {
             "name":          p["name"],
-            "package":       p["stage"],
+            "package":       p["package"],
             "invoiceStatus": INVOICE_FRIENDLY.get(p["invoiceStatus"], p["invoiceStatus"] or ""),
             "deliverables":  p["features"],
             "quarters":      p["quarters"],
