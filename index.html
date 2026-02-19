@@ -103,23 +103,27 @@
       background: var(--navy-mid);
       padding: 0 40px;
       display: flex;
-      gap: 4px;
+      gap: 2px;
       border-bottom: 1px solid rgba(255,255,255,0.08);
       overflow-x: auto;
     }
     .nav-tab {
-      padding: 12px 18px;
-      color: rgba(255,255,255,0.5);
-      font-size: 13px;
-      font-weight: 500;
+      padding: 11px 18px 13px;
+      color: rgba(255,255,255,0.45);
       cursor: pointer;
       border-bottom: 2px solid transparent;
       transition: all 0.2s;
       user-select: none;
       white-space: nowrap;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
     }
+    .nav-tab-name { font-size: 13px; font-weight: 600; line-height: 1.2; }
+    .nav-tab-desc { font-size: 10px; font-weight: 400; opacity: 0.75; letter-spacing: 0.01em; }
     .nav-tab:hover { color: rgba(255,255,255,0.8); }
     .nav-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+    .nav-tab.active .nav-tab-desc { opacity: 1; }
 
     /* ── SECTIONS ── */
     .section { display: none; padding: 32px 40px; max-width: 1400px; margin: 0 auto; }
@@ -453,12 +457,30 @@
 
   <!-- NAV TABS -->
   <div class="nav-tabs">
-    <div class="nav-tab active" onclick="showTab('overview',this)">Overview</div>
-    <div class="nav-tab" onclick="showTab('search',this)">Partner Search</div>
-    <div class="nav-tab" onclick="showTab('assets',this)">Assets</div>
-    <div class="nav-tab" onclick="showTab('planner',this)">Scenario Planner</div>
-    <div class="nav-tab" onclick="showTab('next-steps',this)">Next Steps</div>
-    <div class="nav-tab" onclick="showTab('team',this)">Team Updates</div>
+    <div class="nav-tab active" onclick="showTab('overview',this)">
+      <span class="nav-tab-name">Overview</span>
+      <span class="nav-tab-desc">Program snapshot & metrics</span>
+    </div>
+    <div class="nav-tab" onclick="showTab('search',this)">
+      <span class="nav-tab-name">Partners</span>
+      <span class="nav-tab-desc">Search & manage partners</span>
+    </div>
+    <div class="nav-tab" onclick="showTab('assets',this)">
+      <span class="nav-tab-name">Assets</span>
+      <span class="nav-tab-desc">Upload & review partner content</span>
+    </div>
+    <div class="nav-tab" onclick="showTab('planner',this)">
+      <span class="nav-tab-name">Revenue Planner</span>
+      <span class="nav-tab-desc">Scenario & package modeling</span>
+    </div>
+    <div class="nav-tab" onclick="showTab('next-steps',this)">
+      <span class="nav-tab-name">Priorities</span>
+      <span class="nav-tab-desc">Weekly action items</span>
+    </div>
+    <div class="nav-tab" onclick="showTab('team',this)">
+      <span class="nav-tab-name">Team</span>
+      <span class="nav-tab-desc">Highlights & team notes</span>
+    </div>
   </div>
 </div>
 
