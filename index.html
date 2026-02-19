@@ -2503,10 +2503,8 @@ async function buildNeedsReview() {
       </div>
       <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
         ${stageBadge(p.stage)}
-        <a href="${p.streakUrl}" target="_blank" rel="noopener"
-          style="background:var(--indigo,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;text-decoration:none;">
-          Open in Streak
-        </a>
+        <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
+          style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
       </div>
     </div>`).join('');
 
