@@ -550,7 +550,10 @@
         const timings = lookup[d.name] || [];
         const assets  = (p.resources || {})[d.name] || [];
         const assetPills = assets.map(a => {
-          const isPdf = a.path.toLowerCase().endsWith('.pdf');
+          if (a.assetType === 'url' || (!a.path && a.url)) {
+            return `<a href="${a.url}" target="_blank" rel="noopener" class="asset-pill"><span style="font-size:18px;flex-shrink:0;line-height:1;">🔗</span><span>${a.label || d.label}</span></a>`;
+          }
+          const isPdf = a.path && a.path.toLowerCase().endsWith('.pdf');
           const thumb = isPdf
             ? `<span style="font-size:20px;flex-shrink:0;line-height:1;">📄</span>`
             : `<img src="${a.path}" class="asset-thumb" alt="${a.label}" onerror="this.style.display='none'">`;
