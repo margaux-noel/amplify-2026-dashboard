@@ -314,6 +314,7 @@
       margin-top: auto;
     }
     .contact-link:hover { background: #2a2a2a; }
+    button.contact-link { border: none; cursor: pointer; font-family: inherit; }
     @media (max-width: 600px) {
       .contact-row { flex-direction: column; }
     }
@@ -366,6 +367,14 @@
 </div>
 
 <script>
+  function copyEmail(btn) {
+    navigator.clipboard.writeText('partners@foratravel.com').then(() => {
+      const orig = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = orig; }, 2000);
+    });
+  }
+
   // ── Package definitions ───────────────────────────────────────
   const PACKAGE_DELIVERABLES = {
     'Tier 1': [
@@ -708,7 +717,7 @@
               <h3>Questions?</h3>
               <p>Reach out to your Amplify contact or email us directly.</p>
             </div>
-            <a href="mailto:partners@foratravel.com" class="contact-link">Email us →</a>
+            <button class="contact-link" onclick="copyEmail(this)">Copy email address</button>
           </div>
 
           <div class="contact-card">
