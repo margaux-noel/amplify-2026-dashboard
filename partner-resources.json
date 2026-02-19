@@ -308,6 +308,19 @@
       "partnerKeys": [],
       "status": "live",
       "uploadedAt": "2026-02-19T20:45:58.030Z"
+    },
+    {
+      "id": "1771539112209",
+      "deliverable": "Newsletter",
+      "label": "January Newsletter Feature",
+      "url": "https://emails.foratravel.com/-temporary-slug-e00b6d61-6bd1-45cf-92e6-317b5947fb66?hs_preview=wDEaZNFm-204798816437",
+      "path": "",
+      "assetType": "url",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T22:11:52.209Z"
     }
   ]
 }
