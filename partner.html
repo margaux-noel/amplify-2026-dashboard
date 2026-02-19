@@ -339,7 +339,7 @@
 </div>
 
 <div class="footer">
-  <p>Fora Travel · <a href="mailto:suppliers@foratravel.com" style="color:var(--tlight);">suppliers@foratravel.com</a> · Updated <span id="footerDate"></span></p>
+  <p>Fora Travel · <a href="mailto:partners@foratravel.com" style="color:var(--tlight);">partners@foratravel.com</a> · Updated <span id="footerDate"></span></p>
 </div>
 
 <script>
@@ -417,16 +417,16 @@
     'Paid':                              { icon: '✓', bg: '#e8f5ee', color: '#1a6b3a', sub: 'Thank you — your payment has been received.' },
     'Invoice sent — payment pending':    { icon: '⏳', bg: '#fdf6e3', color: '#7a5c00', sub: 'Your invoice has been sent. Please arrange payment at your earliest convenience.' },
     'Invoice coming soon':               { icon: '📄', bg: '#f3ebe2', color: '#827363', sub: 'We\'ll be in touch with your invoice shortly.' },
-    'Awaiting your billing information': { icon: '📋', bg: '#fdf6e3', color: '#7a5c00', sub: 'Please send your billing details to suppliers@foratravel.com so we can issue your invoice.' },
+    'Awaiting your billing information': { icon: '📋', bg: '#fdf6e3', color: '#7a5c00', sub: 'Please send your billing details to partners@foratravel.com so we can issue your invoice.' },
     'In-kind partnership':               { icon: '🤝', bg: '#ecedf8', color: '#333880', sub: 'This partnership is recorded as in-kind.' },
-    'On hold — please contact us':       { icon: '⚠', bg: '#fdf0f0', color: '#870d13', sub: 'Please reach out to suppliers@foratravel.com.' },
+    'On hold — please contact us':       { icon: '⚠', bg: '#fdf0f0', color: '#870d13', sub: 'Please reach out to partners@foratravel.com.' },
   };
 
   // ── Main render ───────────────────────────────────────────────
   const app = document.getElementById('app');
 
   if (typeof PARTNER_PUBLIC_DATA === 'undefined') {
-    renderError('Data unavailable', 'Partner data could not be loaded. Please try again or contact suppliers@foratravel.com.');
+    renderError('Data unavailable', 'Partner data could not be loaded. Please try again or contact partners@foratravel.com.');
   } else {
     const params = new URLSearchParams(window.location.search);
     const key    = params.get('key');
@@ -445,7 +445,7 @@
       <div class="error-wrap">
         <h2>${title}</h2>
         <p>${msg}</p>
-        <a href="mailto:suppliers@foratravel.com" style="color:var(--olive);font-weight:600;">suppliers@foratravel.com</a>
+        <a href="mailto:partners@foratravel.com" style="color:var(--olive);font-weight:600;">partners@foratravel.com</a>
       </div>`;
   }
 
@@ -514,7 +514,7 @@
     }
 
     // ── Invoice section ──
-    const invStyle = INVOICE_STYLE[p.invoiceStatus] || { icon: '📄', bg: '#f3ebe2', color: '#827363', sub: 'For invoice enquiries, please contact suppliers@foratravel.com.' };
+    const invStyle = INVOICE_STYLE[p.invoiceStatus] || { icon: '📄', bg: '#f3ebe2', color: '#827363', sub: 'For invoice enquiries, please contact partners@foratravel.com.' };
     const invoiceHtml = `
       <div class="invoice-card">
         <div class="invoice-icon" style="background:${invStyle.bg};color:${invStyle.color};">${invStyle.icon}</div>
@@ -575,7 +575,7 @@
             <h3>Questions about your partnership?</h3>
             <p>Reach out to the Fora Amplify team — we're happy to help.</p>
           </div>
-          <a href="mailto:suppliers@foratravel.com" class="contact-link">Contact us →</a>
+          <a href="mailto:partners@foratravel.com" class="contact-link">Contact us →</a>
         </div>
       </div>`;
   }
