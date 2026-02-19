@@ -3,43 +3,43 @@
 
 const AMPLIFY_DATA = {
   "lastUpdated": "Feb 19, 2026",
-  "signedCount": 247,
-  "totalSigned": 1101500,
+  "signedCount": 250,
+  "totalSigned": 1119500,
   "totalPipeline": 1201500,
-  "paid": 600000,
-  "outstanding": 501500,
+  "paid": 648000,
+  "outstanding": 471500,
   "waitingBilling": 13000,
   "inKind": 0,
-  "needsInvoice": 31000,
-  "needsInvoiceCount": 6,
+  "needsInvoice": 13000,
+  "needsInvoiceCount": 3,
   "inDiscussion": 65000,
   "inDiscussionCount": 66,
   "finalFollowUp": 4000,
   "finalFollowUpCount": 148,
-  "marketingComplete": 7000,
+  "marketingComplete": 12000,
   "byStage": {
     "Tier 1": 646500,
+    "Brand Spotlight": 221000,
     "New Opening": 86000,
-    "Brand Spotlight": 216000,
-    "Tier 2": 146000,
-    "Marketing Complete": 7000
+    "Tier 2": 154000,
+    "Marketing Complete": 12000
   },
   "countByStage": {
     "Tier 1": 184,
+    "Brand Spotlight": 26,
     "New Opening": 15,
-    "Brand Spotlight": 25,
-    "Tier 2": 21,
-    "Marketing Complete": 2
+    "Tier 2": 22,
+    "Marketing Complete": 3
   },
   "pipelineByStage": {
-    "Needs Invoice": 31000,
     "In Discussion": 65000,
-    "Final Follow Up": 4000
+    "Final Follow Up": 4000,
+    "Needs Invoice": 13000
   },
   "pipelineCountByStage": {
-    "Needs Invoice": 6,
     "In Discussion": 66,
-    "Final Follow Up": 148
+    "Final Follow Up": 148,
+    "Needs Invoice": 3
   },
   "funnel": [
     {
@@ -51,14 +51,14 @@ const AMPLIFY_DATA = {
     {
       "label": "Signed \u2014 Brand Spotlight",
       "stageKey": "5016",
-      "count": 25,
-      "value": 216000
+      "count": 26,
+      "value": 221000
     },
     {
       "label": "Signed \u2014 Tier 2",
       "stageKey": "5015",
-      "count": 21,
-      "value": 146000
+      "count": 22,
+      "value": 154000
     },
     {
       "label": "Signed \u2014 New Opening",
@@ -69,14 +69,14 @@ const AMPLIFY_DATA = {
     {
       "label": "Signed \u2014 Marketing Complete",
       "stageKey": "5007",
-      "count": 2,
-      "value": 7000
+      "count": 3,
+      "value": 12000
     },
     {
       "label": "Needs Invoice",
       "stageKey": "5011",
-      "count": 6,
-      "value": 31000
+      "count": 3,
+      "value": 13000
     },
     {
       "label": "In Discussion",
@@ -160,13 +160,28 @@ const AMPLIFY_DATA = {
     },
     {
       "month": "Feb 2026",
-      "count": 40,
-      "value": 180000,
-      "cumCount": 247,
-      "cumValue": 1101500
+      "count": 43,
+      "value": 198000,
+      "cumCount": 250,
+      "cumValue": 1119500
     }
   ],
   "newThisWeek": [
+    {
+      "name": "Solaz a Luxury Collection Resort Los Cabos",
+      "stage": "Tier 2",
+      "price": 8000
+    },
+    {
+      "name": "South Bank - Grace Bay Resorts",
+      "stage": "Brand Spotlight",
+      "price": 5000
+    },
+    {
+      "name": "Stein Eriksen Lodge Deer Valley",
+      "stage": "Marketing Complete",
+      "price": 5000
+    },
     {
       "name": "W Sardinia",
       "stage": "Tier 1",
@@ -208,16 +223,16 @@ const AMPLIFY_DATA = {
     "Webinar": 5
   },
   "quarters": {
-    "TBD": 96,
+    "TBD": 97,
+    "Q3": 17,
     "Q2": 76,
-    "Q3": 16,
     "Q4": 4,
-    "Q1": 68
+    "Q1": 69
   },
   "topCountries": [
     [
       "USA",
-      65
+      66
     ],
     [
       "Italy",
@@ -228,11 +243,11 @@ const AMPLIFY_DATA = {
       16
     ],
     [
-      "Greece",
-      15
+      "Mexico",
+      16
     ],
     [
-      "Mexico",
+      "Greece",
       15
     ],
     [
@@ -259,7 +274,7 @@ const AMPLIFY_DATA = {
   "topGroups": [
     [
       "Marriott International",
-      46
+      47
     ],
     [
       "Accor",
@@ -316,6 +331,10 @@ const AMPLIFY_DATA = {
       8
     ],
     [
+      "Luxury Collection",
+      6
+    ],
+    [
       "Grecotel",
       6
     ],
@@ -329,10 +348,6 @@ const AMPLIFY_DATA = {
     ],
     [
       "Dorchester Collection",
-      5
-    ],
-    [
-      "Luxury Collection",
       5
     ],
     [
@@ -1026,7 +1041,7 @@ const AMPLIFY_DATA = {
       "stage": "Brand Spotlight",
       "stageKey": "5016",
       "price": 10000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SCn69GVqrSpNJ57Ex4gtltQ",
       "features": [
         {
@@ -1169,7 +1184,7 @@ const AMPLIFY_DATA = {
       "stage": "Tier 1",
       "stageKey": "5014",
       "price": 4000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SNHloGVqrSpNJ57vyc77K6P",
       "features": [
         {
@@ -1704,7 +1719,7 @@ const AMPLIFY_DATA = {
       "stage": "Tier 1",
       "stageKey": "5014",
       "price": 4000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sg3XOGVqrSpNJ57K5Vwa5ba",
       "features": [
         {
@@ -3173,7 +3188,7 @@ const AMPLIFY_DATA = {
       "stage": "Brand Spotlight",
       "stageKey": "5016",
       "price": 10000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ScBAXGVqrSpNJ57a1w2xG8e",
       "features": [],
       "quarters": [],
@@ -3894,7 +3909,7 @@ const AMPLIFY_DATA = {
       "stage": "Brand Spotlight",
       "stageKey": "5016",
       "price": 10000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1ScBAXGVqrSpNJ57a1w2xG8e",
       "features": [
         {
@@ -4721,6 +4736,40 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eS2Cgw"
     },
     {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww",
+      "name": "Solaz a Luxury Collection Resort Los Cabos",
+      "stage": "Tier 2",
+      "stageKey": "5015",
+      "price": 8000,
+      "invoiceStatus": "Outstanding",
+      "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Z50GVqrSpNJ57yVktc7dW",
+      "features": [],
+      "quarters": [],
+      "country": "Mexico",
+      "brand": "Luxury Collection",
+      "group": "Marriott International",
+      "email": "Stephany.morales@luxurycollection.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw",
+      "name": "South Bank - Grace Bay Resorts",
+      "stage": "Brand Spotlight",
+      "stageKey": "5016",
+      "price": 5000,
+      "invoiceStatus": "Outstanding",
+      "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Yz3GVqrSpNJ571P4dqKhM",
+      "features": [],
+      "quarters": [
+        "Q3"
+      ],
+      "country": "Turks and Caicos",
+      "brand": "Grace Bay Resorts",
+      "group": "Grace Bay Resorts",
+      "email": "sara.archibald@gracebayresorts.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw"
+    },
+    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww",
       "name": "Southall Farm & Inn",
       "stage": "Tier 1",
@@ -4740,6 +4789,24 @@ const AMPLIFY_DATA = {
       "group": "",
       "email": "twaslewski@southalltn.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTuCww"
+    },
+    {
+      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw",
+      "name": "Stein Eriksen Lodge Deer Valley",
+      "stage": "Marketing Complete",
+      "stageKey": "5007",
+      "price": 5000,
+      "invoiceStatus": "Outstanding",
+      "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1T2Z0aGVqrSpNJ57y2OZbyqt",
+      "features": [],
+      "quarters": [
+        "Q1"
+      ],
+      "country": "USA",
+      "brand": "Stein Eriksen",
+      "group": "Stein Eriksen",
+      "email": "acrider@steinlodge.com",
+      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXkCww",
@@ -6025,7 +6092,7 @@ const AMPLIFY_DATA = {
       "stage": "New Opening",
       "stageKey": "5017",
       "price": 6000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SyzuDGVqrSpNJ57uOvFAYBB",
       "features": [
         {
@@ -6367,7 +6434,7 @@ const AMPLIFY_DATA = {
       "stage": "Tier 1",
       "stageKey": "5014",
       "price": 4000,
-      "invoiceStatus": "Outstanding",
+      "invoiceStatus": "Paid",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1SnKtdGVqrSpNJ57g0IUZZz3/edit",
       "features": [
         {
@@ -9355,40 +9422,6 @@ const AMPLIFY_DATA = {
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXLo_voCgw"
     },
     {
-      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww",
-      "name": "Solaz a Luxury Collection Resort Los Cabos",
-      "stage": "Needs Invoice",
-      "stageKey": "5011",
-      "price": 8000,
-      "invoiceStatus": "To Invoice",
-      "invoiceUrl": "",
-      "features": [],
-      "quarters": [],
-      "country": "Mexico",
-      "brand": "Luxury Collection",
-      "group": "Marriott International",
-      "email": "Stephany.morales@luxurycollection.com",
-      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSuCww"
-    },
-    {
-      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw",
-      "name": "South Bank - Grace Bay Resorts",
-      "stage": "Needs Invoice",
-      "stageKey": "5011",
-      "price": 5000,
-      "invoiceStatus": "To Invoice",
-      "invoiceUrl": "",
-      "features": [],
-      "quarters": [
-        "Q3"
-      ],
-      "country": "Turks and Caicos",
-      "brand": "Grace Bay Resorts",
-      "group": "Grace Bay Resorts",
-      "email": "sara.archibald@gracebayresorts.com",
-      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWrjYjaCQw"
-    },
-    {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCgw",
       "name": "Steigenberger Icon Frankfurter Hof",
       "stage": "Final Follow Up",
@@ -9403,24 +9436,6 @@ const AMPLIFY_DATA = {
       "group": "Deutsche Hospitality",
       "email": "luisa.lautner@deutschehospitality.com",
       "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eThCgw"
-    },
-    {
-      "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw",
-      "name": "Stein Eriksen Lodge Deer Valley",
-      "stage": "Needs Invoice",
-      "stageKey": "5011",
-      "price": 5000,
-      "invoiceStatus": "To Invoice",
-      "invoiceUrl": "",
-      "features": [],
-      "quarters": [
-        "Q1"
-      ],
-      "country": "USA",
-      "brand": "Stein Eriksen",
-      "group": "Stein Eriksen",
-      "email": "acrider@steinlodge.com",
-      "streakUrl": "https://app.streak.com/pipelines/agxzfm1haWxmb29nYWVyNQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIIV29ya2Zsb3cYgIDFtcWIugoM/boxes/agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw"
     },
     {
       "key": "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eSxCAw",
