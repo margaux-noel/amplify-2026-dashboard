@@ -379,14 +379,12 @@
       { name: 'Forum',         label: 'Live Forum Pre-Sale Access', icon: '⭐', count: 1, alwaysYes: true },
     ],
     'New Opening': [
-      { name: 'Collection',     label: 'Collection Feature',   icon: '🗂', count: 1 },
-      { name: 'Journal Article',label: 'Journal Article',      icon: '📝', count: 1 },
-      { name: 'Social Media',   label: 'Social Media Feature', icon: '📱', count: 1 },
-      { name: 'Forum',          label: 'Forum Post',           icon: '💬', count: 1 },
+      { name: 'Collection',  label: 'Collection Feature',  icon: '🗂', count: 1 },
+      { name: 'Social Media',label: 'Social Media Feature', icon: '📱', count: 1 },
+      { name: 'Forum',       label: 'Forum Post',           icon: '💬', count: 1 },
     ],
     'New Opening + Advisor Assets': [
       { name: 'Collection',     label: 'Collection Feature',   icon: '🗂', count: 1 },
-      { name: 'Journal Article',label: 'Journal Article',      icon: '📝', count: 1 },
       { name: 'Social Media',   label: 'Social Media Feature', icon: '📱', count: 1 },
       { name: 'Forum',          label: 'Forum Post',           icon: '💬', count: 1 },
       { name: 'Advisor Assets', label: 'Advisor Assets',       icon: '📦', count: 1 },
@@ -499,25 +497,20 @@
   }
 
   function renderPartner(p) {
-    const pkgColor  = PKG_COLORS[p.package] || { bg: '#f3ebe2', color: '#827363' };
-    // Look up deliverables — handle bespoke "Base + Add-on" packages automatically
-    let delivDefs = PACKAGE_DELIVERABLES[p.package];
-    if (!delivDefs) {
-      const baseName = p.package.split('+')[0].trim();
-      const base = PACKAGE_DELIVERABLES[baseName];
-      if (base) {
-        // Start with base package, add any extra deliverables from Streak not already in base
-        const baseNames = new Set(base.map(d => d.name));
-        const extras = (p.deliverables || [])
-          .filter(d => !baseNames.has(d.name))
-          .map(d => ({ name: d.name, label: d.name, icon: DELIV_ICONS[d.name] || '📋', count: 1 }));
-        delivDefs = [...base, ...extras];
-      } else {
-        delivDefs = (p.deliverables || []).map(d => ({
-          name: d.name, label: d.name, icon: DELIV_ICONS[d.name] || '📋', count: 1,
-        }));
-      }
-    }
+    const pkgColor  = PKG_COLORS[p.package] || PKG_COLORS[p.package.split('+')[0].trim()] || { bg: '#f3ebe2', color: '#827363' };
+    // pillDefs: standard package template for the "Your Package" pills at top
+    const pillDefs = PACKAGE_DELIVERABLES[p.package] || PACKAGE_DELIVERABLES[p.package.split('+')[0].trim()] || [];
+    // delivDefs: use Streak deliverables as source of truth for the table, enriched with template labels/icons
+    const templateMap = {};
+    pillDefs.forEach(d => templateMap[d.name] = d);
+    const streakDelivs = p.deliverables || [];
+    const delivNames = new Set(streakDelivs.map(d => d.name));
+    const delivDefs = [
+      // All deliverables actually in Streak (with proper labels from template if available)
+      ...streakDelivs.map(d => templateMap[d.name] || { name: d.name, label: d.name, icon: DELIV_ICONS[d.name] || '📋', count: 1 }),
+      // Plus any alwaysYes items from template not in Streak (e.g. Forum Pre-Sale Access)
+      ...pillDefs.filter(d => d.alwaysYes && !delivNames.has(d.name)),
+    ];
 
     // ── Hero ──
     const heroHtml = `
@@ -526,8 +519,8 @@
         <div class="hero-name">${p.name}</div>
       </div>`;
 
-    // ── Package pills ──
-    const pillsHtml = delivDefs.map(d => {
+    // ── Package pills (use standard template, not bespoke Streak data) ──
+    const pillsHtml = pillDefs.map(d => {
       const qty = d.count > 1 ? `<div class="pkg-pill-qty">×${d.count}</div>` : '';
       return `
         <div class="pkg-pill">
