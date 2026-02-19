@@ -495,6 +495,18 @@
     .live-group.open .live-group-chevron { transform: rotate(180deg); }
     .live-group-body { display: none; }
     .live-group.open .live-group-body { display: block; }
+    /* Live asset sub-groups (deliverable level) */
+    .live-subgroup { border-top: 1px solid var(--border); }
+    .live-subgroup-header { display: flex; align-items: center; gap: 8px; padding: 9px 16px 9px 22px; cursor: pointer; user-select: none; background: var(--white); }
+    .live-subgroup-header:hover { background: var(--dark-sand); }
+    .live-subgroup-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--stone); }
+    .live-subgroup-count { font-size: 11px; color: var(--text-light); }
+    .live-subgroup-chevron { margin-left: auto; font-size: 10px; color: var(--text-light); transition: transform 0.2s; }
+    .live-subgroup.open .live-subgroup-chevron { transform: rotate(180deg); }
+    .live-subgroup-body { display: none; }
+    .live-subgroup.open .live-subgroup-body { display: block; }
+    /* Duplicate notice above partner selector */
+    .ps-dup-notice { background: #fdf6e3; border: 1px solid #c9a800; border-radius: 7px; padding: 7px 12px; font-size: 12px; font-weight: 600; color: #7a5c00; margin-bottom: 6px; display: none; }
     .live-row { display: flex; align-items: center; gap: 14px; padding: 11px 16px; border-top: 1px solid var(--border); }
     .live-row-preview { flex-shrink: 0; }
     .live-row-info { flex: 1; min-width: 0; }
@@ -1012,6 +1024,7 @@
           <div class="partner-selector-search">
             <input type="text" id="ps-search" placeholder="Search partners…" oninput="filterPartnerSelector(this.value)" onkeydown="psSearchKeydown(event)">
           </div>
+          <div class="ps-dup-notice" id="ps-dup-notice"></div>
           <div class="partner-selector-list" id="ps-list">
             <div style="padding:12px;color:var(--text-light);font-size:13px;">Loading partners…</div>
           </div>
@@ -1303,26 +1316,40 @@ function updateLabelPreview() {
 }
 
 async function updateDelivFlags() {
-  // Clear existing flags
+  // Clear existing flags and notice
   document.querySelectorAll('#ps-list .ps-dup-flag').forEach(el => el.remove());
+  const notice = document.getElementById('ps-dup-notice');
+  if (notice) { notice.style.display = 'none'; notice.textContent = ''; }
   const deliv = document.getElementById('af-deliverable').value;
   const month = document.getElementById('af-month').value;
   if (!deliv || !month) return;
   if (!_publicAssetsFetch) _prefetchPublicAssets();
   await _publicAssetsFetch;
   const targetLabel = `${month} ${deliv} Feature`;
-  (_allAssets || []).filter(a => a.deliverable === deliv && a.label === targetLabel).forEach(a => {
+  // Match on deliverable + month anywhere in label (handles label variations)
+  const matches = (_allAssets || []).filter(a =>
+    a.deliverable === deliv && (_labelMonth(a.label) || '').toLowerCase() === month.toLowerCase()
+  );
+  const flaggedKeys = new Set();
+  matches.forEach(a => {
     (a.partnerKeys || []).forEach(key => {
       const item = document.querySelector(`#ps-list .partner-selector-item[data-key="${key}"]`);
       if (!item) return;
-      if (item.querySelector('.ps-dup-flag')) return; // already flagged
+      if (item.querySelector('.ps-dup-flag')) return;
       const flag = document.createElement('span');
       flag.className = `ps-dup-flag ${a.status === 'live' ? 'live' : 'draft'}`;
       flag.textContent = a.status === 'live' ? '⚠ already live' : '⚠ pending';
-      flag.title = `Already has "${targetLabel}" (${a.status})`;
+      flag.title = `Already has "${a.label}" (${a.status})`;
       item.appendChild(flag);
+      flaggedKeys.add(key);
     });
   });
+  // Show summary notice
+  if (notice && flaggedKeys.size > 0) {
+    const liveCount = matches.filter(a => a.status === 'live').reduce((s, a) => s + (a.partnerKeys || []).length, 0);
+    notice.textContent = `⚠ ${flaggedKeys.size} partner${flaggedKeys.size !== 1 ? 's' : ''} already have a ${deliv} asset for ${month} — flagged below`;
+    notice.style.display = 'block';
+  }
 }
 
 function setAssetType(type, btn) {
@@ -1395,6 +1422,7 @@ async function submitAsset(btn) {
     document.getElementById('af-preview-pdf').style.display = 'none';
     document.getElementById('af-label-preview').textContent = '';
     document.querySelectorAll('#ps-list .ps-dup-flag').forEach(el => el.remove());
+    const _dn = document.getElementById('ps-dup-notice'); if (_dn) { _dn.style.display = 'none'; _dn.textContent = ''; }
     document.getElementById('ps-search').value = '';
     filterPartnerSelector('');
     clearAllPartners();
@@ -1616,42 +1644,60 @@ function _normalizeLabel(label) {
 }
 
 function buildLiveGroups(live, pNames, base) {
+  // Group by month, then by deliverable
   const byMonth = {};
   live.forEach(a => {
     const month = _labelMonth(a.label) || 'Other';
-    if (!byMonth[month]) byMonth[month] = [];
-    byMonth[month].push(a);
+    const deliv = a.deliverable || 'Other';
+    if (!byMonth[month]) byMonth[month] = {};
+    if (!byMonth[month][deliv]) byMonth[month][deliv] = [];
+    byMonth[month][deliv].push(a);
   });
   const sortedMonths = Object.keys(byMonth).sort((a, b) => (_MONTH_ORDER[a] || 99) - (_MONTH_ORDER[b] || 99));
 
-  return sortedMonths.map((month, idx) => {
-    const assets = byMonth[month];
-    const rows = assets.map(a => {
-      const isUrl = a.assetType === 'url' || (!a.path && a.url);
-      const isPdf = !isUrl && a.path && a.path.toLowerCase().endsWith('.pdf');
-      const partners = (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
-      const displayLabel = _normalizeLabel(a.label) || a.deliverable;
-      const preview = isUrl
-        ? `<a href="${a.url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--olive);font-weight:600;text-decoration:none;white-space:nowrap;">🔗 View</a>`
-        : isPdf
+  return sortedMonths.map((month, mIdx) => {
+    const byDeliv = byMonth[month];
+    const sortedDelivs = Object.keys(byDeliv).sort();
+    const totalCount = sortedDelivs.reduce((sum, d) => sum + byDeliv[d].length, 0);
+
+    const subgroups = sortedDelivs.map(deliv => {
+      const assets = byDeliv[deliv];
+      const rows = assets.map(a => {
+        const isUrl = a.assetType === 'url' || (!a.path && a.url);
+        const isPdf = !isUrl && a.path && a.path.toLowerCase().endsWith('.pdf');
+        const partners = (a.partnerKeys || []).map(k => pNames[k] || k).join(', ');
+        const displayLabel = _normalizeLabel(a.label) || a.deliverable;
+        const preview = isUrl
+          ? `<a href="${a.url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--olive);font-weight:600;text-decoration:none;white-space:nowrap;">🔗 View</a>`
+          : isPdf
           ? `<a href="${base}/${a.path}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--olive);font-weight:600;text-decoration:none;">📄 PDF</a>`
           : `<a href="${base}/${a.path}" target="_blank" rel="noopener"><img src="${base}/${a.path}" style="width:56px;height:40px;object-fit:cover;border-radius:5px;border:1px solid var(--border);display:block;" onerror="this.style.display='none'"></a>`;
-      return `<div class="live-row">
-        <div class="live-row-preview">${preview}</div>
-        <div class="live-row-info">
-          <div class="live-row-deliv">${displayLabel}</div>
-          <div class="live-row-partners">${partners || '—'}</div>
+        return `<div class="live-row">
+          <div class="live-row-preview">${preview}</div>
+          <div class="live-row-info">
+            <div class="live-row-deliv">${displayLabel}</div>
+            <div class="live-row-partners">${partners || '—'}</div>
+          </div>
+          <button class="btn-remove" onclick="removeAsset('${a.id}',this)">Remove</button>
+        </div>`;
+      }).join('');
+      return `<div class="live-subgroup open">
+        <div class="live-subgroup-header" onclick="this.parentElement.classList.toggle('open')">
+          <span class="live-subgroup-title">${deliv}</span>
+          <span class="live-subgroup-count">${assets.length} asset${assets.length !== 1 ? 's' : ''}</span>
+          <span class="live-subgroup-chevron">▼</span>
         </div>
-        <button class="btn-remove" onclick="removeAsset('${a.id}',this)">Remove</button>
+        <div class="live-subgroup-body">${rows}</div>
       </div>`;
     }).join('');
-    return `<div class="live-group${idx === 0 ? ' open' : ''}">
+
+    return `<div class="live-group${mIdx === 0 ? ' open' : ''}">
       <div class="live-group-header" onclick="this.parentElement.classList.toggle('open')">
         <span class="live-group-title">${month}</span>
-        <span class="live-group-count">${assets.length} asset${assets.length !== 1 ? 's' : ''}</span>
+        <span class="live-group-count">${totalCount} asset${totalCount !== 1 ? 's' : ''}</span>
         <span class="live-group-chevron">▼</span>
       </div>
-      <div class="live-group-body">${rows}</div>
+      <div class="live-group-body">${subgroups}</div>
     </div>`;
   }).join('');
 }
