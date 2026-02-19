@@ -508,6 +508,18 @@
     .ps-dup-flag { margin-left: auto; font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 10px; white-space: nowrap; flex-shrink: 0; pointer-events: none; }
     .ps-dup-flag.draft { background: #fdf6e3; color: #7a5c00; border: 1px solid #c9a800; }
     .ps-dup-flag.live  { background: #fdf6e3; color: #7a5c00; border: 1px solid #c9a800; }
+    /* Needs Review panel */
+    .nr-panel { background: #fffbf0; border: 1px solid #c9a800; border-radius: 10px; margin-bottom: 16px; overflow: hidden; }
+    .nr-panel-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; cursor: pointer; user-select: none; font-weight: 600; font-size: 13px; color: #7a5c00; }
+    .nr-panel-header:hover { background: #fdf6e3; }
+    .nr-panel-body { border-top: 1px solid #e8d87a; }
+    .nr-panel-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid #f3edd4; font-size: 13px; gap: 12px; }
+    .nr-panel-row:last-child { border-bottom: none; }
+    .nr-missing-list { font-size: 11px; color: #7a5c00; margin-top: 2px; opacity: 0.85; }
+    /* Progress bar in search table */
+    .prog-bar-wrap { background: #e9e4dd; border-radius: 4px; height: 5px; width: 60px; overflow: hidden; display: inline-block; vertical-align: middle; margin-left: 6px; }
+    .prog-bar-fill { height: 5px; border-radius: 4px; background: var(--olive, #77742A); }
+    .prog-cell { font-size: 12px; color: var(--text-main); white-space: nowrap; }
   </style>
 </head>
 <body>
@@ -903,6 +915,8 @@
   </div>
   <div class="result-count" id="searchResultCount"></div>
 
+  <div id="needs-review-section" style="display:none; margin-top:16px;"></div>
+
   <div class="chart-card" style="padding: 0; overflow: hidden; margin-top: 12px;">
     <div class="table-wrap">
       <table>
@@ -914,7 +928,7 @@
             <th class="sortable" onclick="sortPartners('invoiceStatus')" id="sth-invoiceStatus">Invoice Status <i class="sort-icon">↕</i></th>
             <th>Deliverable Quarter(s)</th>
             <th class="sortable" onclick="sortPartners('country')" id="sth-country">Country <i class="sort-icon">↕</i></th>
-            <th>Features</th>
+            <th>Progress</th>
             <th>Links</th>
           </tr>
         </thead>
@@ -1065,7 +1079,7 @@ function showTab(tab, el) {
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
   if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); _prefetchPublicAssets(); if (!ghToken()) openSettings(); }
-  if (tab === 'search') _prefetchPublicAssets();
+  if (tab === 'search') { _prefetchPublicAssets(); buildNeedsReview(); }
   localStorage.setItem('amplifyTab', tab);
 }
 
@@ -2251,11 +2265,22 @@ function _runFilter() {
   }
 
   results.slice(0, 100).forEach(p => {
-    const featStr = (p.features || []).map(f => typeof f === 'object' ? f.name : f).slice(0, 3).join(', ') +
-      ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
     const qStr = (p.quarters || []).length > 0
       ? (p.quarters || []).join(', ')
       : '<span style="color:var(--text-light)">TBD</span>';
+
+    // Progress column
+    const prog = _delivProgressSimple(p);
+    let progHtml;
+    if (prog && prog.total > 0) {
+      const pct = Math.round(prog.completed / prog.total * 100);
+      const color = prog.completed === prog.total ? 'var(--olive,#77742A)' : (prog.completed > 0 ? '#c9a800' : '#ccc');
+      progHtml = `<span class="prog-cell"><strong>${prog.completed}/${prog.total}</strong><span class="prog-bar-wrap"><span class="prog-bar-fill" style="width:${pct}%;background:${color};"></span></span></span>`;
+    } else {
+      const featStr = (p.features || []).map(f => typeof f === 'object' ? f.name : f).slice(0, 3).join(', ') +
+        ((p.features || []).length > 3 ? ' +' + ((p.features || []).length - 3) : '');
+      progHtml = `<span style="font-size:12px;color:var(--text-light);">${featStr || '—'}</span>`;
+    }
 
     // Main row — built via innerHTML on a detached element (fast)
     const mainTr = document.createElement('tr');
@@ -2266,7 +2291,7 @@ function _runFilter() {
       <td>${invoiceBadge(p.invoiceStatus)}</td>
       <td>${qStr}</td>
       <td>${p.country || '—'}</td>
-      <td style="font-size:12px;color:var(--text-light);">${featStr || '—'}</td>
+      <td>${progHtml}</td>
       <td>
         <a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Streak</a>
         ${p.invoiceUrl ? ` · <a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : ''}
@@ -2294,6 +2319,100 @@ function _runFilter() {
   }
 
   tbody.appendChild(frag);
+}
+
+// ── Deliverable completion progress (synchronous, CRM data only) ─
+function _delivProgressSimple(p) {
+  const expected = PACKAGE_DELIVERABLES[p.stage];
+  if (!expected) return null;
+  const lookup = {};
+  (p.features || []).forEach(f => {
+    const name = typeof f === 'object' ? f.name : f;
+    const raw  = typeof f === 'object' ? (f.timing || '') : '';
+    lookup[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+  });
+  let completed = 0, total = 0;
+  expected.forEach(d => {
+    if (d.alwaysYes) return;
+    const timings = lookup[d.name] || [];
+    const count = Math.max(d.count, timings.length || 1);
+    total += count;
+    const doneCount = timings.filter(t => _delivStatus(t) === 'completed').length;
+    completed += Math.min(doneCount, count);
+  });
+  return { completed, total };
+}
+
+// ── Needs Review: partners marked complete but missing live assets ─
+async function buildNeedsReview() {
+  const section = document.getElementById('needs-review-section');
+  if (!section) return;
+  await _awaitLiveAssets();
+
+  const flagged = [];
+  (window._allPartners || []).forEach(p => {
+    const expected = PACKAGE_DELIVERABLES[p.stage];
+    if (!expected) return;
+    const lookup = {};
+    (p.features || []).forEach(f => {
+      const name = typeof f === 'object' ? f.name : f;
+      const raw  = typeof f === 'object' ? (f.timing || '') : '';
+      lookup[name] = raw ? raw.split(',').map(s => s.trim()).filter(Boolean) : [];
+    });
+    const missing = [];
+    expected.forEach(d => {
+      if (d.alwaysYes) return;
+      const timings = lookup[d.name] || [];
+      const completedTimings = timings.filter(t => _delivStatus(t) === 'completed');
+      if (!completedTimings.length) return;
+      const hasAsset = (_liveAssets || []).some(a =>
+        (a.partnerKeys || []).includes(p.key) && a.deliverable === d.name
+      );
+      if (!hasAsset) missing.push(d.label || d.name);
+    });
+    if (missing.length) flagged.push({ p, missing });
+  });
+
+  if (!flagged.length) {
+    section.style.display = 'none';
+    return;
+  }
+
+  // Remember open/closed state across rebuilds
+  const wasOpen = section.dataset.bodyOpen !== 'false';
+  section.style.display = '';
+  section.innerHTML = `
+    <div class="nr-panel">
+      <div class="nr-panel-header" onclick="
+        const body = this.nextElementSibling;
+        const isOpen = body.style.display !== 'none';
+        body.style.display = isOpen ? 'none' : '';
+        this.querySelector('.nr-chevron').textContent = isOpen ? '▶' : '▼';
+        this.closest('.nr-panel').closest('#needs-review-section').dataset.bodyOpen = !isOpen;
+      ">
+        <span style="font-size:15px;">⚠️</span>
+        <span>Needs Review — ${flagged.length} partner${flagged.length !== 1 ? 's' : ''} marked complete but missing published assets</span>
+        <span class="nr-chevron" style="margin-left:auto;">${wasOpen ? '▼' : '▶'}</span>
+      </div>
+      <div class="nr-panel-body" style="display:${wasOpen ? '' : 'none'};">
+        ${flagged.map(({ p, missing }) => `
+          <div class="nr-panel-row">
+            <div>
+              <strong>${p.name}</strong>
+              <div class="nr-missing-list">Missing assets for: ${missing.join(', ')}</div>
+            </div>
+            <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
+              ${stageBadge(p.stage)}
+              <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
+                style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">
+                View
+              </button>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
 }
 
 async function _expandDetail(rowEl, p) {
