@@ -1138,7 +1138,7 @@ function copyPartnerLink(key, btn) {
   navigator.clipboard.writeText(url).then(() => {
     const orig = btn.textContent;
     btn.textContent = 'Copied!';
-    btn.style.background = '#1a6b3a';
+    btn.style.background = 'var(--navy)';
     setTimeout(() => { btn.textContent = orig; btn.style.background = ''; }, 2000);
   });
 }
