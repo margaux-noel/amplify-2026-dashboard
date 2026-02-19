@@ -24,6 +24,22 @@
       "status": "live",
       "uploadedAt": "2026-02-19T16:08:40.387Z",
       "note": ""
+    },
+    {
+      "id": "1771522164903",
+      "deliverable": "Collection",
+      "label": "January Collection Feature",
+      "path": "partner-assets/collection-1771522164903.png",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3zaffCQw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9j5Cww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWwr5XJCgw",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXIxIyTCgw"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T17:29:26.329Z"
     }
   ]
 }
