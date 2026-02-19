@@ -321,6 +321,17 @@
       ],
       "status": "live",
       "uploadedAt": "2026-02-19T22:11:52.209Z"
+    },
+    {
+      "id": "1771540569714",
+      "deliverable": "Newsletter",
+      "label": "January Newsletter Feature",
+      "path": "partner-assets/newsletter-1771540569714.pdf",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T22:36:10.949Z"
     }
   ]
 }
