@@ -152,21 +152,20 @@
     .pkg-pill-name { font-size: 13px; font-weight: 600; color: var(--text); }
     .pkg-pill-qty  { font-size: 12px; color: var(--tlight); }
 
-    /* ── ASSET THUMBNAILS ── */
-    .asset-attach-row td { padding: 0 18px 12px; }
-    .asset-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    /* ── ASSET COLUMN ── */
     .asset-pill {
       display: inline-flex; align-items: center; gap: 8px;
-      background: var(--dsand); border: 1px solid var(--border);
+      background: var(--dsand); border: 1px solid rgba(119,116,42,0.35);
       border-radius: 8px; padding: 6px 12px 6px 6px;
-      text-decoration: none; color: var(--text); font-size: 12px;
-      transition: border-color 0.15s;
+      text-decoration: none; color: var(--olive); font-size: 12px; font-weight: 600;
+      transition: border-color 0.15s, background 0.15s;
     }
-    .asset-pill:hover { border-color: var(--olive); }
+    .asset-pill:hover { border-color: var(--olive); background: rgba(119,116,42,0.1); }
     .asset-thumb {
-      width: 48px; height: 36px; object-fit: cover;
-      border-radius: 5px; background: var(--shell); flex-shrink: 0;
+      width: 52px; height: 40px; object-fit: cover;
+      border-radius: 5px; background: var(--shell); flex-shrink: 0; border: 1px solid var(--border);
     }
+    .asset-col { vertical-align: middle; min-width: 180px; }
 
     /* ── DELIVERABLES TABLE ── */
     .deliv-table {
@@ -520,7 +519,7 @@
 
     let delivRows = '';
     if (delivDefs.length === 0) {
-      delivRows = `<tr><td colspan="3" style="color:var(--tlight);text-align:center;padding:20px;">Deliverables will be confirmed by your Fora representative.</td></tr>`;
+      delivRows = `<tr><td colspan="4" style="color:var(--tlight);text-align:center;padding:20px;">Deliverables will be confirmed by your Fora representative.</td></tr>`;
     } else {
       delivDefs.forEach(d => {
         if (d.alwaysYes) {
@@ -529,32 +528,35 @@
               <td><strong>${d.label}</strong></td>
               <td style="color:var(--tlight);">—</td>
               <td>${statusBadge('', true)}</td>
+              <td class="asset-col"></td>
             </tr>`;
           return;
         }
         const timings = lookup[d.name] || [];
+        const assets  = (p.resources || {})[d.name] || [];
+        const assetPills = assets.map(a => {
+          const isPdf = a.path.toLowerCase().endsWith('.pdf');
+          const thumb = isPdf
+            ? `<span style="font-size:20px;flex-shrink:0;line-height:1;">📄</span>`
+            : `<img src="${a.path}" class="asset-thumb" alt="${a.label}" onerror="this.style.display='none'">`;
+          return `<a href="${a.path}" target="_blank" rel="noopener" class="asset-pill">${thumb}<span>${a.label || d.label}</span></a>`;
+        }).join('<br style="margin:4px 0;display:block;">');
+
         for (let i = 0; i < d.count; i++) {
           const t      = timings[i] || '';
           const suffix = d.count > 1 ? ` <span style="color:var(--tlight);font-weight:400;font-size:12px;">(${i+1} of ${d.count})</span>` : '';
           const mo     = scheduledMonth(t);
+          // Asset cell: show in first row only, spanning all slots
+          const assetTd = i === 0
+            ? `<td class="asset-col"${d.count > 1 ? ` rowspan="${d.count}"` : ''}>${assetPills}</td>`
+            : '';
           delivRows += `
             <tr>
               <td><strong>${d.label}</strong>${suffix}</td>
               <td style="color:var(--tlight);">${mo || '—'}</td>
               <td>${statusBadge(t, false)}</td>
+              ${assetTd}
             </tr>`;
-        }
-        // Show any approved assets attached to this deliverable
-        const assets = (p.resources || {})[d.name] || [];
-        if (assets.length) {
-          const pills = assets.map(a => {
-            const isPdf = a.path.toLowerCase().endsWith('.pdf');
-            const thumb = isPdf
-              ? `<span style="font-size:22px;flex-shrink:0;">📄</span>`
-              : `<img src="${a.path}" class="asset-thumb" alt="${a.label}" onerror="this.style.display='none'">`;
-            return `<a href="${a.path}" target="_blank" rel="noopener" class="asset-pill">${thumb}<span>${a.label || d.label}</span></a>`;
-          }).join('');
-          delivRows += `<tr class="asset-attach-row"><td colspan="3"><div class="asset-pills">${pills}</div></td></tr>`;
         }
       });
     }
@@ -591,6 +593,7 @@
                 <th>Deliverable</th>
                 <th>Scheduled</th>
                 <th>Status</th>
+                <th>Published Content</th>
               </tr>
             </thead>
             <tbody>${delivRows}</tbody>
