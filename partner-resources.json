@@ -114,6 +114,19 @@
       ],
       "status": "live",
       "uploadedAt": "2026-02-19T17:52:41.698Z"
+    },
+    {
+      "id": "1771523885689",
+      "deliverable": "Journal Article",
+      "label": "January Journal Article Feature",
+      "url": "https://www.foratravel.com/trip-reports/G8KW38/maison-metier-feeling-at-home-in-the-heart-of-new-orleans-brittani-conolty",
+      "path": "",
+      "assetType": "url",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T17:58:05.689Z"
     }
   ]
 }
