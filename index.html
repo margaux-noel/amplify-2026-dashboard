@@ -935,7 +935,7 @@
         <thead>
           <tr>
             <th class="sortable" onclick="sortPartners('name')" id="sth-name">Partner Name <i class="sort-icon">↕</i></th>
-            <th class="sortable" onclick="sortPartners('stageKey')" id="sth-stageKey">Stage <i class="sort-icon">↕</i></th>
+            <th class="sortable" onclick="sortPartners('stageKey')" id="sth-stageKey">Package <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('price')" id="sth-price">Amount <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('invoiceStatus')" id="sth-invoiceStatus">Invoice Status <i class="sort-icon">↕</i></th>
             <th class="sortable" onclick="sortPartners('quarters')" id="sth-quarters">Deliverable Quarter(s) <i class="sort-icon">↕</i></th>
@@ -1749,17 +1749,56 @@ const fmt  = n => '$' + Math.round(n).toLocaleString();
 const fmtK = n => '$' + (Math.round(n/1000)) + 'K';
 const pct  = (a, b) => b ? Math.round(a/b*100) + '%' : '0%';
 
+const STAGE_BADGE_CLS = {
+  'Tier 1': 'badge-gold', 'Tier 2': 'badge-teal',
+  'Brand Spotlight': 'badge-navy', 'New Opening': 'badge-amber',
+  'Marketing Complete': 'badge-green',
+  'Needs Invoice': 'badge-red', 'In Discussion': 'badge-amber',
+  'Final Follow Up': 'badge-amber', 'Needs Contact': 'badge-gray',
+  'Needs Review': 'badge-gray', 'Declined': 'badge-red',
+  'Do Not Invite': 'badge-gray',
+};
 function stageBadge(stage) {
-  const cls = {
-    'Tier 1': 'badge-gold', 'Tier 2': 'badge-teal',
-    'Brand Spotlight': 'badge-navy', 'New Opening': 'badge-amber',
-    'Marketing Complete': 'badge-green',
-    'Needs Invoice': 'badge-red', 'In Discussion': 'badge-amber',
-    'Final Follow Up': 'badge-amber', 'Needs Contact': 'badge-gray',
-    'Needs Review': 'badge-gray', 'Declined': 'badge-red',
-    'Do Not Invite': 'badge-gray',
-  }[stage] || 'badge-gray';
+  const cls = STAGE_BADGE_CLS[stage] || 'badge-gray';
   return `<span class="badge ${cls}">${stage}</span>`;
+}
+function packageBadge(p) {
+  // Use base stage for color, show full package name
+  const base = (p.package || p.stage || '').split('+')[0].trim();
+  const cls = STAGE_BADGE_CLS[base] || STAGE_BADGE_CLS[p.stage] || 'badge-gray';
+  return `<span class="badge ${cls}">${p.package || p.stage || '—'}</span>`;
+}
+
+// ── Smart package deliverable resolver ───────────────────────────
+// Handles exact matches, then parses "Base + Extra" for future bespoke packages
+const _KNOWN_DELIVS = {
+  'advisor assets': { name: 'Advisor Assets', label: 'Advisor Assets',       count: 1 },
+  'newsletter':     { name: 'Newsletter',     label: 'Newsletter Feature',   count: 1 },
+  'forum':          { name: 'Forum',          label: 'Forum Feature',        count: 1 },
+  'collection':     { name: 'Collection',     label: 'Collection Feature',   count: 1 },
+  'social media':   { name: 'Social Media',   label: 'Social Media Feature', count: 1 },
+  'journal article':{ name: 'Journal Article',label: 'Journal Article',      count: 1 },
+  'webinar':        { name: 'Webinar',        label: 'Webinar',              count: 1, noAsset: true },
+};
+function _resolvePackageDelivs(packageName) {
+  if (!packageName) return null;
+  if (PACKAGE_DELIVERABLES[packageName]) return PACKAGE_DELIVERABLES[packageName];
+  const parts = packageName.split('+').map(s => s.trim());
+  const base = PACKAGE_DELIVERABLES[parts[0]];
+  if (!base) return null;
+  const baseNames = new Set(base.map(d => d.name));
+  const extras = [];
+  for (const part of parts.slice(1)) {
+    const lower = part.toLowerCase();
+    for (const [keyword, def] of Object.entries(_KNOWN_DELIVS)) {
+      if (lower.includes(keyword) && !baseNames.has(def.name)) {
+        extras.push({ ...def });
+        baseNames.add(def.name);
+        break;
+      }
+    }
+  }
+  return extras.length > 0 ? [...base, ...extras] : base;
 }
 
 function invoiceBadge(status) {
@@ -2061,7 +2100,7 @@ function init() {
       invTbody.innerHTML += `
         <tr>
           <td><a href="#" onclick="navigateToPartner(${JSON.stringify(p.name)}); return false;" style="color:var(--text);font-weight:600;text-decoration:none;">${p.name}</a></td>
-          <td>${stageBadge(p.stage)}</td>
+          <td>${packageBadge(p)}</td>
           <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
           <td>${p.country || '—'}</td>
           <td>${priority}</td>
@@ -2338,7 +2377,7 @@ function _runFilter() {
     const mainTr = document.createElement('tr');
     mainTr.innerHTML = `
       <td><strong>${p.name}</strong></td>
-      <td>${stageBadge(p.stage)}</td>
+      <td>${packageBadge(p)}</td>
       <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
       <td>${invoiceBadge(p.invoiceStatus)}</td>
       <td>${qStr}</td>
@@ -2375,7 +2414,7 @@ function _runFilter() {
 
 // ── Deliverable completion progress (synchronous, CRM data only) ─
 function _delivProgressSimple(p) {
-  const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
+  const expected = _resolvePackageDelivs(p.package || p.stage);
   if (!expected) return null;
   const lookup = {};
   (p.features || []).forEach(f => {
@@ -2406,7 +2445,7 @@ async function buildNeedsReview() {
   const flaggedStreak = [];
 
   (window._allPartners || []).forEach(p => {
-    const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
+    const expected = _resolvePackageDelivs(p.package || p.stage);
 
     // Check for missing assets on completed deliverables
     if (expected) {
@@ -2483,7 +2522,7 @@ async function buildNeedsReview() {
         <div class="nr-missing-list">Completed in Streak but no asset uploaded: ${missing.join(', ')}</div>
       </div>
       <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
-        ${stageBadge(p.stage)}
+        ${packageBadge(p)}
         <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
           style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
       </div>
@@ -2496,7 +2535,7 @@ async function buildNeedsReview() {
         <div class="nr-missing-list" style="color:#870D13;">Duplicate assets uploaded: ${dups.join(', ')}</div>
       </div>
       <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
-        ${stageBadge(p.stage)}
+        ${packageBadge(p)}
         <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
           style="background:#870D13;color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
       </div>
@@ -2509,7 +2548,7 @@ async function buildNeedsReview() {
         <div class="nr-missing-list" style="color:#333880;">Asset live but Streak not updated: ${delivs.join(', ')}</div>
       </div>
       <div style="display:flex;gap:8px;align-items:center;flex-shrink:0;">
-        ${stageBadge(p.stage)}
+        ${packageBadge(p)}
         <button onclick="navigateToPartner('${p.name.replace(/'/g, "\\'")}');event.stopPropagation();"
           style="background:var(--navy,#333880);color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;">View</button>
       </div>
@@ -2545,7 +2584,7 @@ async function _expandDetail(rowEl, p) {
     _renderedDetails.add(p.key);
     div.innerHTML = `
       <div class="detail-grid">
-        <div class="detail-field"><label>Stage</label><span>${stageBadge(p.stage)}</span></div>
+        <div class="detail-field"><label>Package</label><span>${packageBadge(p)}</span></div>
         <div class="detail-field"><label>Package Value</label><span>${p.price ? fmt(p.price) : '—'}</span></div>
         <div class="detail-field"><label>Invoice Status</label><span>${invoiceBadge(p.invoiceStatus)}</span></div>
         <div class="detail-field"><label>Country</label><span>${p.country || '—'}</span></div>
@@ -2669,7 +2708,7 @@ function _scheduledLabel(timing) {
 }
 
 function renderDeliverableSection(p) {
-  const expected = PACKAGE_DELIVERABLES[p.package || p.stage];
+  const expected = _resolvePackageDelivs(p.package || p.stage);
 
   // No package definition — fall back to raw feature badges (pipeline stages etc.)
   if (!expected) {

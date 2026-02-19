@@ -426,6 +426,37 @@
     'Marketing Complete':                 { bg: '#e8f5ee', color: '#1a6b3a' },
   };
 
+  // ── Smart package deliverable resolver ───────────────────────
+  const _KNOWN_DELIVS = {
+    'advisor assets': { name: 'Advisor Assets', label: 'Advisor Assets',       icon: '📦', count: 1 },
+    'newsletter':     { name: 'Newsletter',     label: 'Newsletter Feature',   icon: '✉️', count: 1 },
+    'forum':          { name: 'Forum',          label: 'Forum Feature',        icon: '💬', count: 1 },
+    'collection':     { name: 'Collection',     label: 'Collection Feature',   icon: '🗂', count: 1 },
+    'social media':   { name: 'Social Media',   label: 'Social Media Feature', icon: '📱', count: 1 },
+    'journal article':{ name: 'Journal Article',label: 'Journal Article',      icon: '📝', count: 1 },
+    'webinar':        { name: 'Webinar',        label: 'Webinar',              icon: '🎙', count: 1, noAsset: true },
+  };
+  function _resolvePackageDelivs(packageName) {
+    if (!packageName) return null;
+    if (PACKAGE_DELIVERABLES[packageName]) return PACKAGE_DELIVERABLES[packageName];
+    const parts = packageName.split('+').map(s => s.trim());
+    const base = PACKAGE_DELIVERABLES[parts[0]];
+    if (!base) return null;
+    const baseNames = new Set(base.map(d => d.name));
+    const extras = [];
+    for (const part of parts.slice(1)) {
+      const lower = part.toLowerCase();
+      for (const [keyword, def] of Object.entries(_KNOWN_DELIVS)) {
+        if (lower.includes(keyword) && !baseNames.has(def.name)) {
+          extras.push({ ...def });
+          baseNames.add(def.name);
+          break;
+        }
+      }
+    }
+    return extras.length > 0 ? [...base, ...extras] : base;
+  }
+
   // ── Status helpers ────────────────────────────────────────────
   function delivStatus(timing) {
     if (!timing || !timing.trim()) return 'none';
@@ -519,7 +550,7 @@
   function renderPartner(p) {
     const pkgColor  = PKG_COLORS[p.package] || PKG_COLORS[p.package.split('+')[0].trim()] || { bg: '#f3ebe2', color: '#827363' };
     // pillDefs: standard package template for the "Your Package" pills at top
-    const pillDefs = PACKAGE_DELIVERABLES[p.package] || PACKAGE_DELIVERABLES[p.package.split('+')[0].trim()] || [];
+    const pillDefs = _resolvePackageDelivs(p.package) || [];
     // delivDefs: use Streak deliverables as source of truth for the table, enriched with template labels/icons
     const templateMap = {};
     pillDefs.forEach(d => templateMap[d.name] = d);
