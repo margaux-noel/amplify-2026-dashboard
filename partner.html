@@ -280,19 +280,22 @@
     .content-card-link:hover { background: #5e5c21; }
 
     /* ── CONTACT CARD ── */
+    .contact-row {
+      display: flex;
+      gap: 16px;
+    }
     .contact-card {
+      flex: 1;
       background: var(--dsand);
       border-radius: var(--radius);
-      padding: 28px 32px;
+      padding: 24px 24px;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 12px;
     }
     .contact-text h3 {
       font-family: 'ChiswickSansText', sans-serif;
-      font-size: 17px;
+      font-size: 15px;
       font-weight: 600;
       margin-bottom: 4px;
     }
@@ -302,13 +305,18 @@
       background: var(--navy);
       color: #fff;
       text-decoration: none;
-      padding: 10px 22px;
+      padding: 9px 18px;
       border-radius: 8px;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
       white-space: nowrap;
+      align-self: flex-start;
+      margin-top: auto;
     }
     .contact-link:hover { background: #2a2a2a; }
+    @media (max-width: 600px) {
+      .contact-row { flex-direction: column; }
+    }
 
     /* ── ERROR STATE ── */
     .error-wrap {
@@ -694,27 +702,30 @@
           ${invoiceHtml}
         </div>
 
-        <div class="contact-card">
-          <div class="contact-text">
-            <h3>Questions about your partnership or want to explore other opportunities?</h3>
-            <p>Reach out to your Amplify contact, or email <strong>partners@foratravel.com</strong></p>
+        <div class="contact-row">
+          <div class="contact-card">
+            <div class="contact-text">
+              <h3>Questions?</h3>
+              <p>Reach out to your Amplify contact or email us directly.</p>
+            </div>
+            <a href="mailto:partners@foratravel.com" class="contact-link">Email us →</a>
           </div>
-        </div>
 
-        <div class="contact-card" style="margin-top:16px;">
-          <div class="contact-text">
-            <h3>Advisor engagement opportunities</h3>
-            <p>Explore ways to connect directly with Fora advisors through events, webinars, and more.</p>
+          <div class="contact-card">
+            <div class="contact-text">
+              <h3>Advisor engagement</h3>
+              <p>Connect with Fora advisors via events, webinars, and more.</p>
+            </div>
+            <a href="https://events.foratravel.com/advisorengagementopportunities" target="_blank" rel="noopener" class="contact-link">View opportunities →</a>
           </div>
-          <a href="https://events.foratravel.com/advisorengagementopportunities" target="_blank" rel="noopener" class="contact-link">View opportunities →</a>
-        </div>
 
-        <div class="contact-card" style="margin-top:16px;">
-          <div class="contact-text">
-            <h3>Submit deals for future features</h3>
-            <p>Share upcoming promotions and offers to be considered for Fora advisor content.</p>
+          <div class="contact-card">
+            <div class="contact-text">
+              <h3>Submit deals</h3>
+              <p>Share promotions to be considered for Fora advisor content.</p>
+            </div>
+            <a href="https://travelpartners.foratravel.com/submit-deals" target="_blank" rel="noopener" class="contact-link">Submit deals →</a>
           </div>
-          <a href="https://travelpartners.foratravel.com/submit-deals" target="_blank" rel="noopener" class="contact-link">Submit deals →</a>
         </div>
       </div>`;
   }
