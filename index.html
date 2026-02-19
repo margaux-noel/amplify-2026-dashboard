@@ -918,7 +918,7 @@
         </div>
         <div class="af-field">
           <label>Deliverable</label>
-          <select id="af-deliverable" class="af-input">
+          <select id="af-deliverable" class="af-input" onchange="updateLabelPreview()">
             <option value="">Select deliverable…</option>
             <option>Collection</option>
             <option>Newsletter</option>
@@ -929,13 +929,16 @@
           </select>
         </div>
         <div class="af-field">
-          <label>Label</label>
-          <input id="af-label" type="text" class="af-input" placeholder="e.g. February 2026 Newsletter Feature">
+          <label>Month</label>
+          <select id="af-month" class="af-input" onchange="updateLabelPreview()">
+            <option value="">Select month…</option>
+            <option>January</option><option>February</option><option>March</option>
+            <option>April</option><option>May</option><option>June</option>
+            <option>July</option><option>August</option><option>September</option>
+            <option>October</option><option>November</option><option>December</option>
+          </select>
         </div>
-        <div class="af-field">
-          <label>Note (optional)</label>
-          <input id="af-note" type="text" class="af-input" placeholder="Any context about this asset…">
-        </div>
+        <div id="af-label-preview" style="font-size:12px;color:var(--text-light);padding:2px 0 10px;min-height:18px;"></div>
         <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:4px;">
           <button onclick="submitAsset(this)" class="btn-approve" style="padding:10px 22px;font-size:13px;">Submit for review</button>
           <span id="af-status" style="font-size:12px;"></span>
@@ -1160,8 +1163,26 @@ function clearAllPartners() {
   updatePartnerCount();
 }
 function updatePartnerCount() {
-  const n = document.querySelectorAll('#ps-list input:checked').length;
+  const list = document.getElementById('ps-list');
+  const items = [...list.querySelectorAll('.partner-selector-item')];
+  // Float checked items to the top
+  items.sort((a, b) => (b.querySelector('input').checked ? 1 : 0) - (a.querySelector('input').checked ? 1 : 0));
+  items.forEach(el => list.appendChild(el));
+  const n = items.filter(el => el.querySelector('input').checked).length;
   document.getElementById('ps-count').textContent = n ? `${n} selected` : '';
+}
+
+function updateLabelPreview() {
+  const deliv = document.getElementById('af-deliverable').value;
+  const month = document.getElementById('af-month').value;
+  const el = document.getElementById('af-label-preview');
+  if (deliv && month) {
+    el.textContent = `Label: "${month} ${deliv} Feature"`;
+    el.style.color = 'var(--olive)';
+  } else {
+    el.textContent = (deliv || month) ? 'Select both deliverable and month to preview' : '';
+    el.style.color = 'var(--text-light)';
+  }
 }
 function previewUploadImg(input) {
   const img = document.getElementById('af-preview');
@@ -1181,14 +1202,14 @@ function previewUploadImg(input) {
 async function submitAsset(btn) {
   if (!ghToken()) { openSettings(); return; }
   const deliv = document.getElementById('af-deliverable').value;
-  const label = document.getElementById('af-label').value.trim();
+  const month = document.getElementById('af-month').value;
+  const label = (month && deliv) ? `${month} ${deliv} Feature` : deliv;
   const file  = document.getElementById('af-file').files[0];
-  const note  = document.getElementById('af-note').value.trim();
   const keys  = [...document.querySelectorAll('#ps-list input:checked')].map(cb => cb.value);
   const st    = document.getElementById('af-status');
   if (!deliv) { st.textContent = 'Please select a deliverable.'; st.style.color = 'var(--sangria)'; return; }
-  if (!label) { st.textContent = 'Please enter a label.'; st.style.color = 'var(--sangria)'; return; }
-  if (!file)  { st.textContent = 'Please select a screenshot.'; st.style.color = 'var(--sangria)'; return; }
+  if (!month) { st.textContent = 'Please select a month.'; st.style.color = 'var(--sangria)'; return; }
+  if (!file)  { st.textContent = 'Please select a file.'; st.style.color = 'var(--sangria)'; return; }
   if (!keys.length) { st.textContent = 'Please select at least one partner.'; st.style.color = 'var(--sangria)'; return; }
   btn.disabled = true; st.style.color = 'var(--text-light)'; st.textContent = 'Uploading image…';
   try {
@@ -1203,15 +1224,15 @@ async function submitAsset(btn) {
     catch(e) { resData = { content: '{"assets":[]}', sha: null }; }
     const json = JSON.parse(resData.content);
     if (!json.assets) json.assets = [];
-    json.assets.push({ id: String(ts), deliverable: deliv, label, path: imgPath, partnerKeys: keys, status: 'draft', uploadedAt: new Date().toISOString(), note });
+    json.assets.push({ id: String(ts), deliverable: deliv, label, path: imgPath, partnerKeys: keys, status: 'draft', uploadedAt: new Date().toISOString() });
     await ghPutFile('partner-resources.json', JSON.stringify(json, null, 2), resData.sha, `Add draft asset: ${label}`);
     // Reset form
     document.getElementById('af-deliverable').value = '';
-    document.getElementById('af-label').value = '';
+    document.getElementById('af-month').value = '';
     document.getElementById('af-file').value = '';
-    document.getElementById('af-note').value = '';
     document.getElementById('af-preview').style.display = 'none';
     document.getElementById('af-preview-pdf').style.display = 'none';
+    document.getElementById('af-label-preview').textContent = '';
     document.getElementById('ps-search').value = '';
     filterPartnerSelector('');
     clearAllPartners();
