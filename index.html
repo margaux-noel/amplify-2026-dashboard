@@ -922,14 +922,14 @@
 <div class="modal-overlay" id="settingsModal" onclick="if(event.target===this)closeSettings()">
   <div class="modal-box">
     <button class="modal-close" onclick="closeSettings()">×</button>
-    <h3>Access Code</h3>
-    <p style="font-size:13px;color:var(--text-light);margin:8px 0 20px;line-height:1.5;">
-      Enter the GitHub access code to enable asset uploads and approvals.<br>
-      <strong>Team members:</strong> ask Margaux for this code — you only need to enter it once.
+    <h3 id="settings-modal-title">One-time setup required</h3>
+    <p style="font-size:13px;color:var(--text-light);margin:8px 0 20px;line-height:1.6;">
+      To upload and review assets, you need to enter an access code once. It will be saved in your browser so you never need to enter it again.<br><br>
+      <strong>Don't have the code?</strong> Ask Margaux — she can share it with you directly.
     </p>
     <div class="af-field" style="margin-bottom:16px;">
       <label>Access Code</label>
-      <input id="settings-token" type="password" class="af-input" placeholder="ghp_…" autocomplete="off">
+      <input id="settings-token" type="password" class="af-input" placeholder="Paste code here…" autocomplete="off">
     </div>
     <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
       <button onclick="saveSettings()" class="btn-approve">Save</button>
@@ -947,7 +947,7 @@ function showTab(tab, el) {
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + tab).classList.add('active');
   if (el) el.classList.add('active');
-  if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); }
+  if (tab === 'assets') { buildPartnerSelector(); loadAssetsTab(); if (!ghToken()) openSettings(); }
 }
 
 // ── Copy partner portal link to clipboard ────────────────────────
@@ -1021,6 +1021,8 @@ async function ghDeleteFile(path, sha) {
 
 // ── Settings modal ────────────────────────────────────────────────
 function openSettings() {
+  const hasToken = !!ghToken();
+  document.getElementById('settings-modal-title').textContent = hasToken ? 'Access Code' : 'One-time setup required';
   document.getElementById('settings-token').value = ghToken();
   document.getElementById('settings-status').style.display = 'none';
   document.getElementById('settingsModal').classList.add('open');
