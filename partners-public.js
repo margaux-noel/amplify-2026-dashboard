@@ -5814,7 +5814,7 @@ const PARTNER_PUBLIC_DATA = {
       "Newsletter": [
         {
           "label": "January Newsletter Feature",
-          "path": "",
+          "path": "partner-assets/newsletter-1771540569714.pdf",
           "note": ""
         }
       ]

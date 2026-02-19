@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amplify 2026 — Partner Dashboard</title>
-  <script src="data.js?v=202602191717"></script>
+  <script src="data.js?v=202602191749"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     /* ── Fora brand fonts ── */
@@ -730,7 +730,6 @@
               <th>Amount</th>
               <th>Country</th>
               <th>Priority</th>
-              <th>Streak</th>
             </tr>
           </thead>
           <tbody id="needsInvoiceTbody"></tbody>
@@ -1763,10 +1762,10 @@ function stageBadge(stage) {
   return `<span class="badge ${cls}">${stage}</span>`;
 }
 function packageBadge(p) {
-  // Use base stage for color, show full package name
-  const base = (p.package || p.stage || '').split('+')[0].trim();
-  const cls = STAGE_BADGE_CLS[base] || STAGE_BADGE_CLS[p.stage] || 'badge-gray';
-  return `<span class="badge ${cls}">${p.package || p.stage || '—'}</span>`;
+  if (!p.package) return '<span style="color:var(--stone)">—</span>';
+  const base = p.package.split('+')[0].trim();
+  const cls = STAGE_BADGE_CLS[base] || 'badge-gray';
+  return `<span class="badge ${cls}">${p.package}</span>`;
 }
 
 // ── Smart package deliverable resolver ───────────────────────────
@@ -2104,7 +2103,6 @@ function init() {
           <td class="amount">${p.price ? fmt(p.price) : '—'}</td>
           <td>${p.country || '—'}</td>
           <td>${priority}</td>
-          <td><a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;">View →</a></td>
         </tr>`;
     });
   }
@@ -2384,8 +2382,7 @@ function _runFilter() {
       <td>${p.country || '—'}</td>
       <td>${progHtml}</td>
       <td>
-        <a href="${p.streakUrl}" target="_blank" style="color:var(--gold);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Streak</a>
-        ${p.invoiceUrl ? ` · <a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : ''}
+        ${p.invoiceUrl ? `<a href="${p.invoiceUrl}" target="_blank" style="color:var(--green);font-weight:600;text-decoration:none;" onclick="event.stopPropagation()">Invoice</a>` : '—'}
       </td>`;
     mainTr.addEventListener('click', () => _expandDetail(mainTr, p));
     frag.appendChild(mainTr);
