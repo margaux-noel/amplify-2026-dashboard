@@ -119,7 +119,7 @@ const PARTNER_PUBLIC_DATA = {
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9q5CAw": {
     "name": "Alila Mayakoba",
-    "package": "New Opening",
+    "package": "New Opening + Advisor Assets",
     "invoiceStatus": "Invoice sent \u2014 payment pending",
     "deliverables": [
       {
@@ -238,6 +238,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771524961538.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -269,6 +276,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "February Forum Feature",
           "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531565702.png",
           "note": ""
         }
       ]
@@ -523,6 +537,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771517319318.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -717,7 +738,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531849697.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dGSCQw": {
@@ -790,7 +819,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Italy",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531685521.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXq5_vTCgw": {
@@ -830,7 +867,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771532089670.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXX6-qwCQw": {
@@ -1320,6 +1365,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771517319318.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -1402,7 +1454,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "Mexico",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWQvOHvCQw": {
@@ -1467,6 +1527,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771524961538.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531565702.png",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -1513,6 +1580,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "February Forum Feature",
           "path": "partner-assets/forum-1771517319318.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
           "note": ""
         }
       ]
@@ -1566,7 +1640,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "GB",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531372379.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW3_oSdCww": {
@@ -1776,7 +1858,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWF8KruCww": {
@@ -1816,7 +1906,7 @@ const PARTNER_PUBLIC_DATA = {
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnmf_VCAw": {
     "name": "Kamalaya Koh Samui",
-    "package": "Tier 1",
+    "package": "Newsletter + Forum Feature",
     "invoiceStatus": "Paid",
     "deliverables": [
       {
@@ -1935,7 +2025,7 @@ const PARTNER_PUBLIC_DATA = {
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWT8qrICAw": {
     "name": "Kempinski Germany",
-    "package": "Brand Spotlight",
+    "package": "Bespoke Kempinski",
     "invoiceStatus": "Invoice sent \u2014 payment pending",
     "deliverables": [
       {
@@ -2187,12 +2277,20 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX3jOisCgw": {
     "name": "Maison M\u00e9tier",
-    "package": "Marketing Complete",
+    "package": "New Opening",
     "invoiceStatus": "Paid",
     "deliverables": [
       {
@@ -2217,6 +2315,11 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "January Collection Feature",
           "path": "partner-assets/collection-1771522164903.png",
+          "note": ""
+        },
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
           "note": ""
         }
       ],
@@ -2264,6 +2367,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "February Forum Feature",
           "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
           "note": ""
         }
       ]
@@ -2420,7 +2530,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771532089670.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCAw": {
@@ -2587,6 +2705,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771524961538.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -2636,7 +2761,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Costa Rica",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9iNCgw": {
@@ -2766,7 +2899,7 @@ const PARTNER_PUBLIC_DATA = {
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMX39Jb7CQw": {
     "name": "Omni Hotels",
-    "package": "Brand Spotlight",
+    "package": "Brand Spotlight + Additional Webinar",
     "invoiceStatus": "Invoice sent \u2014 payment pending",
     "deliverables": [],
     "quarters": [],
@@ -2868,7 +3001,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Maldives",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LXUCAw": {
@@ -2950,7 +3091,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Mexico",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX05rThCww": {
@@ -3033,7 +3182,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Italy",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531230782.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKX2t4rSCgw": {
@@ -3486,7 +3643,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Morocco",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531050126.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9rlCAw": {
@@ -3534,7 +3699,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Peru",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531050126.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm-inCgw": {
@@ -3549,7 +3722,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXm5iwCww": {
@@ -3721,12 +3902,20 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531685521.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2eTWCgw": {
     "name": "Stein Eriksen Lodge Deer Valley",
-    "package": "Marketing Complete",
+    "package": "Wedding Ad",
     "invoiceStatus": "Invoice sent \u2014 payment pending",
     "deliverables": [],
     "quarters": [
@@ -3939,6 +4128,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771524961538.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771532089670.png",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -3955,7 +4151,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Bahamas",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCAw": {
@@ -4058,6 +4262,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "February Forum Feature",
           "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531372379.png",
           "note": ""
         }
       ]
@@ -4201,7 +4412,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q1"
     ],
     "country": "GB",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKW1nY-XCAw": {
@@ -4371,7 +4590,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Japan",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531050126.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NyzCww": {
@@ -4421,7 +4648,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531685521.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NzXCQw": {
@@ -4521,7 +4756,15 @@ const PARTNER_PUBLIC_DATA = {
     ],
     "quarters": [],
     "country": "Mexico",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKWw4uOnCgw": {
@@ -4876,6 +5119,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771517319318.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771531372379.png",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -4989,6 +5239,13 @@ const PARTNER_PUBLIC_DATA = {
           "path": "partner-assets/forum-1771517319318.pdf",
           "note": ""
         }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
       ]
     },
     "lastUpdated": "Feb 19, 2026"
@@ -5020,6 +5277,13 @@ const PARTNER_PUBLIC_DATA = {
         {
           "label": "February Forum Feature",
           "path": "partner-assets/forum-1771524961538.pdf",
+          "note": ""
+        }
+      ],
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
           "note": ""
         }
       ]
@@ -5223,7 +5487,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "Dominican Republic",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771532089670.png",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgKXzw5bPCgw": {
@@ -5273,7 +5545,15 @@ const PARTNER_PUBLIC_DATA = {
       "Q2"
     ],
     "country": "USA",
-    "resources": {},
+    "resources": {
+      "Collection": [
+        {
+          "label": "February Collection Feature",
+          "path": "partner-assets/collection-1771530558464.pdf",
+          "note": ""
+        }
+      ]
+    },
     "lastUpdated": "Feb 19, 2026"
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXn8LWUCgw": {
@@ -5385,7 +5665,7 @@ const PARTNER_PUBLIC_DATA = {
       },
       {
         "name": "Forum",
-        "timing": "October - Planned"
+        "timing": "March - Planned"
       },
       {
         "name": "Newsletter",
@@ -5496,7 +5776,7 @@ const PARTNER_PUBLIC_DATA = {
   },
   "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMXXycfhCww": {
     "name": "Zad\u00fan a Ritz-Carlton Reserve Los Cabos",
-    "package": "Marketing Complete",
+    "package": "Tier 1",
     "invoiceStatus": "Paid",
     "deliverables": [
       {
