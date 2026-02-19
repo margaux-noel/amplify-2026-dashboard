@@ -444,6 +444,20 @@ if __name__ == "__main__":
         "Invoice held":                "On hold — please contact us",
     }
     SIGNED_STAGE_KEYS = {"5014","5015","5016","5017","5007"}
+    # Load any manually-set partner resource URLs (Google Drive links etc.)
+    resources_path = os.path.join(script_dir, "partner-resources.json")
+    partner_resources = {}
+    if os.path.exists(resources_path):
+        try:
+            with open(resources_path) as f:
+                raw = json.load(f)
+            # Skip meta keys starting with "_"
+            partner_resources = {k: v for k, v in raw.items() if not k.startswith("_")}
+            if partner_resources:
+                print(f"  Loaded {len(partner_resources)} partner resource URL(s)")
+        except Exception as e:
+            print(f"  Warning: could not read partner-resources.json ({e})")
+
     public_partners = {}
     for p in data["partners"]:
         if p["stageKey"] not in SIGNED_STAGE_KEYS:
@@ -455,6 +469,7 @@ if __name__ == "__main__":
             "deliverables":  p["features"],
             "quarters":      p["quarters"],
             "country":       p["country"],
+            "resourcesUrl":  partner_resources.get(p["key"], ""),
             "lastUpdated":   data["lastUpdated"],
         }
     partners_js_path = os.path.join(script_dir, "partners-public.js")
@@ -480,7 +495,7 @@ if __name__ == "__main__":
 
     # Git commit + push
     os.chdir(script_dir)
-    subprocess.run(["git", "add", "data.js", "index.html", "partners-public.js", "partner.html"], check=True)
+    subprocess.run(["git", "add", "data.js", "index.html", "partners-public.js", "partner.html", "partner-resources.json"], check=True)
     result = subprocess.run(
         ["git", "commit", "-m", f"Auto-update from Streak ({data['lastUpdated']})"],
         capture_output=True, text=True

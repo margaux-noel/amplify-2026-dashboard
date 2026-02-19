@@ -1,0 +1,4 @@
+{
+  "_instructions": "Add a partner's Streak box key and their Google Drive folder URL below. Run update.py (or wait for the daily auto-update) for changes to appear in the partner portal.",
+  "_example": { "agxzfmSOME_BOX_KEY": "https://drive.google.com/drive/folders/YOUR_FOLDER_ID" }
+}

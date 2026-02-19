@@ -811,6 +811,26 @@ function copyPartnerLink(key, btn) {
   });
 }
 
+// ── Save resource URL to partner-resources.json (via clipboard) ──
+function saveResourceUrl(key) {
+  const input = document.getElementById('res-' + key);
+  const note  = document.getElementById('res-note-' + key);
+  const url   = input.value.trim();
+  const entry = JSON.stringify({ [key]: url });
+  // Build the one-line edit the user needs to make in partner-resources.json
+  const commitSnippet = `"${key}": "${url}"`;
+  navigator.clipboard.writeText(commitSnippet).then(() => {
+    note.textContent = '✓ Copied! Paste this line into partner-resources.json, then run update.py (or let auto-update run).';
+    note.style.display = 'block';
+    note.style.color = 'var(--olive)';
+    setTimeout(() => { note.style.display = 'none'; }, 6000);
+  }).catch(() => {
+    note.textContent = `Add this to partner-resources.json: ${commitSnippet}`;
+    note.style.display = 'block';
+    note.style.color = 'var(--text-light)';
+  });
+}
+
 // ── Navigate to a partner on the search tab ──────────────────────
 function navigateToPartner(name) {
   const searchNavEl = document.querySelector('.nav-tab[onclick*="\'search\'"]');
@@ -1483,9 +1503,17 @@ function _expandDetail(rowEl, p) {
         <div class="detail-field"><label>Contact Email</label><span>${p.email ? `<a href="mailto:${p.email}" style="color:var(--gold)">${p.email}</a>` : '—'}</span></div>
       </div>
       ${renderDeliverableSection(p)}
-      <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
-        <button onclick="copyPartnerLink('${p.key}',this)" style="background:var(--olive);color:#fff;border:none;padding:8px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;">Copy Partner Link</button>
-        <a href="partner.html?key=${p.key}" target="_blank" style="font-size:12px;color:var(--text-light);text-decoration:none;font-weight:500;">Preview portal →</a>
+      <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+          <span style="font-size:11px;font-weight:600;color:var(--text-light);text-transform:uppercase;letter-spacing:.04em;white-space:nowrap;">Resources URL</span>
+          <input id="res-${p.key}" type="url" placeholder="Paste Google Drive folder link…" value="${(p.resourcesUrl||'')}" style="flex:1;min-width:200px;font-size:12px;font-family:inherit;border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none;background:var(--bg);">
+          <button onclick="saveResourceUrl('${p.key}')" style="background:var(--indigo);color:#fff;border:none;padding:7px 14px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;white-space:nowrap;">Save &amp; copy commit</button>
+        </div>
+        <p id="res-note-${p.key}" style="display:none;font-size:11px;margin:0 0 10px;color:var(--olive);"></p>
+        <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
+          <button onclick="copyPartnerLink('${p.key}',this)" style="background:var(--olive);color:#fff;border:none;padding:8px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;font-family:inherit;">Copy Partner Link</button>
+          <a href="partner.html?key=${p.key}" target="_blank" style="font-size:12px;color:var(--text-light);text-decoration:none;font-weight:500;">Preview portal →</a>
+        </div>
       </div>`;
   }
   div.classList.toggle('open');
