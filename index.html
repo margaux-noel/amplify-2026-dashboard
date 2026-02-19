@@ -1066,6 +1066,7 @@ function ghToken() { return localStorage.getItem('amplify_gh_token') || ''; }
 async function ghGetFile(path) {
   if (!ghToken()) throw new Error('No access code set.');
   const r = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${encodeURIComponent(path)}?ref=${GH_BRANCH}`, {
+    cache: 'no-store',
     headers: { 'Authorization': `token ${ghToken()}`, 'Accept': 'application/vnd.github.v3+json' }
   });
   if (!r.ok) { const e = await r.json().catch(() => ({})); throw new Error(e.message || `GitHub ${r.status}`); }
