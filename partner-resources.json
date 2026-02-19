@@ -162,6 +162,20 @@
       ],
       "status": "live",
       "uploadedAt": "2026-02-19T18:16:02.759Z"
+    },
+    {
+      "id": "1771525307778",
+      "deliverable": "Collection",
+      "label": "January Collection Feature",
+      "path": "partner-assets/collection-1771525307778.png",
+      "partnerKeys": [
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWnq9jFCww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWn2dHaCww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMW34NznCww",
+        "agxzfm1haWxmb29nYWVyMQsSDE9yZ2FuaXphdGlvbiIOZm9yYXRyYXZlbC5jb20MCxIEQ2FzZRiAgMWXl9qtCgw"
+      ],
+      "status": "draft",
+      "uploadedAt": "2026-02-19T18:21:48.555Z"
     }
   ]
 }
