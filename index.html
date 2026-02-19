@@ -2410,7 +2410,8 @@ async function buildNeedsReview() {
       });
       const missing = [];
       expected.forEach(d => {
-        if (d.alwaysYes || d.noAsset) return;
+        // Skip deliverables that don't require an uploaded asset (e.g. Webinar — just needs a date)
+        if (d.alwaysYes || d.noAsset || d.name === 'Webinar') return;
         const timings = lookup[d.name] || [];
         const completedTimings = timings.filter(t => _delivStatus(t) === 'completed');
         if (!completedTimings.length) return;
