@@ -307,7 +307,7 @@ def compute_metrics(boxes):
                 "name":          box.get("name", ""),
                 "stage":         ALL_STAGE_NAMES.get(stage, stage),
                 "stageKey":      stage,
-                "package":       PACKAGE_LABELS.get(str(field_val(box, F_PACKAGE) or ""), ALL_STAGE_NAMES.get(stage, stage)),
+                "package":       PACKAGE_LABELS.get(str(field_val(box, F_PACKAGE) or ""), ""),
                 "price":         int(p),
                 "invoiceStatus": INVOICE_LABELS.get(inv, ""),
                 "invoiceUrl":    str(inv_url).strip() if inv_url and str(inv_url).startswith("http") else "",
