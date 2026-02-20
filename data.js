@@ -216,7 +216,7 @@ const AMPLIFY_DATA = {
   "features": {
     "Collection": 196,
     "Forum": 125,
-    "Newsletter": 122,
+    "Newsletter": 123,
     "Journal Article": 14,
     "Social Media": 14,
     "Advisor Assets": 24,
@@ -376,7 +376,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "August - Planned"
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -430,7 +430,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -462,7 +462,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -494,7 +494,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "August - Planned"
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -584,7 +584,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -638,7 +638,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -670,7 +670,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -702,7 +702,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -734,7 +734,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "August - Planned"
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -833,7 +833,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -865,7 +865,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -919,7 +919,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -951,7 +951,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -983,7 +983,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1015,7 +1015,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1047,7 +1047,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1107,7 +1107,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1171,7 +1171,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -1196,6 +1196,10 @@ const AMPLIFY_DATA = {
         {
           "name": "Collection",
           "timing": "December - Planned"
+        },
+        {
+          "name": "Newsletter",
+          "timing": "Q4 - Planned"
         }
       ],
       "quarters": [
@@ -1249,7 +1253,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1281,7 +1285,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -1389,7 +1393,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1421,7 +1425,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -1458,7 +1462,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "September - Planned"
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -1490,7 +1494,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1522,7 +1526,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1554,7 +1558,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1586,7 +1590,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -1667,7 +1671,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1716,7 +1720,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -1782,7 +1786,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -1836,7 +1840,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1868,7 +1872,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -1934,7 +1938,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -2026,7 +2030,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -2075,7 +2079,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -2151,7 +2155,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -2205,7 +2209,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -2254,7 +2258,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2352,7 +2356,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -2416,7 +2420,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2519,10 +2523,6 @@ const AMPLIFY_DATA = {
         {
           "name": "Forum",
           "timing": "June - Planned"
-        },
-        {
-          "name": "Newsletter",
-          "timing": "June - Planned"
         }
       ],
       "quarters": [],
@@ -2552,7 +2552,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2584,7 +2584,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2616,7 +2616,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2648,7 +2648,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2677,10 +2677,6 @@ const AMPLIFY_DATA = {
         {
           "name": "Forum",
           "timing": "March - Planned, April - Planned, May - Planned, July - Planned, August - Planned, September - Planned"
-        },
-        {
-          "name": "Newsletter",
-          "timing": "April - Planned, June - Planned, August - Planned, October - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -2750,7 +2746,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2782,7 +2778,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2836,7 +2832,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2868,7 +2864,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -2900,7 +2896,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -3053,7 +3049,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3085,7 +3081,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -3117,7 +3113,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3200,7 +3196,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3271,7 +3267,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -3320,7 +3316,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -3369,7 +3365,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3401,7 +3397,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3433,7 +3429,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3465,7 +3461,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3519,7 +3515,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3681,6 +3677,10 @@ const AMPLIFY_DATA = {
         {
           "name": "Collection",
           "timing": "July - Planned"
+        },
+        {
+          "name": "Newsletter",
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -3729,7 +3729,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -3860,7 +3860,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -3892,7 +3892,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -3968,7 +3968,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -4000,7 +4000,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4098,7 +4098,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4158,7 +4158,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4218,7 +4218,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4239,7 +4239,12 @@ const AMPLIFY_DATA = {
       "price": 6000,
       "invoiceStatus": "Outstanding",
       "invoiceUrl": "https://dashboard.stripe.com/acct_1N83G5GVqrSpNJ57/invoices/in_1Sz0HIGVqrSpNJ577kziqI0Q",
-      "features": [],
+      "features": [
+        {
+          "name": "Newsletter",
+          "timing": "Q2 - Planned"
+        }
+      ],
       "quarters": [
         "Q2",
         "Q3"
@@ -4287,7 +4292,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4336,7 +4341,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4368,7 +4373,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4410,6 +4415,10 @@ const AMPLIFY_DATA = {
         {
           "name": "Collection",
           "timing": "July - Planned"
+        },
+        {
+          "name": "Newsletter",
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -4485,7 +4494,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4545,7 +4554,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4599,7 +4608,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4653,7 +4662,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4746,7 +4755,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4778,7 +4787,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -4997,7 +5006,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5029,7 +5038,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5123,7 +5132,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5172,7 +5181,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5204,7 +5213,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5344,7 +5353,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5376,7 +5385,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5479,7 +5488,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5543,7 +5552,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -5580,7 +5589,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5651,7 +5660,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5715,7 +5724,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5764,7 +5773,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5818,7 +5827,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5850,7 +5859,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -5930,7 +5939,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -5979,7 +5988,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6028,7 +6037,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "November - Planned"
+          "timing": "Q4 - Planned"
         }
       ],
       "quarters": [
@@ -6094,7 +6103,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6126,7 +6135,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6158,7 +6167,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "January - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6212,7 +6221,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -6249,7 +6258,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -6286,7 +6295,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -6355,7 +6364,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6426,7 +6435,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -6463,7 +6472,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "February - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6495,7 +6504,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6581,7 +6590,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6613,7 +6622,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6645,7 +6654,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "March - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6677,7 +6686,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6726,7 +6735,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6758,7 +6767,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q1 - Planned"
         }
       ],
       "quarters": [
@@ -6790,7 +6799,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6861,7 +6870,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "August - Planned"
+          "timing": "Q3 - Planned"
         }
       ],
       "quarters": [
@@ -6893,7 +6902,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -6922,10 +6931,6 @@ const AMPLIFY_DATA = {
         {
           "name": "Forum",
           "timing": "February - Planned, October - Planned"
-        },
-        {
-          "name": "Newsletter",
-          "timing": "April - Planned"
         }
       ],
       "quarters": [],
@@ -6955,7 +6960,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "October - Planned"
+          "timing": "Q4 - Planned"
         }
       ],
       "quarters": [
@@ -6987,7 +6992,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "May - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -7024,7 +7029,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "June - Planned"
+          "timing": "Q2 - Planned"
         }
       ],
       "quarters": [
@@ -7073,7 +7078,7 @@ const AMPLIFY_DATA = {
         },
         {
           "name": "Newsletter",
-          "timing": "April - Planned"
+          "timing": "Q2 - Planned"
         },
         {
           "name": "Advisor Assets",
@@ -10283,10 +10288,6 @@ const AMPLIFY_DATA = {
       "features": [
         {
           "name": "Collection",
-          "timing": "January - Planned"
-        },
-        {
-          "name": "Newsletter",
           "timing": "January - Planned"
         }
       ],
