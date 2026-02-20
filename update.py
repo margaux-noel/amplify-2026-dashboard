@@ -91,6 +91,8 @@ QUARTER_LABELS = {
 }
 COLLECTION_NA = "9025"  # "N/A" tag key for Collection field
 
+PORTAL_BASE_URL = "https://amplify-2026-dashboard.vercel.app/partner.html?key="
+
 # ── Fetch dropdown labels for feature fields ────────────────────
 def fetch_field_labels():
     """Return {field_key: {option_key: label}} for all feature fields."""
@@ -405,6 +407,39 @@ def compute_metrics(boxes):
         "partners":         partners,
     }
 
+def find_portal_link_field():
+    """Find the 'Partner Portal Link' field key in the pipeline. Returns key or None."""
+    r = requests.get(f"{BASE_URL}/pipelines/{PIPELINE_KEY}", auth=AUTH)
+    r.raise_for_status()
+    for field in r.json().get("fields", []):
+        if field.get("name") == "Partner Portal Link":
+            return str(field["key"])
+    return None
+
+def write_portal_links(partners):
+    """Write each signed partner's portal URL into their Streak box."""
+    field_key = find_portal_link_field()
+    if not field_key:
+        print("Skipping portal links — 'Partner Portal Link' column not found in Streak.")
+        print("  → Create a Text column named 'Partner Portal Link' in Streak, then re-run.")
+        return
+    signed = [p for p in partners if p["stageKey"] in SIGNED_STAGES]
+    print(f"Writing portal links to Streak ({len(signed)} partners)", end="", flush=True)
+    ok = 0
+    for p in signed:
+        url = PORTAL_BASE_URL + p["key"]
+        r = requests.post(
+            f"{BASE_URL}/boxes/{p['key']}/fields/{field_key}",
+            auth=AUTH,
+            json={"value": url}
+        )
+        if r.status_code in (200, 201):
+            ok += 1
+        else:
+            print(f"\n  Warning: failed for {p['name']} ({r.status_code})")
+        print(".", end="", flush=True)
+    print(f" {ok}/{len(signed)} updated")
+
 def print_summary(d):
     print(f"\n{'='*50}")
     print(f"  Signed Partners:   {d['signedCount']}")
@@ -429,6 +464,7 @@ if __name__ == "__main__":
     boxes  = fetch_all_boxes()
     data   = compute_metrics(boxes)
     print_summary(data)
+    write_portal_links(data["partners"])
 
     # Write data.js
     script_dir   = os.path.dirname(os.path.abspath(__file__))
