@@ -54,51 +54,52 @@
 
     /* ── HEADER ── */
     .header {
-      background: var(--navy);
+      background: var(--sand);
       padding: 28px 40px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      border-bottom: 1px solid var(--border);
     }
     .fora-mark img {
       height: 20px;
       display: block;
-      filter: brightness(0) invert(1);
-      opacity: 0.65;
+      filter: brightness(0);
+      opacity: 0.75;
     }
     .header-label {
       font-family: 'ChiswickSansText', sans-serif;
       font-size: 18px;
       font-weight: 600;
-      color: #e5dbd0;
+      color: var(--text);
       letter-spacing: 0.04em;
     }
 
     /* ── HERO ── */
     .hero {
-      background: var(--navy);
+      background: var(--dsand);
       padding: 0 40px 48px;
-      border-bottom: 3px solid var(--olive);
+      border-bottom: 1px solid var(--border);
     }
     .hero-eyebrow {
       font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.12em;
-      color: var(--olive);
+      color: var(--stone);
       margin-bottom: 10px;
     }
     .hero-name {
       font-family: 'ChiswickSansText', sans-serif;
       font-size: 38px;
       font-weight: 600;
-      color: #fff;
+      color: var(--text);
       line-height: 1.15;
       margin-bottom: 10px;
     }
     .hero-meta {
       font-size: 14px;
-      color: rgba(255,255,255,0.5);
+      color: var(--tlight);
     }
     .hero-meta span { margin-right: 16px; }
 
@@ -302,7 +303,7 @@
     .contact-text p { font-size: 13px; color: var(--tlight); }
     .contact-link {
       display: inline-block;
-      background: var(--navy);
+      background: var(--text);
       color: #fff;
       text-decoration: none;
       padding: 9px 18px;
