@@ -77,21 +77,22 @@
       z-index: 100;
     }
     .header {
-      background: var(--navy);
-      color: white;
+      background: var(--bg);
+      color: var(--text);
       padding: 28px 40px 24px;
       display: flex;
       align-items: flex-end;
       justify-content: space-between;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+      box-shadow: none;
+      border-bottom: 1px solid var(--border);
     }
-    .header-left h1 { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: 0.01em; color: var(--gold-light); }
-    .header-left p { font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+    .header-left h1 { font-family: 'ChiswickSansText', sans-serif; font-size: 22px; font-weight: 600; letter-spacing: 0.01em; color: var(--text); }
+    .header-left p { font-size: 13px; color: var(--text-light); margin-top: 2px; }
     .header-right { display: flex; align-items: center; gap: 16px; }
     .week-badge {
-      background: rgba(119,116,42,0.18);
-      border: 1px solid var(--gold);
-      color: var(--gold-light);
+      background: var(--shell);
+      border: 1px solid var(--border);
+      color: var(--stone);
       padding: 6px 16px;
       border-radius: 20px;
       font-size: 13px;
@@ -100,16 +101,16 @@
 
     /* ── NAV TABS ── */
     .nav-tabs {
-      background: var(--navy-mid);
+      background: var(--dark-sand);
       padding: 0 40px;
       display: flex;
       gap: 2px;
-      border-bottom: 1px solid rgba(255,255,255,0.08);
+      border-bottom: 1px solid var(--border);
       overflow-x: auto;
     }
     .nav-tab {
       padding: 11px 18px 13px;
-      color: rgba(255,255,255,0.45);
+      color: var(--stone);
       cursor: pointer;
       border-bottom: 2px solid transparent;
       transition: all 0.2s;
@@ -121,8 +122,8 @@
     }
     .nav-tab-name { font-size: 13px; font-weight: 600; line-height: 1.2; }
     .nav-tab-desc { font-size: 10px; font-weight: 400; opacity: 0.75; letter-spacing: 0.01em; }
-    .nav-tab:hover { color: rgba(255,255,255,0.8); }
-    .nav-tab.active { color: var(--gold-light); border-bottom-color: var(--gold); }
+    .nav-tab:hover { color: var(--text); }
+    .nav-tab.active { color: var(--text); border-bottom-color: var(--olive); }
     .nav-tab.active .nav-tab-desc { opacity: 1; }
 
     /* ── OVERVIEW DROPDOWN ── */
@@ -133,25 +134,25 @@
       position: absolute;
       top: 100%;
       left: 0;
-      background: var(--navy-mid);
-      border: 1px solid rgba(255,255,255,0.12);
+      background: var(--white);
+      border: 1px solid var(--border);
       border-top: none;
       border-radius: 0 0 8px 8px;
       min-width: 210px;
       z-index: 200;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
       padding: 4px 0;
     }
     .nav-dropdown a {
       display: block;
       padding: 9px 18px;
-      color: rgba(255,255,255,0.65);
+      color: var(--stone);
       text-decoration: none;
       font-size: 12.5px;
       white-space: nowrap;
       transition: background 0.12s, color 0.12s;
     }
-    .nav-dropdown a:hover { background: rgba(255,255,255,0.07); color: var(--gold-light); }
+    .nav-dropdown a:hover { background: var(--dark-sand); color: var(--text); }
 
     /* ── SECTIONS ── */
     .section { display: none; padding: 32px 40px; max-width: 1400px; margin: 0 auto; }
@@ -482,8 +483,8 @@
     .modal-box { background: white; border-radius: var(--radius); padding: 28px 32px; max-width: 460px; width: 90%; box-shadow: 0 8px 40px rgba(0,0,0,0.22); }
     .modal-box h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; font-family: 'ChiswickSansText', sans-serif; }
     .modal-close { float: right; background: none; border: none; font-size: 22px; cursor: pointer; color: var(--text-light); margin-top: -4px; line-height: 1; }
-    .gear-btn { background: none; border: none; color: rgba(255,255,255,0.45); font-size: 18px; cursor: pointer; padding: 4px 6px; line-height: 1; transition: color 0.15s; }
-    .gear-btn:hover { color: rgba(255,255,255,0.9); }
+    .gear-btn { background: none; border: none; color: var(--stone); font-size: 18px; cursor: pointer; padding: 4px 6px; line-height: 1; transition: color 0.15s; }
+    .gear-btn:hover { color: var(--text); }
     .assets-no-token { background: #fdf6e3; border: 1px solid #c9a800; border-radius: 8px; padding: 12px 16px; font-size: 13px; margin-bottom: 20px; }
     /* Live assets grouped by month */
     .live-group { border: 1px solid var(--border); border-radius: var(--radius); background: var(--white); margin-bottom: 10px; overflow: hidden; }
@@ -541,9 +542,9 @@
   <div class="header">
     <div class="header-left">
       <div style="display:flex; align-items:center; gap:14px; margin-bottom:6px;">
-        <img src="logo.png" alt="Fora" style="height:18px; filter:brightness(0) invert(1); opacity:0.65; display:block;">
-        <span style="width:1px; height:22px; background:rgba(255,255,255,0.2);"></span>
-        <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.4);">Travel Partners</span>
+        <img src="logo.png" alt="Fora" style="height:18px; filter:brightness(0); opacity:0.75; display:block;">
+        <span style="width:1px; height:22px; background:var(--border);"></span>
+        <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; text-transform:uppercase; color:var(--stone);">Travel Partners</span>
       </div>
       <h1>Amplify 2026 — Internal Dashboard</h1>
       <p id="headerSubtitle">Loading data…</p>
